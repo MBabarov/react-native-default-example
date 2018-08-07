@@ -1,11 +1,11 @@
 import React from 'react';
 import { ScrollView, Text, StyleSheet } from 'react-native';
 
-class FirstScreen extends React.Component {
+class BankScreen extends React.Component {
   render() {
     return (
       <ScrollView>
-        <Text style={styles.textFirst}> Bank Scrape & Bank Links Page</Text>
+        <Text style={styles.textFirst}>Bank Setting</Text>
       </ScrollView>
     );
   }
@@ -18,4 +18,4 @@ const styles = StyleSheet.create({
     marginTop: 300,
   },
 });
-export default FirstScreen;
+export default BankScreen;

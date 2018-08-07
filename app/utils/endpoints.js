@@ -4,10 +4,12 @@ const apiRoots = {
 
 export default {
   loginUser() {
-    return `${apiRoots.API_ROOT}/login`;
+     return `${apiRoots.API_ROOT}/login`;
+    // return 'https://reqres.in/api/register';
   },
 
   singUpUser() {
     return `${apiRoots.API_ROOT}/registered`;
+    // return 'https://reqres.in/api/register';
   },
 }

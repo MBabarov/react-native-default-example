@@ -1,12 +1,10 @@
 import React, {Component} from 'react';
 import { getStatusBarHeight } from 'react-native-status-bar-height';
-import { Platform, StyleSheet, Image } from 'react-native';
+import { Platform, StyleSheet, Image, KeyboardAvoidingView } from 'react-native';
 // import { Button,  Input, Icon } from 'react-native-elements'
 // import { Col, Row, Grid } from 'react-native-easy-grid';
 import { Container, Header, Title, Content, Button, Left, Right, Body, Text, Toast, Spinner, Segment } from 'native-base';
 import LoginForm from '../../components/LoginForm';
-
-
 
 class LoginScreen extends Component {
 
@@ -23,8 +21,12 @@ class LoginScreen extends Component {
       loginData
     } = nextProps;
 
-
-    if (loginData.error && !loginData.isFetching && !this.props.isFetching) {
+    if(loginData.isFetching !== this.props.loginData.isFetching){
+      this.setState({
+        isLoading: loginData.isFetching
+      });
+    }
+    if (loginData.error && !loginData.isFetching && this.props.loginData.isFetching) {
       Toast.show({
         text: loginData.error+'',
         textStyle: { color: "#ffffff" },
@@ -34,7 +36,7 @@ class LoginScreen extends Component {
       })
     }
 
-    if (!loginData.error && !loginData.isFetching && !this.props.isFetching) {
+    if (!loginData.error && !loginData.isFetching && this.props.loginData.isFetching) {
       Toast.show({
         text: 'Login was successful',
         textStyle: { color: "#ffffff" },
@@ -56,18 +58,26 @@ class LoginScreen extends Component {
           </Body>
           <Right />
         </Header>
-        <Content style={styles.content}>
-          <Image source={require('../../assets/logo.jpg')} style={styles.logo} />
-          <LoginForm loginUser={this.props.loginUser} isLoading="this.props.loginData.isFetching"/>
-          <Button
-            full
-            style={styles.button}
-            onPress={() => this.props.navigation.navigate('SignUp')}>
-            <Text>Sign up</Text>
-          </Button>
-        </Content>
-      </Container>
+        <KeyboardAvoidingView behavior="padding" style={{ flex: 1 }}>
+          <Content style={styles.content} padder>
+            <Image source={require('../../assets/logo.jpg')} style={styles.logo} />
+            <LoginForm loginUser={this.props.loginUser} isLoading={this.state.isLoading}/>
 
+            <Button
+              full
+              style={styles.button}
+              onPress={() => this.props.navigation.navigate('SignUp')}>
+              <Text>Sign up</Text>
+            </Button>
+            <Button
+              full
+              style={styles.button}
+              onPress={() => this.props.navigation.navigate('Dashboard')}>
+              <Text>Dashboard - test</Text>
+            </Button>
+          </Content>
+        </KeyboardAvoidingView>
+      </Container>
     );
   }
 }
@@ -102,7 +112,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#364E80'
   },
   button: {
-    marginTop: 20
+    marginTop: 20,
+    marginBottom: 120
   }
 });
 export default LoginScreen;

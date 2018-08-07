@@ -1,3 +1,4 @@
+<script src="http://192.168.18.167:8097"></script>
 import React, { Component } from 'react';
 import { StyleSheet, View } from 'react-native';
 import { Form, Item, Input, Label, Button, Text, Spinner } from 'native-base';
@@ -9,37 +10,37 @@ class LoginForm extends Component {
     super(props);
 
     this.state = {
-      loading: false,
+      isLoading: false,
       email: '',
       password: ''
     }
   }
 
   login = () => {
-    // this.setState({
-    //   loading: true
-    // });
     this.props.loginUser(this.state.email, this.state.password)
   };
 
 
+  async componentDidUpdate() {
+    console.log('state', this.state);
+  }
+
   async componentWillReceiveProps(nextProps) {
+    console.log('nextProps', nextProps);
     const {
       isLoading
     } = nextProps;
     if(isLoading!==this.props.isLoading) {
-
+      this.setState({
+        isLoading
+      });
     }
   }
 
     render() {
     return (
       <Form >
-        <Display enable={this.state.loading}>
-          <View style={styles.loading}>
-            <Spinner color='#ffffff' style={styles.spinner} />
-          </View>
-        </Display>
+
         <Item floatingLabel last>
           <Label style={styles.label}>Email</Label>
           <Input style={styles.input} onChangeText={(text) => this.setState({email: text})}
@@ -54,6 +55,11 @@ class LoginForm extends Component {
         <Button style={styles.button} onPress={this.login} full>
           <Text>Login</Text>
         </Button>
+        <Display enable={this.state.isLoading}>
+          <View style={styles.loading}>
+            <Spinner color='#ffffff' style={styles.spinner} />
+          </View>
+        </Display>
       </Form>
     );
   }
@@ -74,9 +80,11 @@ const styles = StyleSheet.create({
   },
   loading: {
     position: 'absolute',
-    zIndex: 2,
-    width: '100%',
-    height: '100%',
+    top: -280,
+    bottom: 0,
+    left: 0,
+    right: 0,
+    height: 300,
     paddingTop: 65
   }
 });

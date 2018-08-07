@@ -41,8 +41,8 @@ class DashboardScreen extends React.Component {
         </Button>
         <Button
           style={styles.contentButton}
-          onPress={() => this.props.navigation.navigate('ScrapeAndLinks')}>
-          <Text>Bank Scrape & Bank Links</Text>
+          onPress={() => this.props.navigation.navigate('Bank')}>
+          <Text>Bank</Text>
         </Button>
         <Button
           style={styles.contentButton}

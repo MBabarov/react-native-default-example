@@ -44,11 +44,6 @@ class SignUpForm extends Component {
   render() {
     return (
       <Form >
-        <Display enable={this.state.isLoading}>
-          <View style={styles.loading}>
-            <Spinner color='#ffffff' style={styles.spinner} />
-          </View>
-        </Display>
         <Item floatingLabel last>
           <Label style={styles.label}>First name</Label>
           <Input style={styles.input} onChangeText={(text) => this.setState({firstName: text})}
@@ -79,6 +74,11 @@ class SignUpForm extends Component {
         <Button style={styles.button} onPress={this.signUp} full>
           <Text>Sign up</Text>
         </Button>
+        <Display enable={this.state.isLoading}>
+          <View style={styles.loading}>
+            <Spinner color='#ffffff' style={styles.spinner} />
+          </View>
+        </Display>
       </Form>
     );
   }
@@ -95,13 +95,16 @@ const styles = StyleSheet.create({
     backgroundColor: '#364E80'
   },
   button: {
-    marginTop: 20
+    marginTop: 20,
+    marginBottom: 120
   },
   loading: {
     position: 'absolute',
-    zIndex: 2,
-    width: '100%',
-    height: '100%',
+    top: -480,
+    bottom: 0,
+    left: 0,
+    right: 0,
+    height: 380,
     paddingTop: 65
   }
 });

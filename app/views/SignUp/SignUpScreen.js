@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import { getStatusBarHeight } from 'react-native-status-bar-height';
-import { Platform, StyleSheet, Image } from 'react-native';
+import { Platform, StyleSheet, Image, KeyboardAvoidingView } from 'react-native';
 import { Container, Header, Title, Content, Button, Left, Right, Body, Icon, Toast } from 'native-base';
 import SignUpForm from "../../components/SignUpForm";
 
@@ -64,10 +64,12 @@ class SignUpScreen extends Component {
           </Body>
           <Right />
         </Header>
-        <Content style={styles.content}>
-          <Image source={require('../../assets/logo.jpg')} style={styles.logo} />
-          <SignUpForm signUpUser={this.props.signUpUser} isLoading={this.state.isLoading} />
-        </Content>
+        <KeyboardAvoidingView behavior="padding" style={{ flex: 1 }}>
+          <Content style={styles.content} padder>
+            <Image source={require('../../assets/logo.jpg')} style={styles.logo} />
+            <SignUpForm signUpUser={this.props.signUpUser} isLoading={this.state.isLoading} />
+          </Content>
+        </KeyboardAvoidingView>
       </Container>
 
     );
@@ -92,7 +94,7 @@ const styles = StyleSheet.create({
     color: '#ffffff'
   },
   content: {
-    padding: 40
+    padding: 40,
   },
   logo: {
     width: 200,
@@ -105,7 +107,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#364E80'
   },
   button: {
-    marginTop: 20
+    marginTop: 20,
+    marginBottom: 80
   }
 });
 export default SignUpScreen;

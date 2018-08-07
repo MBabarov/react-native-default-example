@@ -20,7 +20,5 @@ export const signUpUser = (firstName, secondName, email, password, confirmPasswo
   axios.post(endpoints.singUpUser(), {firstName, secondName, email, password, confirmPassword})
      .then(response => dispatch(signUpUserSuccess(response.data)))
      .catch(error => dispatch(signUpUserFailure(error)));
-  return {
-    type: actionTypes.SIGN_UP_USER
-  };
+  return dispatch({type: actionTypes.SIGN_UP_USER})
 });
