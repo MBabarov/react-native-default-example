@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import { getStatusBarHeight } from 'react-native-status-bar-height';
 import { Platform, StyleSheet, Image, KeyboardAvoidingView } from 'react-native';
 import { Container, Header, Title, Content, Button, Left, Right, Body, Icon, Toast } from 'native-base';
 import SignUpForm from "../../components/SignUpForm";
@@ -79,8 +78,6 @@ class SignUpScreen extends Component {
 const styles = StyleSheet.create({
   headerWrapper: {
     backgroundColor: '#364E80',
-    paddingTop: getStatusBarHeight(),
-    height: 54 + getStatusBarHeight(),
     borderBottomWidth: 1,
     borderBottomColor: '#ffffff'
   },

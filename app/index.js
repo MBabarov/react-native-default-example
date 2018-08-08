@@ -1,3 +1,4 @@
+import {Font} from 'expo';
 import React, { Component } from 'react';
 import { Text } from 'react-native';
 import { Root } from 'native-base';
@@ -18,7 +19,7 @@ export default class App extends Component {
   }
 
   async componentWillMount() {
-    await Expo.Font.loadAsync({
+    await Font.loadAsync({
       Roboto: require("native-base/Fonts/Roboto.ttf"),
       Roboto_medium: require("native-base/Fonts/Roboto_medium.ttf")
     });

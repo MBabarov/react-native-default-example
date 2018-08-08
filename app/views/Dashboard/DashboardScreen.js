@@ -1,6 +1,5 @@
 import React from 'react';
-import { getStatusBarHeight } from 'react-native-status-bar-height';
-import { StyleSheet } from 'react-native';
+import { Platform, StyleSheet } from 'react-native';
 import { Container, Header, Title, Content, Footer, FooterTab, Button, Left, Right, Body, Icon, Text } from 'native-base';
 
 class DashboardScreen extends React.Component {
@@ -13,7 +12,7 @@ class DashboardScreen extends React.Component {
             <Icon style={styles.backIcon} name='arrow-back' />
           </Button>
         </Left>
-        <Body>
+        <Body style={styles.headerBody}>
           <Title style={styles.title}>Dashboard</Title>
         </Body>
         <Right />
@@ -60,8 +59,16 @@ const styles = StyleSheet.create({
   },
   header: {
     backgroundColor: '#364E80',
-    paddingTop: getStatusBarHeight(),
-    height: 54 + getStatusBarHeight(),
+    alignItems: 'center',
+    alignSelf: 'center',
+    borderBottomWidth: 1,
+    borderBottomColor: '#ffffff'
+  },
+  headerBody: {
+    alignItems: Platform.OS === 'ios' ? 'center' : 'flex-end'
+  },
+  backIcon: {
+    color: '#ffffff'
   },
   title: {
     color: '#ffffff'

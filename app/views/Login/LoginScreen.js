@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import { getStatusBarHeight } from 'react-native-status-bar-height';
 import { Platform, StyleSheet, Image, KeyboardAvoidingView } from 'react-native';
 // import { Button,  Input, Icon } from 'react-native-elements'
 // import { Col, Row, Grid } from 'react-native-easy-grid';
@@ -85,8 +84,6 @@ class LoginScreen extends Component {
 const styles = StyleSheet.create({
   headerWrapper: {
     backgroundColor: '#364E80',
-    paddingTop: getStatusBarHeight(),
-    height: 54 + getStatusBarHeight(),
     alignItems: 'center',
     alignSelf: 'center',
     borderBottomWidth: 1,
