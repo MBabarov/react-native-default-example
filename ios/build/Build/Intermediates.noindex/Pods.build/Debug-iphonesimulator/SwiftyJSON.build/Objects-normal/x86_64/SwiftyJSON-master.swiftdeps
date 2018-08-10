@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "90143d0b5ed86a03ecd4728f21d66da1"
+build_time: [1533887106, 175138000]
+inputs:
+  "/Users/maxim/Projects/react-native-default-example/ios/Pods/SwiftyJSON/Source/SwiftyJSON.swift": [1533886159, 0]
