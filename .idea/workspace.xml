@@ -2,42 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ab6d89-f051-489e-b1cc-e756eb53de35" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/reactnativedefaultexample-Bridging-Header.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/android/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/android/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/android/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/android/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/android/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/android/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/android/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/android/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/android/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/.gradle/2.14.1/tasks/_react-native-vector-icons_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/android/.gradle/2.14.1/tasks/_react-native-vector-icons_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/.gradle/2.14.1/tasks/_react-native-vector-icons_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/android/.gradle/2.14.1/tasks/_react-native-vector-icons_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$drawable.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/facebook/react/R$drawable.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/facebook/react/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/facebook/react/R$id.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/facebook/react/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/facebook/react/R$layout.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/facebook/react/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/oblador/vectoricons/R$drawable.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/oblador/vectoricons/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/oblador/vectoricons/R$id.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/oblador/vectoricons/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/oblador/vectoricons/R$layout.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/oblador/vectoricons/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/reactnativedefaultexample/MainApplication$1.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/reactnativedefaultexample/MainApplication$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/reactnativedefaultexample/MainApplication.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/reactnativedefaultexample/MainApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/reactnativedefaultexample/R$drawable.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/reactnativedefaultexample/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/reactnativedefaultexample/R$id.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/reactnativedefaultexample/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/reactnativedefaultexample/R$integer.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/reactnativedefaultexample/R$integer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/reactnativedefaultexample/R$layout.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/reactnativedefaultexample/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/reactnativedefaultexample/R$mipmap.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/reactnativedefaultexample/R$mipmap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/reactnativedefaultexample/R$string.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/reactnativedefaultexample/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/reactnativedefaultexample/R$style.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/reactnativedefaultexample/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/reactnativedefaultexample/R$styleable.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/reactnativedefaultexample/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/reactnativedefaultexample/R$xml.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/reactnativedefaultexample/R$xml.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/packageDebug/zip-cache/Gx1TEqwWjmaNEWzel_ADZi4uWGA=" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/packageDebug/zip-cache/Gx1TEqwWjmaNEWzel_ADZi4uWGA=" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/pre-dexed/debug/debug_3fbed9c3914dbd7579c0232e50335baa53bd474f.jar" afterPath="$PROJECT_DIR$/android/app/build/intermediates/pre-dexed/debug/debug_3fbed9c3914dbd7579c0232e50335baa53bd474f.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/android/app/build/intermediates/res/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/android/app/build/outputs/apk/app-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Charts.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Charts.build/dgph" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-reactnativedefaultexample.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-reactnativedefaultexample.build/dgph" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SwiftyJSON.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SwiftyJSON.build/dgph" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/RCTActionSheet.build/Debug-iphonesimulator/RCTActionSheet.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/RCTActionSheet.build/Debug-iphonesimulator/RCTActionSheet.build/dgph" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/RCTAnimation.build/Debug-iphonesimulator/RCTAnimation.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/RCTAnimation.build/Debug-iphonesimulator/RCTAnimation.build/dgph" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/RCTBlob.build/Debug-iphonesimulator/RCTBlob.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/RCTBlob.build/Debug-iphonesimulator/RCTBlob.build/dgph" />
@@ -59,265 +26,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/privatedata.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/privatedata.build/dgph" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/third-party.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/third-party.build/dgph" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/yoga.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/yoga.build/dgph" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/reactnativedefaultexample.build/Debug-iphonesimulator/reactnativedefaultexample.build/Objects-normal/x86_64/AppDelegate.o" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/reactnativedefaultexample.build/Debug-iphonesimulator/reactnativedefaultexample.build/Objects-normal/x86_64/AppDelegate.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/reactnativedefaultexample.build/Debug-iphonesimulator/reactnativedefaultexample.build/Objects-normal/x86_64/main.o" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/reactnativedefaultexample.build/Debug-iphonesimulator/reactnativedefaultexample.build/Objects-normal/x86_64/main.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/reactnativedefaultexample.build/Debug-iphonesimulator/reactnativedefaultexample.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/reactnativedefaultexample.build/Debug-iphonesimulator/reactnativedefaultexample.build/dgph" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/reactnativedefaultexample.build/Debug-iphonesimulator/reactnativedefaultexample.build/reactnativedefaultexample-project-headers.hmap" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/reactnativedefaultexample.build/Debug-iphonesimulator/reactnativedefaultexample.build/reactnativedefaultexample-project-headers.hmap" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/reactnativedefaultexample.build/Debug-iphonesimulator/reactnativedefaultexample.build/reactnativedefaultexample.hmap" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/reactnativedefaultexample.build/Debug-iphonesimulator/reactnativedefaultexample.build/reactnativedefaultexample.hmap" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/reactnativedefaultexample.build/Debug-iphonesimulator/reactnativedefaultexampleTests.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/reactnativedefaultexample.build/Debug-iphonesimulator/reactnativedefaultexampleTests.build/dgph" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/reactnativedefaultexample.build/Debug-iphonesimulator/reactnativedefaultexampleTests.build/reactnativedefaultexampleTests-project-headers.hmap" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/reactnativedefaultexample.build/Debug-iphonesimulator/reactnativedefaultexampleTests.build/reactnativedefaultexampleTests-project-headers.hmap" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/reactnativedefaultexample.build/Debug-iphonesimulator/reactnativedefaultexampleTests.build/reactnativedefaultexampleTests.hmap" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/reactnativedefaultexample.build/Debug-iphonesimulator/reactnativedefaultexampleTests.build/reactnativedefaultexampleTests.hmap" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libRCTActionSheet.a" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libRCTActionSheet.a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libRCTAnimation.a" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libRCTAnimation.a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libRCTBlob.a" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libRCTBlob.a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libRCTGeolocation.a" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libRCTGeolocation.a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libRCTImage.a" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libRCTImage.a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libRCTLinking.a" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libRCTLinking.a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libRCTNetwork.a" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libRCTNetwork.a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libRCTSettings.a" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libRCTSettings.a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libRCTText.a" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libRCTText.a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libRCTVibration.a" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libRCTVibration.a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libRCTWebSocket.a" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libRCTWebSocket.a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libRNVectorIcons.a" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libRNVectorIcons.a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libReact.a" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libReact.a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libcxxreact.a" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libcxxreact.a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libdouble-conversion.a" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libdouble-conversion.a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libfishhook.a" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libfishhook.a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libjschelpers.a" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libjschelpers.a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libjsinspector.a" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libjsinspector.a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libprivatedata.a" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libprivatedata.a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libthird-party.a" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libthird-party.a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libyoga.a" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libyoga.a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/reactnativedefaultexample.app.dSYM/Contents/Resources/DWARF/reactnativedefaultexample" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/reactnativedefaultexample.app.dSYM/Contents/Resources/DWARF/reactnativedefaultexample" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/reactnativedefaultexample.app/Base.lproj/LaunchScreen.nib" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/reactnativedefaultexample.app/Base.lproj/LaunchScreen.nib" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/reactnativedefaultexample.app/PlugIns/reactnativedefaultexampleTests.xctest.dSYM/Contents/Resources/DWARF/reactnativedefaultexampleTests" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/reactnativedefaultexample.app/PlugIns/reactnativedefaultexampleTests.xctest.dSYM/Contents/Resources/DWARF/reactnativedefaultexampleTests" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/reactnativedefaultexample.app/PlugIns/reactnativedefaultexampleTests.xctest/reactnativedefaultexampleTests" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/reactnativedefaultexample.app/PlugIns/reactnativedefaultexampleTests.xctest/reactnativedefaultexampleTests" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/reactnativedefaultexample.app/reactnativedefaultexample" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/reactnativedefaultexample.app/reactnativedefaultexample" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/AppDelegate.o-2WMJ67OA6EQ8N" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/AppDelegate.o-2WMJ67OA6EQ8N" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/Conv.o-17WZYSHFGBO9R" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/Conv.o-17WZYSHFGBO9R" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/CxxNativeModule.o-1O6JHX46U6VZ3" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/CxxNativeModule.o-1O6JHX46U6VZ3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/Instance.o-2JW8GYO07GKHO" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/Instance.o-2JW8GYO07GKHO" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/JSBigString.o-14CSEUO5TR8XW" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/JSBigString.o-14CSEUO5TR8XW" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/JSCExecutor.o-371JV7HR0F71R" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/JSCExecutor.o-371JV7HR0F71R" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/JSCHelpers.o-1UNOWPQM8R8YG" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/JSCHelpers.o-1UNOWPQM8R8YG" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/JSCLegacyTracing.o-2NLAID8Q4HNIU" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/JSCLegacyTracing.o-2NLAID8Q4HNIU" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/JSCMemory.o-LN6TQC3VY4YS" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/JSCMemory.o-LN6TQC3VY4YS" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/JSCNativeModules.o-21NYW687SHBA4" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/JSCNativeModules.o-21NYW687SHBA4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/JSCPerfStats.o-VQVMDAXWGOBG" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/JSCPerfStats.o-VQVMDAXWGOBG" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/JSCSamplingProfiler.o-2XYJ5MVMXIVWT" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/JSCSamplingProfiler.o-2XYJ5MVMXIVWT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/JSCTracing.o-36BHQAJ63DI5I" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/JSCTracing.o-36BHQAJ63DI5I" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/JSCUtils.o-24RQTHTBO9RYY" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/JSCUtils.o-24RQTHTBO9RYY" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/JSCWrapper.o-3SLSDPK8SSJAA" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/JSCWrapper.o-3SLSDPK8SSJAA" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/JSIndexedRAMBundle.o-1QQB2Z4I2SKMR" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/JSIndexedRAMBundle.o-1QQB2Z4I2SKMR" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/MethodCall.o-XOGZAKJ4F2CO" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/MethodCall.o-XOGZAKJ4F2CO" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/ModuleRegistry.o-3E3ZOXOYWRY8R" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/ModuleRegistry.o-3E3ZOXOYWRY8R" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/NSDataBigString.o-3GUVV3ELORAWR" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/NSDataBigString.o-3GUVV3ELORAWR" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/NSTextStorage+FontScaling.o-1HYGPHG79UBGK" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/NSTextStorage+FontScaling.o-1HYGPHG79UBGK" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/NativeToJsBridge.o-W1QA2O9EGQAY" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/NativeToJsBridge.o-W1QA2O9EGQAY" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/Platform.o-3CFCCJAG8LY0F" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/Platform.o-3CFCCJAG8LY0F" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RAMBundleRegistry.o-20E3KAA4YG46T" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RAMBundleRegistry.o-20E3KAA4YG46T" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTAccessibilityManager.o-33NVA0LZVXFVQ" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTAccessibilityManager.o-33NVA0LZVXFVQ" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTActionSheetManager.o-3LRQJYRRFDPRO" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTActionSheetManager.o-3LRQJYRRFDPRO" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTActivityIndicatorViewManager.o-3U2SBDARQ3B26" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTActivityIndicatorViewManager.o-3U2SBDARQ3B26" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTAdditionAnimatedNode.o-2FANAOCLZMNB1" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTAdditionAnimatedNode.o-2FANAOCLZMNB1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTAlertManager.o-3MMPBKVP7ZARP" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTAlertManager.o-3MMPBKVP7ZARP" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTAnimatedNode.o-QXCVH2EZXZ3S" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTAnimatedNode.o-QXCVH2EZXZ3S" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTAnimationUtils.o-WKGS9NWGWBVV" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTAnimationUtils.o-WKGS9NWGWBVV" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTAsyncLocalStorage.o-3SV6XMHSMYJDD" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTAsyncLocalStorage.o-3SV6XMHSMYJDD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTBackedTextInputDelegateAdapter.o-DS4Y3P64G3JW" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTBackedTextInputDelegateAdapter.o-DS4Y3P64G3JW" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTBaseTextInputShadowView.o-2SMDTAG0XENYK" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTBaseTextInputShadowView.o-2SMDTAG0XENYK" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTBaseTextInputView.o-34UGAVATS8DP0" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTBaseTextInputView.o-34UGAVATS8DP0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTBaseTextInputViewManager.o-1WN2I8ODETRB0" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTBaseTextInputViewManager.o-1WN2I8ODETRB0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTBaseTextShadowView.o-3K926SUW8J445" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTBaseTextShadowView.o-3K926SUW8J445" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTBaseTextViewManager.o-2Z68RRXG4AN5B" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTBaseTextViewManager.o-2Z68RRXG4AN5B" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTBlobManager.o-2GWAWT86D72A0" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTBlobManager.o-2GWAWT86D72A0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTBridge.o-2YOAQWADGGPVF" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTBridge.o-2YOAQWADGGPVF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTBundleURLProvider.o-ZRQVY0O2ZV9E" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTBundleURLProvider.o-ZRQVY0O2ZV9E" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTComponentData.o-2Q0JA8AVMG55D" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTComponentData.o-2Q0JA8AVMG55D" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTConvert+CoreLocation.o-CWSPZY1HPYXZ" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTConvert+CoreLocation.o-CWSPZY1HPYXZ" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTConvert+Text.o-BZ32QG3YWX0D" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTConvert+Text.o-BZ32QG3YWX0D" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTConvert+Transform.o-1QUYV7BT4AV9R" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTConvert+Transform.o-1QUYV7BT4AV9R" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTConvert.o-2RX1QLO8QW1U8" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTConvert.o-2RX1QLO8QW1U8" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTCxxBridge.o-1LAE3TSMZ60SN" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTCxxBridge.o-1LAE3TSMZ60SN" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTCxxMethod.o-33E7XXIUHS9WR" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTCxxMethod.o-33E7XXIUHS9WR" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTCxxModule.o-1HGOC14ZA77XP" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTCxxModule.o-1HGOC14ZA77XP" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTCxxUtils.o-19EO0V3LMOTS7" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTCxxUtils.o-19EO0V3LMOTS7" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTDataRequestHandler.o-28H7I63WL8PNK" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTDataRequestHandler.o-28H7I63WL8PNK" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTDatePicker.o-3IAKTPXPFCFT4" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTDatePicker.o-3IAKTPXPFCFT4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTDatePickerManager.o-3EK47TK4MT2J" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTDatePickerManager.o-3EK47TK4MT2J" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTDecayAnimation.o-32OXOZWK39T9B" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTDecayAnimation.o-32OXOZWK39T9B" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTDevSettings.o-1HJITRGW0N60E" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTDevSettings.o-1HJITRGW0N60E" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTDiffClampAnimatedNode.o-2RNBMCHND52M5" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTDiffClampAnimatedNode.o-2RNBMCHND52M5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTDivisionAnimatedNode.o-28W7BOZR6GATB" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTDivisionAnimatedNode.o-28W7BOZR6GATB" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTEventAnimation.o-1R5OHFKUBCQZO" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTEventAnimation.o-1R5OHFKUBCQZO" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTExceptionsManager.o-3TTIXPJDKLNJ1" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTExceptionsManager.o-3TTIXPJDKLNJ1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTFileReaderModule.o-3DS1OCUQN2QVW" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTFileReaderModule.o-3DS1OCUQN2QVW" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTFileRequestHandler.o-L58FUTPO53HD" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTFileRequestHandler.o-L58FUTPO53HD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTFollyConvert.o-2N1P5CQJJOWAI" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTFollyConvert.o-2N1P5CQJJOWAI" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTFont.o-3KONMLB5R88TW" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTFont.o-3KONMLB5R88TW" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTFrameAnimation.o-2AND5QTW9T8MF" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTFrameAnimation.o-2AND5QTW9T8MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTGIFImageDecoder.o-BP1VNAXKHRW5" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTGIFImageDecoder.o-BP1VNAXKHRW5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTHTTPRequestHandler.o-2J0ILVYU828OM" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTHTTPRequestHandler.o-2J0ILVYU828OM" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTImageBlurUtils.o-2T269JE2CY94O" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTImageBlurUtils.o-2T269JE2CY94O" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTImageCache.o-D28R7AAZC0X2" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTImageCache.o-D28R7AAZC0X2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTImageEditingManager.o-32D6XS1TYY2RB" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTImageEditingManager.o-32D6XS1TYY2RB" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTImageLoader.o-1KYDCEOBPESGX" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTImageLoader.o-1KYDCEOBPESGX" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTImageShadowView.o-EILMVZ42MAJV" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTImageShadowView.o-EILMVZ42MAJV" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTImageSource.o-31UUHBC10NSGZ" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTImageSource.o-31UUHBC10NSGZ" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTImageStoreManager.o-34MNFQXRSF4HX" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTImageStoreManager.o-34MNFQXRSF4HX" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTImageUtils.o-2CNKAJT2QW7FW" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTImageUtils.o-2CNKAJT2QW7FW" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTImageView.o-2VVYRNILVOHH4" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTImageView.o-2VVYRNILVOHH4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTImageViewManager.o-2VP39KE2J4OW1" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTImageViewManager.o-2VP39KE2J4OW1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTInputAccessoryView.o-2LCACI3X8MD5G" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTInputAccessoryView.o-2LCACI3X8MD5G" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTInputAccessoryViewContent.o-2VDVHAU24IR1C" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTInputAccessoryViewContent.o-2VDVHAU24IR1C" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTInputAccessoryViewManager.o-2PLO3XCGW7KJF" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTInputAccessoryViewManager.o-2PLO3XCGW7KJF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTInspector.o-3LOTCNUJASVRW" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTInspector.o-3LOTCNUJASVRW" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTInspectorDevServerHelper.o-1A0DC4XJ4LMY2" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTInspectorDevServerHelper.o-1A0DC4XJ4LMY2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTInterpolationAnimatedNode.o-1PTOSL2W74MC5" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTInterpolationAnimatedNode.o-1PTOSL2W74MC5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTJSCErrorHandling.o-24M7UPTN46FUS" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTJSCErrorHandling.o-24M7UPTN46FUS" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTJSCHelpers.o-2GMXA78TTYLBM" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTJSCHelpers.o-2GMXA78TTYLBM" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTJavaScriptLoader.o-BQA6KFG2P6TR" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTJavaScriptLoader.o-BQA6KFG2P6TR" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTLayout.o-RAXTQV81ZYL1" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTLayout.o-RAXTQV81ZYL1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTLayoutAnimation.o-1MTW1T9WW8YAW" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTLayoutAnimation.o-1MTW1T9WW8YAW" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTLayoutAnimationGroup.o-120IIQ9M0X8WL" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTLayoutAnimationGroup.o-120IIQ9M0X8WL" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTLinkingManager.o-2JYHJ684U076I" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTLinkingManager.o-2JYHJ684U076I" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTLocalAssetImageLoader.o-2RRQB9EC3BLNA" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTLocalAssetImageLoader.o-2RRQB9EC3BLNA" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTLocationObserver.o-1HTRR3WJV6U7Z" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTLocationObserver.o-1HTRR3WJV6U7Z" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTMaskedView.o-3UOQC015XC8D1" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTMaskedView.o-3UOQC015XC8D1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTMaskedViewManager.o-1SQKM6UWPPOXX" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTMaskedViewManager.o-1SQKM6UWPPOXX" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTMessageThread.o-3KFIDY62Y6MTK" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTMessageThread.o-3KFIDY62Y6MTK" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTModalHostView.o-37ZPOANUY4I7C" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTModalHostView.o-37ZPOANUY4I7C" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTModalHostViewController.o-3LURK13JQ1BMT" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTModalHostViewController.o-3LURK13JQ1BMT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTModalHostViewManager.o-3OHI69PZKPYWA" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTModalHostViewManager.o-3OHI69PZKPYWA" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTModuleMethod.o-33QEUNAEP5S94" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTModuleMethod.o-33QEUNAEP5S94" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTModuloAnimatedNode.o-2YO9J68ZCWSDA" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTModuloAnimatedNode.o-2YO9J68ZCWSDA" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTMultilineTextInputView.o-2DYQOILAJVZO1" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTMultilineTextInputView.o-2DYQOILAJVZO1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTMultilineTextInputViewManager.o-29M7M0KWGIUQ6" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTMultilineTextInputViewManager.o-29M7M0KWGIUQ6" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTMultiplicationAnimatedNode.o-V6SY8TPHG1G5" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTMultiplicationAnimatedNode.o-V6SY8TPHG1G5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTNativeAnimatedModule.o-9FEKP5V5867W" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTNativeAnimatedModule.o-9FEKP5V5867W" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTNativeAnimatedNodesManager.o-2BVVEEEXBFCHW" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTNativeAnimatedNodesManager.o-2BVVEEEXBFCHW" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTNativeModule.o-1HFG2M1JHNZ8B" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTNativeModule.o-1HFG2M1JHNZ8B" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTNavItemManager.o-311UF053UCU08" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTNavItemManager.o-311UF053UCU08" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTNavigator.o-3GZEDRKM0SSQX" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTNavigator.o-3GZEDRKM0SSQX" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTNavigatorManager.o-1JX1V3LFXGTJV" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTNavigatorManager.o-1JX1V3LFXGTJV" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTNetInfo.o-I4OLDL9GE64K" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTNetInfo.o-I4OLDL9GE64K" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTNetworkTask.o-2PNA450RGT89V" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTNetworkTask.o-2PNA450RGT89V" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTNetworking.o-1ANH5948D7CKV" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTNetworking.o-1ANH5948D7CKV" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTObjcExecutor.o-2VCMYVK8FTMF0" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTObjcExecutor.o-2VCMYVK8FTMF0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTPackagerConnection.o-2IZ4XGEHKBYIN" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTPackagerConnection.o-2IZ4XGEHKBYIN" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTPerfMonitor.o-23V6K6HE1C1PG" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTPerfMonitor.o-23V6K6HE1C1PG" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTPicker.o-1TJEPACREDC74" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTPicker.o-1TJEPACREDC74" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTPickerManager.o-NK8IY5714RTJ" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTPickerManager.o-NK8IY5714RTJ" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTProfile.o-S2OBVFOS7BH" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTProfile.o-S2OBVFOS7BH" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTProgressViewManager.o-37BDC2U9ZBJEU" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTProgressViewManager.o-37BDC2U9ZBJEU" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTPropsAnimatedNode.o-111LO47LLYZYB" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTPropsAnimatedNode.o-111LO47LLYZYB" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTRawTextShadowView.o-3AAD1SIPTAB87" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTRawTextShadowView.o-3AAD1SIPTAB87" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTRawTextViewManager.o-2CR5RWOVDG7A8" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTRawTextViewManager.o-2CR5RWOVDG7A8" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTReconnectingWebSocket.o-2FQTJ1JGEN1JT" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTReconnectingWebSocket.o-2FQTJ1JGEN1JT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTRedBox.o-1UBZC7YH2W29F" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTRedBox.o-1UBZC7YH2W29F" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTRefreshControlManager.o-37Y4UUURXSZT3" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTRefreshControlManager.o-37Y4UUURXSZT3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTResizeMode.o-10KY84YOOA5JL" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTResizeMode.o-10KY84YOOA5JL" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTRootContentView.o-2HHPHSJ9JJIIY" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTRootContentView.o-2HHPHSJ9JJIIY" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTRootShadowView.o-3VQK0S3Q0TNDE" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTRootShadowView.o-3VQK0S3Q0TNDE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTRootView.o-PEWZG5JM7C8L" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTRootView.o-PEWZG5JM7C8L" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTSRWebSocket.o-1XEJKUYFIRQ0G" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTSRWebSocket.o-1XEJKUYFIRQ0G" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTSafeAreaShadowView.o-H7GHVQ9B89XJ" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTSafeAreaShadowView.o-H7GHVQ9B89XJ" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTSafeAreaView.o-1298Q3W88PPIK" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTSafeAreaView.o-1298Q3W88PPIK" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTSafeAreaViewManager.o-2WZCUDIDJG8EM" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTSafeAreaViewManager.o-2WZCUDIDJG8EM" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTScrollContentShadowView.o-31FBE1U6TWU2Y" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTScrollContentShadowView.o-31FBE1U6TWU2Y" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTScrollContentView.o-Y9ZWFDPMS9E3" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTScrollContentView.o-Y9ZWFDPMS9E3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTScrollContentViewManager.o-22CQJYXSHACYY" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTScrollContentViewManager.o-22CQJYXSHACYY" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTScrollView.o-223W6JPSTK04L" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTScrollView.o-223W6JPSTK04L" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTScrollViewManager.o-221N0H7RBNCSF" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTScrollViewManager.o-221N0H7RBNCSF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTSegmentedControl.o-2HX2AQY6DRLWJ" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTSegmentedControl.o-2HX2AQY6DRLWJ" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTSegmentedControlManager.o-2G3EXEBN1VN3" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTSegmentedControlManager.o-2G3EXEBN1VN3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTSettingsManager.o-3J7MP7V8ZPEE0" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTSettingsManager.o-3J7MP7V8ZPEE0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTShadowView+Internal.o-3FFUTV9PMNIV9" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTShadowView+Internal.o-3FFUTV9PMNIV9" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTShadowView+Layout.o-2BT0QYT0MPYN6" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTShadowView+Layout.o-2BT0QYT0MPYN6" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTShadowView.o-3CY52BW9Q1ISF" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTShadowView.o-3CY52BW9Q1ISF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTSinglelineTextInputView.o-32OYDGGZYDZOJ" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTSinglelineTextInputView.o-32OYDGGZYDZOJ" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTSinglelineTextInputViewManager.o-39R55DOZ45EUU" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTSinglelineTextInputViewManager.o-39R55DOZ45EUU" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTSliderManager.o-OJKKHR2SIAIX" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTSliderManager.o-OJKKHR2SIAIX" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTSpringAnimation.o-1TDNBITY070NY" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTSpringAnimation.o-1TDNBITY070NY" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTStatusBarManager.o-1I62W1ZMH9OC3" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTStatusBarManager.o-1I62W1ZMH9OC3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTStyleAnimatedNode.o-29T22NG693AAN" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTStyleAnimatedNode.o-29T22NG693AAN" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTSurface.o-32WWTM4CFX1U7" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTSurface.o-32WWTM4CFX1U7" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTSurfaceRootShadowView.o-3JMR0YMV7WI7N" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTSurfaceRootShadowView.o-3JMR0YMV7WI7N" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTSwitch.o-2IYCS31C4DK6F" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTSwitch.o-2IYCS31C4DK6F" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTSwitchManager.o-3GBLV3ULM5V6" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTSwitchManager.o-3GBLV3ULM5V6" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTTabBar.o-3PQKARYXPFQCT" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTTabBar.o-3PQKARYXPFQCT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTTabBarItem.o-24KBLCGS2EM0W" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTTabBarItem.o-24KBLCGS2EM0W" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTTabBarItemManager.o-2F3HJE94JNCV2" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTTabBarItemManager.o-2F3HJE94JNCV2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTTabBarManager.o-1IGG23NXDCL61" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTTabBarManager.o-1IGG23NXDCL61" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTTextAttributes.o-1O18B7505U1LM" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTTextAttributes.o-1O18B7505U1LM" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTTextSelection.o-4OT90RMQ165C" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTTextSelection.o-4OT90RMQ165C" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTTextShadowView.o-3KV5O28HFOB8W" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTTextShadowView.o-3KV5O28HFOB8W" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTTextView.o-2ZGV2UAL5FSAY" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTTextView.o-2ZGV2UAL5FSAY" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTTextViewManager.o-1GPPW4MSNCC5H" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTTextViewManager.o-1GPPW4MSNCC5H" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTTouchHandler.o-180ILYG5D3OLH" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTTouchHandler.o-180ILYG5D3OLH" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTTrackingAnimatedNode.o-1I6ATO390F3MM" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTTrackingAnimatedNode.o-1I6ATO390F3MM" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTTransformAnimatedNode.o-2YSJ4B7BYKR15" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTTransformAnimatedNode.o-2YSJ4B7BYKR15" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTUIManager.o-1ANLS5FSEM428" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTUIManager.o-1ANLS5FSEM428" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTUIManagerObserverCoordinator.o-70H2CD45PO4X" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTUIManagerObserverCoordinator.o-70H2CD45PO4X" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTUITextField.o-3OQA2LJG7TH5" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTUITextField.o-3OQA2LJG7TH5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTUITextView.o-GURUNM9VA239" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTUITextView.o-GURUNM9VA239" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTValueAnimatedNode.o-1PWI97GY0Z203" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTValueAnimatedNode.o-1PWI97GY0Z203" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTVibration.o-1YHQ5MEQ527EX" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTVibration.o-1YHQ5MEQ527EX" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTView.o-MGXUZBHTUDYY" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTView.o-MGXUZBHTUDYY" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTViewManager.o-2ZBGQ2A89TWFC" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTViewManager.o-2ZBGQ2A89TWFC" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTVirtualTextShadowView.o-BQKEDLN0HWAC" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTVirtualTextShadowView.o-BQKEDLN0HWAC" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTVirtualTextViewManager.o-E56EO9SVKDMB" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTVirtualTextViewManager.o-E56EO9SVKDMB" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTWebSocketExecutor.o-2EPQLQSLO4HQQ" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTWebSocketExecutor.o-2EPQLQSLO4HQQ" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTWebSocketModule.o-1KP6DHMPAQD1Y" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTWebSocketModule.o-1KP6DHMPAQD1Y" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTWebView.o-I13QD65C4L7J" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTWebView.o-I13QD65C4L7J" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTWebViewManager.o-29JA1QDS00LHV" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTWebViewManager.o-29JA1QDS00LHV" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTWrapperViewController.o-1MY1WC4VS6Q16" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTWrapperViewController.o-1MY1WC4VS6Q16" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RNVectorIconsManager.o-1L0BZO0M8RG6Z" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RNVectorIconsManager.o-1L0BZO0M8RG6Z" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/SampleCxxModule.o-17Q6KEQZA707V" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/SampleCxxModule.o-17Q6KEQZA707V" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/StringBase.o-LUQPPWU8AHOG" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/StringBase.o-LUQPPWU8AHOG" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/UIView+React.o-3LY6VMB0KCU5K" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/UIView+React.o-3LY6VMB0KCU5K" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/Value.o-3OELOJN321ZYL" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/Value.o-3OELOJN321ZYL" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/demangle-7B942820D95A2665.o-1YXS7IGW8XVA6" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/demangle-7B942820D95A2665.o-1YXS7IGW8XVA6" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/dynamic.o-1WR82SJA2AQUQ" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/dynamic.o-1WR82SJA2AQUQ" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/fishhook.o-3KQXQ2OJG7QT3" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/fishhook.o-3KQXQ2OJG7QT3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/json.o-324FZJL7QR4CD" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/json.o-324FZJL7QR4CD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/logging.o-BV85C91KJX6V" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/logging.o-BV85C91KJX6V" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/main.o-2O8TBB2U851X" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/main.o-2O8TBB2U851X" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/raw_logging.o-3C5HARFUKORTF" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/raw_logging.o-3C5HARFUKORTF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/reactnativedefaultexampleTests.o-I8CQR9S52JSM" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/reactnativedefaultexampleTests.o-I8CQR9S52JSM" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/reactnativedefaultexample_vers.o-1L44937RWOHI6" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/reactnativedefaultexample_vers.o-1L44937RWOHI6" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/signalhandler.o-KDAINY4ZJAGQ" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/signalhandler.o-KDAINY4ZJAGQ" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/symbolize.o-13IT3G0JSZMI" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/symbolize.o-13IT3G0JSZMI" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/utilities.o-2YHU2AZ7HCCZ6" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/utilities.o-2YHU2AZ7HCCZ6" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/vlog_is_on.o-21XKB399DB8TM" afterPath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/vlog_is_on.o-21XKB399DB8TM" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build.gradle" afterPath="$PROJECT_DIR$/android/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/android/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/generated/source/r/debug/com/facebook/react/R.java" afterPath="$PROJECT_DIR$/android/app/build/generated/source/r/debug/com/facebook/react/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/generated/source/r/debug/com/oblador/vectoricons/R.java" afterPath="$PROJECT_DIR$/android/app/build/generated/source/r/debug/com/oblador/vectoricons/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/generated/source/r/debug/com/reactnativedefaultexample/R.java" afterPath="$PROJECT_DIR$/android/app/build/generated/source/r/debug/com/reactnativedefaultexample/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/single/drawable-hdpi.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/single/drawable-hdpi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/single/drawable-xhdpi.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/single/drawable-xhdpi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/single/layout.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/android/app/build/intermediates/symbols/debug/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/android/app/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/src/main/java/com/reactnativedefaultexample/MainApplication.java" afterPath="$PROJECT_DIR$/android/app/src/main/java/com/reactnativedefaultexample/MainApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build.gradle" afterPath="$PROJECT_DIR$/android/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/android/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/settings.gradle" afterPath="$PROJECT_DIR$/android/settings.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Bank/BankInvestmentScreen.js" afterPath="$PROJECT_DIR$/app/views/Bank/BankInvestmentScreen.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/reactnativedefaultexample.build/Debug-iphonesimulator/reactnativedefaultexample.build/Objects-normal/x86_64/reactnativedefaultexample.LinkFileList" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/reactnativedefaultexample.build/Debug-iphonesimulator/reactnativedefaultexample.build/Objects-normal/x86_64/reactnativedefaultexample.LinkFileList" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/reactnativedefaultexample.build/Debug-iphonesimulator/reactnativedefaultexample.build/Objects-normal/x86_64/reactnativedefaultexample_dependency_info.dat" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/reactnativedefaultexample.build/Debug-iphonesimulator/reactnativedefaultexample.build/Objects-normal/x86_64/reactnativedefaultexample_dependency_info.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/reactnativedefaultexample.app/PlugIns/reactnativedefaultexampleTests.xctest/_CodeSignature/CodeResources" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/reactnativedefaultexample.app/PlugIns/reactnativedefaultexampleTests.xctest/_CodeSignature/CodeResources" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/reactnativedefaultexample.app/_CodeSignature/CodeResources" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/reactnativedefaultexample.app/_CodeSignature/CodeResources" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/Wizard.js" afterPath="$PROJECT_DIR$/app/components/Wizard.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Bank/BankSettingsScreen.js" afterPath="$PROJECT_DIR$/app/views/Bank/BankSettingsScreen.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/info.plist" afterPath="$PROJECT_DIR$/ios/build/info.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/reactnativedefaultexample.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/ios/reactnativedefaultexample.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -335,26 +49,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PieChart.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/react-native-charts-wrapper/lib/PieChart.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PieRadarChartBase.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/react-native-charts-wrapper/lib/PieRadarChartBase.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ChartBase.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node_modules/react-native-charts-wrapper/lib/ChartBase.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -368,8 +62,8 @@
       <file leaf-file-name="LoginScreen.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/Login/LoginScreen.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1455">
-              <caret line="97" column="2" lean-forward="false" selection-start-line="97" selection-start-column="2" selection-end-line="99" selection-end-column="4" />
+            <state relative-caret-position="300">
+              <caret line="20" column="18" lean-forward="false" selection-start-line="97" selection-start-column="2" selection-end-line="99" selection-end-column="4" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
                 <element signature="e#246#368#0" expanded="true" />
@@ -378,11 +72,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BankInvestmentScreen.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LoginForm.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/components/LoginForm.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BankInvestmentScreen.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/Bank/BankInvestmentScreen.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="128" column="6" lean-forward="true" selection-start-line="128" selection-start-column="6" selection-end-line="128" selection-end-column="6" />
+            <state relative-caret-position="309">
+              <caret line="120" column="10" lean-forward="false" selection-start-line="120" selection-start-column="10" selection-end-line="120" selection-end-column="10" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -390,13 +94,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BankAllocationScreenContainer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/Bank/BankAllocationScreenContainer.js">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="210">
+              <caret line="14" column="33" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Wizard.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/components/Wizard.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="915">
+              <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BankSettingsScreen.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/Bank/BankSettingsScreen.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Step.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/components/Step.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="21" column="57" lean-forward="false" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -418,9 +156,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>currentHeight</find>
-      <find>babel-preset-react-native</find>
-      <find>loginUserSuccess</find>
       <find>loginReducer</find>
       <find>Platform</find>
       <find>loading</find>
@@ -448,6 +183,9 @@
       <find>usePercentValues</find>
       <find>touchEnabled</find>
       <find>RNPieChart</find>
+      <find>selectionShift</find>
+      <find>react-native-multistep-wizard</find>
+      <find>Step</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -490,8 +228,6 @@
         <option value="$PROJECT_DIR$/app/views/Bank/BankScreenContainer.js" />
         <option value="$PROJECT_DIR$/app/views/Login/LoginScreen.js" />
         <option value="$PROJECT_DIR$/app/components/Step.js" />
-        <option value="$PROJECT_DIR$/app/components/Wizard.js" />
-        <option value="$PROJECT_DIR$/app/views/Bank/BankSettingsScreen.js" />
         <option value="$PROJECT_DIR$/app/views/Bank/BankAllocationScreenContainer.js" />
         <option value="$PROJECT_DIR$/app/views/Bank/BankInvestmentScreenContainer.js" />
         <option value="$PROJECT_DIR$/app/views/Bank/BankSettingsScreenContainer.js" />
@@ -502,7 +238,6 @@
         <option value="$PROJECT_DIR$/app/views/SignUp/SignUpScreen.js" />
         <option value="$PROJECT_DIR$/app/views/Bank/BankScreen.js" />
         <option value="$PROJECT_DIR$/ios/reactnativedefaultexample/AppDelegate.m" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/package-lock.json" />
         <option value="$PROJECT_DIR$/app.json" />
         <option value="$PROJECT_DIR$/node_modules/expo/src/launch/registerRootComponent.js" />
@@ -512,6 +247,9 @@
         <option value="$PROJECT_DIR$/app/index.js" />
         <option value="$PROJECT_DIR$/android/build.gradle" />
         <option value="$PROJECT_DIR$/app/views/Bank/BankInvestmentScreen.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/app/components/Wizard.js" />
+        <option value="$PROJECT_DIR$/app/views/Bank/BankSettingsScreen.js" />
       </list>
     </option>
   </component>
@@ -569,60 +307,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-native-default-example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-native-default-example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-native-charts-wrapper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-native-default-example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-native-default-example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-native-charts-wrapper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-native-default-example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-native-default-example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -642,6 +326,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react-native-default-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react-native-default-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Login" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -664,6 +370,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Bank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react-native-default-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react-native-default-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -784,7 +508,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101163000" />
+    <option name="totallyTimeSpent" value="107149000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -805,7 +529,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25283632" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3592233" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -884,35 +608,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/android/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="132" column="39" lean-forward="false" selection-start-line="132" selection-start-column="39" selection-end-line="132" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/app/BUCK">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-494">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/build/intermediates/dex-cache/cache.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-834">
-          <caret line="115" column="23" lean-forward="true" selection-start-line="115" selection-start-column="23" selection-end-line="115" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1082,14 +777,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="36" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/utils/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1138,7 +825,7 @@
         <state relative-caret-position="30">
           <caret line="2" column="56" lean-forward="false" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
           <folding>
-            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#0#43#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1148,7 +835,7 @@
         <state relative-caret-position="225">
           <caret line="15" column="3" lean-forward="false" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1161,20 +848,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-native/Libraries/react-native/react-native-implementation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="110" column="6" lean-forward="false" selection-start-line="110" selection-start-column="6" selection-end-line="110" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/Bank/BankAllocationScreen.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1187,23 +866,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Login/LoginScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1455">
-          <caret line="97" column="2" lean-forward="false" selection-start-line="97" selection-start-column="2" selection-end-line="99" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-            <element signature="e#246#368#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/Bank/BankAllocationScreenContainer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1229,7 +897,7 @@
         <state relative-caret-position="-245">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1270,8 +938,73 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/Bank/BankInvestmentScreen.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="128" column="6" lean-forward="true" selection-start-line="128" selection-start-column="6" selection-end-line="128" selection-end-column="6" />
+        <state relative-caret-position="309">
+          <caret line="120" column="10" lean-forward="false" selection-start-line="120" selection-start-column="10" selection-end-line="120" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="33" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/Login/LoginScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="18" lean-forward="false" selection-start-line="97" selection-start-column="2" selection-end-line="99" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#246#368#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/LoginForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-native/Libraries/react-native/react-native-implementation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="49" column="6" lean-forward="false" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/Step.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="21" column="57" lean-forward="false" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/Wizard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/Bank/BankSettingsScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

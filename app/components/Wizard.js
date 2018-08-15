@@ -1,9 +1,9 @@
-import React, { PureComponent } from 'react';
+import React from 'react';
 import { View, Text, Button, Alert } from 'react-native';
 
 import Step from './Step';
 
-class Wizard extends PureComponent {
+class Wizard extends React.Component {
   static Step = Step;
 
   state = {
