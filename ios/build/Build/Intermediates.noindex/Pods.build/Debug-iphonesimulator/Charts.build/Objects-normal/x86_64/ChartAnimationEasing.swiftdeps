@@ -36,10 +36,11 @@ depends-top-level:
 - "pow"
 - "sin"
 - "sqrt"
+- !private "unsafeBitCast"
 - !private "~="
 depends-member:
-- ["s19BinaryFloatingPointP", "init"]
-- ["s19BinaryFloatingPointP", "pi"]
+- ["SB", "init"]
+- ["SB", "pi"]
 - ["Sb", "_getBuiltinLogicValue"]
 - ["s7CVarArgP", "_getBuiltinLogicValue"]
 - ["s7CVarArgP", "init"]
@@ -77,12 +78,14 @@ depends-member:
 - ["6Charts17ChartEasingOptionO", "easeOutQuart"]
 - ["6Charts17ChartEasingOptionO", "easeOutQuint"]
 - ["6Charts17ChartEasingOptionO", "easeOutSine"]
+- ["6Charts17ChartEasingOptionO", "hash"]
 - ["6Charts17ChartEasingOptionO", "hashValue"]
 - ["6Charts17ChartEasingOptionO", "init"]
 - ["6Charts17ChartEasingOptionO", "linear"]
 - ["6Charts17ChartEasingOptionO", "rawValue"]
-- ["s10ComparableP", "init"]
-- ["s10ComparableP", "pi"]
+- !private ["6Charts17ChartEasingOptionO", "unsafeBitCast"]
+- ["SL", "init"]
+- ["SL", "pi"]
 - ["s28CustomDebugStringConvertibleP", "init"]
 - ["s28CustomDebugStringConvertibleP", "pi"]
 - ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
@@ -94,9 +97,9 @@ depends-member:
 - ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
 - ["s23CustomStringConvertibleP", "init"]
 - ["s23CustomStringConvertibleP", "pi"]
-- ["s9DecodableP", "_getBuiltinLogicValue"]
-- ["s9DecodableP", "init"]
-- ["s9DecodableP", "pi"]
+- ["Se", "_getBuiltinLogicValue"]
+- ["Se", "init"]
+- ["Se", "pi"]
 - ["Sd", "init"]
 - ["Sd", "pi"]
 - ["6Charts15EasingFunctionsV", "Double"]
@@ -138,140 +141,147 @@ depends-member:
 - ["6Charts15EasingFunctionsV", "pow"]
 - ["6Charts15EasingFunctionsV", "sin"]
 - ["6Charts15EasingFunctionsV", "sqrt"]
-- ["s9EncodableP", "_getBuiltinLogicValue"]
-- ["s9EncodableP", "init"]
-- ["s9EncodableP", "pi"]
-- ["s9EquatableP", "RawValue"]
-- ["s9EquatableP", ""]
-- ["s9EquatableP", "_Default_RawValue"]
-- ["s9EquatableP", "_getBuiltinLogicValue"]
-- ["s9EquatableP", "easeInBack"]
-- ["s9EquatableP", "easeInBounce"]
-- ["s9EquatableP", "easeInCirc"]
-- ["s9EquatableP", "easeInCubic"]
-- ["s9EquatableP", "easeInElastic"]
-- ["s9EquatableP", "easeInExpo"]
-- ["s9EquatableP", "easeInOutBack"]
-- ["s9EquatableP", "easeInOutBounce"]
-- ["s9EquatableP", "easeInOutCirc"]
-- ["s9EquatableP", "easeInOutCubic"]
-- ["s9EquatableP", "easeInOutElastic"]
-- ["s9EquatableP", "easeInOutExpo"]
-- ["s9EquatableP", "easeInOutQuad"]
-- ["s9EquatableP", "easeInOutQuart"]
-- ["s9EquatableP", "easeInOutQuint"]
-- ["s9EquatableP", "easeInOutSine"]
-- ["s9EquatableP", "easeInQuad"]
-- ["s9EquatableP", "easeInQuart"]
-- ["s9EquatableP", "easeInQuint"]
-- ["s9EquatableP", "easeInSine"]
-- ["s9EquatableP", "easeOutBack"]
-- ["s9EquatableP", "easeOutBounce"]
-- ["s9EquatableP", "easeOutCirc"]
-- ["s9EquatableP", "easeOutCubic"]
-- ["s9EquatableP", "easeOutElastic"]
-- ["s9EquatableP", "easeOutExpo"]
-- ["s9EquatableP", "easeOutQuad"]
-- ["s9EquatableP", "easeOutQuart"]
-- ["s9EquatableP", "easeOutQuint"]
-- ["s9EquatableP", "easeOutSine"]
-- ["s9EquatableP", "hashValue"]
-- ["s9EquatableP", "init"]
-- ["s9EquatableP", "linear"]
-- ["s9EquatableP", "pi"]
-- ["s9EquatableP", "rawValue"]
+- ["SE", "_getBuiltinLogicValue"]
+- ["SE", "init"]
+- ["SE", "pi"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- ["SQ", "_getBuiltinLogicValue"]
+- ["SQ", "easeInBack"]
+- ["SQ", "easeInBounce"]
+- ["SQ", "easeInCirc"]
+- ["SQ", "easeInCubic"]
+- ["SQ", "easeInElastic"]
+- ["SQ", "easeInExpo"]
+- ["SQ", "easeInOutBack"]
+- ["SQ", "easeInOutBounce"]
+- ["SQ", "easeInOutCirc"]
+- ["SQ", "easeInOutCubic"]
+- ["SQ", "easeInOutElastic"]
+- ["SQ", "easeInOutExpo"]
+- ["SQ", "easeInOutQuad"]
+- ["SQ", "easeInOutQuart"]
+- ["SQ", "easeInOutQuint"]
+- ["SQ", "easeInOutSine"]
+- ["SQ", "easeInQuad"]
+- ["SQ", "easeInQuart"]
+- ["SQ", "easeInQuint"]
+- ["SQ", "easeInSine"]
+- ["SQ", "easeOutBack"]
+- ["SQ", "easeOutBounce"]
+- ["SQ", "easeOutCirc"]
+- ["SQ", "easeOutCubic"]
+- ["SQ", "easeOutElastic"]
+- ["SQ", "easeOutExpo"]
+- ["SQ", "easeOutQuad"]
+- ["SQ", "easeOutQuart"]
+- ["SQ", "easeOutQuint"]
+- ["SQ", "easeOutSine"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "linear"]
+- ["SQ", "pi"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "unsafeBitCast"]
 - ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
 - ["s25ExpressibleByFloatLiteralP", "init"]
 - ["s25ExpressibleByFloatLiteralP", "pi"]
 - ["s27ExpressibleByIntegerLiteralP", "init"]
 - ["s27ExpressibleByIntegerLiteralP", "pi"]
-- ["s13FloatingPointP", "init"]
-- ["s13FloatingPointP", "pi"]
-- ["s8HashableP", "RawValue"]
-- ["s8HashableP", ""]
-- ["s8HashableP", "_Default_RawValue"]
-- ["s8HashableP", "_getBuiltinLogicValue"]
-- ["s8HashableP", "easeInBack"]
-- ["s8HashableP", "easeInBounce"]
-- ["s8HashableP", "easeInCirc"]
-- ["s8HashableP", "easeInCubic"]
-- ["s8HashableP", "easeInElastic"]
-- ["s8HashableP", "easeInExpo"]
-- ["s8HashableP", "easeInOutBack"]
-- ["s8HashableP", "easeInOutBounce"]
-- ["s8HashableP", "easeInOutCirc"]
-- ["s8HashableP", "easeInOutCubic"]
-- ["s8HashableP", "easeInOutElastic"]
-- ["s8HashableP", "easeInOutExpo"]
-- ["s8HashableP", "easeInOutQuad"]
-- ["s8HashableP", "easeInOutQuart"]
-- ["s8HashableP", "easeInOutQuint"]
-- ["s8HashableP", "easeInOutSine"]
-- ["s8HashableP", "easeInQuad"]
-- ["s8HashableP", "easeInQuart"]
-- ["s8HashableP", "easeInQuint"]
-- ["s8HashableP", "easeInSine"]
-- ["s8HashableP", "easeOutBack"]
-- ["s8HashableP", "easeOutBounce"]
-- ["s8HashableP", "easeOutCirc"]
-- ["s8HashableP", "easeOutCubic"]
-- ["s8HashableP", "easeOutElastic"]
-- ["s8HashableP", "easeOutExpo"]
-- ["s8HashableP", "easeOutQuad"]
-- ["s8HashableP", "easeOutQuart"]
-- ["s8HashableP", "easeOutQuint"]
-- ["s8HashableP", "easeOutSine"]
-- ["s8HashableP", "hashValue"]
-- ["s8HashableP", "init"]
-- ["s8HashableP", "linear"]
-- ["s8HashableP", "pi"]
-- ["s8HashableP", "rawValue"]
+- ["SF", "init"]
+- ["SF", "pi"]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- ["SH", "_getBuiltinLogicValue"]
+- ["SH", "easeInBack"]
+- ["SH", "easeInBounce"]
+- ["SH", "easeInCirc"]
+- ["SH", "easeInCubic"]
+- ["SH", "easeInElastic"]
+- ["SH", "easeInExpo"]
+- ["SH", "easeInOutBack"]
+- ["SH", "easeInOutBounce"]
+- ["SH", "easeInOutCirc"]
+- ["SH", "easeInOutCubic"]
+- ["SH", "easeInOutElastic"]
+- ["SH", "easeInOutExpo"]
+- ["SH", "easeInOutQuad"]
+- ["SH", "easeInOutQuart"]
+- ["SH", "easeInOutQuint"]
+- ["SH", "easeInOutSine"]
+- ["SH", "easeInQuad"]
+- ["SH", "easeInQuart"]
+- ["SH", "easeInQuint"]
+- ["SH", "easeInSine"]
+- ["SH", "easeOutBack"]
+- ["SH", "easeOutBounce"]
+- ["SH", "easeOutCirc"]
+- ["SH", "easeOutCubic"]
+- ["SH", "easeOutElastic"]
+- ["SH", "easeOutExpo"]
+- ["SH", "easeOutQuad"]
+- ["SH", "easeOutQuart"]
+- ["SH", "easeOutQuint"]
+- ["SH", "easeOutSine"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "linear"]
+- ["SH", "pi"]
+- ["SH", "rawValue"]
+- !private ["SH", "unsafeBitCast"]
+- !private ["s6HasherV", "combine"]
 - ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - ["s25LosslessStringConvertibleP", "init"]
 - ["s25LosslessStringConvertibleP", "pi"]
-- ["s7NumericP", "init"]
-- ["s7NumericP", "pi"]
-- ["s16RawRepresentableP", "RawValue"]
-- ["s16RawRepresentableP", ""]
-- ["s16RawRepresentableP", "_Default_RawValue"]
-- ["s16RawRepresentableP", "easeInBack"]
-- ["s16RawRepresentableP", "easeInBounce"]
-- ["s16RawRepresentableP", "easeInCirc"]
-- ["s16RawRepresentableP", "easeInCubic"]
-- ["s16RawRepresentableP", "easeInElastic"]
-- ["s16RawRepresentableP", "easeInExpo"]
-- ["s16RawRepresentableP", "easeInOutBack"]
-- ["s16RawRepresentableP", "easeInOutBounce"]
-- ["s16RawRepresentableP", "easeInOutCirc"]
-- ["s16RawRepresentableP", "easeInOutCubic"]
-- ["s16RawRepresentableP", "easeInOutElastic"]
-- ["s16RawRepresentableP", "easeInOutExpo"]
-- ["s16RawRepresentableP", "easeInOutQuad"]
-- ["s16RawRepresentableP", "easeInOutQuart"]
-- ["s16RawRepresentableP", "easeInOutQuint"]
-- ["s16RawRepresentableP", "easeInOutSine"]
-- ["s16RawRepresentableP", "easeInQuad"]
-- ["s16RawRepresentableP", "easeInQuart"]
-- ["s16RawRepresentableP", "easeInQuint"]
-- ["s16RawRepresentableP", "easeInSine"]
-- ["s16RawRepresentableP", "easeOutBack"]
-- ["s16RawRepresentableP", "easeOutBounce"]
-- ["s16RawRepresentableP", "easeOutCirc"]
-- ["s16RawRepresentableP", "easeOutCubic"]
-- ["s16RawRepresentableP", "easeOutElastic"]
-- ["s16RawRepresentableP", "easeOutExpo"]
-- ["s16RawRepresentableP", "easeOutQuad"]
-- ["s16RawRepresentableP", "easeOutQuart"]
-- ["s16RawRepresentableP", "easeOutQuint"]
-- ["s16RawRepresentableP", "easeOutSine"]
-- ["s16RawRepresentableP", "hashValue"]
-- ["s16RawRepresentableP", "init"]
-- ["s16RawRepresentableP", "linear"]
-- ["s16RawRepresentableP", "rawValue"]
+- ["Sj", "init"]
+- ["Sj", "pi"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- ["SY", "easeInBack"]
+- ["SY", "easeInBounce"]
+- ["SY", "easeInCirc"]
+- ["SY", "easeInCubic"]
+- ["SY", "easeInElastic"]
+- ["SY", "easeInExpo"]
+- ["SY", "easeInOutBack"]
+- ["SY", "easeInOutBounce"]
+- ["SY", "easeInOutCirc"]
+- ["SY", "easeInOutCubic"]
+- ["SY", "easeInOutElastic"]
+- ["SY", "easeInOutExpo"]
+- ["SY", "easeInOutQuad"]
+- ["SY", "easeInOutQuart"]
+- ["SY", "easeInOutQuint"]
+- ["SY", "easeInOutSine"]
+- ["SY", "easeInQuad"]
+- ["SY", "easeInQuart"]
+- ["SY", "easeInQuint"]
+- ["SY", "easeInSine"]
+- ["SY", "easeOutBack"]
+- ["SY", "easeOutBounce"]
+- ["SY", "easeOutCirc"]
+- ["SY", "easeOutCubic"]
+- ["SY", "easeOutElastic"]
+- ["SY", "easeOutExpo"]
+- ["SY", "easeOutQuad"]
+- ["SY", "easeOutQuart"]
+- ["SY", "easeOutQuint"]
+- ["SY", "easeOutSine"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "linear"]
+- ["SY", "rawValue"]
+- !private ["SY", "unsafeBitCast"]
 - ["s13SignedNumericP", "init"]
 - ["s13SignedNumericP", "pi"]
-- ["s10StrideableP", "init"]
-- ["s10StrideableP", "pi"]
+- ["Sx", "init"]
+- ["Sx", "pi"]
 - ["s15_CVarArgAlignedP", "init"]
 - ["s15_CVarArgAlignedP", "pi"]
 - ["s22_CVarArgPassedAsDoubleP", "init"]
@@ -281,39 +291,43 @@ depends-member:
 - ["s33_ExpressibleByBuiltinFloatLiteralP", "pi"]
 - ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - ["s35_ExpressibleByBuiltinIntegerLiteralP", "pi"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "pi"]
 - ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - ["s21_ObjectiveCBridgeableP", "init"]
 - ["s21_ObjectiveCBridgeableP", "pi"]
 depends-nominal:
-- "s19BinaryFloatingPointP"
+- "SB"
 - "Sb"
 - "s7CVarArgP"
 - "6Charts17ChartEasingOptionO"
-- "s10ComparableP"
+- "SL"
 - "s28CustomDebugStringConvertibleP"
 - "s29CustomPlaygroundQuickLookableP"
 - "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
-- "s9DecodableP"
+- "Se"
 - "Sd"
 - "6Charts15EasingFunctionsV"
-- "s9EncodableP"
-- "s9EquatableP"
+- "SE"
+- "SQ"
 - "s27ExpressibleByBooleanLiteralP"
 - "s25ExpressibleByFloatLiteralP"
 - "s27ExpressibleByIntegerLiteralP"
-- "s13FloatingPointP"
-- "s8HashableP"
+- "SF"
+- "SH"
+- !private "s6HasherV"
 - "s25LosslessStringConvertibleP"
-- "s7NumericP"
-- "s16RawRepresentableP"
+- "Sj"
+- "SY"
 - "s13SignedNumericP"
-- "s10StrideableP"
+- "Sx"
 - "s15_CVarArgAlignedP"
 - "s22_CVarArgPassedAsDoubleP"
 - "s35_ExpressibleByBuiltinBooleanLiteralP"
 - "s33_ExpressibleByBuiltinFloatLiteralP"
 - "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s35_HasCustomAnyHashableRepresentationP"
 - "s21_ObjectiveCBridgeableP"
 depends-dynamic-lookup:
 depends-external:
@@ -332,14 +346,15 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Users/maxim/Projects/react-native-default-example/ios/Pods/Target Support Files/Charts/Charts-umbrella.h"
 - "/Users/maxim/Projects/react-native-default-example/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Charts.build/unextended-module.modulemap"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
 interface-hash: "0998a3db1b1f67a90332b927e7014705"

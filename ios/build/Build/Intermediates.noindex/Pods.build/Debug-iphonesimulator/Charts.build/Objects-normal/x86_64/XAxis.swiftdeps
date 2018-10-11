@@ -24,10 +24,12 @@ depends-top-level:
 - "AssignmentPrecedence"
 - "AxisBase"
 - "Bool"
-- "BooleanLiteralType"
 - "CGFloat"
+- "FloatLiteralType"
 - "Int"
+- !private "IntegerLiteralType"
 - "XAxis"
+- !private "unsafeBitCast"
 - !private "~="
 depends-member:
 - ["6Charts8AxisBaseC", "Bool"]
@@ -45,10 +47,11 @@ depends-member:
 - ["6Charts8AxisBaseC", "labelRotatedWidth"]
 - ["6Charts8AxisBaseC", "labelRotationAngle"]
 - ["6Charts8AxisBaseC", "labelWidth"]
+- !private ["6Charts8AxisBaseC", "unsafeBitCast"]
 - ["6Charts8AxisBaseC", "wordWrapEnabled"]
 - ["6Charts8AxisBaseC", "wordWrapWidthPercent"]
 - !private ["6Charts8AxisBaseC", "yOffset"]
-- ["s19BinaryFloatingPointP", "init"]
+- ["SB", "init"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - ["12CoreGraphics7CGFloatV", "init"]
 - ["s7CVarArgP", "CGFloat"]
@@ -57,9 +60,10 @@ depends-member:
 - !private ["s7CVarArgP", "_getBuiltinLogicValue"]
 - !private ["s7CVarArgP", "avoidFirstLastClippingEnabled"]
 - ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "unsafeBitCast"]
 - !private ["s7CVarArgP", "wordWrapEnabled"]
 - !private ["s7CVarArgP", "yOffset"]
-- ["s10ComparableP", "init"]
+- ["SL", "init"]
 - ["6Charts13ComponentBaseC", "Bool"]
 - ["6Charts13ComponentBaseC", "CGFloat"]
 - ["6Charts13ComponentBaseC", "Int"]
@@ -74,6 +78,7 @@ depends-member:
 - ["6Charts13ComponentBaseC", "labelRotatedWidth"]
 - ["6Charts13ComponentBaseC", "labelRotationAngle"]
 - ["6Charts13ComponentBaseC", "labelWidth"]
+- !private ["6Charts13ComponentBaseC", "unsafeBitCast"]
 - ["6Charts13ComponentBaseC", "wordWrapEnabled"]
 - ["6Charts13ComponentBaseC", "wordWrapWidthPercent"]
 - !private ["6Charts13ComponentBaseC", "yOffset"]
@@ -82,6 +87,7 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "avoidFirstLastClippingEnabled"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "unsafeBitCast"]
 - !private ["s28CustomDebugStringConvertibleP", "wordWrapEnabled"]
 - !private ["s28CustomDebugStringConvertibleP", "yOffset"]
 - !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
@@ -93,53 +99,61 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s23CustomStringConvertibleP", "avoidFirstLastClippingEnabled"]
 - ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "unsafeBitCast"]
 - !private ["s23CustomStringConvertibleP", "wordWrapEnabled"]
 - !private ["s23CustomStringConvertibleP", "yOffset"]
-- !private ["s9DecodableP", "_getBuiltinLogicValue"]
-- ["s9DecodableP", "init"]
-- !private ["s9EncodableP", "_getBuiltinLogicValue"]
-- ["s9EncodableP", "init"]
-- ["s9EquatableP", "CGFloat"]
-- ["s9EquatableP", "LabelPosition"]
-- ["s9EquatableP", "RawValue"]
-- ["s9EquatableP", ""]
-- ["s9EquatableP", "_Default_RawValue"]
-- !private ["s9EquatableP", "_getBuiltinLogicValue"]
-- !private ["s9EquatableP", "avoidFirstLastClippingEnabled"]
-- ["s9EquatableP", "hashValue"]
-- ["s9EquatableP", "init"]
-- ["s9EquatableP", "rawValue"]
-- ["s9EquatableP", "top"]
-- !private ["s9EquatableP", "wordWrapEnabled"]
-- !private ["s9EquatableP", "yOffset"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- ["Se", "init"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- ["SE", "init"]
+- ["SQ", "CGFloat"]
+- ["SQ", "LabelPosition"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "avoidFirstLastClippingEnabled"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "rawValue"]
+- ["SQ", "top"]
+- !private ["SQ", "unsafeBitCast"]
+- !private ["SQ", "wordWrapEnabled"]
+- !private ["SQ", "yOffset"]
 - !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
 - ["s25ExpressibleByFloatLiteralP", "init"]
 - ["s27ExpressibleByIntegerLiteralP", "init"]
-- ["s13FloatingPointP", "init"]
-- ["s8HashableP", "CGFloat"]
-- ["s8HashableP", "LabelPosition"]
-- ["s8HashableP", "RawValue"]
-- ["s8HashableP", ""]
-- ["s8HashableP", "_Default_RawValue"]
-- !private ["s8HashableP", "_getBuiltinLogicValue"]
-- !private ["s8HashableP", "avoidFirstLastClippingEnabled"]
-- ["s8HashableP", "hashValue"]
-- ["s8HashableP", "init"]
-- ["s8HashableP", "rawValue"]
-- ["s8HashableP", "top"]
-- !private ["s8HashableP", "wordWrapEnabled"]
-- !private ["s8HashableP", "yOffset"]
+- ["SF", "init"]
+- ["SH", "CGFloat"]
+- ["SH", "LabelPosition"]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "avoidFirstLastClippingEnabled"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "rawValue"]
+- ["SH", "top"]
+- !private ["SH", "unsafeBitCast"]
+- !private ["SH", "wordWrapEnabled"]
+- !private ["SH", "yOffset"]
+- !private ["s6HasherV", "combine"]
 - ["6Charts5XAxisC13LabelPositionO", "RawValue"]
 - ["6Charts5XAxisC13LabelPositionO", "_Default_RawValue"]
 - ["6Charts5XAxisC13LabelPositionO", "bothSided"]
 - ["6Charts5XAxisC13LabelPositionO", "bottom"]
 - ["6Charts5XAxisC13LabelPositionO", "bottomInside"]
 - ["6Charts5XAxisC13LabelPositionO", "deinit"]
+- ["6Charts5XAxisC13LabelPositionO", "hash"]
 - ["6Charts5XAxisC13LabelPositionO", "hashValue"]
 - ["6Charts5XAxisC13LabelPositionO", "init"]
 - ["6Charts5XAxisC13LabelPositionO", "rawValue"]
 - ["6Charts5XAxisC13LabelPositionO", "top"]
 - ["6Charts5XAxisC13LabelPositionO", "topInside"]
+- !private ["6Charts5XAxisC13LabelPositionO", "unsafeBitCast"]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - ["So8NSObjectC", "Bool"]
 - ["So8NSObjectC", "CGFloat"]
@@ -155,26 +169,30 @@ depends-member:
 - ["So8NSObjectC", "labelRotatedWidth"]
 - ["So8NSObjectC", "labelRotationAngle"]
 - ["So8NSObjectC", "labelWidth"]
+- !private ["So8NSObjectC", "unsafeBitCast"]
 - ["So8NSObjectC", "wordWrapEnabled"]
 - ["So8NSObjectC", "wordWrapWidthPercent"]
 - !private ["So8NSObjectC", "yOffset"]
-- ["So16NSObjectProtocolP", "CGFloat"]
-- ["So16NSObjectProtocolP", "LabelPosition"]
-- ["So16NSObjectProtocolP", ""]
-- !private ["So16NSObjectProtocolP", "avoidFirstLastClippingEnabled"]
-- !private ["So16NSObjectProtocolP", "init"]
-- !private ["So16NSObjectProtocolP", "wordWrapEnabled"]
-- !private ["So16NSObjectProtocolP", "yOffset"]
-- ["s7NumericP", "init"]
-- ["s16RawRepresentableP", "RawValue"]
-- ["s16RawRepresentableP", ""]
-- ["s16RawRepresentableP", "_Default_RawValue"]
-- ["s16RawRepresentableP", "hashValue"]
-- ["s16RawRepresentableP", "init"]
-- ["s16RawRepresentableP", "rawValue"]
-- ["s16RawRepresentableP", "top"]
+- ["So8NSObjectP", "CGFloat"]
+- ["So8NSObjectP", "LabelPosition"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "avoidFirstLastClippingEnabled"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "unsafeBitCast"]
+- !private ["So8NSObjectP", "wordWrapEnabled"]
+- !private ["So8NSObjectP", "yOffset"]
+- ["Sj", "init"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "rawValue"]
+- ["SY", "top"]
+- !private ["SY", "unsafeBitCast"]
 - ["s13SignedNumericP", "init"]
-- ["s10StrideableP", "init"]
+- ["Sx", "init"]
 - ["6Charts5XAxisC", "Bool"]
 - ["6Charts5XAxisC", "CGFloat"]
 - ["6Charts5XAxisC", "Int"]
@@ -190,6 +208,7 @@ depends-member:
 - ["6Charts5XAxisC", "labelRotatedWidth"]
 - ["6Charts5XAxisC", "labelRotationAngle"]
 - ["6Charts5XAxisC", "labelWidth"]
+- !private ["6Charts5XAxisC", "unsafeBitCast"]
 - ["6Charts5XAxisC", "wordWrapEnabled"]
 - ["6Charts5XAxisC", "wordWrapWidthPercent"]
 - !private ["6Charts5XAxisC", "yOffset"]
@@ -201,38 +220,40 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "avoidFirstLastClippingEnabled"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unsafeBitCast"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "wordWrapEnabled"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "yOffset"]
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - ["s21_ObjectiveCBridgeableP", "init"]
 depends-nominal:
 - "6Charts8AxisBaseC"
-- "s19BinaryFloatingPointP"
+- "SB"
 - !private "Sb"
 - "12CoreGraphics7CGFloatV"
 - "s7CVarArgP"
-- "s10ComparableP"
+- "SL"
 - "6Charts13ComponentBaseC"
 - "s28CustomDebugStringConvertibleP"
 - !private "s29CustomPlaygroundQuickLookableP"
 - "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
-- "s9DecodableP"
-- "s9EncodableP"
-- "s9EquatableP"
+- "Se"
+- "SE"
+- "SQ"
 - !private "s27ExpressibleByBooleanLiteralP"
 - "s25ExpressibleByFloatLiteralP"
 - "s27ExpressibleByIntegerLiteralP"
-- "s13FloatingPointP"
-- "s8HashableP"
+- "SF"
+- "SH"
+- !private "s6HasherV"
 - "6Charts5XAxisC13LabelPositionO"
 - !private "s25LosslessStringConvertibleP"
 - "So8NSObjectC"
-- "So16NSObjectProtocolP"
-- "s7NumericP"
-- "s16RawRepresentableP"
+- "So8NSObjectP"
+- "Sj"
+- "SY"
 - "s13SignedNumericP"
-- "s10StrideableP"
+- "Sx"
 - "6Charts5XAxisC"
 - "s15_CVarArgAlignedP"
 - "s22_CVarArgPassedAsDoubleP"
@@ -256,14 +277,15 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Users/maxim/Projects/react-native-default-example/ios/Pods/Target Support Files/Charts/Charts-umbrella.h"
 - "/Users/maxim/Projects/react-native-default-example/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Charts.build/unextended-module.modulemap"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
 interface-hash: "38474c7921d6401763ec1ef5427e7800"

@@ -10,19 +10,23 @@ provides-dynamic-lookup:
 depends-top-level:
 - "CGFloat"
 - !private "Double"
+- !private "FloatLiteralType"
 - "Highlight"
 - "Int"
+- !private "IntegerLiteralType"
 - "PieHighlighter"
 - "PieRadarHighlighter"
 depends-member:
 - !private ["Sa", "subscript"]
-- !private ["s23BidirectionalCollectionP", "subscript"]
-- !private ["s19BinaryFloatingPointP", "init"]
+- !private ["s13ArrayProtocolP", "subscript"]
+- !private ["SK", "subscript"]
+- !private ["SB", "init"]
 - !private ["s7CVarArgP", "Double"]
 - !private ["s7CVarArgP", "Highlight"]
 - ["s7CVarArgP", ""]
 - !private ["s7CVarArgP", "chart"]
 - !private ["s7CVarArgP", "dataSets"]
+- !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "subscript"]
 - !private ["s7CVarArgP", "y"]
@@ -37,13 +41,15 @@ depends-member:
 - !private ["6Charts16ChartHighlighterC", "chart"]
 - ["6Charts16ChartHighlighterC", "closestHighlight"]
 - ["6Charts16ChartHighlighterC", "init"]
-- !private ["s10CollectionP", "subscript"]
-- !private ["s10ComparableP", "init"]
+- !private ["6Charts16ChartHighlighterC", "init"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "Double"]
 - !private ["s28CustomDebugStringConvertibleP", "Highlight"]
 - ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "chart"]
 - !private ["s28CustomDebugStringConvertibleP", "dataSets"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "subscript"]
 - !private ["s28CustomDebugStringConvertibleP", "y"]
@@ -56,32 +62,36 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "chart"]
 - !private ["s23CustomStringConvertibleP", "dataSets"]
 - !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "subscript"]
 - !private ["s23CustomStringConvertibleP", "y"]
-- !private ["s9DecodableP", "init"]
-- !private ["s9DecodableP", "subscript"]
+- !private ["Se", "init"]
+- !private ["Se", "subscript"]
 - !private ["Sd", "init"]
-- !private ["s9EncodableP", "init"]
-- !private ["s9EncodableP", "subscript"]
-- !private ["s9EquatableP", "Double"]
-- !private ["s9EquatableP", "Highlight"]
-- ["s9EquatableP", ""]
-- !private ["s9EquatableP", "chart"]
-- !private ["s9EquatableP", "dataSets"]
-- !private ["s9EquatableP", "init"]
-- !private ["s9EquatableP", "subscript"]
-- !private ["s9EquatableP", "y"]
+- !private ["SE", "init"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "Double"]
+- !private ["SQ", "Highlight"]
+- ["SQ", ""]
+- !private ["SQ", "chart"]
+- !private ["SQ", "dataSets"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "y"]
 - !private ["s25ExpressibleByArrayLiteralP", "subscript"]
 - !private ["s25ExpressibleByFloatLiteralP", "init"]
 - !private ["s27ExpressibleByIntegerLiteralP", "init"]
-- !private ["s13FloatingPointP", "init"]
-- !private ["s8HashableP", "Double"]
-- !private ["s8HashableP", "Highlight"]
-- ["s8HashableP", ""]
-- !private ["s8HashableP", "chart"]
-- !private ["s8HashableP", "dataSets"]
-- !private ["s8HashableP", "init"]
-- !private ["s8HashableP", "y"]
+- !private ["SF", "init"]
+- !private ["SH", "Double"]
+- !private ["SH", "Highlight"]
+- ["SH", ""]
+- !private ["SH", "chart"]
+- !private ["SH", "dataSets"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "subscript"]
+- !private ["SH", "y"]
 - !private ["6Charts9HighlightC", "init"]
 - !private ["6Charts13IChartDataSetP", "axisDependency"]
 - !private ["6Charts13IChartDataSetP", "entryForIndex"]
@@ -90,8 +100,9 @@ depends-member:
 - ["6Charts12IHighlighterP", ""]
 - !private ["6Charts12IHighlighterP", "chart"]
 - !private ["6Charts12IHighlighterP", "init"]
+- !private ["6Charts12IHighlighterP", "init"]
 - !private ["s25LosslessStringConvertibleP", "init"]
-- !private ["s17MutableCollectionP", "subscript"]
+- !private ["SM", "subscript"]
 - ["So8NSObjectC", "CGFloat"]
 - !private ["So8NSObjectC", "Double"]
 - ["So8NSObjectC", "Highlight"]
@@ -100,15 +111,17 @@ depends-member:
 - ["So8NSObjectC", "closestHighlight"]
 - !private ["So8NSObjectC", "dataSets"]
 - !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
 - !private ["So8NSObjectC", "y"]
-- !private ["So16NSObjectProtocolP", "Double"]
-- !private ["So16NSObjectProtocolP", "Highlight"]
-- ["So16NSObjectProtocolP", ""]
-- !private ["So16NSObjectProtocolP", "chart"]
-- !private ["So16NSObjectProtocolP", "dataSets"]
-- !private ["So16NSObjectProtocolP", "init"]
-- !private ["So16NSObjectProtocolP", "y"]
-- !private ["s7NumericP", "init"]
+- !private ["So8NSObjectP", "Double"]
+- !private ["So8NSObjectP", "Highlight"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "chart"]
+- !private ["So8NSObjectP", "dataSets"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "y"]
+- !private ["Sj", "init"]
 - ["6Charts14PieHighlighterC", "CGFloat"]
 - !private ["6Charts14PieHighlighterC", "Double"]
 - ["6Charts14PieHighlighterC", "Highlight"]
@@ -125,72 +138,76 @@ depends-member:
 - !private ["6Charts19PieRadarHighlighterC", "chart"]
 - ["6Charts19PieRadarHighlighterC", "closestHighlight"]
 - ["6Charts19PieRadarHighlighterC", "init"]
-- !private ["s22RandomAccessCollectionP", "subscript"]
-- !private ["s26RangeReplaceableCollectionP", "subscript"]
-- !private ["s8SequenceP", "subscript"]
+- !private ["6Charts19PieRadarHighlighterC", "init"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "subscript"]
+- !private ["ST", "subscript"]
 - !private ["s13SignedNumericP", "init"]
-- !private ["s10StrideableP", "init"]
-- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["Sx", "init"]
 - !private ["s15_CVarArgAlignedP", "init"]
 - !private ["s22_CVarArgPassedAsDoubleP", "init"]
 - !private ["s24_DestructorSafeContainerP", "subscript"]
 - !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
 - !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "Double"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "Highlight"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "chart"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "dataSets"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "y"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "subscript"]
 depends-nominal:
 - !private "Sa"
-- !private "s23BidirectionalCollectionP"
-- !private "s19BinaryFloatingPointP"
+- !private "s13ArrayProtocolP"
+- !private "SK"
+- !private "SB"
 - "s7CVarArgP"
 - !private "6Charts9ChartDataC"
 - !private "6Charts14ChartDataEntryC"
 - !private "6Charts18ChartDataEntryBaseC"
 - !private "6Charts17ChartDataProviderP"
 - "6Charts16ChartHighlighterC"
-- !private "s10CollectionP"
-- !private "s10ComparableP"
+- !private "Sl"
+- !private "SL"
 - "s28CustomDebugStringConvertibleP"
 - !private "s29CustomPlaygroundQuickLookableP"
 - !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
-- !private "s9DecodableP"
+- !private "Se"
 - !private "Sd"
-- !private "s9EncodableP"
-- "s9EquatableP"
+- !private "SE"
+- "SQ"
 - !private "s25ExpressibleByArrayLiteralP"
 - !private "s25ExpressibleByFloatLiteralP"
 - !private "s27ExpressibleByIntegerLiteralP"
-- !private "s13FloatingPointP"
-- "s8HashableP"
+- !private "SF"
+- "SH"
 - !private "6Charts9HighlightC"
 - !private "6Charts13IChartDataSetP"
 - "6Charts12IHighlighterP"
 - !private "s25LosslessStringConvertibleP"
-- !private "s17MutableCollectionP"
+- !private "SM"
 - "So8NSObjectC"
-- "So16NSObjectProtocolP"
-- !private "s7NumericP"
+- "So8NSObjectP"
+- !private "Sj"
 - "6Charts14PieHighlighterC"
 - "6Charts19PieRadarHighlighterC"
-- !private "s22RandomAccessCollectionP"
-- !private "s26RangeReplaceableCollectionP"
-- !private "s8SequenceP"
+- !private "Sk"
+- !private "Sm"
+- !private "ST"
 - !private "s13SignedNumericP"
-- !private "s10StrideableP"
-- !private "s14_ArrayProtocolP"
+- !private "Sx"
 - !private "s15_CVarArgAlignedP"
 - !private "s22_CVarArgPassedAsDoubleP"
 - !private "s24_DestructorSafeContainerP"
 - !private "s33_ExpressibleByBuiltinFloatLiteralP"
 - !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - !private "s21_ObjectiveCBridgeableP"
 depends-dynamic-lookup:
@@ -210,14 +227,15 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Users/maxim/Projects/react-native-default-example/ios/Pods/Target Support Files/Charts/Charts-umbrella.h"
 - "/Users/maxim/Projects/react-native-default-example/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Charts.build/unextended-module.modulemap"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
 interface-hash: "744669da0fbd59a86a07ac6fb7cd76e8"

@@ -3,11 +3,11 @@
   'case-sensitive': 'false',
   'roots': [{
     'type': 'directory',
-    'name': '/Users/maxim/Projects/react-native-default-example/ios/build/Build/Products/Debug-iphonesimulator/Charts/Charts.framework/Modules'
+    'name': "/Users/maxim/Projects/react-native-default-example/ios/build/Build/Products/Debug-iphonesimulator/Charts/Charts.framework/Modules"
     'contents': [{
       'type': 'file',
-      'name': 'module.modulemap',
-      'external-contents': '/Users/maxim/Projects/react-native-default-example/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Charts.build/unextended-module.modulemap',
+      'name': "module.modulemap",
+      'external-contents': "/Users/maxim/Projects/react-native-default-example/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Charts.build/unextended-module.modulemap",
     }]
   }]
 }

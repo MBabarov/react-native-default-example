@@ -33,11 +33,14 @@ depends-top-level:
 - "AxisBase"
 - "AxisRendererBase"
 - "Bool"
+- !private "BooleanLiteralType"
 - "CGContext"
 - !private "CGPoint"
 - !private "ChartUtils"
 - "Double"
+- !private "FloatLiteralType"
 - !private "Int"
+- !private "IntegerLiteralType"
 - "Renderer"
 - !private "StringLiteralType"
 - "TernaryPrecedence"
@@ -57,6 +60,11 @@ depends-member:
 - !private ["Sa", "removeAll"]
 - !private ["Sa", "reserveCapacity"]
 - !private ["Sa", "subscript"]
+- !private ["s13ArrayProtocolP", "append"]
+- !private ["s13ArrayProtocolP", "init"]
+- !private ["s13ArrayProtocolP", "removeAll"]
+- !private ["s13ArrayProtocolP", "reserveCapacity"]
+- !private ["s13ArrayProtocolP", "subscript"]
 - !private ["6Charts8AxisBaseC", "centerAxisLabelsEnabled"]
 - !private ["6Charts8AxisBaseC", "centeredEntries"]
 - !private ["6Charts8AxisBaseC", "decimals"]
@@ -79,7 +87,6 @@ depends-member:
 - !private ["6Charts16AxisRendererBaseC", "ceil"]
 - ["6Charts16AxisRendererBaseC", "computeAxis"]
 - ["6Charts16AxisRendererBaseC", "computeAxisValues"]
-- ["6Charts16AxisRendererBaseC", "deinit"]
 - !private ["6Charts16AxisRendererBaseC", "fatalError"]
 - !private ["6Charts16AxisRendererBaseC", "floor"]
 - ["6Charts16AxisRendererBaseC", "init"]
@@ -92,17 +99,18 @@ depends-member:
 - !private ["6Charts16AxisRendererBaseC", "stride"]
 - ["6Charts16AxisRendererBaseC", "transformer"]
 - !private ["6Charts16AxisRendererBaseC", "viewPortHandler"]
-- !private ["s23BidirectionalCollectionP", "append"]
-- !private ["s23BidirectionalCollectionP", "init"]
-- !private ["s23BidirectionalCollectionP", "removeAll"]
-- !private ["s23BidirectionalCollectionP", "reserveCapacity"]
-- !private ["s23BidirectionalCollectionP", "subscript"]
-- !private ["s19BinaryFloatingPointP", "init"]
-- !private ["s19BinaryFloatingPointP", "isInfinite"]
-- !private ["s13BinaryIntegerP", "init"]
+- !private ["SK", "append"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "removeAll"]
+- !private ["SK", "reserveCapacity"]
+- !private ["SK", "subscript"]
+- !private ["SB", "init"]
+- !private ["SB", "isInfinite"]
+- !private ["Sz", "init"]
 - !private ["Sb", "_getBuiltinLogicValue"]
-- !private ["SC7CGPointV", "init"]
-- !private ["SC7CGPointV", "y"]
+- !private ["So7CGPointV", "init"]
+- !private ["So7CGPointV", "y"]
 - !private ["s7CVarArgP", "CGPoint"]
 - !private ["s7CVarArgP", "ChartUtils"]
 - !private ["s7CVarArgP", "Double"]
@@ -127,6 +135,7 @@ depends-member:
 - !private ["s7CVarArgP", "granularity"]
 - !private ["s7CVarArgP", "granularityEnabled"]
 - !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "isForceLabelsEnabled"]
 - !private ["s7CVarArgP", "isFullyZoomedOutY"]
 - !private ["s7CVarArgP", "isInfinite"]
@@ -142,13 +151,15 @@ depends-member:
 - !private ["s7CVarArgP", "viewPortHandler"]
 - !private ["6Charts10ChartUtilsC", "nextUp"]
 - !private ["6Charts10ChartUtilsC", "roundToNextSignificant"]
-- !private ["s10CollectionP", "append"]
-- !private ["s10CollectionP", "init"]
-- !private ["s10CollectionP", "removeAll"]
-- !private ["s10CollectionP", "reserveCapacity"]
-- !private ["s10CollectionP", "subscript"]
-- !private ["s10ComparableP", "init"]
-- !private ["s10ComparableP", "isInfinite"]
+- !private ["Sl", "append"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "removeAll"]
+- !private ["Sl", "reserveCapacity"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "isInfinite"]
 - !private ["6Charts13ComponentBaseC", "centerAxisLabelsEnabled"]
 - !private ["6Charts13ComponentBaseC", "centeredEntries"]
 - !private ["6Charts13ComponentBaseC", "decimals"]
@@ -180,6 +191,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "granularity"]
 - !private ["s28CustomDebugStringConvertibleP", "granularityEnabled"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "isForceLabelsEnabled"]
 - !private ["s28CustomDebugStringConvertibleP", "isFullyZoomedOutY"]
 - !private ["s28CustomDebugStringConvertibleP", "isInfinite"]
@@ -196,10 +208,12 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "y"]
 - !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
 - !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
 - !private ["s29CustomPlaygroundQuickLookableP", "isInfinite"]
 - !private ["s29CustomPlaygroundQuickLookableP", "y"]
 - !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
 - !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "isInfinite"]
 - !private ["s17CustomReflectableP", "removeAll"]
@@ -230,6 +244,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "granularity"]
 - !private ["s23CustomStringConvertibleP", "granularityEnabled"]
 - !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "isForceLabelsEnabled"]
 - !private ["s23CustomStringConvertibleP", "isFullyZoomedOutY"]
 - !private ["s23CustomStringConvertibleP", "isInfinite"]
@@ -243,62 +258,65 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "transformer"]
 - !private ["s23CustomStringConvertibleP", "valueForTouchPoint"]
 - !private ["s23CustomStringConvertibleP", "viewPortHandler"]
-- !private ["s9DecodableP", "_getBuiltinLogicValue"]
-- !private ["s9DecodableP", "append"]
-- !private ["s9DecodableP", "init"]
-- !private ["s9DecodableP", "isInfinite"]
-- !private ["s9DecodableP", "removeAll"]
-- !private ["s9DecodableP", "reserveCapacity"]
-- !private ["s9DecodableP", "subscript"]
-- !private ["s9DecodableP", "y"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "append"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "isInfinite"]
+- !private ["Se", "removeAll"]
+- !private ["Se", "reserveCapacity"]
+- !private ["Se", "subscript"]
+- !private ["Se", "y"]
 - !private ["Sd", "init"]
 - !private ["Sd", "isInfinite"]
-- !private ["s9EncodableP", "_getBuiltinLogicValue"]
-- !private ["s9EncodableP", "append"]
-- !private ["s9EncodableP", "init"]
-- !private ["s9EncodableP", "isInfinite"]
-- !private ["s9EncodableP", "removeAll"]
-- !private ["s9EncodableP", "reserveCapacity"]
-- !private ["s9EncodableP", "subscript"]
-- !private ["s9EncodableP", "y"]
-- !private ["s9EquatableP", "CGPoint"]
-- !private ["s9EquatableP", "ChartUtils"]
-- !private ["s9EquatableP", "Double"]
-- !private ["s9EquatableP", "Int"]
-- ["s9EquatableP", ""]
-- !private ["s9EquatableP", "_getBuiltinLogicValue"]
-- !private ["s9EquatableP", "abs"]
-- !private ["s9EquatableP", "append"]
-- !private ["s9EquatableP", "axis"]
-- !private ["s9EquatableP", "ceil"]
-- !private ["s9EquatableP", "centerAxisLabelsEnabled"]
-- !private ["s9EquatableP", "centeredEntries"]
-- !private ["s9EquatableP", "computeAxisValues"]
-- !private ["s9EquatableP", "contentBottom"]
-- !private ["s9EquatableP", "contentLeft"]
-- !private ["s9EquatableP", "contentTop"]
-- !private ["s9EquatableP", "contentWidth"]
-- !private ["s9EquatableP", "decimals"]
-- !private ["s9EquatableP", "entries"]
-- !private ["s9EquatableP", "fatalError"]
-- !private ["s9EquatableP", "floor"]
-- !private ["s9EquatableP", "granularity"]
-- !private ["s9EquatableP", "granularityEnabled"]
-- !private ["s9EquatableP", "init"]
-- !private ["s9EquatableP", "isForceLabelsEnabled"]
-- !private ["s9EquatableP", "isFullyZoomedOutY"]
-- !private ["s9EquatableP", "isInfinite"]
-- !private ["s9EquatableP", "labelCount"]
-- !private ["s9EquatableP", "log10"]
-- !private ["s9EquatableP", "pow"]
-- !private ["s9EquatableP", "removeAll"]
-- !private ["s9EquatableP", "reserveCapacity"]
-- !private ["s9EquatableP", "stride"]
-- !private ["s9EquatableP", "subscript"]
-- !private ["s9EquatableP", "transformer"]
-- !private ["s9EquatableP", "valueForTouchPoint"]
-- !private ["s9EquatableP", "viewPortHandler"]
-- !private ["s9EquatableP", "y"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "append"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "isInfinite"]
+- !private ["SE", "removeAll"]
+- !private ["SE", "reserveCapacity"]
+- !private ["SE", "subscript"]
+- !private ["SE", "y"]
+- !private ["SQ", "CGPoint"]
+- !private ["SQ", "ChartUtils"]
+- !private ["SQ", "Double"]
+- !private ["SQ", "Int"]
+- ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "abs"]
+- !private ["SQ", "append"]
+- !private ["SQ", "axis"]
+- !private ["SQ", "ceil"]
+- !private ["SQ", "centerAxisLabelsEnabled"]
+- !private ["SQ", "centeredEntries"]
+- !private ["SQ", "computeAxisValues"]
+- !private ["SQ", "contentBottom"]
+- !private ["SQ", "contentLeft"]
+- !private ["SQ", "contentTop"]
+- !private ["SQ", "contentWidth"]
+- !private ["SQ", "decimals"]
+- !private ["SQ", "entries"]
+- !private ["SQ", "fatalError"]
+- !private ["SQ", "floor"]
+- !private ["SQ", "granularity"]
+- !private ["SQ", "granularityEnabled"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isForceLabelsEnabled"]
+- !private ["SQ", "isFullyZoomedOutY"]
+- !private ["SQ", "isInfinite"]
+- !private ["SQ", "labelCount"]
+- !private ["SQ", "log10"]
+- !private ["SQ", "pow"]
+- !private ["SQ", "removeAll"]
+- !private ["SQ", "reserveCapacity"]
+- !private ["SQ", "stride"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "transformer"]
+- !private ["SQ", "valueForTouchPoint"]
+- !private ["SQ", "viewPortHandler"]
+- !private ["SQ", "y"]
 - !private ["s25ExpressibleByArrayLiteralP", "append"]
 - !private ["s25ExpressibleByArrayLiteralP", "init"]
 - !private ["s25ExpressibleByArrayLiteralP", "removeAll"]
@@ -306,58 +324,68 @@ depends-member:
 - !private ["s25ExpressibleByArrayLiteralP", "subscript"]
 - !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s25ExpressibleByFloatLiteralP", "init"]
 - !private ["s25ExpressibleByFloatLiteralP", "isInfinite"]
 - !private ["s27ExpressibleByIntegerLiteralP", "init"]
 - !private ["s27ExpressibleByIntegerLiteralP", "isInfinite"]
 - !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - !private ["s17FixedWidthIntegerP", "init"]
-- !private ["s13FloatingPointP", "init"]
-- !private ["s13FloatingPointP", "isInfinite"]
-- !private ["s8HashableP", "CGPoint"]
-- !private ["s8HashableP", "ChartUtils"]
-- !private ["s8HashableP", "Double"]
-- !private ["s8HashableP", "Int"]
-- ["s8HashableP", ""]
-- !private ["s8HashableP", "_getBuiltinLogicValue"]
-- !private ["s8HashableP", "abs"]
-- !private ["s8HashableP", "axis"]
-- !private ["s8HashableP", "ceil"]
-- !private ["s8HashableP", "centerAxisLabelsEnabled"]
-- !private ["s8HashableP", "centeredEntries"]
-- !private ["s8HashableP", "computeAxisValues"]
-- !private ["s8HashableP", "contentBottom"]
-- !private ["s8HashableP", "contentLeft"]
-- !private ["s8HashableP", "contentTop"]
-- !private ["s8HashableP", "contentWidth"]
-- !private ["s8HashableP", "decimals"]
-- !private ["s8HashableP", "entries"]
-- !private ["s8HashableP", "fatalError"]
-- !private ["s8HashableP", "floor"]
-- !private ["s8HashableP", "granularity"]
-- !private ["s8HashableP", "granularityEnabled"]
-- !private ["s8HashableP", "init"]
-- !private ["s8HashableP", "isForceLabelsEnabled"]
-- !private ["s8HashableP", "isFullyZoomedOutY"]
-- !private ["s8HashableP", "isInfinite"]
-- !private ["s8HashableP", "labelCount"]
-- !private ["s8HashableP", "log10"]
-- !private ["s8HashableP", "pow"]
-- !private ["s8HashableP", "stride"]
-- !private ["s8HashableP", "transformer"]
-- !private ["s8HashableP", "valueForTouchPoint"]
-- !private ["s8HashableP", "viewPortHandler"]
+- !private ["SF", "init"]
+- !private ["SF", "isInfinite"]
+- !private ["SH", "CGPoint"]
+- !private ["SH", "ChartUtils"]
+- !private ["SH", "Double"]
+- !private ["SH", "Int"]
+- ["SH", ""]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "abs"]
+- !private ["SH", "append"]
+- !private ["SH", "axis"]
+- !private ["SH", "ceil"]
+- !private ["SH", "centerAxisLabelsEnabled"]
+- !private ["SH", "centeredEntries"]
+- !private ["SH", "computeAxisValues"]
+- !private ["SH", "contentBottom"]
+- !private ["SH", "contentLeft"]
+- !private ["SH", "contentTop"]
+- !private ["SH", "contentWidth"]
+- !private ["SH", "decimals"]
+- !private ["SH", "entries"]
+- !private ["SH", "fatalError"]
+- !private ["SH", "floor"]
+- !private ["SH", "granularity"]
+- !private ["SH", "granularityEnabled"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "isForceLabelsEnabled"]
+- !private ["SH", "isFullyZoomedOutY"]
+- !private ["SH", "isInfinite"]
+- !private ["SH", "labelCount"]
+- !private ["SH", "log10"]
+- !private ["SH", "pow"]
+- !private ["SH", "removeAll"]
+- !private ["SH", "reserveCapacity"]
+- !private ["SH", "stride"]
+- !private ["SH", "subscript"]
+- !private ["SH", "transformer"]
+- !private ["SH", "valueForTouchPoint"]
+- !private ["SH", "viewPortHandler"]
 - !private ["Si", "init"]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["s25LosslessStringConvertibleP", "isInfinite"]
 - !private ["s10MirrorPathP", "init"]
-- !private ["s17MutableCollectionP", "append"]
-- !private ["s17MutableCollectionP", "init"]
-- !private ["s17MutableCollectionP", "removeAll"]
-- !private ["s17MutableCollectionP", "reserveCapacity"]
-- !private ["s17MutableCollectionP", "subscript"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "append"]
+- !private ["SM", "init"]
+- !private ["SM", "removeAll"]
+- !private ["SM", "reserveCapacity"]
+- !private ["SM", "subscript"]
 - ["So8NSObjectC", "AxisBase"]
 - ["So8NSObjectC", "Bool"]
 - ["So8NSObjectC", "CGContext"]
@@ -398,49 +426,50 @@ depends-member:
 - ["So8NSObjectC", "transformer"]
 - !private ["So8NSObjectC", "valueForTouchPoint"]
 - !private ["So8NSObjectC", "viewPortHandler"]
-- !private ["So16NSObjectProtocolP", "CGPoint"]
-- !private ["So16NSObjectProtocolP", "ChartUtils"]
-- !private ["So16NSObjectProtocolP", "Double"]
-- !private ["So16NSObjectProtocolP", "Int"]
-- ["So16NSObjectProtocolP", ""]
-- !private ["So16NSObjectProtocolP", "abs"]
-- !private ["So16NSObjectProtocolP", "axis"]
-- !private ["So16NSObjectProtocolP", "ceil"]
-- !private ["So16NSObjectProtocolP", "centerAxisLabelsEnabled"]
-- !private ["So16NSObjectProtocolP", "centeredEntries"]
-- !private ["So16NSObjectProtocolP", "computeAxisValues"]
-- !private ["So16NSObjectProtocolP", "contentBottom"]
-- !private ["So16NSObjectProtocolP", "contentLeft"]
-- !private ["So16NSObjectProtocolP", "contentTop"]
-- !private ["So16NSObjectProtocolP", "contentWidth"]
-- !private ["So16NSObjectProtocolP", "decimals"]
-- !private ["So16NSObjectProtocolP", "entries"]
-- !private ["So16NSObjectProtocolP", "fatalError"]
-- !private ["So16NSObjectProtocolP", "floor"]
-- !private ["So16NSObjectProtocolP", "granularity"]
-- !private ["So16NSObjectProtocolP", "granularityEnabled"]
-- !private ["So16NSObjectProtocolP", "init"]
-- !private ["So16NSObjectProtocolP", "isForceLabelsEnabled"]
-- !private ["So16NSObjectProtocolP", "isFullyZoomedOutY"]
-- !private ["So16NSObjectProtocolP", "labelCount"]
-- !private ["So16NSObjectProtocolP", "log10"]
-- !private ["So16NSObjectProtocolP", "pow"]
-- !private ["So16NSObjectProtocolP", "stride"]
-- !private ["So16NSObjectProtocolP", "transformer"]
-- !private ["So16NSObjectProtocolP", "valueForTouchPoint"]
-- !private ["So16NSObjectProtocolP", "viewPortHandler"]
-- !private ["s7NumericP", "init"]
-- !private ["s7NumericP", "isInfinite"]
-- !private ["s22RandomAccessCollectionP", "append"]
-- !private ["s22RandomAccessCollectionP", "init"]
-- !private ["s22RandomAccessCollectionP", "removeAll"]
-- !private ["s22RandomAccessCollectionP", "reserveCapacity"]
-- !private ["s22RandomAccessCollectionP", "subscript"]
-- !private ["s26RangeReplaceableCollectionP", "append"]
-- !private ["s26RangeReplaceableCollectionP", "init"]
-- !private ["s26RangeReplaceableCollectionP", "removeAll"]
-- !private ["s26RangeReplaceableCollectionP", "reserveCapacity"]
-- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["So8NSObjectP", "CGPoint"]
+- !private ["So8NSObjectP", "ChartUtils"]
+- !private ["So8NSObjectP", "Double"]
+- !private ["So8NSObjectP", "Int"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "abs"]
+- !private ["So8NSObjectP", "axis"]
+- !private ["So8NSObjectP", "ceil"]
+- !private ["So8NSObjectP", "centerAxisLabelsEnabled"]
+- !private ["So8NSObjectP", "centeredEntries"]
+- !private ["So8NSObjectP", "computeAxisValues"]
+- !private ["So8NSObjectP", "contentBottom"]
+- !private ["So8NSObjectP", "contentLeft"]
+- !private ["So8NSObjectP", "contentTop"]
+- !private ["So8NSObjectP", "contentWidth"]
+- !private ["So8NSObjectP", "decimals"]
+- !private ["So8NSObjectP", "entries"]
+- !private ["So8NSObjectP", "fatalError"]
+- !private ["So8NSObjectP", "floor"]
+- !private ["So8NSObjectP", "granularity"]
+- !private ["So8NSObjectP", "granularityEnabled"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isForceLabelsEnabled"]
+- !private ["So8NSObjectP", "isFullyZoomedOutY"]
+- !private ["So8NSObjectP", "labelCount"]
+- !private ["So8NSObjectP", "log10"]
+- !private ["So8NSObjectP", "pow"]
+- !private ["So8NSObjectP", "stride"]
+- !private ["So8NSObjectP", "transformer"]
+- !private ["So8NSObjectP", "valueForTouchPoint"]
+- !private ["So8NSObjectP", "viewPortHandler"]
+- !private ["Sj", "init"]
+- !private ["Sj", "isInfinite"]
+- !private ["Sk", "append"]
+- !private ["Sk", "init"]
+- !private ["Sk", "removeAll"]
+- !private ["Sk", "reserveCapacity"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "append"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "removeAll"]
+- !private ["Sm", "reserveCapacity"]
+- !private ["Sm", "subscript"]
 - ["6Charts8RendererC", "AxisBase"]
 - ["6Charts8RendererC", "Bool"]
 - ["6Charts8RendererC", "CGContext"]
@@ -468,20 +497,26 @@ depends-member:
 - !private ["6Charts8RendererC", "stride"]
 - ["6Charts8RendererC", "transformer"]
 - !private ["6Charts8RendererC", "viewPortHandler"]
-- !private ["s8SequenceP", "append"]
-- !private ["s8SequenceP", "init"]
-- !private ["s8SequenceP", "removeAll"]
-- !private ["s8SequenceP", "reserveCapacity"]
-- !private ["s8SequenceP", "subscript"]
-- !private ["s13SignedIntegerP", "init"]
+- !private ["ST", "append"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "removeAll"]
+- !private ["ST", "reserveCapacity"]
+- !private ["ST", "subscript"]
+- !private ["SZ", "init"]
 - !private ["s13SignedNumericP", "init"]
 - !private ["s13SignedNumericP", "isInfinite"]
 - !private ["s12StaticStringV", "init"]
-- !private ["s10StrideableP", "init"]
-- !private ["s10StrideableP", "isInfinite"]
+- !private ["s12StaticStringV", "init"]
+- !private ["Sx", "init"]
+- !private ["Sx", "isInfinite"]
 - !private ["SS", "init"]
-- !private ["s14StringProtocolP", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
 - !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
 - !private ["s20TextOutputStreamableP", "init"]
 - !private ["6Charts11TransformerC", "valueForTouchPoint"]
 - !private ["6Charts15ViewPortHandlerC", "contentBottom"]
@@ -489,11 +524,6 @@ depends-member:
 - !private ["6Charts15ViewPortHandlerC", "contentTop"]
 - !private ["6Charts15ViewPortHandlerC", "contentWidth"]
 - !private ["6Charts15ViewPortHandlerC", "isFullyZoomedOutY"]
-- !private ["s14_ArrayProtocolP", "append"]
-- !private ["s14_ArrayProtocolP", "init"]
-- !private ["s14_ArrayProtocolP", "removeAll"]
-- !private ["s14_ArrayProtocolP", "reserveCapacity"]
-- !private ["s14_ArrayProtocolP", "subscript"]
 - !private ["s18_BitwiseOperationsP", "init"]
 - !private ["s15_CVarArgAlignedP", "init"]
 - !private ["s15_CVarArgAlignedP", "isInfinite"]
@@ -506,14 +536,25 @@ depends-member:
 - !private ["s24_DestructorSafeContainerP", "subscript"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
 - !private ["s33_ExpressibleByBuiltinFloatLiteralP", "isInfinite"]
 - !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "isInfinite"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
 - !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isInfinite"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "removeAll"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "reserveCapacity"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "CGPoint"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "ChartUtils"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "Double"]
@@ -548,34 +589,37 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - !private ["s21_ObjectiveCBridgeableP", "append"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "isInfinite"]
 - !private ["s21_ObjectiveCBridgeableP", "removeAll"]
 - !private ["s21_ObjectiveCBridgeableP", "reserveCapacity"]
 - !private ["s21_ObjectiveCBridgeableP", "subscript"]
 - !private ["s21_ObjectiveCBridgeableP", "y"]
 - !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
 depends-nominal:
 - !private "Sa"
+- !private "s13ArrayProtocolP"
 - !private "6Charts8AxisBaseC"
 - "6Charts16AxisRendererBaseC"
-- !private "s23BidirectionalCollectionP"
-- !private "s19BinaryFloatingPointP"
-- !private "s13BinaryIntegerP"
+- !private "SK"
+- !private "SB"
+- !private "Sz"
 - !private "Sb"
-- !private "SC7CGPointV"
+- !private "So7CGPointV"
 - "s7CVarArgP"
 - !private "6Charts10ChartUtilsC"
-- !private "s10CollectionP"
-- !private "s10ComparableP"
+- !private "Sl"
+- !private "SL"
 - !private "6Charts13ComponentBaseC"
 - "s28CustomDebugStringConvertibleP"
 - !private "s29CustomPlaygroundQuickLookableP"
 - !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
-- !private "s9DecodableP"
+- !private "Se"
 - !private "Sd"
-- !private "s9EncodableP"
-- "s9EquatableP"
+- !private "SE"
+- "SQ"
 - !private "s25ExpressibleByArrayLiteralP"
 - !private "s27ExpressibleByBooleanLiteralP"
 - !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
@@ -584,30 +628,29 @@ depends-nominal:
 - !private "s26ExpressibleByStringLiteralP"
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
 - !private "s17FixedWidthIntegerP"
-- !private "s13FloatingPointP"
-- "s8HashableP"
+- !private "SF"
+- "SH"
 - !private "Si"
 - !private "s25LosslessStringConvertibleP"
 - !private "s10MirrorPathP"
-- !private "s17MutableCollectionP"
+- !private "SM"
 - "So8NSObjectC"
-- "So16NSObjectProtocolP"
-- !private "s7NumericP"
-- !private "s22RandomAccessCollectionP"
-- !private "s26RangeReplaceableCollectionP"
+- "So8NSObjectP"
+- !private "Sj"
+- !private "Sk"
+- !private "Sm"
 - "6Charts8RendererC"
-- !private "s8SequenceP"
-- !private "s13SignedIntegerP"
+- !private "ST"
+- !private "SZ"
 - !private "s13SignedNumericP"
 - !private "s12StaticStringV"
-- !private "s10StrideableP"
+- !private "Sx"
 - !private "SS"
-- !private "s14StringProtocolP"
+- !private "Sy"
 - !private "s16TextOutputStreamP"
 - !private "s20TextOutputStreamableP"
 - !private "6Charts11TransformerC"
 - !private "6Charts15ViewPortHandlerC"
-- !private "s14_ArrayProtocolP"
 - !private "s18_BitwiseOperationsP"
 - !private "s15_CVarArgAlignedP"
 - !private "s22_CVarArgPassedAsDoubleP"
@@ -620,6 +663,7 @@ depends-nominal:
 - !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
 - !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - !private "s21_ObjectiveCBridgeableP"
 - !private "s16_SwiftStringViewP"
@@ -640,14 +684,15 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Users/maxim/Projects/react-native-default-example/ios/Pods/Target Support Files/Charts/Charts-umbrella.h"
 - "/Users/maxim/Projects/react-native-default-example/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Charts.build/unextended-module.modulemap"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
 interface-hash: "6fbd28b5d3ddfe418390be2982547e7e"

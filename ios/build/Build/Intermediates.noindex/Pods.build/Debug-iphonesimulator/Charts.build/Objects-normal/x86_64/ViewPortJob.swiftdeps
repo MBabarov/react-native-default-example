@@ -18,13 +18,15 @@ depends-top-level:
 - "CGPoint"
 - "ChartViewBase"
 - "Double"
+- "FloatLiteralType"
+- !private "IntegerLiteralType"
 - "NSObject"
 - !private "StringLiteralType"
 - "Transformer"
 - "ViewPortHandler"
 - "ViewPortJob"
 depends-member:
-- ["SC7CGPointV", "init"]
+- ["So7CGPointV", "init"]
 - ["s7CVarArgP", "CGPoint"]
 - ["s7CVarArgP", ""]
 - !private ["s7CVarArgP", "init"]
@@ -36,6 +38,7 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "CGPoint"]
 - ["s28CustomDebugStringConvertibleP", ""]
 - ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "transformer"]
 - !private ["s28CustomDebugStringConvertibleP", "view"]
 - !private ["s28CustomDebugStringConvertibleP", "viewPortHandler"]
@@ -43,35 +46,40 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "yValue"]
 - ["s29CustomPlaygroundQuickLookableP", "init"]
 - ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
 - ["s23CustomStringConvertibleP", "CGPoint"]
 - ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "transformer"]
 - !private ["s23CustomStringConvertibleP", "view"]
 - !private ["s23CustomStringConvertibleP", "viewPortHandler"]
 - !private ["s23CustomStringConvertibleP", "xValue"]
 - !private ["s23CustomStringConvertibleP", "yValue"]
-- ["s9DecodableP", "init"]
-- ["s9EncodableP", "init"]
-- ["s9EquatableP", "CGPoint"]
-- ["s9EquatableP", ""]
-- ["s9EquatableP", "init"]
-- !private ["s9EquatableP", "transformer"]
-- !private ["s9EquatableP", "view"]
-- !private ["s9EquatableP", "viewPortHandler"]
-- !private ["s9EquatableP", "xValue"]
-- !private ["s9EquatableP", "yValue"]
+- ["Se", "init"]
+- ["SE", "init"]
+- ["SQ", "CGPoint"]
+- ["SQ", ""]
+- ["SQ", "init"]
+- !private ["SQ", "transformer"]
+- !private ["SQ", "view"]
+- !private ["SQ", "viewPortHandler"]
+- !private ["SQ", "xValue"]
+- !private ["SQ", "yValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
-- ["s8HashableP", "CGPoint"]
-- ["s8HashableP", ""]
-- !private ["s8HashableP", "init"]
-- !private ["s8HashableP", "transformer"]
-- !private ["s8HashableP", "view"]
-- !private ["s8HashableP", "viewPortHandler"]
-- !private ["s8HashableP", "xValue"]
-- !private ["s8HashableP", "yValue"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["SH", "CGPoint"]
+- ["SH", ""]
+- !private ["SH", "init"]
+- !private ["SH", "transformer"]
+- !private ["SH", "view"]
+- !private ["SH", "viewPortHandler"]
+- !private ["SH", "xValue"]
+- !private ["SH", "yValue"]
 - ["So8NSObjectC", "CGPoint"]
 - ["So8NSObjectC", "ChartViewBase"]
 - ["So8NSObjectC", "Double"]
@@ -86,21 +94,21 @@ depends-member:
 - ["So8NSObjectC", "viewPortHandler"]
 - ["So8NSObjectC", "xValue"]
 - ["So8NSObjectC", "yValue"]
-- ["So16NSObjectProtocolP", "CGPoint"]
-- ["So16NSObjectProtocolP", ""]
-- !private ["So16NSObjectProtocolP", "init"]
-- !private ["So16NSObjectProtocolP", "transformer"]
-- !private ["So16NSObjectProtocolP", "view"]
-- !private ["So16NSObjectProtocolP", "viewPortHandler"]
-- !private ["So16NSObjectProtocolP", "xValue"]
-- !private ["So16NSObjectProtocolP", "yValue"]
+- ["So8NSObjectP", "CGPoint"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "transformer"]
+- !private ["So8NSObjectP", "view"]
+- !private ["So8NSObjectP", "viewPortHandler"]
+- !private ["So8NSObjectP", "xValue"]
+- !private ["So8NSObjectP", "yValue"]
+- !private ["s12StaticStringV", "init"]
 - !private ["s12StaticStringV", "init"]
 - ["6Charts11ViewPortJobC", "CGPoint"]
 - ["6Charts11ViewPortJobC", "ChartViewBase"]
 - ["6Charts11ViewPortJobC", "Double"]
 - ["6Charts11ViewPortJobC", "Transformer"]
 - ["6Charts11ViewPortJobC", "ViewPortHandler"]
-- ["6Charts11ViewPortJobC", "deinit"]
 - ["6Charts11ViewPortJobC", "doJob"]
 - ["6Charts11ViewPortJobC", "init"]
 - ["6Charts11ViewPortJobC", "point"]
@@ -110,7 +118,10 @@ depends-member:
 - ["6Charts11ViewPortJobC", "xValue"]
 - ["6Charts11ViewPortJobC", "yValue"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "CGPoint"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
@@ -122,21 +133,21 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "yValue"]
 - ["s21_ObjectiveCBridgeableP", "init"]
 depends-nominal:
-- "SC7CGPointV"
+- "So7CGPointV"
 - "s7CVarArgP"
 - "s28CustomDebugStringConvertibleP"
 - "s29CustomPlaygroundQuickLookableP"
 - "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
-- "s9DecodableP"
-- "s9EncodableP"
-- "s9EquatableP"
+- "Se"
+- "SE"
+- "SQ"
 - !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s26ExpressibleByStringLiteralP"
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
-- "s8HashableP"
+- "SH"
 - "So8NSObjectC"
-- "So16NSObjectProtocolP"
+- "So8NSObjectP"
 - !private "s12StaticStringV"
 - "6Charts11ViewPortJobC"
 - !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
@@ -161,14 +172,15 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Users/maxim/Projects/react-native-default-example/ios/Pods/Target Support Files/Charts/Charts-umbrella.h"
 - "/Users/maxim/Projects/react-native-default-example/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Charts.build/unextended-module.modulemap"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
 interface-hash: "6a8d1de5e4eb39ad8e7b5e7d6029bef4"

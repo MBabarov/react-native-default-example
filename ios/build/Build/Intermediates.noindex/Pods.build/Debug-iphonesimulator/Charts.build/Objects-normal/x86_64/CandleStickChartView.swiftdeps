@@ -16,6 +16,7 @@ depends-top-level:
 - !private "CandleStickChartRenderer"
 - "CandleStickChartView"
 - "CastingPrecedence"
+- !private "FloatLiteralType"
 depends-member:
 - !private ["6Charts16AnimatorDelegateP", "CandleStickChartRenderer"]
 - ["6Charts16AnimatorDelegateP", ""]
@@ -23,6 +24,7 @@ depends-member:
 - !private ["6Charts16AnimatorDelegateP", "_data"]
 - !private ["6Charts16AnimatorDelegateP", "_viewPortHandler"]
 - ["6Charts16AnimatorDelegateP", "candleData"]
+- !private ["6Charts16AnimatorDelegateP", "init"]
 - !private ["6Charts16AnimatorDelegateP", "init"]
 - !private ["6Charts16AnimatorDelegateP", "initialize"]
 - !private ["6Charts16AnimatorDelegateP", "renderer"]
@@ -36,7 +38,9 @@ depends-member:
 - !private ["6Charts20BarLineChartViewBaseC", "_data"]
 - !private ["6Charts20BarLineChartViewBaseC", "_viewPortHandler"]
 - ["6Charts20BarLineChartViewBaseC", "candleData"]
+- !private ["6Charts20BarLineChartViewBaseC", "deinit"]
 - ["6Charts20BarLineChartViewBaseC", "init"]
+- !private ["6Charts20BarLineChartViewBaseC", "init"]
 - ["6Charts20BarLineChartViewBaseC", "initialize"]
 - !private ["6Charts20BarLineChartViewBaseC", "renderer"]
 - !private ["6Charts20BarLineChartViewBaseC", "xAxis"]
@@ -46,6 +50,7 @@ depends-member:
 - !private ["6Charts43BarLineScatterCandleBubbleChartDataProviderP", "_data"]
 - !private ["6Charts43BarLineScatterCandleBubbleChartDataProviderP", "_viewPortHandler"]
 - ["6Charts43BarLineScatterCandleBubbleChartDataProviderP", "candleData"]
+- !private ["6Charts43BarLineScatterCandleBubbleChartDataProviderP", "init"]
 - !private ["6Charts43BarLineScatterCandleBubbleChartDataProviderP", "init"]
 - !private ["6Charts43BarLineScatterCandleBubbleChartDataProviderP", "initialize"]
 - !private ["6Charts43BarLineScatterCandleBubbleChartDataProviderP", "renderer"]
@@ -57,6 +62,7 @@ depends-member:
 - !private ["So15CALayerDelegateP", "_viewPortHandler"]
 - ["So15CALayerDelegateP", "candleData"]
 - !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "init"]
 - !private ["So15CALayerDelegateP", "initialize"]
 - !private ["So15CALayerDelegateP", "renderer"]
 - !private ["So15CALayerDelegateP", "xAxis"]
@@ -66,6 +72,7 @@ depends-member:
 - !private ["s7CVarArgP", "_data"]
 - !private ["s7CVarArgP", "_viewPortHandler"]
 - ["s7CVarArgP", "candleData"]
+- !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "initialize"]
 - !private ["s7CVarArgP", "renderer"]
@@ -99,6 +106,7 @@ depends-member:
 - !private ["6Charts17ChartDataProviderP", "_viewPortHandler"]
 - ["6Charts17ChartDataProviderP", "candleData"]
 - !private ["6Charts17ChartDataProviderP", "init"]
+- !private ["6Charts17ChartDataProviderP", "init"]
 - !private ["6Charts17ChartDataProviderP", "initialize"]
 - !private ["6Charts17ChartDataProviderP", "renderer"]
 - !private ["6Charts17ChartDataProviderP", "xAxis"]
@@ -109,6 +117,7 @@ depends-member:
 - !private ["6Charts13ChartViewBaseC", "_viewPortHandler"]
 - ["6Charts13ChartViewBaseC", "candleData"]
 - ["6Charts13ChartViewBaseC", "init"]
+- !private ["6Charts13ChartViewBaseC", "init"]
 - ["6Charts13ChartViewBaseC", "initialize"]
 - !private ["6Charts13ChartViewBaseC", "renderer"]
 - !private ["6Charts13ChartViewBaseC", "xAxis"]
@@ -120,6 +129,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "_data"]
 - !private ["s28CustomDebugStringConvertibleP", "_viewPortHandler"]
 - ["s28CustomDebugStringConvertibleP", "candleData"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "initialize"]
 - !private ["s28CustomDebugStringConvertibleP", "renderer"]
@@ -133,41 +143,45 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "_viewPortHandler"]
 - ["s23CustomStringConvertibleP", "candleData"]
 - !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "initialize"]
 - !private ["s23CustomStringConvertibleP", "renderer"]
 - !private ["s23CustomStringConvertibleP", "spaceMax"]
 - !private ["s23CustomStringConvertibleP", "spaceMin"]
 - !private ["s23CustomStringConvertibleP", "xAxis"]
-- !private ["s9EquatableP", "CandleStickChartRenderer"]
-- ["s9EquatableP", ""]
-- !private ["s9EquatableP", "_animator"]
-- !private ["s9EquatableP", "_data"]
-- !private ["s9EquatableP", "_viewPortHandler"]
-- ["s9EquatableP", "candleData"]
-- !private ["s9EquatableP", "init"]
-- !private ["s9EquatableP", "initialize"]
-- !private ["s9EquatableP", "renderer"]
-- !private ["s9EquatableP", "spaceMax"]
-- !private ["s9EquatableP", "spaceMin"]
-- !private ["s9EquatableP", "xAxis"]
-- !private ["s8HashableP", "CandleStickChartRenderer"]
-- ["s8HashableP", ""]
-- !private ["s8HashableP", "_animator"]
-- !private ["s8HashableP", "_data"]
-- !private ["s8HashableP", "_viewPortHandler"]
-- ["s8HashableP", "candleData"]
-- !private ["s8HashableP", "init"]
-- !private ["s8HashableP", "initialize"]
-- !private ["s8HashableP", "renderer"]
-- !private ["s8HashableP", "spaceMax"]
-- !private ["s8HashableP", "spaceMin"]
-- !private ["s8HashableP", "xAxis"]
+- !private ["SQ", "CandleStickChartRenderer"]
+- ["SQ", ""]
+- !private ["SQ", "_animator"]
+- !private ["SQ", "_data"]
+- !private ["SQ", "_viewPortHandler"]
+- ["SQ", "candleData"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "initialize"]
+- !private ["SQ", "renderer"]
+- !private ["SQ", "spaceMax"]
+- !private ["SQ", "spaceMin"]
+- !private ["SQ", "xAxis"]
+- !private ["SH", "CandleStickChartRenderer"]
+- ["SH", ""]
+- !private ["SH", "_animator"]
+- !private ["SH", "_data"]
+- !private ["SH", "_viewPortHandler"]
+- ["SH", "candleData"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "initialize"]
+- !private ["SH", "renderer"]
+- !private ["SH", "spaceMax"]
+- !private ["SH", "spaceMin"]
+- !private ["SH", "xAxis"]
 - !private ["So8NSCodingP", "CandleStickChartRenderer"]
 - ["So8NSCodingP", ""]
 - !private ["So8NSCodingP", "_animator"]
 - !private ["So8NSCodingP", "_data"]
 - !private ["So8NSCodingP", "_viewPortHandler"]
 - ["So8NSCodingP", "candleData"]
+- !private ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "initialize"]
 - !private ["So8NSCodingP", "renderer"]
@@ -179,23 +193,25 @@ depends-member:
 - !private ["So8NSObjectC", "_viewPortHandler"]
 - ["So8NSObjectC", "candleData"]
 - ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
 - ["So8NSObjectC", "initialize"]
 - !private ["So8NSObjectC", "renderer"]
 - !private ["So8NSObjectC", "spaceMax"]
 - !private ["So8NSObjectC", "spaceMin"]
 - !private ["So8NSObjectC", "xAxis"]
-- !private ["So16NSObjectProtocolP", "CandleStickChartRenderer"]
-- ["So16NSObjectProtocolP", ""]
-- !private ["So16NSObjectProtocolP", "_animator"]
-- !private ["So16NSObjectProtocolP", "_data"]
-- !private ["So16NSObjectProtocolP", "_viewPortHandler"]
-- ["So16NSObjectProtocolP", "candleData"]
-- !private ["So16NSObjectProtocolP", "init"]
-- !private ["So16NSObjectProtocolP", "initialize"]
-- !private ["So16NSObjectProtocolP", "renderer"]
-- !private ["So16NSObjectProtocolP", "spaceMax"]
-- !private ["So16NSObjectProtocolP", "spaceMin"]
-- !private ["So16NSObjectProtocolP", "xAxis"]
+- !private ["So8NSObjectP", "CandleStickChartRenderer"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "_animator"]
+- !private ["So8NSObjectP", "_data"]
+- !private ["So8NSObjectP", "_viewPortHandler"]
+- ["So8NSObjectP", "candleData"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "initialize"]
+- !private ["So8NSObjectP", "renderer"]
+- !private ["So8NSObjectP", "spaceMax"]
+- !private ["So8NSObjectP", "spaceMin"]
+- !private ["So8NSObjectP", "xAxis"]
 - ["6Charts8NSUIViewC", "CandleChartData"]
 - !private ["6Charts8NSUIViewC", "CandleStickChartRenderer"]
 - !private ["6Charts8NSUIViewC", "_animator"]
@@ -203,6 +219,7 @@ depends-member:
 - !private ["6Charts8NSUIViewC", "_viewPortHandler"]
 - ["6Charts8NSUIViewC", "candleData"]
 - ["6Charts8NSUIViewC", "init"]
+- !private ["6Charts8NSUIViewC", "init"]
 - ["6Charts8NSUIViewC", "initialize"]
 - !private ["6Charts8NSUIViewC", "renderer"]
 - !private ["6Charts8NSUIViewC", "xAxis"]
@@ -212,6 +229,7 @@ depends-member:
 - !private ["So29UIAccessibilityIdentificationP", "_data"]
 - !private ["So29UIAccessibilityIdentificationP", "_viewPortHandler"]
 - ["So29UIAccessibilityIdentificationP", "candleData"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
 - !private ["So29UIAccessibilityIdentificationP", "init"]
 - !private ["So29UIAccessibilityIdentificationP", "initialize"]
 - !private ["So29UIAccessibilityIdentificationP", "renderer"]
@@ -223,6 +241,7 @@ depends-member:
 - !private ["So12UIAppearanceP", "_viewPortHandler"]
 - ["So12UIAppearanceP", "candleData"]
 - !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "init"]
 - !private ["So12UIAppearanceP", "initialize"]
 - !private ["So12UIAppearanceP", "renderer"]
 - !private ["So12UIAppearanceP", "xAxis"]
@@ -232,6 +251,7 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "_data"]
 - !private ["So21UIAppearanceContainerP", "_viewPortHandler"]
 - ["So21UIAppearanceContainerP", "candleData"]
+- !private ["So21UIAppearanceContainerP", "init"]
 - !private ["So21UIAppearanceContainerP", "init"]
 - !private ["So21UIAppearanceContainerP", "initialize"]
 - !private ["So21UIAppearanceContainerP", "renderer"]
@@ -243,6 +263,7 @@ depends-member:
 - !private ["So17UICoordinateSpaceP", "_viewPortHandler"]
 - ["So17UICoordinateSpaceP", "candleData"]
 - !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "init"]
 - !private ["So17UICoordinateSpaceP", "initialize"]
 - !private ["So17UICoordinateSpaceP", "renderer"]
 - !private ["So17UICoordinateSpaceP", "xAxis"]
@@ -252,6 +273,7 @@ depends-member:
 - !private ["So13UIDynamicItemP", "_data"]
 - !private ["So13UIDynamicItemP", "_viewPortHandler"]
 - ["So13UIDynamicItemP", "candleData"]
+- !private ["So13UIDynamicItemP", "init"]
 - !private ["So13UIDynamicItemP", "init"]
 - !private ["So13UIDynamicItemP", "initialize"]
 - !private ["So13UIDynamicItemP", "renderer"]
@@ -263,6 +285,7 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "_viewPortHandler"]
 - ["So18UIFocusEnvironmentP", "candleData"]
 - !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "init"]
 - !private ["So18UIFocusEnvironmentP", "initialize"]
 - !private ["So18UIFocusEnvironmentP", "renderer"]
 - !private ["So18UIFocusEnvironmentP", "xAxis"]
@@ -273,15 +296,28 @@ depends-member:
 - !private ["So11UIFocusItemP", "_viewPortHandler"]
 - ["So11UIFocusItemP", "candleData"]
 - !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "init"]
 - !private ["So11UIFocusItemP", "initialize"]
 - !private ["So11UIFocusItemP", "renderer"]
 - !private ["So11UIFocusItemP", "xAxis"]
+- !private ["So20UIFocusItemContainerP", "CandleStickChartRenderer"]
+- ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "_animator"]
+- !private ["So20UIFocusItemContainerP", "_data"]
+- !private ["So20UIFocusItemContainerP", "_viewPortHandler"]
+- ["So20UIFocusItemContainerP", "candleData"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "initialize"]
+- !private ["So20UIFocusItemContainerP", "renderer"]
+- !private ["So20UIFocusItemContainerP", "xAxis"]
 - !private ["So27UIGestureRecognizerDelegateP", "CandleStickChartRenderer"]
 - ["So27UIGestureRecognizerDelegateP", ""]
 - !private ["So27UIGestureRecognizerDelegateP", "_animator"]
 - !private ["So27UIGestureRecognizerDelegateP", "_data"]
 - !private ["So27UIGestureRecognizerDelegateP", "_viewPortHandler"]
 - ["So27UIGestureRecognizerDelegateP", "candleData"]
+- !private ["So27UIGestureRecognizerDelegateP", "init"]
 - !private ["So27UIGestureRecognizerDelegateP", "init"]
 - !private ["So27UIGestureRecognizerDelegateP", "initialize"]
 - !private ["So27UIGestureRecognizerDelegateP", "renderer"]
@@ -293,6 +329,7 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "_viewPortHandler"]
 - ["So30UIPasteConfigurationSupportingP", "candleData"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
 - !private ["So30UIPasteConfigurationSupportingP", "initialize"]
 - !private ["So30UIPasteConfigurationSupportingP", "renderer"]
 - !private ["So30UIPasteConfigurationSupportingP", "xAxis"]
@@ -303,6 +340,7 @@ depends-member:
 - !private ["So11UIResponderC", "_viewPortHandler"]
 - ["So11UIResponderC", "candleData"]
 - ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "init"]
 - ["So11UIResponderC", "initialize"]
 - !private ["So11UIResponderC", "renderer"]
 - !private ["So11UIResponderC", "xAxis"]
@@ -312,6 +350,7 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "_data"]
 - !private ["So30UIResponderStandardEditActionsP", "_viewPortHandler"]
 - ["So30UIResponderStandardEditActionsP", "candleData"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
 - !private ["So30UIResponderStandardEditActionsP", "initialize"]
 - !private ["So30UIResponderStandardEditActionsP", "renderer"]
@@ -323,9 +362,21 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "_viewPortHandler"]
 - ["So18UITraitEnvironmentP", "candleData"]
 - !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "init"]
 - !private ["So18UITraitEnvironmentP", "initialize"]
 - !private ["So18UITraitEnvironmentP", "renderer"]
 - !private ["So18UITraitEnvironmentP", "xAxis"]
+- !private ["So23UIUserActivityRestoringP", "CandleStickChartRenderer"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "_animator"]
+- !private ["So23UIUserActivityRestoringP", "_data"]
+- !private ["So23UIUserActivityRestoringP", "_viewPortHandler"]
+- ["So23UIUserActivityRestoringP", "candleData"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "initialize"]
+- !private ["So23UIUserActivityRestoringP", "renderer"]
+- !private ["So23UIUserActivityRestoringP", "xAxis"]
 - ["So6UIViewC", "CandleChartData"]
 - !private ["So6UIViewC", "CandleStickChartRenderer"]
 - !private ["So6UIViewC", "_animator"]
@@ -333,6 +384,7 @@ depends-member:
 - !private ["So6UIViewC", "_viewPortHandler"]
 - ["So6UIViewC", "candleData"]
 - ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "init"]
 - ["So6UIViewC", "initialize"]
 - !private ["So6UIViewC", "renderer"]
 - !private ["So6UIViewC", "xAxis"]
@@ -345,6 +397,7 @@ depends-member:
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "_viewPortHandler"]
 - ["s37_DefaultCustomPlaygroundQuickLookableP", "candleData"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "initialize"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "renderer"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "xAxis"]
@@ -354,6 +407,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "_data"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "_viewPortHandler"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "candleData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "initialize"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "renderer"]
@@ -375,11 +429,11 @@ depends-nominal:
 - !private "6Charts13ComponentBaseC"
 - "s28CustomDebugStringConvertibleP"
 - "s23CustomStringConvertibleP"
-- "s9EquatableP"
-- "s8HashableP"
+- "SQ"
+- "SH"
 - "So8NSCodingP"
 - "So8NSObjectC"
-- "So16NSObjectProtocolP"
+- "So8NSObjectP"
 - "6Charts8NSUIViewC"
 - "So29UIAccessibilityIdentificationP"
 - "So12UIAppearanceP"
@@ -388,11 +442,13 @@ depends-nominal:
 - "So13UIDynamicItemP"
 - "So18UIFocusEnvironmentP"
 - "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
 - "So27UIGestureRecognizerDelegateP"
 - "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
 - "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
 - "So6UIViewC"
 - !private "6Charts5XAxisC"
 - "s37_DefaultCustomPlaygroundQuickLookableP"
@@ -414,14 +470,15 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Users/maxim/Projects/react-native-default-example/ios/Pods/Target Support Files/Charts/Charts-umbrella.h"
 - "/Users/maxim/Projects/react-native-default-example/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Charts.build/unextended-module.modulemap"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
 interface-hash: "869d285e33ab638cc9eda31b499981f2"

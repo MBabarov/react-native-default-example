@@ -32,6 +32,7 @@ depends-top-level:
 - "CandleChartDataSet"
 - "CastingPrecedence"
 - "ChartDataEntry"
+- "FloatLiteralType"
 - "ICandleChartDataSet"
 - "LineScatterCandleRadarChartDataSet"
 - "NSUIColor"
@@ -64,7 +65,7 @@ depends-member:
 - ["6Charts38BarLineScatterCandleBubbleChartDataSetC", "shadowColorSameAsCandle"]
 - ["6Charts38BarLineScatterCandleBubbleChartDataSetC", "shadowWidth"]
 - ["6Charts38BarLineScatterCandleBubbleChartDataSetC", "showCandleBar"]
-- ["s19BinaryFloatingPointP", "init"]
+- ["SB", "init"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - ["12CoreGraphics7CGFloatV", "init"]
 - ["s7CVarArgP", "CGFloat"]
@@ -175,7 +176,7 @@ depends-member:
 - ["6Charts12ChartDataSetC", "shadowColorSameAsCandle"]
 - ["6Charts12ChartDataSetC", "shadowWidth"]
 - ["6Charts12ChartDataSetC", "showCandleBar"]
-- ["s10ComparableP", "init"]
+- ["SL", "init"]
 - ["s28CustomDebugStringConvertibleP", "CGFloat"]
 - ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "_barSpace"]
@@ -189,6 +190,7 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "increasingColor"]
 - ["s28CustomDebugStringConvertibleP", "increasingFilled"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
 - ["s28CustomDebugStringConvertibleP", "isDecreasingFilled"]
 - ["s28CustomDebugStringConvertibleP", "isIncreasingFilled"]
 - ["s28CustomDebugStringConvertibleP", "isShadowColorSameAsCandle"]
@@ -201,6 +203,7 @@ depends-member:
 - !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
 - !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
 - ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
 - ["s23CustomStringConvertibleP", "CGFloat"]
 - ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "_barSpace"]
@@ -215,6 +218,7 @@ depends-member:
 - ["s23CustomStringConvertibleP", "increasingColor"]
 - ["s23CustomStringConvertibleP", "increasingFilled"]
 - ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
 - ["s23CustomStringConvertibleP", "isDecreasingFilled"]
 - ["s23CustomStringConvertibleP", "isIncreasingFilled"]
 - ["s23CustomStringConvertibleP", "isShadowColorSameAsCandle"]
@@ -224,63 +228,66 @@ depends-member:
 - ["s23CustomStringConvertibleP", "shadowColorSameAsCandle"]
 - ["s23CustomStringConvertibleP", "shadowWidth"]
 - ["s23CustomStringConvertibleP", "showCandleBar"]
-- !private ["s9DecodableP", "_getBuiltinLogicValue"]
-- ["s9DecodableP", "init"]
-- !private ["s9EncodableP", "_getBuiltinLogicValue"]
-- ["s9EncodableP", "init"]
-- ["s9EquatableP", "CGFloat"]
-- ["s9EquatableP", ""]
-- !private ["s9EquatableP", "_barSpace"]
-- !private ["s9EquatableP", "_getBuiltinLogicValue"]
-- !private ["s9EquatableP", "_yMax"]
-- !private ["s9EquatableP", "_yMin"]
-- ["s9EquatableP", "barSpace"]
-- !private ["s9EquatableP", "calcMinMaxX"]
-- ["s9EquatableP", "decreasingColor"]
-- ["s9EquatableP", "decreasingFilled"]
-- !private ["s9EquatableP", "high"]
-- ["s9EquatableP", "increasingColor"]
-- ["s9EquatableP", "increasingFilled"]
-- ["s9EquatableP", "init"]
-- ["s9EquatableP", "isDecreasingFilled"]
-- ["s9EquatableP", "isIncreasingFilled"]
-- ["s9EquatableP", "isShadowColorSameAsCandle"]
-- !private ["s9EquatableP", "low"]
-- ["s9EquatableP", "neutralColor"]
-- ["s9EquatableP", "shadowColor"]
-- ["s9EquatableP", "shadowColorSameAsCandle"]
-- ["s9EquatableP", "shadowWidth"]
-- ["s9EquatableP", "showCandleBar"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- ["Se", "init"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- ["SE", "init"]
+- ["SQ", "CGFloat"]
+- ["SQ", ""]
+- !private ["SQ", "_barSpace"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "_yMax"]
+- !private ["SQ", "_yMin"]
+- ["SQ", "barSpace"]
+- !private ["SQ", "calcMinMaxX"]
+- ["SQ", "decreasingColor"]
+- ["SQ", "decreasingFilled"]
+- !private ["SQ", "high"]
+- ["SQ", "increasingColor"]
+- ["SQ", "increasingFilled"]
+- ["SQ", "init"]
+- ["SQ", "isDecreasingFilled"]
+- ["SQ", "isIncreasingFilled"]
+- ["SQ", "isShadowColorSameAsCandle"]
+- !private ["SQ", "low"]
+- ["SQ", "neutralColor"]
+- ["SQ", "shadowColor"]
+- ["SQ", "shadowColorSameAsCandle"]
+- ["SQ", "shadowWidth"]
+- ["SQ", "showCandleBar"]
 - !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - ["s25ExpressibleByFloatLiteralP", "init"]
 - ["s27ExpressibleByIntegerLiteralP", "init"]
 - !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
-- ["s13FloatingPointP", "init"]
-- ["s8HashableP", "CGFloat"]
-- ["s8HashableP", ""]
-- !private ["s8HashableP", "_barSpace"]
-- !private ["s8HashableP", "_getBuiltinLogicValue"]
-- !private ["s8HashableP", "_yMax"]
-- !private ["s8HashableP", "_yMin"]
-- ["s8HashableP", "barSpace"]
-- !private ["s8HashableP", "calcMinMaxX"]
-- ["s8HashableP", "decreasingColor"]
-- ["s8HashableP", "decreasingFilled"]
-- !private ["s8HashableP", "high"]
-- ["s8HashableP", "increasingColor"]
-- ["s8HashableP", "increasingFilled"]
-- ["s8HashableP", "init"]
-- ["s8HashableP", "isDecreasingFilled"]
-- ["s8HashableP", "isIncreasingFilled"]
-- ["s8HashableP", "isShadowColorSameAsCandle"]
-- !private ["s8HashableP", "low"]
-- ["s8HashableP", "neutralColor"]
-- ["s8HashableP", "shadowColor"]
-- ["s8HashableP", "shadowColorSameAsCandle"]
-- ["s8HashableP", "shadowWidth"]
-- ["s8HashableP", "showCandleBar"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["SF", "init"]
+- ["SH", "CGFloat"]
+- ["SH", ""]
+- !private ["SH", "_barSpace"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "_yMax"]
+- !private ["SH", "_yMin"]
+- ["SH", "barSpace"]
+- !private ["SH", "calcMinMaxX"]
+- ["SH", "decreasingColor"]
+- ["SH", "decreasingFilled"]
+- !private ["SH", "high"]
+- ["SH", "increasingColor"]
+- ["SH", "increasingFilled"]
+- ["SH", "init"]
+- ["SH", "isDecreasingFilled"]
+- ["SH", "isIncreasingFilled"]
+- ["SH", "isShadowColorSameAsCandle"]
+- !private ["SH", "low"]
+- ["SH", "neutralColor"]
+- ["SH", "shadowColor"]
+- ["SH", "shadowColorSameAsCandle"]
+- ["SH", "shadowWidth"]
+- ["SH", "showCandleBar"]
 - ["6Charts39IBarLineScatterCandleBubbleChartDataSetP", "CGFloat"]
 - ["6Charts39IBarLineScatterCandleBubbleChartDataSetP", ""]
 - !private ["6Charts39IBarLineScatterCandleBubbleChartDataSetP", "_barSpace"]
@@ -416,37 +423,41 @@ depends-member:
 - ["So8NSObjectC", "shadowColorSameAsCandle"]
 - ["So8NSObjectC", "shadowWidth"]
 - ["So8NSObjectC", "showCandleBar"]
-- ["So16NSObjectProtocolP", "CGFloat"]
-- ["So16NSObjectProtocolP", ""]
-- !private ["So16NSObjectProtocolP", "_barSpace"]
-- !private ["So16NSObjectProtocolP", "_yMax"]
-- !private ["So16NSObjectProtocolP", "_yMin"]
-- ["So16NSObjectProtocolP", "barSpace"]
-- !private ["So16NSObjectProtocolP", "calcMinMaxX"]
-- ["So16NSObjectProtocolP", "decreasingColor"]
-- ["So16NSObjectProtocolP", "decreasingFilled"]
-- !private ["So16NSObjectProtocolP", "high"]
-- ["So16NSObjectProtocolP", "increasingColor"]
-- ["So16NSObjectProtocolP", "increasingFilled"]
-- !private ["So16NSObjectProtocolP", "init"]
-- ["So16NSObjectProtocolP", "isDecreasingFilled"]
-- ["So16NSObjectProtocolP", "isIncreasingFilled"]
-- ["So16NSObjectProtocolP", "isShadowColorSameAsCandle"]
-- !private ["So16NSObjectProtocolP", "low"]
-- ["So16NSObjectProtocolP", "neutralColor"]
-- ["So16NSObjectProtocolP", "shadowColor"]
-- ["So16NSObjectProtocolP", "shadowColorSameAsCandle"]
-- ["So16NSObjectProtocolP", "shadowWidth"]
-- ["So16NSObjectProtocolP", "showCandleBar"]
-- ["s7NumericP", "init"]
+- ["So8NSObjectP", "CGFloat"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "_barSpace"]
+- !private ["So8NSObjectP", "_yMax"]
+- !private ["So8NSObjectP", "_yMin"]
+- ["So8NSObjectP", "barSpace"]
+- !private ["So8NSObjectP", "calcMinMaxX"]
+- ["So8NSObjectP", "decreasingColor"]
+- ["So8NSObjectP", "decreasingFilled"]
+- !private ["So8NSObjectP", "high"]
+- ["So8NSObjectP", "increasingColor"]
+- ["So8NSObjectP", "increasingFilled"]
+- !private ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "isDecreasingFilled"]
+- ["So8NSObjectP", "isIncreasingFilled"]
+- ["So8NSObjectP", "isShadowColorSameAsCandle"]
+- !private ["So8NSObjectP", "low"]
+- ["So8NSObjectP", "neutralColor"]
+- ["So8NSObjectP", "shadowColor"]
+- ["So8NSObjectP", "shadowColorSameAsCandle"]
+- ["So8NSObjectP", "shadowWidth"]
+- ["So8NSObjectP", "showCandleBar"]
+- ["Sj", "init"]
 - ["s13SignedNumericP", "init"]
 - !private ["s12StaticStringV", "init"]
-- ["s10StrideableP", "init"]
+- !private ["s12StaticStringV", "init"]
+- ["Sx", "init"]
 - ["s15_CVarArgAlignedP", "init"]
 - ["s22_CVarArgPassedAsDoubleP", "init"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "CGFloat"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
@@ -474,7 +485,7 @@ depends-member:
 - ["s21_ObjectiveCBridgeableP", "init"]
 depends-nominal:
 - "6Charts38BarLineScatterCandleBubbleChartDataSetC"
-- "s19BinaryFloatingPointP"
+- "SB"
 - !private "Sb"
 - "12CoreGraphics7CGFloatV"
 - "s7CVarArgP"
@@ -484,22 +495,22 @@ depends-nominal:
 - !private "6Charts14ChartDataEntryC"
 - !private "6Charts18ChartDataEntryBaseC"
 - "6Charts12ChartDataSetC"
-- "s10ComparableP"
+- "SL"
 - "s28CustomDebugStringConvertibleP"
 - !private "s29CustomPlaygroundQuickLookableP"
 - "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
-- "s9DecodableP"
-- "s9EncodableP"
-- "s9EquatableP"
+- "Se"
+- "SE"
+- "SQ"
 - !private "s27ExpressibleByBooleanLiteralP"
 - !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - "s25ExpressibleByFloatLiteralP"
 - "s27ExpressibleByIntegerLiteralP"
 - !private "s26ExpressibleByStringLiteralP"
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
-- "s13FloatingPointP"
-- "s8HashableP"
+- "SF"
+- "SH"
 - "6Charts39IBarLineScatterCandleBubbleChartDataSetP"
 - "6Charts19ICandleChartDataSetP"
 - "6Charts13IChartDataSetP"
@@ -507,11 +518,11 @@ depends-nominal:
 - "6Charts34LineScatterCandleRadarChartDataSetC"
 - !private "s25LosslessStringConvertibleP"
 - "So8NSObjectC"
-- "So16NSObjectProtocolP"
-- "s7NumericP"
+- "So8NSObjectP"
+- "Sj"
 - "s13SignedNumericP"
 - !private "s12StaticStringV"
-- "s10StrideableP"
+- "Sx"
 - "s15_CVarArgAlignedP"
 - "s22_CVarArgPassedAsDoubleP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
@@ -537,14 +548,15 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Users/maxim/Projects/react-native-default-example/ios/Pods/Target Support Files/Charts/Charts-umbrella.h"
 - "/Users/maxim/Projects/react-native-default-example/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Charts.build/unextended-module.modulemap"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
 interface-hash: "b8903b7379e4edf6f14a590f2bb597e8"

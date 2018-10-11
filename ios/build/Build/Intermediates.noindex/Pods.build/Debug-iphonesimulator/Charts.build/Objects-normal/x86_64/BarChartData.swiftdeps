@@ -24,8 +24,10 @@ depends-top-level:
 - "BarLineScatterCandleBubbleChartData"
 - "CastingPrecedence"
 - "Double"
+- "FloatLiteralType"
 - !private "IBarChartDataSet"
 - "IChartDataSet"
+- !private "IntegerLiteralType"
 - !private "StringLiteralType"
 - !private "UnicodeScalarType"
 - !private "print"
@@ -33,12 +35,12 @@ depends-top-level:
 - !private "||"
 depends-member:
 - !private ["Sa", "count"]
+- !private ["s13ArrayProtocolP", "count"]
 - ["6Charts12BarChartDataC", "Double"]
 - !private ["6Charts12BarChartDataC", "IBarChartDataSet"]
 - ["6Charts12BarChartDataC", "IChartDataSet"]
 - !private ["6Charts12BarChartDataC", "_dataSets"]
 - ["6Charts12BarChartDataC", "barWidth"]
-- ["6Charts12BarChartDataC", "deinit"]
 - ["6Charts12BarChartDataC", "groupBars"]
 - ["6Charts12BarChartDataC", "groupWidth"]
 - ["6Charts12BarChartDataC", "init"]
@@ -59,9 +61,10 @@ depends-member:
 - !private ["6Charts35BarLineScatterCandleBubbleChartDataC", "notifyDataChanged"]
 - !private ["6Charts35BarLineScatterCandleBubbleChartDataC", "print"]
 - !private ["6Charts35BarLineScatterCandleBubbleChartDataC", "stride"]
-- !private ["s23BidirectionalCollectionP", "count"]
-- !private ["s23BidirectionalCollectionP", "init"]
-- ["s19BinaryFloatingPointP", "init"]
+- !private ["SK", "count"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- ["SB", "init"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - ["s7CVarArgP", "Double"]
 - ["s7CVarArgP", ""]
@@ -71,6 +74,7 @@ depends-member:
 - !private ["s7CVarArgP", "count"]
 - !private ["s7CVarArgP", "groupWidth"]
 - ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "maxEntryCountSet"]
 - !private ["s7CVarArgP", "notifyDataChanged"]
 - !private ["s7CVarArgP", "print"]
@@ -90,9 +94,11 @@ depends-member:
 - !private ["6Charts9ChartDataC", "stride"]
 - !private ["6Charts14ChartDataEntryC", "x"]
 - !private ["6Charts18ChartDataEntryBaseC", "x"]
-- !private ["s10CollectionP", "count"]
-- !private ["s10CollectionP", "init"]
-- ["s10ComparableP", "init"]
+- !private ["Sl", "count"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- ["SL", "init"]
+- !private ["SL", "init"]
 - ["s28CustomDebugStringConvertibleP", "Double"]
 - ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "_dataSets"]
@@ -100,6 +106,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "count"]
 - !private ["s28CustomDebugStringConvertibleP", "groupWidth"]
 - ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "maxEntryCountSet"]
 - !private ["s28CustomDebugStringConvertibleP", "notifyDataChanged"]
 - !private ["s28CustomDebugStringConvertibleP", "print"]
@@ -107,9 +114,11 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "x"]
 - !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
 - ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
 - !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
 - !private ["s17CustomReflectableP", "count"]
 - ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
 - ["s23CustomStringConvertibleP", "Double"]
 - ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "_dataSets"]
@@ -118,51 +127,60 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "count"]
 - !private ["s23CustomStringConvertibleP", "groupWidth"]
 - ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "maxEntryCountSet"]
 - !private ["s23CustomStringConvertibleP", "notifyDataChanged"]
 - !private ["s23CustomStringConvertibleP", "print"]
 - !private ["s23CustomStringConvertibleP", "stride"]
 - !private ["s23CustomStringConvertibleP", "x"]
-- !private ["s9DecodableP", "_getBuiltinLogicValue"]
-- !private ["s9DecodableP", "count"]
-- ["s9DecodableP", "init"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "count"]
+- ["Se", "init"]
+- !private ["Se", "init"]
 - ["Sd", "init"]
-- !private ["s9EncodableP", "_getBuiltinLogicValue"]
-- !private ["s9EncodableP", "count"]
-- ["s9EncodableP", "init"]
-- ["s9EquatableP", "Double"]
-- ["s9EquatableP", ""]
-- !private ["s9EquatableP", "_dataSets"]
-- !private ["s9EquatableP", "_getBuiltinLogicValue"]
-- !private ["s9EquatableP", "barWidth"]
-- !private ["s9EquatableP", "count"]
-- !private ["s9EquatableP", "groupWidth"]
-- ["s9EquatableP", "init"]
-- !private ["s9EquatableP", "maxEntryCountSet"]
-- !private ["s9EquatableP", "notifyDataChanged"]
-- !private ["s9EquatableP", "print"]
-- !private ["s9EquatableP", "stride"]
-- !private ["s9EquatableP", "x"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "count"]
+- ["SE", "init"]
+- !private ["SE", "init"]
+- ["SQ", "Double"]
+- ["SQ", ""]
+- !private ["SQ", "_dataSets"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "barWidth"]
+- !private ["SQ", "count"]
+- !private ["SQ", "groupWidth"]
+- ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "maxEntryCountSet"]
+- !private ["SQ", "notifyDataChanged"]
+- !private ["SQ", "print"]
+- !private ["SQ", "stride"]
+- !private ["SQ", "x"]
 - !private ["s25ExpressibleByArrayLiteralP", "count"]
 - !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - ["s25ExpressibleByFloatLiteralP", "init"]
 - ["s27ExpressibleByIntegerLiteralP", "init"]
 - !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
-- ["s13FloatingPointP", "init"]
-- ["s8HashableP", "Double"]
-- ["s8HashableP", ""]
-- !private ["s8HashableP", "_dataSets"]
-- !private ["s8HashableP", "_getBuiltinLogicValue"]
-- !private ["s8HashableP", "barWidth"]
-- !private ["s8HashableP", "groupWidth"]
-- ["s8HashableP", "init"]
-- !private ["s8HashableP", "maxEntryCountSet"]
-- !private ["s8HashableP", "notifyDataChanged"]
-- !private ["s8HashableP", "print"]
-- !private ["s8HashableP", "stride"]
-- !private ["s8HashableP", "x"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["SF", "init"]
+- ["SH", "Double"]
+- ["SH", ""]
+- !private ["SH", "_dataSets"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "barWidth"]
+- !private ["SH", "count"]
+- !private ["SH", "groupWidth"]
+- ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "maxEntryCountSet"]
+- !private ["SH", "notifyDataChanged"]
+- !private ["SH", "print"]
+- !private ["SH", "stride"]
+- !private ["SH", "x"]
 - !private ["6Charts16IBarChartDataSetP", "entryCount"]
 - !private ["6Charts16IBarChartDataSetP", "entryForIndex"]
 - !private ["6Charts39IBarLineScatterCandleBubbleChartDataSetP", "entryCount"]
@@ -171,8 +189,10 @@ depends-member:
 - !private ["6Charts13IChartDataSetP", "entryForIndex"]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["s10MirrorPathP", "init"]
-- !private ["s17MutableCollectionP", "count"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "count"]
 - ["So8NSObjectC", "Double"]
 - !private ["So8NSObjectC", "IBarChartDataSet"]
 - ["So8NSObjectC", "IChartDataSet"]
@@ -186,41 +206,53 @@ depends-member:
 - !private ["So8NSObjectC", "print"]
 - !private ["So8NSObjectC", "stride"]
 - !private ["So8NSObjectC", "x"]
-- ["So16NSObjectProtocolP", "Double"]
-- ["So16NSObjectProtocolP", ""]
-- !private ["So16NSObjectProtocolP", "_dataSets"]
-- !private ["So16NSObjectProtocolP", "barWidth"]
-- !private ["So16NSObjectProtocolP", "groupWidth"]
-- !private ["So16NSObjectProtocolP", "init"]
-- !private ["So16NSObjectProtocolP", "maxEntryCountSet"]
-- !private ["So16NSObjectProtocolP", "notifyDataChanged"]
-- !private ["So16NSObjectProtocolP", "print"]
-- !private ["So16NSObjectProtocolP", "stride"]
-- !private ["So16NSObjectProtocolP", "x"]
-- ["s7NumericP", "init"]
-- !private ["s22RandomAccessCollectionP", "count"]
-- !private ["s26RangeReplaceableCollectionP", "count"]
-- !private ["s26RangeReplaceableCollectionP", "init"]
-- !private ["s8SequenceP", "count"]
-- !private ["s8SequenceP", "init"]
+- ["So8NSObjectP", "Double"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "_dataSets"]
+- !private ["So8NSObjectP", "barWidth"]
+- !private ["So8NSObjectP", "groupWidth"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "maxEntryCountSet"]
+- !private ["So8NSObjectP", "notifyDataChanged"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "stride"]
+- !private ["So8NSObjectP", "x"]
+- ["Sj", "init"]
+- !private ["Sk", "count"]
+- !private ["Sm", "count"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["ST", "count"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
 - ["s13SignedNumericP", "init"]
-- ["s10StrideableP", "init"]
+- ["Sx", "init"]
 - !private ["SS", "init"]
-- !private ["s14StringProtocolP", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
 - !private ["s16TextOutputStreamP", "init"]
 - !private ["s20TextOutputStreamableP", "init"]
-- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s20TextOutputStreamableP", "init"]
 - ["s15_CVarArgAlignedP", "init"]
 - ["s22_CVarArgPassedAsDoubleP", "init"]
 - !private ["s24_DestructorSafeContainerP", "count"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
 - ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
 - ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
 - !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "Double"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "_dataSets"]
@@ -235,28 +267,31 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - !private ["s21_ObjectiveCBridgeableP", "count"]
 - ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
 - !private ["s16_SwiftStringViewP", "init"]
 depends-nominal:
 - !private "Sa"
+- !private "s13ArrayProtocolP"
 - "6Charts12BarChartDataC"
 - "6Charts35BarLineScatterCandleBubbleChartDataC"
-- !private "s23BidirectionalCollectionP"
-- "s19BinaryFloatingPointP"
+- !private "SK"
+- "SB"
 - !private "Sb"
 - "s7CVarArgP"
 - "6Charts9ChartDataC"
 - !private "6Charts14ChartDataEntryC"
 - !private "6Charts18ChartDataEntryBaseC"
-- !private "s10CollectionP"
-- "s10ComparableP"
+- !private "Sl"
+- "SL"
 - "s28CustomDebugStringConvertibleP"
 - "s29CustomPlaygroundQuickLookableP"
 - "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
-- "s9DecodableP"
+- "Se"
 - "Sd"
-- "s9EncodableP"
-- "s9EquatableP"
+- "SE"
+- "SQ"
 - !private "s25ExpressibleByArrayLiteralP"
 - !private "s27ExpressibleByBooleanLiteralP"
 - !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
@@ -264,27 +299,26 @@ depends-nominal:
 - "s27ExpressibleByIntegerLiteralP"
 - !private "s26ExpressibleByStringLiteralP"
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
-- "s13FloatingPointP"
-- "s8HashableP"
+- "SF"
+- "SH"
 - !private "6Charts16IBarChartDataSetP"
 - !private "6Charts39IBarLineScatterCandleBubbleChartDataSetP"
 - !private "6Charts13IChartDataSetP"
 - "s25LosslessStringConvertibleP"
 - !private "s10MirrorPathP"
-- !private "s17MutableCollectionP"
+- !private "SM"
 - "So8NSObjectC"
-- "So16NSObjectProtocolP"
-- "s7NumericP"
-- !private "s22RandomAccessCollectionP"
-- !private "s26RangeReplaceableCollectionP"
-- !private "s8SequenceP"
+- "So8NSObjectP"
+- "Sj"
+- !private "Sk"
+- !private "Sm"
+- !private "ST"
 - "s13SignedNumericP"
-- "s10StrideableP"
+- "Sx"
 - !private "SS"
-- !private "s14StringProtocolP"
+- !private "Sy"
 - !private "s16TextOutputStreamP"
 - !private "s20TextOutputStreamableP"
-- !private "s14_ArrayProtocolP"
 - "s15_CVarArgAlignedP"
 - "s22_CVarArgPassedAsDoubleP"
 - !private "s24_DestructorSafeContainerP"
@@ -296,6 +330,7 @@ depends-nominal:
 - !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
 - !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "s21_ObjectiveCBridgeableP"
 - !private "s16_SwiftStringViewP"
@@ -316,14 +351,15 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Users/maxim/Projects/react-native-default-example/ios/Pods/Target Support Files/Charts/Charts-umbrella.h"
 - "/Users/maxim/Projects/react-native-default-example/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Charts.build/unextended-module.modulemap"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
 interface-hash: "a667dc08af2ad8ad2cb501dc40eaf6bb"

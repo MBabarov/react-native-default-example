@@ -21,5 +21,5 @@ dependencies: \
   /Users/maxim/Projects/react-native-default-example/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
   /Users/maxim/Projects/react-native-default-example/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
   /Users/maxim/Projects/react-native-default-example/node_modules/react-native/React/DevSupport/RCTPackagerClient.h \
-  /Users/maxim/Projects/react-native-default-example/node_modules/react-native/React/../Libraries/WebSocket/RCTReconnectingWebSocket.h \
-  /Users/maxim/Projects/react-native-default-example/node_modules/react-native/React/../Libraries/WebSocket/RCTSRWebSocket.h
+  /Users/maxim/Projects/react-native-default-example/node_modules/react-native/Libraries/WebSocket/RCTReconnectingWebSocket.h \
+  /Users/maxim/Projects/react-native-default-example/node_modules/react-native/Libraries/WebSocket/RCTSRWebSocket.h

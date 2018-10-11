@@ -17,7 +17,6 @@ depends-top-level:
 - "AssignmentPrecedence"
 - "BarLineScatterCandleBubbleChartDataSet"
 - "Bool"
-- "BooleanLiteralType"
 - "CastingPrecedence"
 - "ILineScatterCandleRadarChartDataSet"
 - "LineScatterCandleRadarChartDataSet"
@@ -32,6 +31,7 @@ depends-member:
 - ["6Charts38BarLineScatterCandleBubbleChartDataSetC", "drawHorizontalHighlightIndicatorEnabled"]
 - ["6Charts38BarLineScatterCandleBubbleChartDataSetC", "drawVerticalHighlightIndicatorEnabled"]
 - ["6Charts38BarLineScatterCandleBubbleChartDataSetC", "init"]
+- !private ["6Charts38BarLineScatterCandleBubbleChartDataSetC", "init"]
 - ["6Charts38BarLineScatterCandleBubbleChartDataSetC", "isHorizontalHighlightIndicatorEnabled"]
 - ["6Charts38BarLineScatterCandleBubbleChartDataSetC", "isVerticalHighlightIndicatorEnabled"]
 - ["6Charts38BarLineScatterCandleBubbleChartDataSetC", "setDrawHighlightIndicators"]
@@ -39,6 +39,7 @@ depends-member:
 - !private ["s7CVarArgP", "copyWithZone"]
 - ["s7CVarArgP", "drawHorizontalHighlightIndicatorEnabled"]
 - ["s7CVarArgP", "drawVerticalHighlightIndicatorEnabled"]
+- !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "init"]
 - ["s7CVarArgP", "isHorizontalHighlightIndicatorEnabled"]
 - ["s7CVarArgP", "isVerticalHighlightIndicatorEnabled"]
@@ -51,6 +52,7 @@ depends-member:
 - ["6Charts16ChartBaseDataSetC", "drawHorizontalHighlightIndicatorEnabled"]
 - ["6Charts16ChartBaseDataSetC", "drawVerticalHighlightIndicatorEnabled"]
 - ["6Charts16ChartBaseDataSetC", "init"]
+- !private ["6Charts16ChartBaseDataSetC", "init"]
 - ["6Charts16ChartBaseDataSetC", "isHorizontalHighlightIndicatorEnabled"]
 - ["6Charts16ChartBaseDataSetC", "isVerticalHighlightIndicatorEnabled"]
 - ["6Charts16ChartBaseDataSetC", "setDrawHighlightIndicators"]
@@ -62,6 +64,7 @@ depends-member:
 - ["6Charts12ChartDataSetC", "drawHorizontalHighlightIndicatorEnabled"]
 - ["6Charts12ChartDataSetC", "drawVerticalHighlightIndicatorEnabled"]
 - ["6Charts12ChartDataSetC", "init"]
+- !private ["6Charts12ChartDataSetC", "init"]
 - ["6Charts12ChartDataSetC", "isHorizontalHighlightIndicatorEnabled"]
 - ["6Charts12ChartDataSetC", "isVerticalHighlightIndicatorEnabled"]
 - ["6Charts12ChartDataSetC", "setDrawHighlightIndicators"]
@@ -69,6 +72,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "copyWithZone"]
 - ["s28CustomDebugStringConvertibleP", "drawHorizontalHighlightIndicatorEnabled"]
 - ["s28CustomDebugStringConvertibleP", "drawVerticalHighlightIndicatorEnabled"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - ["s28CustomDebugStringConvertibleP", "isHorizontalHighlightIndicatorEnabled"]
 - ["s28CustomDebugStringConvertibleP", "isVerticalHighlightIndicatorEnabled"]
@@ -78,29 +82,33 @@ depends-member:
 - ["s23CustomStringConvertibleP", "drawHorizontalHighlightIndicatorEnabled"]
 - ["s23CustomStringConvertibleP", "drawVerticalHighlightIndicatorEnabled"]
 - !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
 - ["s23CustomStringConvertibleP", "isHorizontalHighlightIndicatorEnabled"]
 - ["s23CustomStringConvertibleP", "isVerticalHighlightIndicatorEnabled"]
 - ["s23CustomStringConvertibleP", "setDrawHighlightIndicators"]
-- ["s9EquatableP", ""]
-- !private ["s9EquatableP", "copyWithZone"]
-- ["s9EquatableP", "drawHorizontalHighlightIndicatorEnabled"]
-- ["s9EquatableP", "drawVerticalHighlightIndicatorEnabled"]
-- !private ["s9EquatableP", "init"]
-- ["s9EquatableP", "isHorizontalHighlightIndicatorEnabled"]
-- ["s9EquatableP", "isVerticalHighlightIndicatorEnabled"]
-- ["s9EquatableP", "setDrawHighlightIndicators"]
-- ["s8HashableP", ""]
-- !private ["s8HashableP", "copyWithZone"]
-- ["s8HashableP", "drawHorizontalHighlightIndicatorEnabled"]
-- ["s8HashableP", "drawVerticalHighlightIndicatorEnabled"]
-- !private ["s8HashableP", "init"]
-- ["s8HashableP", "isHorizontalHighlightIndicatorEnabled"]
-- ["s8HashableP", "isVerticalHighlightIndicatorEnabled"]
-- ["s8HashableP", "setDrawHighlightIndicators"]
+- ["SQ", ""]
+- !private ["SQ", "copyWithZone"]
+- ["SQ", "drawHorizontalHighlightIndicatorEnabled"]
+- ["SQ", "drawVerticalHighlightIndicatorEnabled"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- ["SQ", "isHorizontalHighlightIndicatorEnabled"]
+- ["SQ", "isVerticalHighlightIndicatorEnabled"]
+- ["SQ", "setDrawHighlightIndicators"]
+- ["SH", ""]
+- !private ["SH", "copyWithZone"]
+- ["SH", "drawHorizontalHighlightIndicatorEnabled"]
+- ["SH", "drawVerticalHighlightIndicatorEnabled"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- ["SH", "isHorizontalHighlightIndicatorEnabled"]
+- ["SH", "isVerticalHighlightIndicatorEnabled"]
+- ["SH", "setDrawHighlightIndicators"]
 - ["6Charts39IBarLineScatterCandleBubbleChartDataSetP", ""]
 - !private ["6Charts39IBarLineScatterCandleBubbleChartDataSetP", "copyWithZone"]
 - ["6Charts39IBarLineScatterCandleBubbleChartDataSetP", "drawHorizontalHighlightIndicatorEnabled"]
 - ["6Charts39IBarLineScatterCandleBubbleChartDataSetP", "drawVerticalHighlightIndicatorEnabled"]
+- !private ["6Charts39IBarLineScatterCandleBubbleChartDataSetP", "init"]
 - !private ["6Charts39IBarLineScatterCandleBubbleChartDataSetP", "init"]
 - ["6Charts39IBarLineScatterCandleBubbleChartDataSetP", "isHorizontalHighlightIndicatorEnabled"]
 - ["6Charts39IBarLineScatterCandleBubbleChartDataSetP", "isVerticalHighlightIndicatorEnabled"]
@@ -109,6 +117,7 @@ depends-member:
 - !private ["6Charts13IChartDataSetP", "copyWithZone"]
 - ["6Charts13IChartDataSetP", "drawHorizontalHighlightIndicatorEnabled"]
 - ["6Charts13IChartDataSetP", "drawVerticalHighlightIndicatorEnabled"]
+- !private ["6Charts13IChartDataSetP", "init"]
 - !private ["6Charts13IChartDataSetP", "init"]
 - ["6Charts13IChartDataSetP", "isHorizontalHighlightIndicatorEnabled"]
 - ["6Charts13IChartDataSetP", "isVerticalHighlightIndicatorEnabled"]
@@ -139,21 +148,24 @@ depends-member:
 - ["So8NSObjectC", "drawHorizontalHighlightIndicatorEnabled"]
 - ["So8NSObjectC", "drawVerticalHighlightIndicatorEnabled"]
 - ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
 - ["So8NSObjectC", "isHorizontalHighlightIndicatorEnabled"]
 - ["So8NSObjectC", "isVerticalHighlightIndicatorEnabled"]
 - ["So8NSObjectC", "setDrawHighlightIndicators"]
-- ["So16NSObjectProtocolP", ""]
-- !private ["So16NSObjectProtocolP", "copyWithZone"]
-- ["So16NSObjectProtocolP", "drawHorizontalHighlightIndicatorEnabled"]
-- ["So16NSObjectProtocolP", "drawVerticalHighlightIndicatorEnabled"]
-- !private ["So16NSObjectProtocolP", "init"]
-- ["So16NSObjectProtocolP", "isHorizontalHighlightIndicatorEnabled"]
-- ["So16NSObjectProtocolP", "isVerticalHighlightIndicatorEnabled"]
-- ["So16NSObjectProtocolP", "setDrawHighlightIndicators"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "copyWithZone"]
+- ["So8NSObjectP", "drawHorizontalHighlightIndicatorEnabled"]
+- ["So8NSObjectP", "drawVerticalHighlightIndicatorEnabled"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "isHorizontalHighlightIndicatorEnabled"]
+- ["So8NSObjectP", "isVerticalHighlightIndicatorEnabled"]
+- ["So8NSObjectP", "setDrawHighlightIndicators"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "copyWithZone"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "drawHorizontalHighlightIndicatorEnabled"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "drawVerticalHighlightIndicatorEnabled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "isHorizontalHighlightIndicatorEnabled"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "isVerticalHighlightIndicatorEnabled"]
@@ -165,14 +177,14 @@ depends-nominal:
 - "6Charts12ChartDataSetC"
 - "s28CustomDebugStringConvertibleP"
 - "s23CustomStringConvertibleP"
-- "s9EquatableP"
-- "s8HashableP"
+- "SQ"
+- "SH"
 - "6Charts39IBarLineScatterCandleBubbleChartDataSetP"
 - "6Charts13IChartDataSetP"
 - "6Charts35ILineScatterCandleRadarChartDataSetP"
 - "6Charts34LineScatterCandleRadarChartDataSetC"
 - "So8NSObjectC"
-- "So16NSObjectProtocolP"
+- "So8NSObjectP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 depends-dynamic-lookup:
 depends-external:
@@ -191,14 +203,15 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Users/maxim/Projects/react-native-default-example/ios/Pods/Target Support Files/Charts/Charts-umbrella.h"
 - "/Users/maxim/Projects/react-native-default-example/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Charts.build/unextended-module.modulemap"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
 interface-hash: "1fedffdefc4466999b60ae1c0396afe4"

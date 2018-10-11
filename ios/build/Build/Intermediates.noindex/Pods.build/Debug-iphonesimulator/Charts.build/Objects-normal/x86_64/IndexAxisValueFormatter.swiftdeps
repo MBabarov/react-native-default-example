@@ -6,9 +6,6 @@ provides-nominal:
 provides-member:
 - ["6Charts23IndexAxisValueFormatterC", ""]
 provides-dynamic-lookup:
-- "stringForValue"
-- "values"
-- "with"
 depends-top-level:
 - !private "!="
 - !private "<"
@@ -16,9 +13,11 @@ depends-top-level:
 - "AssignmentPrecedence"
 - "AxisBase"
 - "Double"
+- "FloatLiteralType"
 - "IAxisValueFormatter"
 - "IndexAxisValueFormatter"
 - "Int"
+- "IntegerLiteralType"
 - "NSObject"
 - "String"
 - !private "StringLiteralType"
@@ -27,11 +26,15 @@ depends-member:
 - !private ["Sa", "count"]
 - ["Sa", "init"]
 - !private ["Sa", "subscript"]
-- !private ["s23BidirectionalCollectionP", "count"]
-- ["s23BidirectionalCollectionP", "init"]
-- !private ["s23BidirectionalCollectionP", "subscript"]
-- !private ["s19BinaryFloatingPointP", "rounded"]
-- !private ["s13BinaryIntegerP", "init"]
+- !private ["s13ArrayProtocolP", "count"]
+- ["s13ArrayProtocolP", "init"]
+- !private ["s13ArrayProtocolP", "subscript"]
+- !private ["SK", "count"]
+- ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "subscript"]
+- !private ["SB", "rounded"]
+- !private ["Sz", "init"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["s7CVarArgP", "IndexAxisValueFormatter"]
 - !private ["s7CVarArgP", "Int"]
@@ -42,15 +45,18 @@ depends-member:
 - !private ["s7CVarArgP", "_values"]
 - !private ["s7CVarArgP", "count"]
 - ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "rounded"]
 - ["s7CVarArgP", "stringForValue"]
 - !private ["s7CVarArgP", "subscript"]
 - !private ["s7CVarArgP", "values"]
-- !private ["s10CollectionP", "count"]
-- ["s10CollectionP", "init"]
-- !private ["s10CollectionP", "subscript"]
-- !private ["s10ComparableP", "init"]
-- !private ["s10ComparableP", "rounded"]
+- !private ["Sl", "count"]
+- ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "rounded"]
 - !private ["s28CustomDebugStringConvertibleP", "IndexAxisValueFormatter"]
 - !private ["s28CustomDebugStringConvertibleP", "Int"]
 - ["s28CustomDebugStringConvertibleP", "String"]
@@ -59,16 +65,19 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "_values"]
 - !private ["s28CustomDebugStringConvertibleP", "count"]
 - ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "rounded"]
 - ["s28CustomDebugStringConvertibleP", "stringForValue"]
 - !private ["s28CustomDebugStringConvertibleP", "subscript"]
 - !private ["s28CustomDebugStringConvertibleP", "values"]
 - !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
 - !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
 - !private ["s29CustomPlaygroundQuickLookableP", "rounded"]
 - !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
 - !private ["s17CustomReflectableP", "count"]
 - ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "rounded"]
 - !private ["s17CustomReflectableP", "subscript"]
 - !private ["s23CustomStringConvertibleP", "IndexAxisValueFormatter"]
@@ -80,57 +89,67 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "_values"]
 - !private ["s23CustomStringConvertibleP", "count"]
 - ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "rounded"]
 - ["s23CustomStringConvertibleP", "stringForValue"]
 - !private ["s23CustomStringConvertibleP", "subscript"]
 - !private ["s23CustomStringConvertibleP", "values"]
-- !private ["s9DecodableP", "_getBuiltinLogicValue"]
-- !private ["s9DecodableP", "count"]
-- ["s9DecodableP", "init"]
-- !private ["s9DecodableP", "rounded"]
-- !private ["s9DecodableP", "subscript"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "count"]
+- ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "rounded"]
+- !private ["Se", "subscript"]
 - !private ["Sd", "rounded"]
-- !private ["s9EncodableP", "_getBuiltinLogicValue"]
-- !private ["s9EncodableP", "count"]
-- ["s9EncodableP", "init"]
-- !private ["s9EncodableP", "rounded"]
-- !private ["s9EncodableP", "subscript"]
-- !private ["s9EquatableP", "IndexAxisValueFormatter"]
-- !private ["s9EquatableP", "Int"]
-- ["s9EquatableP", "String"]
-- ["s9EquatableP", ""]
-- !private ["s9EquatableP", "_getBuiltinLogicValue"]
-- !private ["s9EquatableP", "_valueCount"]
-- !private ["s9EquatableP", "_values"]
-- !private ["s9EquatableP", "count"]
-- ["s9EquatableP", "init"]
-- !private ["s9EquatableP", "rounded"]
-- ["s9EquatableP", "stringForValue"]
-- !private ["s9EquatableP", "subscript"]
-- !private ["s9EquatableP", "values"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "count"]
+- ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "rounded"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "IndexAxisValueFormatter"]
+- !private ["SQ", "Int"]
+- ["SQ", "String"]
+- ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "_valueCount"]
+- !private ["SQ", "_values"]
+- !private ["SQ", "count"]
+- ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "rounded"]
+- ["SQ", "stringForValue"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "values"]
 - !private ["s25ExpressibleByArrayLiteralP", "count"]
 - ["s25ExpressibleByArrayLiteralP", "init"]
 - !private ["s25ExpressibleByArrayLiteralP", "subscript"]
 - !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s25ExpressibleByFloatLiteralP", "rounded"]
 - !private ["s27ExpressibleByIntegerLiteralP", "init"]
 - !private ["s27ExpressibleByIntegerLiteralP", "rounded"]
 - !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - !private ["s17FixedWidthIntegerP", "init"]
-- !private ["s13FloatingPointP", "rounded"]
-- !private ["s8HashableP", "IndexAxisValueFormatter"]
-- !private ["s8HashableP", "Int"]
-- ["s8HashableP", "String"]
-- ["s8HashableP", ""]
-- !private ["s8HashableP", "_getBuiltinLogicValue"]
-- !private ["s8HashableP", "_valueCount"]
-- !private ["s8HashableP", "_values"]
-- !private ["s8HashableP", "init"]
-- !private ["s8HashableP", "rounded"]
-- ["s8HashableP", "stringForValue"]
-- !private ["s8HashableP", "values"]
+- !private ["SF", "rounded"]
+- !private ["SH", "IndexAxisValueFormatter"]
+- !private ["SH", "Int"]
+- ["SH", "String"]
+- ["SH", ""]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "_valueCount"]
+- !private ["SH", "_values"]
+- !private ["SH", "count"]
+- ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "rounded"]
+- ["SH", "stringForValue"]
+- !private ["SH", "subscript"]
+- !private ["SH", "values"]
 - !private ["6Charts19IAxisValueFormatterP", "IndexAxisValueFormatter"]
 - !private ["6Charts19IAxisValueFormatterP", "Int"]
 - ["6Charts19IAxisValueFormatterP", "String"]
@@ -155,11 +174,13 @@ depends-member:
 - !private ["Si", "init"]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["s25LosslessStringConvertibleP", "rounded"]
 - !private ["s10MirrorPathP", "init"]
-- !private ["s17MutableCollectionP", "count"]
-- ["s17MutableCollectionP", "init"]
-- !private ["s17MutableCollectionP", "subscript"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "count"]
+- ["SM", "init"]
+- !private ["SM", "subscript"]
 - ["So8NSObjectC", "AxisBase"]
 - ["So8NSObjectC", "Double"]
 - ["So8NSObjectC", "IndexAxisValueFormatter"]
@@ -172,38 +193,41 @@ depends-member:
 - ["So8NSObjectC", "stringForValue"]
 - ["So8NSObjectC", "values"]
 - ["So8NSObjectC", "with"]
-- !private ["So16NSObjectProtocolP", "IndexAxisValueFormatter"]
-- !private ["So16NSObjectProtocolP", "Int"]
-- ["So16NSObjectProtocolP", "String"]
-- ["So16NSObjectProtocolP", ""]
-- !private ["So16NSObjectProtocolP", "_valueCount"]
-- !private ["So16NSObjectProtocolP", "_values"]
-- !private ["So16NSObjectProtocolP", "init"]
-- ["So16NSObjectProtocolP", "stringForValue"]
-- !private ["So16NSObjectProtocolP", "values"]
-- !private ["s7NumericP", "init"]
-- !private ["s7NumericP", "rounded"]
-- !private ["s22RandomAccessCollectionP", "count"]
-- ["s22RandomAccessCollectionP", "init"]
-- !private ["s22RandomAccessCollectionP", "subscript"]
-- !private ["s26RangeReplaceableCollectionP", "count"]
-- ["s26RangeReplaceableCollectionP", "init"]
-- !private ["s26RangeReplaceableCollectionP", "subscript"]
-- !private ["s8SequenceP", "count"]
-- ["s8SequenceP", "init"]
-- !private ["s8SequenceP", "subscript"]
-- !private ["s13SignedIntegerP", "init"]
+- !private ["So8NSObjectP", "IndexAxisValueFormatter"]
+- !private ["So8NSObjectP", "Int"]
+- ["So8NSObjectP", "String"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "_valueCount"]
+- !private ["So8NSObjectP", "_values"]
+- !private ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "stringForValue"]
+- !private ["So8NSObjectP", "values"]
+- !private ["Sj", "init"]
+- !private ["Sj", "rounded"]
+- !private ["Sk", "count"]
+- ["Sk", "init"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "count"]
+- ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "subscript"]
+- !private ["ST", "count"]
+- ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "subscript"]
+- !private ["SZ", "init"]
 - !private ["s13SignedNumericP", "init"]
 - !private ["s13SignedNumericP", "rounded"]
-- !private ["s10StrideableP", "init"]
-- !private ["s10StrideableP", "rounded"]
+- !private ["Sx", "init"]
+- !private ["Sx", "rounded"]
 - !private ["SS", "init"]
-- !private ["s14StringProtocolP", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
 - !private ["s16TextOutputStreamP", "init"]
 - !private ["s20TextOutputStreamableP", "init"]
-- !private ["s14_ArrayProtocolP", "count"]
-- ["s14_ArrayProtocolP", "init"]
-- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s20TextOutputStreamableP", "init"]
 - !private ["s18_BitwiseOperationsP", "init"]
 - !private ["s15_CVarArgAlignedP", "rounded"]
 - !private ["s22_CVarArgPassedAsDoubleP", "rounded"]
@@ -212,13 +236,22 @@ depends-member:
 - !private ["s24_DestructorSafeContainerP", "subscript"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s33_ExpressibleByBuiltinFloatLiteralP", "rounded"]
 - !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "rounded"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
 - !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "rounded"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "IndexAxisValueFormatter"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "Int"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "String"]
@@ -231,26 +264,29 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - !private ["s21_ObjectiveCBridgeableP", "count"]
 - ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "rounded"]
 - !private ["s21_ObjectiveCBridgeableP", "subscript"]
 - !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
 depends-nominal:
 - "Sa"
-- "s23BidirectionalCollectionP"
-- !private "s19BinaryFloatingPointP"
-- !private "s13BinaryIntegerP"
+- "s13ArrayProtocolP"
+- "SK"
+- !private "SB"
+- !private "Sz"
 - !private "Sb"
 - "s7CVarArgP"
-- "s10CollectionP"
-- !private "s10ComparableP"
+- "Sl"
+- !private "SL"
 - "s28CustomDebugStringConvertibleP"
 - !private "s29CustomPlaygroundQuickLookableP"
 - "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
-- "s9DecodableP"
+- "Se"
 - !private "Sd"
-- "s9EncodableP"
-- "s9EquatableP"
+- "SE"
+- "SQ"
 - "s25ExpressibleByArrayLiteralP"
 - !private "s27ExpressibleByBooleanLiteralP"
 - !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
@@ -259,28 +295,27 @@ depends-nominal:
 - !private "s26ExpressibleByStringLiteralP"
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
 - !private "s17FixedWidthIntegerP"
-- !private "s13FloatingPointP"
-- "s8HashableP"
+- !private "SF"
+- "SH"
 - "6Charts19IAxisValueFormatterP"
 - "6Charts23IndexAxisValueFormatterC"
 - !private "Si"
 - !private "s25LosslessStringConvertibleP"
 - !private "s10MirrorPathP"
-- "s17MutableCollectionP"
+- "SM"
 - "So8NSObjectC"
-- "So16NSObjectProtocolP"
-- !private "s7NumericP"
-- "s22RandomAccessCollectionP"
-- "s26RangeReplaceableCollectionP"
-- "s8SequenceP"
-- !private "s13SignedIntegerP"
+- "So8NSObjectP"
+- !private "Sj"
+- "Sk"
+- "Sm"
+- "ST"
+- !private "SZ"
 - !private "s13SignedNumericP"
-- !private "s10StrideableP"
+- !private "Sx"
 - !private "SS"
-- !private "s14StringProtocolP"
+- !private "Sy"
 - !private "s16TextOutputStreamP"
 - !private "s20TextOutputStreamableP"
-- "s14_ArrayProtocolP"
 - !private "s18_BitwiseOperationsP"
 - !private "s15_CVarArgAlignedP"
 - !private "s22_CVarArgPassedAsDoubleP"
@@ -293,6 +328,7 @@ depends-nominal:
 - !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
 - !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "s21_ObjectiveCBridgeableP"
 - !private "s16_SwiftStringViewP"
@@ -313,14 +349,15 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Users/maxim/Projects/react-native-default-example/ios/Pods/Target Support Files/Charts/Charts-umbrella.h"
 - "/Users/maxim/Projects/react-native-default-example/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Charts.build/unextended-module.modulemap"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
 interface-hash: "0bef823c76c0b3701ef4ea596ccb9cef"

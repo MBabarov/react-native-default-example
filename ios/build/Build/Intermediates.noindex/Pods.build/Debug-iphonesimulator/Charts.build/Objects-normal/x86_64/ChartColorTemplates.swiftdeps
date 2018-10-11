@@ -29,7 +29,9 @@ depends-top-level:
 - !private "CharacterSet"
 - "ChartColorTemplates"
 - !private "Float"
+- !private "FloatLiteralType"
 - !private "Int32"
+- !private "IntegerLiteralType"
 - "NSObject"
 - "NSUIColor"
 - !private "Scanner"
@@ -41,17 +43,19 @@ depends-top-level:
 - !private "||"
 depends-member:
 - !private ["Sa", "subscript"]
-- !private ["s23BidirectionalCollectionP", "count"]
-- !private ["s23BidirectionalCollectionP", "endIndex"]
-- !private ["s23BidirectionalCollectionP", "hasPrefix"]
-- !private ["s23BidirectionalCollectionP", "index"]
-- !private ["s23BidirectionalCollectionP", "init"]
-- !private ["s23BidirectionalCollectionP", "lowercased"]
-- !private ["s23BidirectionalCollectionP", "startIndex"]
-- !private ["s23BidirectionalCollectionP", "subscript"]
-- !private ["s23BidirectionalCollectionP", "unicodeScalars"]
-- !private ["s19BinaryFloatingPointP", "init"]
-- !private ["s13BinaryIntegerP", "init"]
+- !private ["s13ArrayProtocolP", "subscript"]
+- !private ["SK", "count"]
+- !private ["SK", "endIndex"]
+- !private ["SK", "hasPrefix"]
+- !private ["SK", "index"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "lowercased"]
+- !private ["SK", "startIndex"]
+- !private ["SK", "subscript"]
+- !private ["SK", "unicodeScalars"]
+- !private ["SB", "init"]
+- !private ["Sz", "init"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["12CoreGraphics7CGFloatV", "init"]
 - !private ["s7CVarArgP", "CGFloat"]
@@ -63,6 +67,7 @@ depends-member:
 - !private ["s7CVarArgP", "_getBuiltinLogicValue"]
 - !private ["s7CVarArgP", "clear"]
 - !private ["s7CVarArgP", "hasPrefix"]
+- !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "lowercased"]
 - !private ["s7CVarArgP", "scanCharacters"]
@@ -82,27 +87,28 @@ depends-member:
 - !private ["6Charts19ChartColorTemplatesC", "UInt"]
 - ["6Charts19ChartColorTemplatesC", "colorFromString"]
 - ["6Charts19ChartColorTemplatesC", "colorful"]
-- ["6Charts19ChartColorTemplatesC", "deinit"]
 - ["6Charts19ChartColorTemplatesC", "init"]
 - ["6Charts19ChartColorTemplatesC", "joyful"]
 - ["6Charts19ChartColorTemplatesC", "liberty"]
 - ["6Charts19ChartColorTemplatesC", "material"]
 - ["6Charts19ChartColorTemplatesC", "pastel"]
 - ["6Charts19ChartColorTemplatesC", "vordiplom"]
-- !private ["s10CollectionP", "count"]
-- !private ["s10CollectionP", "endIndex"]
-- !private ["s10CollectionP", "hasPrefix"]
-- !private ["s10CollectionP", "index"]
-- !private ["s10CollectionP", "init"]
-- !private ["s10CollectionP", "lowercased"]
-- !private ["s10CollectionP", "startIndex"]
-- !private ["s10CollectionP", "subscript"]
-- !private ["s10CollectionP", "unicodeScalars"]
-- !private ["s10ComparableP", "hasPrefix"]
-- !private ["s10ComparableP", "init"]
-- !private ["s10ComparableP", "lowercased"]
-- !private ["s10ComparableP", "unicodeScalars"]
-- !private ["s10ComparableP", "value"]
+- !private ["Sl", "count"]
+- !private ["Sl", "endIndex"]
+- !private ["Sl", "hasPrefix"]
+- !private ["Sl", "index"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "lowercased"]
+- !private ["Sl", "startIndex"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "unicodeScalars"]
+- !private ["SL", "hasPrefix"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "lowercased"]
+- !private ["SL", "unicodeScalars"]
+- !private ["SL", "value"]
 - !private ["s28CustomDebugStringConvertibleP", "CGFloat"]
 - !private ["s28CustomDebugStringConvertibleP", "CharacterSet"]
 - !private ["s28CustomDebugStringConvertibleP", "NSUIColor"]
@@ -114,6 +120,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "endIndex"]
 - !private ["s28CustomDebugStringConvertibleP", "hasPrefix"]
 - !private ["s28CustomDebugStringConvertibleP", "index"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "lowercased"]
 - !private ["s28CustomDebugStringConvertibleP", "scanCharacters"]
@@ -130,6 +137,7 @@ depends-member:
 - !private ["s29CustomPlaygroundQuickLookableP", "hasPrefix"]
 - !private ["s29CustomPlaygroundQuickLookableP", "index"]
 - !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
 - !private ["s29CustomPlaygroundQuickLookableP", "lowercased"]
 - !private ["s29CustomPlaygroundQuickLookableP", "startIndex"]
 - !private ["s29CustomPlaygroundQuickLookableP", "subscript"]
@@ -140,6 +148,7 @@ depends-member:
 - !private ["s17CustomReflectableP", "endIndex"]
 - !private ["s17CustomReflectableP", "hasPrefix"]
 - !private ["s17CustomReflectableP", "index"]
+- !private ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "lowercased"]
 - !private ["s17CustomReflectableP", "startIndex"]
@@ -159,6 +168,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "hasPrefix"]
 - !private ["s23CustomStringConvertibleP", "index"]
 - !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "lowercased"]
 - !private ["s23CustomStringConvertibleP", "scanCharacters"]
 - !private ["s23CustomStringConvertibleP", "scanFloat"]
@@ -168,40 +178,44 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "subscript"]
 - !private ["s23CustomStringConvertibleP", "unicodeScalars"]
 - !private ["s23CustomStringConvertibleP", "value"]
-- !private ["s9DecodableP", "_getBuiltinLogicValue"]
-- !private ["s9DecodableP", "hasPrefix"]
-- !private ["s9DecodableP", "init"]
-- !private ["s9DecodableP", "lowercased"]
-- !private ["s9DecodableP", "subscript"]
-- !private ["s9DecodableP", "unicodeScalars"]
-- !private ["s9EncodableP", "_getBuiltinLogicValue"]
-- !private ["s9EncodableP", "hasPrefix"]
-- !private ["s9EncodableP", "init"]
-- !private ["s9EncodableP", "lowercased"]
-- !private ["s9EncodableP", "subscript"]
-- !private ["s9EncodableP", "unicodeScalars"]
-- !private ["s9EquatableP", "CGFloat"]
-- !private ["s9EquatableP", "CharacterSet"]
-- !private ["s9EquatableP", "NSUIColor"]
-- !private ["s9EquatableP", "Scanner"]
-- !private ["s9EquatableP", "UInt"]
-- ["s9EquatableP", ""]
-- !private ["s9EquatableP", "_getBuiltinLogicValue"]
-- !private ["s9EquatableP", "clear"]
-- !private ["s9EquatableP", "hasPrefix"]
-- !private ["s9EquatableP", "init"]
-- !private ["s9EquatableP", "lowercased"]
-- !private ["s9EquatableP", "scanCharacters"]
-- !private ["s9EquatableP", "scanFloat"]
-- !private ["s9EquatableP", "scanInt32"]
-- !private ["s9EquatableP", "scanString"]
-- !private ["s9EquatableP", "subscript"]
-- !private ["s9EquatableP", "unicodeScalars"]
-- !private ["s9EquatableP", "value"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "hasPrefix"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "lowercased"]
+- !private ["Se", "subscript"]
+- !private ["Se", "unicodeScalars"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "hasPrefix"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "lowercased"]
+- !private ["SE", "subscript"]
+- !private ["SE", "unicodeScalars"]
+- !private ["SQ", "CGFloat"]
+- !private ["SQ", "CharacterSet"]
+- !private ["SQ", "NSUIColor"]
+- !private ["SQ", "Scanner"]
+- !private ["SQ", "UInt"]
+- ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "clear"]
+- !private ["SQ", "hasPrefix"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "lowercased"]
+- !private ["SQ", "scanCharacters"]
+- !private ["SQ", "scanFloat"]
+- !private ["SQ", "scanInt32"]
+- !private ["SQ", "scanString"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "unicodeScalars"]
+- !private ["SQ", "value"]
 - !private ["s25ExpressibleByArrayLiteralP", "init"]
 - !private ["s25ExpressibleByArrayLiteralP", "subscript"]
 - !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "hasPrefix"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "lowercased"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "unicodeScalars"]
@@ -209,43 +223,49 @@ depends-member:
 - !private ["s27ExpressibleByIntegerLiteralP", "init"]
 - !private ["s26ExpressibleByStringLiteralP", "hasPrefix"]
 - !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
 - !private ["s26ExpressibleByStringLiteralP", "lowercased"]
 - !private ["s26ExpressibleByStringLiteralP", "unicodeScalars"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "hasPrefix"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "lowercased"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "unicodeScalars"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "value"]
 - !private ["s17FixedWidthIntegerP", "init"]
-- !private ["s13FloatingPointP", "init"]
-- !private ["s8HashableP", "CGFloat"]
-- !private ["s8HashableP", "CharacterSet"]
-- !private ["s8HashableP", "NSUIColor"]
-- !private ["s8HashableP", "Scanner"]
-- !private ["s8HashableP", "UInt"]
-- ["s8HashableP", ""]
-- !private ["s8HashableP", "_getBuiltinLogicValue"]
-- !private ["s8HashableP", "clear"]
-- !private ["s8HashableP", "hasPrefix"]
-- !private ["s8HashableP", "init"]
-- !private ["s8HashableP", "lowercased"]
-- !private ["s8HashableP", "scanCharacters"]
-- !private ["s8HashableP", "scanFloat"]
-- !private ["s8HashableP", "scanInt32"]
-- !private ["s8HashableP", "scanString"]
-- !private ["s8HashableP", "unicodeScalars"]
-- !private ["s8HashableP", "value"]
+- !private ["SF", "init"]
+- !private ["SH", "CGFloat"]
+- !private ["SH", "CharacterSet"]
+- !private ["SH", "NSUIColor"]
+- !private ["SH", "Scanner"]
+- !private ["SH", "UInt"]
+- ["SH", ""]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "clear"]
+- !private ["SH", "hasPrefix"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "lowercased"]
+- !private ["SH", "scanCharacters"]
+- !private ["SH", "scanFloat"]
+- !private ["SH", "scanInt32"]
+- !private ["SH", "scanString"]
+- !private ["SH", "subscript"]
+- !private ["SH", "unicodeScalars"]
+- !private ["SH", "value"]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s25LosslessStringConvertibleP", "hasPrefix"]
+- !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["s25LosslessStringConvertibleP", "lowercased"]
 - !private ["s25LosslessStringConvertibleP", "unicodeScalars"]
 - !private ["s25LosslessStringConvertibleP", "value"]
 - !private ["s10MirrorPathP", "hasPrefix"]
 - !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
 - !private ["s10MirrorPathP", "lowercased"]
 - !private ["s10MirrorPathP", "unicodeScalars"]
-- !private ["s17MutableCollectionP", "subscript"]
+- !private ["SM", "subscript"]
 - !private ["So8NSCodingP", "clear"]
 - !private ["So8NSCodingP", "hasPrefix"]
 - !private ["So8NSCodingP", "init"]
@@ -287,6 +307,7 @@ depends-member:
 - ["So8NSObjectC", "colorful"]
 - !private ["So8NSObjectC", "hasPrefix"]
 - ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
 - ["So8NSObjectC", "joyful"]
 - ["So8NSObjectC", "liberty"]
 - !private ["So8NSObjectC", "lowercased"]
@@ -298,21 +319,22 @@ depends-member:
 - !private ["So8NSObjectC", "scanString"]
 - !private ["So8NSObjectC", "unicodeScalars"]
 - ["So8NSObjectC", "vordiplom"]
-- !private ["So16NSObjectProtocolP", "CGFloat"]
-- !private ["So16NSObjectProtocolP", "CharacterSet"]
-- !private ["So16NSObjectProtocolP", "NSUIColor"]
-- !private ["So16NSObjectProtocolP", "Scanner"]
-- !private ["So16NSObjectProtocolP", "UInt"]
-- ["So16NSObjectProtocolP", ""]
-- !private ["So16NSObjectProtocolP", "clear"]
-- !private ["So16NSObjectProtocolP", "hasPrefix"]
-- !private ["So16NSObjectProtocolP", "init"]
-- !private ["So16NSObjectProtocolP", "lowercased"]
-- !private ["So16NSObjectProtocolP", "scanCharacters"]
-- !private ["So16NSObjectProtocolP", "scanFloat"]
-- !private ["So16NSObjectProtocolP", "scanInt32"]
-- !private ["So16NSObjectProtocolP", "scanString"]
-- !private ["So16NSObjectProtocolP", "unicodeScalars"]
+- !private ["So8NSObjectP", "CGFloat"]
+- !private ["So8NSObjectP", "CharacterSet"]
+- !private ["So8NSObjectP", "NSUIColor"]
+- !private ["So8NSObjectP", "Scanner"]
+- !private ["So8NSObjectP", "UInt"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "clear"]
+- !private ["So8NSObjectP", "hasPrefix"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "lowercased"]
+- !private ["So8NSObjectP", "scanCharacters"]
+- !private ["So8NSObjectP", "scanFloat"]
+- !private ["So8NSObjectP", "scanInt32"]
+- !private ["So8NSObjectP", "scanString"]
+- !private ["So8NSObjectP", "unicodeScalars"]
 - !private ["So14NSSecureCodingP", "clear"]
 - !private ["So14NSSecureCodingP", "hasPrefix"]
 - !private ["So14NSSecureCodingP", "init"]
@@ -321,49 +343,55 @@ depends-member:
 - !private ["So8NSStringC", "hasPrefix"]
 - !private ["So8NSStringC", "lowercased"]
 - !private ["So8NSStringC", "unicodeScalars"]
-- !private ["s7NumericP", "init"]
-- !private ["s22RandomAccessCollectionP", "subscript"]
-- !private ["s26RangeReplaceableCollectionP", "count"]
-- !private ["s26RangeReplaceableCollectionP", "endIndex"]
-- !private ["s26RangeReplaceableCollectionP", "hasPrefix"]
-- !private ["s26RangeReplaceableCollectionP", "index"]
-- !private ["s26RangeReplaceableCollectionP", "init"]
-- !private ["s26RangeReplaceableCollectionP", "lowercased"]
-- !private ["s26RangeReplaceableCollectionP", "startIndex"]
-- !private ["s26RangeReplaceableCollectionP", "subscript"]
-- !private ["s26RangeReplaceableCollectionP", "unicodeScalars"]
+- !private ["Sj", "init"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "count"]
+- !private ["Sm", "endIndex"]
+- !private ["Sm", "hasPrefix"]
+- !private ["Sm", "index"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "lowercased"]
+- !private ["Sm", "startIndex"]
+- !private ["Sm", "subscript"]
+- !private ["Sm", "unicodeScalars"]
 - !private ["10Foundation20ReferenceConvertibleP", "init"]
 - !private ["s7UnicodeO6ScalarV", "value"]
-- !private ["So7ScannerC", "init"]
-- !private ["So7ScannerC", "scanCharacters"]
-- !private ["So7ScannerC", "scanFloat"]
-- !private ["So7ScannerC", "scanInt32"]
-- !private ["So7ScannerC", "scanString"]
-- !private ["s8SequenceP", "count"]
-- !private ["s8SequenceP", "endIndex"]
-- !private ["s8SequenceP", "hasPrefix"]
-- !private ["s8SequenceP", "index"]
-- !private ["s8SequenceP", "init"]
-- !private ["s8SequenceP", "lowercased"]
-- !private ["s8SequenceP", "startIndex"]
-- !private ["s8SequenceP", "subscript"]
-- !private ["s8SequenceP", "unicodeScalars"]
+- !private ["So9NSScannerC", "init"]
+- !private ["So9NSScannerC", "scanCharacters"]
+- !private ["So9NSScannerC", "scanFloat"]
+- !private ["So9NSScannerC", "scanInt32"]
+- !private ["So9NSScannerC", "scanString"]
+- !private ["ST", "count"]
+- !private ["ST", "endIndex"]
+- !private ["ST", "hasPrefix"]
+- !private ["ST", "index"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "lowercased"]
+- !private ["ST", "startIndex"]
+- !private ["ST", "subscript"]
+- !private ["ST", "unicodeScalars"]
 - !private ["s10SetAlgebraP", "init"]
 - !private ["s13SignedNumericP", "init"]
-- !private ["s10StrideableP", "init"]
+- !private ["Sx", "init"]
 - !private ["SS", "hasPrefix"]
+- !private ["SS", "init"]
 - !private ["SS", "init"]
 - !private ["SS", "lowercased"]
 - !private ["SS", "unicodeScalars"]
-- !private ["s14StringProtocolP", "hasPrefix"]
-- !private ["s14StringProtocolP", "init"]
-- !private ["s14StringProtocolP", "lowercased"]
-- !private ["s14StringProtocolP", "unicodeScalars"]
+- !private ["Sy", "hasPrefix"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "lowercased"]
+- !private ["Sy", "unicodeScalars"]
 - !private ["s16TextOutputStreamP", "hasPrefix"]
+- !private ["s16TextOutputStreamP", "init"]
 - !private ["s16TextOutputStreamP", "init"]
 - !private ["s16TextOutputStreamP", "lowercased"]
 - !private ["s16TextOutputStreamP", "unicodeScalars"]
 - !private ["s20TextOutputStreamableP", "hasPrefix"]
+- !private ["s20TextOutputStreamableP", "init"]
 - !private ["s20TextOutputStreamableP", "init"]
 - !private ["s20TextOutputStreamableP", "lowercased"]
 - !private ["s20TextOutputStreamableP", "unicodeScalars"]
@@ -376,8 +404,7 @@ depends-member:
 - !private ["SS17UnicodeScalarViewV", "index"]
 - !private ["SS17UnicodeScalarViewV", "startIndex"]
 - !private ["SS17UnicodeScalarViewV", "subscript"]
-- !private ["s15UnsignedIntegerP", "init"]
-- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["SU", "init"]
 - !private ["s18_BitwiseOperationsP", "init"]
 - !private ["s15_CVarArgAlignedP", "init"]
 - !private ["s22_CVarArgPassedAsDoubleP", "init"]
@@ -385,18 +412,22 @@ depends-member:
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "hasPrefix"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "lowercased"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "unicodeScalars"]
 - !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "hasPrefix"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "lowercased"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "unicodeScalars"]
 - !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "hasPrefix"]
 - !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
 - !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "lowercased"]
 - !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "unicodeScalars"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "hasPrefix"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "lowercased"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "unicodeScalars"]
@@ -405,10 +436,13 @@ depends-member:
 - !private ["s26_ExpressibleByColorLiteralP", "init"]
 - !private ["s33_ExpressibleByStringInterpolationP", "hasPrefix"]
 - !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
 - !private ["s33_ExpressibleByStringInterpolationP", "lowercased"]
 - !private ["s33_ExpressibleByStringInterpolationP", "unicodeScalars"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "hasPrefix"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "lowercased"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "unicodeScalars"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "CGFloat"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "CharacterSet"]
@@ -419,6 +453,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "clear"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "hasPrefix"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "lowercased"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "scanCharacters"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "scanFloat"]
@@ -428,6 +463,7 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - !private ["s21_ObjectiveCBridgeableP", "hasPrefix"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "lowercased"]
 - !private ["s21_ObjectiveCBridgeableP", "subscript"]
 - !private ["s21_ObjectiveCBridgeableP", "unicodeScalars"]
@@ -436,29 +472,31 @@ depends-member:
 - !private ["s16_SwiftStringViewP", "hasPrefix"]
 - !private ["s16_SwiftStringViewP", "index"]
 - !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
 - !private ["s16_SwiftStringViewP", "lowercased"]
 - !private ["s16_SwiftStringViewP", "startIndex"]
 - !private ["s16_SwiftStringViewP", "subscript"]
 - !private ["s16_SwiftStringViewP", "unicodeScalars"]
 depends-nominal:
 - !private "Sa"
-- !private "s23BidirectionalCollectionP"
-- !private "s19BinaryFloatingPointP"
-- !private "s13BinaryIntegerP"
+- !private "s13ArrayProtocolP"
+- !private "SK"
+- !private "SB"
+- !private "Sz"
 - !private "Sb"
 - !private "12CoreGraphics7CGFloatV"
 - "s7CVarArgP"
 - !private "10Foundation12CharacterSetV"
 - "6Charts19ChartColorTemplatesC"
-- !private "s10CollectionP"
-- !private "s10ComparableP"
+- !private "Sl"
+- !private "SL"
 - "s28CustomDebugStringConvertibleP"
 - !private "s29CustomPlaygroundQuickLookableP"
 - !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
-- !private "s9DecodableP"
-- !private "s9EncodableP"
-- "s9EquatableP"
+- !private "Se"
+- !private "SE"
+- "SQ"
 - !private "s25ExpressibleByArrayLiteralP"
 - !private "s27ExpressibleByBooleanLiteralP"
 - !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
@@ -467,39 +505,38 @@ depends-nominal:
 - !private "s26ExpressibleByStringLiteralP"
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
 - !private "s17FixedWidthIntegerP"
-- !private "s13FloatingPointP"
-- "s8HashableP"
+- !private "SF"
+- "SH"
 - !private "s25LosslessStringConvertibleP"
 - !private "s10MirrorPathP"
-- !private "s17MutableCollectionP"
+- !private "SM"
 - !private "So8NSCodingP"
 - !private "So9NSCopyingP"
 - !private "So21NSItemProviderReadingP"
 - !private "So21NSItemProviderWritingP"
 - !private "So16NSMutableCopyingP"
 - "So8NSObjectC"
-- "So16NSObjectProtocolP"
+- "So8NSObjectP"
 - !private "So14NSSecureCodingP"
 - !private "So8NSStringC"
-- !private "s7NumericP"
-- !private "s22RandomAccessCollectionP"
-- !private "s26RangeReplaceableCollectionP"
+- !private "Sj"
+- !private "Sk"
+- !private "Sm"
 - !private "10Foundation20ReferenceConvertibleP"
 - !private "s7UnicodeO6ScalarV"
-- !private "So7ScannerC"
-- !private "s8SequenceP"
+- !private "So9NSScannerC"
+- !private "ST"
 - !private "s10SetAlgebraP"
 - !private "s13SignedNumericP"
-- !private "s10StrideableP"
+- !private "Sx"
 - !private "SS"
-- !private "s14StringProtocolP"
+- !private "Sy"
 - !private "s16TextOutputStreamP"
 - !private "s20TextOutputStreamableP"
 - !private "So7UIColorC"
 - !private "Su"
 - !private "SS17UnicodeScalarViewV"
-- !private "s15UnsignedIntegerP"
-- !private "s14_ArrayProtocolP"
+- !private "SU"
 - !private "s18_BitwiseOperationsP"
 - !private "s15_CVarArgAlignedP"
 - !private "s22_CVarArgPassedAsDoubleP"
@@ -533,14 +570,15 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Users/maxim/Projects/react-native-default-example/ios/Pods/Target Support Files/Charts/Charts-umbrella.h"
 - "/Users/maxim/Projects/react-native-default-example/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Charts.build/unextended-module.modulemap"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
 interface-hash: "4a51dc564106d8588bf56c4a4356033a"

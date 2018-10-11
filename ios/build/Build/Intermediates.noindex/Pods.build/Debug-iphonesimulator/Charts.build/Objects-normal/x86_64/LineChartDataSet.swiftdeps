@@ -46,9 +46,11 @@ depends-top-level:
 - "CastingPrecedence"
 - "ChartDataEntry"
 - "DefaultFillFormatter"
+- "FloatLiteralType"
 - "IFillFormatter"
 - "ILineChartDataSet"
 - "Int"
+- "IntegerLiteralType"
 - "LineChartDataSet"
 - "LineRadarChartDataSet"
 - "NSUIColor"
@@ -56,6 +58,7 @@ depends-top-level:
 - "String"
 - !private "StringLiteralType"
 - "TernaryPrecedence"
+- !private "unsafeBitCast"
 - !private "~="
 depends-member:
 - !private ["Sa", "append"]
@@ -63,6 +66,11 @@ depends-member:
 - ["Sa", "init"]
 - !private ["Sa", "removeAll"]
 - !private ["Sa", "subscript"]
+- !private ["s13ArrayProtocolP", "append"]
+- !private ["s13ArrayProtocolP", "count"]
+- ["s13ArrayProtocolP", "init"]
+- !private ["s13ArrayProtocolP", "removeAll"]
+- !private ["s13ArrayProtocolP", "subscript"]
 - ["6Charts38BarLineScatterCandleBubbleChartDataSetC", "AnyObject"]
 - ["6Charts38BarLineScatterCandleBubbleChartDataSetC", "Bool"]
 - ["6Charts38BarLineScatterCandleBubbleChartDataSetC", "CGFloat"]
@@ -103,15 +111,16 @@ depends-member:
 - ["6Charts38BarLineScatterCandleBubbleChartDataSetC", "resetCircleColors"]
 - ["6Charts38BarLineScatterCandleBubbleChartDataSetC", "setCircleColor"]
 - ["6Charts38BarLineScatterCandleBubbleChartDataSetC", "setCircleColors"]
-- !private ["s23BidirectionalCollectionP", "append"]
-- !private ["s23BidirectionalCollectionP", "count"]
-- ["s23BidirectionalCollectionP", "init"]
-- !private ["s23BidirectionalCollectionP", "removeAll"]
-- !private ["s23BidirectionalCollectionP", "subscript"]
-- ["s19BinaryFloatingPointP", "init"]
+- !private ["6Charts38BarLineScatterCandleBubbleChartDataSetC", "unsafeBitCast"]
+- !private ["SK", "append"]
+- !private ["SK", "count"]
+- ["SK", "init"]
+- !private ["SK", "removeAll"]
+- !private ["SK", "subscript"]
+- ["SB", "init"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - ["12CoreGraphics7CGFloatV", "init"]
-- ["SC9CGLineCapO", "butt"]
+- ["So9CGLineCapV", "butt"]
 - ["s7CVarArgP", "CGFloat"]
 - ["s7CVarArgP", "CGLineCap"]
 - ["s7CVarArgP", "DefaultFillFormatter"]
@@ -150,6 +159,7 @@ depends-member:
 - ["s7CVarArgP", "resetCircleColors"]
 - ["s7CVarArgP", "setCircleColor"]
 - !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "unsafeBitCast"]
 - ["s7CVarArgP", "white"]
 - ["6Charts16ChartBaseDataSetC", "AnyObject"]
 - ["6Charts16ChartBaseDataSetC", "Bool"]
@@ -191,6 +201,7 @@ depends-member:
 - ["6Charts16ChartBaseDataSetC", "resetCircleColors"]
 - ["6Charts16ChartBaseDataSetC", "setCircleColor"]
 - ["6Charts16ChartBaseDataSetC", "setCircleColors"]
+- !private ["6Charts16ChartBaseDataSetC", "unsafeBitCast"]
 - ["6Charts12ChartDataSetC", "AnyObject"]
 - ["6Charts12ChartDataSetC", "Bool"]
 - ["6Charts12ChartDataSetC", "CGFloat"]
@@ -231,12 +242,13 @@ depends-member:
 - ["6Charts12ChartDataSetC", "resetCircleColors"]
 - ["6Charts12ChartDataSetC", "setCircleColor"]
 - ["6Charts12ChartDataSetC", "setCircleColors"]
-- !private ["s10CollectionP", "append"]
-- !private ["s10CollectionP", "count"]
-- ["s10CollectionP", "init"]
-- !private ["s10CollectionP", "removeAll"]
-- !private ["s10CollectionP", "subscript"]
-- ["s10ComparableP", "init"]
+- !private ["6Charts12ChartDataSetC", "unsafeBitCast"]
+- !private ["Sl", "append"]
+- !private ["Sl", "count"]
+- ["Sl", "init"]
+- !private ["Sl", "removeAll"]
+- !private ["Sl", "subscript"]
+- ["SL", "init"]
 - ["s28CustomDebugStringConvertibleP", "CGFloat"]
 - ["s28CustomDebugStringConvertibleP", "CGLineCap"]
 - ["s28CustomDebugStringConvertibleP", "DefaultFillFormatter"]
@@ -261,6 +273,7 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "fillFormatter"]
 - ["s28CustomDebugStringConvertibleP", "getCircleColor"]
 - ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "initialize"]
 - ["s28CustomDebugStringConvertibleP", "isDrawCircleHoleEnabled"]
 - ["s28CustomDebugStringConvertibleP", "isDrawCirclesEnabled"]
@@ -274,12 +287,14 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "resetCircleColors"]
 - ["s28CustomDebugStringConvertibleP", "setCircleColor"]
 - !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "unsafeBitCast"]
 - ["s28CustomDebugStringConvertibleP", "white"]
 - !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
 - !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
 - !private ["s17CustomReflectableP", "append"]
 - !private ["s17CustomReflectableP", "count"]
 - ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "removeAll"]
 - !private ["s17CustomReflectableP", "subscript"]
 - ["s23CustomStringConvertibleP", "CGFloat"]
@@ -307,6 +322,7 @@ depends-member:
 - ["s23CustomStringConvertibleP", "fillFormatter"]
 - ["s23CustomStringConvertibleP", "getCircleColor"]
 - ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "initialize"]
 - ["s23CustomStringConvertibleP", "isDrawCircleHoleEnabled"]
 - ["s23CustomStringConvertibleP", "isDrawCirclesEnabled"]
@@ -320,68 +336,71 @@ depends-member:
 - ["s23CustomStringConvertibleP", "resetCircleColors"]
 - ["s23CustomStringConvertibleP", "setCircleColor"]
 - !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "unsafeBitCast"]
 - ["s23CustomStringConvertibleP", "white"]
-- !private ["s9DecodableP", "_getBuiltinLogicValue"]
-- !private ["s9DecodableP", "append"]
-- !private ["s9DecodableP", "count"]
-- ["s9DecodableP", "init"]
-- !private ["s9DecodableP", "removeAll"]
-- !private ["s9DecodableP", "subscript"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "append"]
+- !private ["Se", "count"]
+- ["Se", "init"]
+- !private ["Se", "removeAll"]
+- !private ["Se", "subscript"]
 - ["6Charts20DefaultFillFormatterC", "deinit"]
 - ["6Charts20DefaultFillFormatterC", "init"]
-- !private ["s9EncodableP", "_getBuiltinLogicValue"]
-- !private ["s9EncodableP", "append"]
-- !private ["s9EncodableP", "count"]
-- ["s9EncodableP", "init"]
-- !private ["s9EncodableP", "removeAll"]
-- !private ["s9EncodableP", "subscript"]
-- ["s9EquatableP", "CGFloat"]
-- ["s9EquatableP", "CGLineCap"]
-- ["s9EquatableP", "DefaultFillFormatter"]
-- !private ["s9EquatableP", "LineChartDataSet"]
-- ["s9EquatableP", "Mode"]
-- ["s9EquatableP", "NSUIColor"]
-- ["s9EquatableP", "RawValue"]
-- ["s9EquatableP", ""]
-- ["s9EquatableP", "_Default_RawValue"]
-- !private ["s9EquatableP", "_cubicIntensity"]
-- !private ["s9EquatableP", "_fillFormatter"]
-- !private ["s9EquatableP", "_getBuiltinLogicValue"]
-- !private ["s9EquatableP", "append"]
-- ["s9EquatableP", "butt"]
-- ["s9EquatableP", "circleColors"]
-- ["s9EquatableP", "circleHoleColor"]
-- ["s9EquatableP", "circleHoleRadius"]
-- ["s9EquatableP", "circleRadius"]
-- !private ["s9EquatableP", "copyWithZone"]
-- !private ["s9EquatableP", "count"]
-- !private ["s9EquatableP", "cubicBezier"]
-- ["s9EquatableP", "cubicIntensity"]
-- ["s9EquatableP", "drawCircleHoleEnabled"]
-- ["s9EquatableP", "drawCirclesEnabled"]
-- ["s9EquatableP", "drawCubicEnabled"]
-- ["s9EquatableP", "drawSteppedEnabled"]
-- ["s9EquatableP", "fillFormatter"]
-- ["s9EquatableP", "getCircleColor"]
-- ["s9EquatableP", "hashValue"]
-- ["s9EquatableP", "init"]
-- !private ["s9EquatableP", "initialize"]
-- ["s9EquatableP", "isDrawCircleHoleEnabled"]
-- ["s9EquatableP", "isDrawCirclesEnabled"]
-- ["s9EquatableP", "isDrawCubicEnabled"]
-- ["s9EquatableP", "isDrawSteppedEnabled"]
-- ["s9EquatableP", "lineCapType"]
-- ["s9EquatableP", "lineDashLengths"]
-- ["s9EquatableP", "lineDashPhase"]
-- ["s9EquatableP", "linear"]
-- ["s9EquatableP", "mode"]
-- ["s9EquatableP", "rawValue"]
-- !private ["s9EquatableP", "removeAll"]
-- ["s9EquatableP", "resetCircleColors"]
-- ["s9EquatableP", "setCircleColor"]
-- !private ["s9EquatableP", "stepped"]
-- !private ["s9EquatableP", "subscript"]
-- ["s9EquatableP", "white"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "append"]
+- !private ["SE", "count"]
+- ["SE", "init"]
+- !private ["SE", "removeAll"]
+- !private ["SE", "subscript"]
+- ["SQ", "CGFloat"]
+- ["SQ", "CGLineCap"]
+- ["SQ", "DefaultFillFormatter"]
+- !private ["SQ", "LineChartDataSet"]
+- ["SQ", "Mode"]
+- ["SQ", "NSUIColor"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_cubicIntensity"]
+- !private ["SQ", "_fillFormatter"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "append"]
+- ["SQ", "butt"]
+- ["SQ", "circleColors"]
+- ["SQ", "circleHoleColor"]
+- ["SQ", "circleHoleRadius"]
+- ["SQ", "circleRadius"]
+- !private ["SQ", "copyWithZone"]
+- !private ["SQ", "count"]
+- !private ["SQ", "cubicBezier"]
+- ["SQ", "cubicIntensity"]
+- ["SQ", "drawCircleHoleEnabled"]
+- ["SQ", "drawCirclesEnabled"]
+- ["SQ", "drawCubicEnabled"]
+- ["SQ", "drawSteppedEnabled"]
+- ["SQ", "fillFormatter"]
+- ["SQ", "getCircleColor"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- !private ["SQ", "initialize"]
+- ["SQ", "isDrawCircleHoleEnabled"]
+- ["SQ", "isDrawCirclesEnabled"]
+- ["SQ", "isDrawCubicEnabled"]
+- ["SQ", "isDrawSteppedEnabled"]
+- ["SQ", "lineCapType"]
+- ["SQ", "lineDashLengths"]
+- ["SQ", "lineDashPhase"]
+- ["SQ", "linear"]
+- ["SQ", "mode"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "removeAll"]
+- ["SQ", "resetCircleColors"]
+- ["SQ", "setCircleColor"]
+- !private ["SQ", "stepped"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "unsafeBitCast"]
+- ["SQ", "white"]
 - !private ["s25ExpressibleByArrayLiteralP", "append"]
 - !private ["s25ExpressibleByArrayLiteralP", "count"]
 - ["s25ExpressibleByArrayLiteralP", "init"]
@@ -389,54 +408,64 @@ depends-member:
 - !private ["s25ExpressibleByArrayLiteralP", "subscript"]
 - !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - ["s25ExpressibleByFloatLiteralP", "init"]
 - ["s27ExpressibleByIntegerLiteralP", "init"]
 - !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
-- ["s13FloatingPointP", "init"]
-- ["s8HashableP", "CGFloat"]
-- ["s8HashableP", "CGLineCap"]
-- ["s8HashableP", "DefaultFillFormatter"]
-- !private ["s8HashableP", "LineChartDataSet"]
-- ["s8HashableP", "Mode"]
-- ["s8HashableP", "NSUIColor"]
-- ["s8HashableP", "RawValue"]
-- ["s8HashableP", ""]
-- ["s8HashableP", "_Default_RawValue"]
-- !private ["s8HashableP", "_cubicIntensity"]
-- !private ["s8HashableP", "_fillFormatter"]
-- !private ["s8HashableP", "_getBuiltinLogicValue"]
-- ["s8HashableP", "butt"]
-- ["s8HashableP", "circleColors"]
-- ["s8HashableP", "circleHoleColor"]
-- ["s8HashableP", "circleHoleRadius"]
-- ["s8HashableP", "circleRadius"]
-- !private ["s8HashableP", "copyWithZone"]
-- !private ["s8HashableP", "cubicBezier"]
-- ["s8HashableP", "cubicIntensity"]
-- ["s8HashableP", "drawCircleHoleEnabled"]
-- ["s8HashableP", "drawCirclesEnabled"]
-- ["s8HashableP", "drawCubicEnabled"]
-- ["s8HashableP", "drawSteppedEnabled"]
-- ["s8HashableP", "fillFormatter"]
-- ["s8HashableP", "getCircleColor"]
-- ["s8HashableP", "hashValue"]
-- ["s8HashableP", "init"]
-- !private ["s8HashableP", "initialize"]
-- ["s8HashableP", "isDrawCircleHoleEnabled"]
-- ["s8HashableP", "isDrawCirclesEnabled"]
-- ["s8HashableP", "isDrawCubicEnabled"]
-- ["s8HashableP", "isDrawSteppedEnabled"]
-- ["s8HashableP", "lineCapType"]
-- ["s8HashableP", "lineDashLengths"]
-- ["s8HashableP", "lineDashPhase"]
-- ["s8HashableP", "linear"]
-- ["s8HashableP", "mode"]
-- ["s8HashableP", "rawValue"]
-- ["s8HashableP", "resetCircleColors"]
-- ["s8HashableP", "setCircleColor"]
-- !private ["s8HashableP", "stepped"]
-- ["s8HashableP", "white"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["SF", "init"]
+- ["SH", "CGFloat"]
+- ["SH", "CGLineCap"]
+- ["SH", "DefaultFillFormatter"]
+- !private ["SH", "LineChartDataSet"]
+- ["SH", "Mode"]
+- ["SH", "NSUIColor"]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_cubicIntensity"]
+- !private ["SH", "_fillFormatter"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "append"]
+- ["SH", "butt"]
+- ["SH", "circleColors"]
+- ["SH", "circleHoleColor"]
+- ["SH", "circleHoleRadius"]
+- ["SH", "circleRadius"]
+- !private ["SH", "copyWithZone"]
+- !private ["SH", "count"]
+- !private ["SH", "cubicBezier"]
+- ["SH", "cubicIntensity"]
+- ["SH", "drawCircleHoleEnabled"]
+- ["SH", "drawCirclesEnabled"]
+- ["SH", "drawCubicEnabled"]
+- ["SH", "drawSteppedEnabled"]
+- ["SH", "fillFormatter"]
+- ["SH", "getCircleColor"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- !private ["SH", "initialize"]
+- ["SH", "isDrawCircleHoleEnabled"]
+- ["SH", "isDrawCirclesEnabled"]
+- ["SH", "isDrawCubicEnabled"]
+- ["SH", "isDrawSteppedEnabled"]
+- ["SH", "lineCapType"]
+- ["SH", "lineDashLengths"]
+- ["SH", "lineDashPhase"]
+- ["SH", "linear"]
+- ["SH", "mode"]
+- ["SH", "rawValue"]
+- !private ["SH", "removeAll"]
+- ["SH", "resetCircleColors"]
+- ["SH", "setCircleColor"]
+- !private ["SH", "stepped"]
+- !private ["SH", "subscript"]
+- !private ["SH", "unsafeBitCast"]
+- ["SH", "white"]
+- !private ["s6HasherV", "combine"]
 - ["6Charts39IBarLineScatterCandleBubbleChartDataSetP", "CGFloat"]
 - ["6Charts39IBarLineScatterCandleBubbleChartDataSetP", "CGLineCap"]
 - ["6Charts39IBarLineScatterCandleBubbleChartDataSetP", "DefaultFillFormatter"]
@@ -470,6 +499,7 @@ depends-member:
 - ["6Charts39IBarLineScatterCandleBubbleChartDataSetP", "mode"]
 - ["6Charts39IBarLineScatterCandleBubbleChartDataSetP", "resetCircleColors"]
 - ["6Charts39IBarLineScatterCandleBubbleChartDataSetP", "setCircleColor"]
+- !private ["6Charts39IBarLineScatterCandleBubbleChartDataSetP", "unsafeBitCast"]
 - ["6Charts13IChartDataSetP", "CGFloat"]
 - ["6Charts13IChartDataSetP", "CGLineCap"]
 - ["6Charts13IChartDataSetP", "DefaultFillFormatter"]
@@ -503,6 +533,7 @@ depends-member:
 - ["6Charts13IChartDataSetP", "mode"]
 - ["6Charts13IChartDataSetP", "resetCircleColors"]
 - ["6Charts13IChartDataSetP", "setCircleColor"]
+- !private ["6Charts13IChartDataSetP", "unsafeBitCast"]
 - ["6Charts14IFillFormatterP", "init"]
 - ["6Charts17ILineChartDataSetP", "CGFloat"]
 - ["6Charts17ILineChartDataSetP", "CGLineCap"]
@@ -535,6 +566,7 @@ depends-member:
 - ["6Charts17ILineChartDataSetP", "mode"]
 - ["6Charts17ILineChartDataSetP", "resetCircleColors"]
 - ["6Charts17ILineChartDataSetP", "setCircleColor"]
+- !private ["6Charts17ILineChartDataSetP", "unsafeBitCast"]
 - ["6Charts22ILineRadarChartDataSetP", "CGFloat"]
 - ["6Charts22ILineRadarChartDataSetP", "CGLineCap"]
 - ["6Charts22ILineRadarChartDataSetP", "DefaultFillFormatter"]
@@ -568,6 +600,7 @@ depends-member:
 - ["6Charts22ILineRadarChartDataSetP", "mode"]
 - ["6Charts22ILineRadarChartDataSetP", "resetCircleColors"]
 - ["6Charts22ILineRadarChartDataSetP", "setCircleColor"]
+- !private ["6Charts22ILineRadarChartDataSetP", "unsafeBitCast"]
 - ["6Charts35ILineScatterCandleRadarChartDataSetP", "CGFloat"]
 - ["6Charts35ILineScatterCandleRadarChartDataSetP", "CGLineCap"]
 - ["6Charts35ILineScatterCandleRadarChartDataSetP", "DefaultFillFormatter"]
@@ -601,6 +634,7 @@ depends-member:
 - ["6Charts35ILineScatterCandleRadarChartDataSetP", "mode"]
 - ["6Charts35ILineScatterCandleRadarChartDataSetP", "resetCircleColors"]
 - ["6Charts35ILineScatterCandleRadarChartDataSetP", "setCircleColor"]
+- !private ["6Charts35ILineScatterCandleRadarChartDataSetP", "unsafeBitCast"]
 - ["6Charts16LineChartDataSetC", "AnyObject"]
 - ["6Charts16LineChartDataSetC", "Bool"]
 - ["6Charts16LineChartDataSetC", "CGFloat"]
@@ -642,6 +676,7 @@ depends-member:
 - ["6Charts16LineChartDataSetC", "resetCircleColors"]
 - ["6Charts16LineChartDataSetC", "setCircleColor"]
 - ["6Charts16LineChartDataSetC", "setCircleColors"]
+- !private ["6Charts16LineChartDataSetC", "unsafeBitCast"]
 - ["6Charts21LineRadarChartDataSetC", "AnyObject"]
 - ["6Charts21LineRadarChartDataSetC", "Bool"]
 - ["6Charts21LineRadarChartDataSetC", "CGFloat"]
@@ -683,6 +718,7 @@ depends-member:
 - ["6Charts21LineRadarChartDataSetC", "resetCircleColors"]
 - ["6Charts21LineRadarChartDataSetC", "setCircleColor"]
 - ["6Charts21LineRadarChartDataSetC", "setCircleColors"]
+- !private ["6Charts21LineRadarChartDataSetC", "unsafeBitCast"]
 - ["6Charts34LineScatterCandleRadarChartDataSetC", "AnyObject"]
 - ["6Charts34LineScatterCandleRadarChartDataSetC", "Bool"]
 - ["6Charts34LineScatterCandleRadarChartDataSetC", "CGFloat"]
@@ -723,22 +759,25 @@ depends-member:
 - ["6Charts34LineScatterCandleRadarChartDataSetC", "resetCircleColors"]
 - ["6Charts34LineScatterCandleRadarChartDataSetC", "setCircleColor"]
 - ["6Charts34LineScatterCandleRadarChartDataSetC", "setCircleColors"]
+- !private ["6Charts34LineScatterCandleRadarChartDataSetC", "unsafeBitCast"]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - ["6Charts16LineChartDataSetC4ModeO", "RawValue"]
 - ["6Charts16LineChartDataSetC4ModeO", "_Default_RawValue"]
 - ["6Charts16LineChartDataSetC4ModeO", "cubicBezier"]
 - ["6Charts16LineChartDataSetC4ModeO", "deinit"]
+- ["6Charts16LineChartDataSetC4ModeO", "hash"]
 - ["6Charts16LineChartDataSetC4ModeO", "hashValue"]
 - ["6Charts16LineChartDataSetC4ModeO", "horizontalBezier"]
 - ["6Charts16LineChartDataSetC4ModeO", "init"]
 - ["6Charts16LineChartDataSetC4ModeO", "linear"]
 - ["6Charts16LineChartDataSetC4ModeO", "rawValue"]
 - ["6Charts16LineChartDataSetC4ModeO", "stepped"]
-- !private ["s17MutableCollectionP", "append"]
-- !private ["s17MutableCollectionP", "count"]
-- ["s17MutableCollectionP", "init"]
-- !private ["s17MutableCollectionP", "removeAll"]
-- !private ["s17MutableCollectionP", "subscript"]
+- !private ["6Charts16LineChartDataSetC4ModeO", "unsafeBitCast"]
+- !private ["SM", "append"]
+- !private ["SM", "count"]
+- ["SM", "init"]
+- !private ["SM", "removeAll"]
+- !private ["SM", "subscript"]
 - !private ["So8NSCodingP", "init"]
 - ["So8NSCodingP", "white"]
 - !private ["So9NSCopyingP", "init"]
@@ -787,79 +826,79 @@ depends-member:
 - ["So8NSObjectC", "resetCircleColors"]
 - ["So8NSObjectC", "setCircleColor"]
 - ["So8NSObjectC", "setCircleColors"]
+- !private ["So8NSObjectC", "unsafeBitCast"]
 - ["So8NSObjectC", "white"]
-- ["So16NSObjectProtocolP", "CGFloat"]
-- ["So16NSObjectProtocolP", "CGLineCap"]
-- ["So16NSObjectProtocolP", "DefaultFillFormatter"]
-- !private ["So16NSObjectProtocolP", "LineChartDataSet"]
-- ["So16NSObjectProtocolP", "Mode"]
-- ["So16NSObjectProtocolP", "NSUIColor"]
-- ["So16NSObjectProtocolP", ""]
-- !private ["So16NSObjectProtocolP", "_cubicIntensity"]
-- !private ["So16NSObjectProtocolP", "_fillFormatter"]
-- ["So16NSObjectProtocolP", "circleColors"]
-- ["So16NSObjectProtocolP", "circleHoleColor"]
-- ["So16NSObjectProtocolP", "circleHoleRadius"]
-- ["So16NSObjectProtocolP", "circleRadius"]
-- !private ["So16NSObjectProtocolP", "copyWithZone"]
-- ["So16NSObjectProtocolP", "cubicIntensity"]
-- ["So16NSObjectProtocolP", "drawCircleHoleEnabled"]
-- ["So16NSObjectProtocolP", "drawCirclesEnabled"]
-- ["So16NSObjectProtocolP", "drawCubicEnabled"]
-- ["So16NSObjectProtocolP", "drawSteppedEnabled"]
-- ["So16NSObjectProtocolP", "fillFormatter"]
-- ["So16NSObjectProtocolP", "getCircleColor"]
-- ["So16NSObjectProtocolP", "init"]
-- !private ["So16NSObjectProtocolP", "initialize"]
-- ["So16NSObjectProtocolP", "isDrawCircleHoleEnabled"]
-- ["So16NSObjectProtocolP", "isDrawCirclesEnabled"]
-- ["So16NSObjectProtocolP", "isDrawCubicEnabled"]
-- ["So16NSObjectProtocolP", "isDrawSteppedEnabled"]
-- ["So16NSObjectProtocolP", "lineCapType"]
-- ["So16NSObjectProtocolP", "lineDashLengths"]
-- ["So16NSObjectProtocolP", "lineDashPhase"]
-- ["So16NSObjectProtocolP", "mode"]
-- ["So16NSObjectProtocolP", "resetCircleColors"]
-- ["So16NSObjectProtocolP", "setCircleColor"]
-- ["So16NSObjectProtocolP", "white"]
+- ["So8NSObjectP", "CGFloat"]
+- ["So8NSObjectP", "CGLineCap"]
+- ["So8NSObjectP", "DefaultFillFormatter"]
+- !private ["So8NSObjectP", "LineChartDataSet"]
+- ["So8NSObjectP", "Mode"]
+- ["So8NSObjectP", "NSUIColor"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "_cubicIntensity"]
+- !private ["So8NSObjectP", "_fillFormatter"]
+- ["So8NSObjectP", "circleColors"]
+- ["So8NSObjectP", "circleHoleColor"]
+- ["So8NSObjectP", "circleHoleRadius"]
+- ["So8NSObjectP", "circleRadius"]
+- !private ["So8NSObjectP", "copyWithZone"]
+- ["So8NSObjectP", "cubicIntensity"]
+- ["So8NSObjectP", "drawCircleHoleEnabled"]
+- ["So8NSObjectP", "drawCirclesEnabled"]
+- ["So8NSObjectP", "drawCubicEnabled"]
+- ["So8NSObjectP", "drawSteppedEnabled"]
+- ["So8NSObjectP", "fillFormatter"]
+- ["So8NSObjectP", "getCircleColor"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "initialize"]
+- ["So8NSObjectP", "isDrawCircleHoleEnabled"]
+- ["So8NSObjectP", "isDrawCirclesEnabled"]
+- ["So8NSObjectP", "isDrawCubicEnabled"]
+- ["So8NSObjectP", "isDrawSteppedEnabled"]
+- ["So8NSObjectP", "lineCapType"]
+- ["So8NSObjectP", "lineDashLengths"]
+- ["So8NSObjectP", "lineDashPhase"]
+- ["So8NSObjectP", "mode"]
+- ["So8NSObjectP", "resetCircleColors"]
+- ["So8NSObjectP", "setCircleColor"]
+- !private ["So8NSObjectP", "unsafeBitCast"]
+- ["So8NSObjectP", "white"]
 - !private ["So14NSSecureCodingP", "init"]
 - ["So14NSSecureCodingP", "white"]
-- ["s7NumericP", "init"]
-- !private ["s22RandomAccessCollectionP", "append"]
-- !private ["s22RandomAccessCollectionP", "count"]
-- ["s22RandomAccessCollectionP", "init"]
-- !private ["s22RandomAccessCollectionP", "removeAll"]
-- !private ["s22RandomAccessCollectionP", "subscript"]
-- !private ["s26RangeReplaceableCollectionP", "append"]
-- !private ["s26RangeReplaceableCollectionP", "count"]
-- ["s26RangeReplaceableCollectionP", "init"]
-- !private ["s26RangeReplaceableCollectionP", "removeAll"]
-- !private ["s26RangeReplaceableCollectionP", "subscript"]
-- ["s16RawRepresentableP", "RawValue"]
-- ["s16RawRepresentableP", ""]
-- ["s16RawRepresentableP", "_Default_RawValue"]
-- ["s16RawRepresentableP", "butt"]
-- !private ["s16RawRepresentableP", "cubicBezier"]
-- ["s16RawRepresentableP", "hashValue"]
-- ["s16RawRepresentableP", "init"]
-- ["s16RawRepresentableP", "linear"]
-- ["s16RawRepresentableP", "rawValue"]
-- !private ["s16RawRepresentableP", "stepped"]
-- !private ["s8SequenceP", "append"]
-- !private ["s8SequenceP", "count"]
-- ["s8SequenceP", "init"]
-- !private ["s8SequenceP", "removeAll"]
-- !private ["s8SequenceP", "subscript"]
+- ["Sj", "init"]
+- !private ["Sk", "append"]
+- !private ["Sk", "count"]
+- ["Sk", "init"]
+- !private ["Sk", "removeAll"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "append"]
+- !private ["Sm", "count"]
+- ["Sm", "init"]
+- !private ["Sm", "removeAll"]
+- !private ["Sm", "subscript"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- ["SY", "butt"]
+- !private ["SY", "cubicBezier"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "linear"]
+- ["SY", "rawValue"]
+- !private ["SY", "stepped"]
+- !private ["SY", "unsafeBitCast"]
+- !private ["ST", "append"]
+- !private ["ST", "count"]
+- ["ST", "init"]
+- !private ["ST", "removeAll"]
+- !private ["ST", "subscript"]
 - ["s13SignedNumericP", "init"]
 - !private ["s12StaticStringV", "init"]
-- ["s10StrideableP", "init"]
+- !private ["s12StaticStringV", "init"]
+- ["Sx", "init"]
 - !private ["So7UIColorC", "init"]
 - ["So7UIColorC", "white"]
-- !private ["s14_ArrayProtocolP", "append"]
-- !private ["s14_ArrayProtocolP", "count"]
-- ["s14_ArrayProtocolP", "init"]
-- !private ["s14_ArrayProtocolP", "removeAll"]
-- !private ["s14_ArrayProtocolP", "subscript"]
 - ["s15_CVarArgAlignedP", "init"]
 - ["s22_CVarArgPassedAsDoubleP", "init"]
 - !private ["s24_DestructorSafeContainerP", "append"]
@@ -869,10 +908,18 @@ depends-member:
 - !private ["s24_DestructorSafeContainerP", "subscript"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - !private ["s26_ExpressibleByColorLiteralP", "init"]
 - ["s26_ExpressibleByColorLiteralP", "white"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "removeAll"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "CGFloat"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "CGLineCap"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "DefaultFillFormatter"]
@@ -906,6 +953,7 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", "mode"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "resetCircleColors"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "setCircleColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unsafeBitCast"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "white"]
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - !private ["s21_ObjectiveCBridgeableP", "append"]
@@ -915,25 +963,26 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "subscript"]
 depends-nominal:
 - "Sa"
+- "s13ArrayProtocolP"
 - "6Charts38BarLineScatterCandleBubbleChartDataSetC"
-- "s23BidirectionalCollectionP"
-- "s19BinaryFloatingPointP"
+- "SK"
+- "SB"
 - !private "Sb"
 - "12CoreGraphics7CGFloatV"
-- "SC9CGLineCapO"
+- "So9CGLineCapV"
 - "s7CVarArgP"
 - "6Charts16ChartBaseDataSetC"
 - "6Charts12ChartDataSetC"
-- "s10CollectionP"
-- "s10ComparableP"
+- "Sl"
+- "SL"
 - "s28CustomDebugStringConvertibleP"
 - !private "s29CustomPlaygroundQuickLookableP"
 - "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
-- "s9DecodableP"
+- "Se"
 - "6Charts20DefaultFillFormatterC"
-- "s9EncodableP"
-- "s9EquatableP"
+- "SE"
+- "SQ"
 - "s25ExpressibleByArrayLiteralP"
 - !private "s27ExpressibleByBooleanLiteralP"
 - !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
@@ -941,8 +990,9 @@ depends-nominal:
 - "s27ExpressibleByIntegerLiteralP"
 - !private "s26ExpressibleByStringLiteralP"
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
-- "s13FloatingPointP"
-- "s8HashableP"
+- "SF"
+- "SH"
+- !private "s6HasherV"
 - "6Charts39IBarLineScatterCandleBubbleChartDataSetP"
 - "6Charts13IChartDataSetP"
 - "6Charts14IFillFormatterP"
@@ -954,24 +1004,23 @@ depends-nominal:
 - "6Charts34LineScatterCandleRadarChartDataSetC"
 - !private "s25LosslessStringConvertibleP"
 - "6Charts16LineChartDataSetC4ModeO"
-- "s17MutableCollectionP"
+- "SM"
 - "So8NSCodingP"
 - "So9NSCopyingP"
 - "So21NSItemProviderReadingP"
 - "So21NSItemProviderWritingP"
 - "So8NSObjectC"
-- "So16NSObjectProtocolP"
+- "So8NSObjectP"
 - "So14NSSecureCodingP"
-- "s7NumericP"
-- "s22RandomAccessCollectionP"
-- "s26RangeReplaceableCollectionP"
-- "s16RawRepresentableP"
-- "s8SequenceP"
+- "Sj"
+- "Sk"
+- "Sm"
+- "SY"
+- "ST"
 - "s13SignedNumericP"
 - !private "s12StaticStringV"
-- "s10StrideableP"
+- "Sx"
 - "So7UIColorC"
-- "s14_ArrayProtocolP"
 - "s15_CVarArgAlignedP"
 - "s22_CVarArgPassedAsDoubleP"
 - "s24_DestructorSafeContainerP"
@@ -980,6 +1029,7 @@ depends-nominal:
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
 - !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - "s26_ExpressibleByColorLiteralP"
+- "s35_HasCustomAnyHashableRepresentationP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "s21_ObjectiveCBridgeableP"
 depends-dynamic-lookup:
@@ -999,14 +1049,15 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Users/maxim/Projects/react-native-default-example/ios/Pods/Target Support Files/Charts/Charts-umbrella.h"
 - "/Users/maxim/Projects/react-native-default-example/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Charts.build/unextended-module.modulemap"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
 interface-hash: "f12ef326cca5730907e5517378dfe586"

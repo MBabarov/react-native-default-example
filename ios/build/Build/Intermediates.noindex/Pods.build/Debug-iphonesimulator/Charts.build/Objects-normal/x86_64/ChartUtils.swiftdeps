@@ -34,6 +34,7 @@ depends-top-level:
 - "FloatLiteralType"
 - "IValueFormatter"
 - "Int"
+- !private "IntegerLiteralType"
 - !private "NSNull"
 - "NSObject"
 - !private "NSString"
@@ -62,39 +63,43 @@ depends-top-level:
 depends-member:
 - !private ["Sa", "append"]
 - !private ["Sa", "init"]
-- !private ["s23BidirectionalCollectionP", "append"]
-- !private ["s23BidirectionalCollectionP", "boundingRect"]
-- !private ["s23BidirectionalCollectionP", "init"]
-- !private ["s23BidirectionalCollectionP", "size"]
-- ["s19BinaryFloatingPointP", "init"]
-- !private ["s19BinaryFloatingPointP", "isInfinite"]
-- !private ["s19BinaryFloatingPointP", "isNaN"]
-- ["s19BinaryFloatingPointP", "pi"]
-- !private ["s19BinaryFloatingPointP", "truncatingRemainder"]
-- !private ["s19BinaryFloatingPointP", "ulpOfOne"]
-- !private ["s13BinaryIntegerP", "init"]
+- !private ["s13ArrayProtocolP", "append"]
+- !private ["s13ArrayProtocolP", "init"]
+- !private ["SK", "append"]
+- !private ["SK", "boundingRect"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "size"]
+- ["SB", "init"]
+- !private ["SB", "isInfinite"]
+- !private ["SB", "isNaN"]
+- ["SB", "pi"]
+- !private ["SB", "truncatingRemainder"]
+- !private ["SB", "ulpOfOne"]
+- !private ["Sz", "init"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["So8CAActionP", "init"]
-- !private ["So9CGContextC", "restoreGState"]
-- !private ["So9CGContextC", "rotate"]
-- !private ["So9CGContextC", "saveGState"]
-- !private ["So9CGContextC", "translateBy"]
+- !private ["So12CGContextRefa", "restoreGState"]
+- !private ["So12CGContextRefa", "rotate"]
+- !private ["So12CGContextRefa", "saveGState"]
+- !private ["So12CGContextRefa", "translateBy"]
 - ["12CoreGraphics7CGFloatV", "init"]
 - !private ["12CoreGraphics7CGFloatV", "truncatingRemainder"]
-- !private ["SC7CGPointV", "init"]
-- !private ["SC7CGPointV", "x"]
-- !private ["SC7CGPointV", "y"]
-- !private ["SC6CGRectV", "init"]
-- !private ["SC6CGRectV", "origin"]
-- !private ["SC6CGRectV", "size"]
-- !private ["SC6CGSizeV", "height"]
-- !private ["SC6CGSizeV", "init"]
-- !private ["SC6CGSizeV", "width"]
+- !private ["So7CGPointV", "init"]
+- !private ["So7CGPointV", "x"]
+- !private ["So7CGPointV", "y"]
+- !private ["So6CGRectV", "init"]
+- !private ["So6CGRectV", "origin"]
+- !private ["So6CGRectV", "size"]
+- !private ["So6CGSizeV", "height"]
+- !private ["So6CGSizeV", "init"]
+- !private ["So6CGSizeV", "width"]
 - !private ["s7CVarArgP", "_getBuiltinLogicValue"]
 - !private ["s7CVarArgP", "append"]
 - !private ["s7CVarArgP", "boundingRect"]
 - !private ["s7CVarArgP", "draw"]
 - ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "isInfinite"]
 - !private ["s7CVarArgP", "isNaN"]
 - ["s7CVarArgP", "pi"]
@@ -150,22 +155,25 @@ depends-member:
 - ["6Charts10ChartUtilsC", "roundToNextSignificant"]
 - !private ["6Charts10ChartUtilsC", "sin"]
 - ["6Charts10ChartUtilsC", "sizeOfRotatedRectangle"]
-- !private ["s10CollectionP", "append"]
-- !private ["s10CollectionP", "boundingRect"]
-- !private ["s10CollectionP", "init"]
-- !private ["s10CollectionP", "size"]
-- !private ["s10ComparableP", "boundingRect"]
-- ["s10ComparableP", "init"]
-- !private ["s10ComparableP", "isInfinite"]
-- !private ["s10ComparableP", "isNaN"]
-- ["s10ComparableP", "pi"]
-- !private ["s10ComparableP", "size"]
-- !private ["s10ComparableP", "truncatingRemainder"]
-- !private ["s10ComparableP", "ulpOfOne"]
+- !private ["Sl", "append"]
+- !private ["Sl", "boundingRect"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "size"]
+- !private ["SL", "boundingRect"]
+- ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "isInfinite"]
+- !private ["SL", "isNaN"]
+- ["SL", "pi"]
+- !private ["SL", "size"]
+- !private ["SL", "truncatingRemainder"]
+- !private ["SL", "ulpOfOne"]
 - !private ["s28CustomDebugStringConvertibleP", "append"]
 - !private ["s28CustomDebugStringConvertibleP", "boundingRect"]
 - !private ["s28CustomDebugStringConvertibleP", "draw"]
 - !private ["s28CustomDebugStringConvertibleP", "height"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "isInfinite"]
 - !private ["s28CustomDebugStringConvertibleP", "isNaN"]
@@ -181,6 +189,7 @@ depends-member:
 - !private ["s29CustomPlaygroundQuickLookableP", "draw"]
 - !private ["s29CustomPlaygroundQuickLookableP", "height"]
 - !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
 - !private ["s29CustomPlaygroundQuickLookableP", "isInfinite"]
 - !private ["s29CustomPlaygroundQuickLookableP", "isNaN"]
 - !private ["s29CustomPlaygroundQuickLookableP", "origin"]
@@ -195,6 +204,7 @@ depends-member:
 - !private ["s17CustomReflectableP", "boundingRect"]
 - !private ["s17CustomReflectableP", "height"]
 - ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "isInfinite"]
 - !private ["s17CustomReflectableP", "isNaN"]
 - !private ["s17CustomReflectableP", "origin"]
@@ -210,27 +220,29 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "boundingRect"]
 - !private ["s23CustomStringConvertibleP", "draw"]
 - ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "isInfinite"]
 - !private ["s23CustomStringConvertibleP", "isNaN"]
 - ["s23CustomStringConvertibleP", "pi"]
 - !private ["s23CustomStringConvertibleP", "size"]
 - !private ["s23CustomStringConvertibleP", "truncatingRemainder"]
 - !private ["s23CustomStringConvertibleP", "ulpOfOne"]
-- !private ["s9DecodableP", "_getBuiltinLogicValue"]
-- !private ["s9DecodableP", "append"]
-- !private ["s9DecodableP", "boundingRect"]
-- !private ["s9DecodableP", "height"]
-- ["s9DecodableP", "init"]
-- !private ["s9DecodableP", "isInfinite"]
-- !private ["s9DecodableP", "isNaN"]
-- !private ["s9DecodableP", "origin"]
-- ["s9DecodableP", "pi"]
-- !private ["s9DecodableP", "size"]
-- !private ["s9DecodableP", "truncatingRemainder"]
-- !private ["s9DecodableP", "ulpOfOne"]
-- !private ["s9DecodableP", "width"]
-- !private ["s9DecodableP", "x"]
-- !private ["s9DecodableP", "y"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "append"]
+- !private ["Se", "boundingRect"]
+- !private ["Se", "height"]
+- ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "isInfinite"]
+- !private ["Se", "isNaN"]
+- !private ["Se", "origin"]
+- ["Se", "pi"]
+- !private ["Se", "size"]
+- !private ["Se", "truncatingRemainder"]
+- !private ["Se", "ulpOfOne"]
+- !private ["Se", "width"]
+- !private ["Se", "x"]
+- !private ["Se", "y"]
 - !private ["6Charts21DefaultValueFormatterC", "deinit"]
 - !private ["6Charts21DefaultValueFormatterC", "init"]
 - !private ["Sd", "init"]
@@ -238,51 +250,54 @@ depends-member:
 - !private ["Sd", "isNaN"]
 - ["Sd", "pi"]
 - !private ["Sd", "ulpOfOne"]
-- !private ["s9EncodableP", "_getBuiltinLogicValue"]
-- !private ["s9EncodableP", "append"]
-- !private ["s9EncodableP", "boundingRect"]
-- !private ["s9EncodableP", "height"]
-- ["s9EncodableP", "init"]
-- !private ["s9EncodableP", "isInfinite"]
-- !private ["s9EncodableP", "isNaN"]
-- !private ["s9EncodableP", "origin"]
-- ["s9EncodableP", "pi"]
-- !private ["s9EncodableP", "size"]
-- !private ["s9EncodableP", "truncatingRemainder"]
-- !private ["s9EncodableP", "ulpOfOne"]
-- !private ["s9EncodableP", "width"]
-- !private ["s9EncodableP", "x"]
-- !private ["s9EncodableP", "y"]
-- !private ["s9EquatableP", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
-- !private ["s9EquatableP", "_getBuiltinLogicValue"]
-- !private ["s9EquatableP", "append"]
-- !private ["s9EquatableP", "boundingRect"]
-- !private ["s9EquatableP", "center"]
-- !private ["s9EquatableP", "draw"]
-- !private ["s9EquatableP", "height"]
-- ["s9EquatableP", "init"]
-- !private ["s9EquatableP", "isInfinite"]
-- !private ["s9EquatableP", "isNaN"]
-- !private ["s9EquatableP", "origin"]
-- ["s9EquatableP", "pi"]
-- !private ["s9EquatableP", "restoreGState"]
-- !private ["s9EquatableP", "right"]
-- !private ["s9EquatableP", "rotate"]
-- !private ["s9EquatableP", "saveGState"]
-- !private ["s9EquatableP", "size"]
-- !private ["s9EquatableP", "translateBy"]
-- !private ["s9EquatableP", "truncatingRemainder"]
-- !private ["s9EquatableP", "ulpOfOne"]
-- !private ["s9EquatableP", "usesLineFragmentOrigin"]
-- !private ["s9EquatableP", "width"]
-- !private ["s9EquatableP", "x"]
-- !private ["s9EquatableP", "y"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "append"]
+- !private ["SE", "boundingRect"]
+- !private ["SE", "height"]
+- ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "isInfinite"]
+- !private ["SE", "isNaN"]
+- !private ["SE", "origin"]
+- ["SE", "pi"]
+- !private ["SE", "size"]
+- !private ["SE", "truncatingRemainder"]
+- !private ["SE", "ulpOfOne"]
+- !private ["SE", "width"]
+- !private ["SE", "x"]
+- !private ["SE", "y"]
+- !private ["SQ", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "append"]
+- !private ["SQ", "boundingRect"]
+- !private ["SQ", "center"]
+- !private ["SQ", "draw"]
+- !private ["SQ", "height"]
+- ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isInfinite"]
+- !private ["SQ", "isNaN"]
+- !private ["SQ", "origin"]
+- ["SQ", "pi"]
+- !private ["SQ", "restoreGState"]
+- !private ["SQ", "right"]
+- !private ["SQ", "rotate"]
+- !private ["SQ", "saveGState"]
+- !private ["SQ", "size"]
+- !private ["SQ", "translateBy"]
+- !private ["SQ", "truncatingRemainder"]
+- !private ["SQ", "ulpOfOne"]
+- !private ["SQ", "usesLineFragmentOrigin"]
+- !private ["SQ", "width"]
+- !private ["SQ", "x"]
+- !private ["SQ", "y"]
 - !private ["s25ExpressibleByArrayLiteralP", "append"]
 - !private ["s25ExpressibleByArrayLiteralP", "init"]
 - !private ["s25ExpressibleByArrayLiteralP", "usesLineFragmentOrigin"]
 - !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "boundingRect"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "draw"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "size"]
 - ["s25ExpressibleByFloatLiteralP", "init"]
@@ -300,39 +315,44 @@ depends-member:
 - !private ["s26ExpressibleByStringLiteralP", "boundingRect"]
 - !private ["s26ExpressibleByStringLiteralP", "draw"]
 - !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
 - !private ["s26ExpressibleByStringLiteralP", "size"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "boundingRect"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "draw"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "size"]
 - !private ["s17FixedWidthIntegerP", "init"]
-- ["s13FloatingPointP", "init"]
-- !private ["s13FloatingPointP", "isInfinite"]
-- !private ["s13FloatingPointP", "isNaN"]
-- ["s13FloatingPointP", "pi"]
-- !private ["s13FloatingPointP", "truncatingRemainder"]
-- !private ["s13FloatingPointP", "ulpOfOne"]
-- !private ["s8HashableP", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
-- !private ["s8HashableP", "_getBuiltinLogicValue"]
-- !private ["s8HashableP", "boundingRect"]
-- !private ["s8HashableP", "center"]
-- !private ["s8HashableP", "draw"]
-- ["s8HashableP", "init"]
-- !private ["s8HashableP", "isInfinite"]
-- !private ["s8HashableP", "isNaN"]
-- ["s8HashableP", "pi"]
-- !private ["s8HashableP", "restoreGState"]
-- !private ["s8HashableP", "right"]
-- !private ["s8HashableP", "rotate"]
-- !private ["s8HashableP", "saveGState"]
-- !private ["s8HashableP", "size"]
-- !private ["s8HashableP", "translateBy"]
-- !private ["s8HashableP", "truncatingRemainder"]
-- !private ["s8HashableP", "ulpOfOne"]
+- ["SF", "init"]
+- !private ["SF", "isInfinite"]
+- !private ["SF", "isNaN"]
+- ["SF", "pi"]
+- !private ["SF", "truncatingRemainder"]
+- !private ["SF", "ulpOfOne"]
+- !private ["SH", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "append"]
+- !private ["SH", "boundingRect"]
+- !private ["SH", "center"]
+- !private ["SH", "draw"]
+- ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "isInfinite"]
+- !private ["SH", "isNaN"]
+- ["SH", "pi"]
+- !private ["SH", "restoreGState"]
+- !private ["SH", "right"]
+- !private ["SH", "rotate"]
+- !private ["SH", "saveGState"]
+- !private ["SH", "size"]
+- !private ["SH", "translateBy"]
+- !private ["SH", "truncatingRemainder"]
+- !private ["SH", "ulpOfOne"]
 - !private ["6Charts15IValueFormatterP", "init"]
 - !private ["Si", "init"]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s25LosslessStringConvertibleP", "boundingRect"]
+- !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["s25LosslessStringConvertibleP", "isInfinite"]
 - !private ["s25LosslessStringConvertibleP", "isNaN"]
@@ -348,9 +368,10 @@ depends-member:
 - ["6Charts10ChartUtilsC4MathV", "init"]
 - !private ["s10MirrorPathP", "boundingRect"]
 - !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
 - !private ["s10MirrorPathP", "size"]
-- !private ["s17MutableCollectionP", "append"]
-- !private ["s17MutableCollectionP", "init"]
+- !private ["SM", "append"]
+- !private ["SM", "init"]
 - !private ["So8NSCodingP", "boundingRect"]
 - !private ["So8NSCodingP", "draw"]
 - !private ["So8NSCodingP", "init"]
@@ -373,10 +394,10 @@ depends-member:
 - !private ["So8NSObjectC", "draw"]
 - !private ["So8NSObjectC", "init"]
 - !private ["So8NSObjectC", "size"]
-- !private ["So16NSObjectProtocolP", "boundingRect"]
-- !private ["So16NSObjectProtocolP", "draw"]
-- !private ["So16NSObjectProtocolP", "init"]
-- !private ["So16NSObjectProtocolP", "size"]
+- !private ["So8NSObjectP", "boundingRect"]
+- !private ["So8NSObjectP", "draw"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "size"]
 - !private ["So14NSSecureCodingP", "boundingRect"]
 - !private ["So14NSSecureCodingP", "draw"]
 - !private ["So14NSSecureCodingP", "init"]
@@ -384,54 +405,60 @@ depends-member:
 - !private ["So8NSStringC", "boundingRect"]
 - !private ["So8NSStringC", "draw"]
 - !private ["So8NSStringC", "size"]
-- !private ["SC22NSStringDrawingOptionsV", "usesLineFragmentOrigin"]
-- !private ["SC15NSTextAlignmentO", "center"]
-- !private ["SC15NSTextAlignmentO", "right"]
-- ["s7NumericP", "init"]
-- !private ["s7NumericP", "isInfinite"]
-- !private ["s7NumericP", "isNaN"]
-- ["s7NumericP", "pi"]
-- !private ["s7NumericP", "truncatingRemainder"]
-- !private ["s7NumericP", "ulpOfOne"]
+- !private ["So22NSStringDrawingOptionsV", "usesLineFragmentOrigin"]
+- !private ["So15NSTextAlignmentV", "center"]
+- !private ["So15NSTextAlignmentV", "right"]
+- ["Sj", "init"]
+- !private ["Sj", "isInfinite"]
+- !private ["Sj", "isNaN"]
+- ["Sj", "pi"]
+- !private ["Sj", "truncatingRemainder"]
+- !private ["Sj", "ulpOfOne"]
 - !private ["s9OptionSetP", "usesLineFragmentOrigin"]
-- !private ["s22RandomAccessCollectionP", "append"]
-- !private ["s22RandomAccessCollectionP", "init"]
-- !private ["s26RangeReplaceableCollectionP", "append"]
-- !private ["s26RangeReplaceableCollectionP", "boundingRect"]
-- !private ["s26RangeReplaceableCollectionP", "init"]
-- !private ["s26RangeReplaceableCollectionP", "size"]
-- !private ["s16RawRepresentableP", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
-- !private ["s16RawRepresentableP", "center"]
-- !private ["s16RawRepresentableP", "right"]
-- !private ["s16RawRepresentableP", "usesLineFragmentOrigin"]
-- !private ["s8SequenceP", "append"]
-- !private ["s8SequenceP", "boundingRect"]
-- !private ["s8SequenceP", "init"]
-- !private ["s8SequenceP", "size"]
+- !private ["Sk", "append"]
+- !private ["Sk", "init"]
+- !private ["Sm", "append"]
+- !private ["Sm", "boundingRect"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "size"]
+- !private ["SY", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
+- !private ["SY", "center"]
+- !private ["SY", "right"]
+- !private ["SY", "usesLineFragmentOrigin"]
+- !private ["ST", "append"]
+- !private ["ST", "boundingRect"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "size"]
 - !private ["s10SetAlgebraP", "usesLineFragmentOrigin"]
-- !private ["s13SignedIntegerP", "init"]
+- !private ["SZ", "init"]
 - ["s13SignedNumericP", "init"]
 - !private ["s13SignedNumericP", "isInfinite"]
 - !private ["s13SignedNumericP", "isNaN"]
 - ["s13SignedNumericP", "pi"]
 - !private ["s13SignedNumericP", "truncatingRemainder"]
 - !private ["s13SignedNumericP", "ulpOfOne"]
-- ["s10StrideableP", "init"]
-- !private ["s10StrideableP", "isInfinite"]
-- !private ["s10StrideableP", "isNaN"]
-- ["s10StrideableP", "pi"]
-- !private ["s10StrideableP", "truncatingRemainder"]
-- !private ["s10StrideableP", "ulpOfOne"]
+- ["Sx", "init"]
+- !private ["Sx", "isInfinite"]
+- !private ["Sx", "isNaN"]
+- ["Sx", "pi"]
+- !private ["Sx", "truncatingRemainder"]
+- !private ["Sx", "ulpOfOne"]
 - !private ["SS", "boundingRect"]
 - !private ["SS", "init"]
+- !private ["SS", "init"]
 - !private ["SS", "size"]
-- !private ["s14StringProtocolP", "boundingRect"]
-- !private ["s14StringProtocolP", "init"]
-- !private ["s14StringProtocolP", "size"]
+- !private ["Sy", "boundingRect"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "size"]
 - !private ["s16TextOutputStreamP", "boundingRect"]
+- !private ["s16TextOutputStreamP", "init"]
 - !private ["s16TextOutputStreamP", "init"]
 - !private ["s16TextOutputStreamP", "size"]
 - !private ["s20TextOutputStreamableP", "boundingRect"]
+- !private ["s20TextOutputStreamableP", "init"]
 - !private ["s20TextOutputStreamableP", "init"]
 - !private ["s20TextOutputStreamableP", "size"]
 - !private ["So29UIAccessibilityIdentificationP", "draw"]
@@ -440,8 +467,6 @@ depends-member:
 - !private ["So7UIImageC", "size"]
 - !private ["So39UIItemProviderPresentationSizeProvidingP", "draw"]
 - !private ["So39UIItemProviderPresentationSizeProvidingP", "size"]
-- !private ["s14_ArrayProtocolP", "append"]
-- !private ["s14_ArrayProtocolP", "init"]
 - !private ["s18_BitwiseOperationsP", "init"]
 - !private ["14CoreFoundation9_CFObjectP", "restoreGState"]
 - !private ["14CoreFoundation9_CFObjectP", "rotate"]
@@ -464,6 +489,7 @@ depends-member:
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "boundingRect"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "size"]
 - !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
 - !private ["s33_ExpressibleByBuiltinFloatLiteralP", "isInfinite"]
@@ -477,21 +503,31 @@ depends-member:
 - !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "ulpOfOne"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "boundingRect"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "size"]
 - !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "boundingRect"]
 - !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
 - !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "size"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "boundingRect"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "size"]
 - !private ["s26_ExpressibleByImageLiteralP", "draw"]
 - !private ["s26_ExpressibleByImageLiteralP", "size"]
 - !private ["s33_ExpressibleByStringInterpolationP", "boundingRect"]
 - !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
 - !private ["s33_ExpressibleByStringInterpolationP", "size"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "boundingRect"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "draw"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isInfinite"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isNaN"]
+- ["s35_HasCustomAnyHashableRepresentationP", "pi"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "size"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "ulpOfOne"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "boundingRect"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "draw"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
@@ -501,6 +537,7 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "boundingRect"]
 - !private ["s21_ObjectiveCBridgeableP", "height"]
 - ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "isInfinite"]
 - !private ["s21_ObjectiveCBridgeableP", "isNaN"]
 - !private ["s21_ObjectiveCBridgeableP", "origin"]
@@ -513,33 +550,35 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "y"]
 - !private ["s16_SwiftStringViewP", "boundingRect"]
 - !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
 - !private ["s16_SwiftStringViewP", "size"]
-- !private ["SC22objc_AssociationPolicyO", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
+- !private ["So22objc_AssociationPolicyV", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
 depends-nominal:
 - !private "Sa"
-- !private "s23BidirectionalCollectionP"
-- "s19BinaryFloatingPointP"
-- !private "s13BinaryIntegerP"
+- !private "s13ArrayProtocolP"
+- !private "SK"
+- "SB"
+- !private "Sz"
 - !private "Sb"
 - !private "So8CAActionP"
-- !private "So9CGContextC"
+- !private "So12CGContextRefa"
 - "12CoreGraphics7CGFloatV"
-- !private "SC7CGPointV"
-- !private "SC6CGRectV"
-- !private "SC6CGSizeV"
+- !private "So7CGPointV"
+- !private "So6CGRectV"
+- !private "So6CGSizeV"
 - "s7CVarArgP"
 - "6Charts10ChartUtilsC"
-- !private "s10CollectionP"
-- "s10ComparableP"
+- !private "Sl"
+- "SL"
 - "s28CustomDebugStringConvertibleP"
 - "s29CustomPlaygroundQuickLookableP"
 - "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
-- "s9DecodableP"
+- "Se"
 - !private "6Charts21DefaultValueFormatterC"
 - "Sd"
-- "s9EncodableP"
-- "s9EquatableP"
+- "SE"
+- "SQ"
 - !private "s25ExpressibleByArrayLiteralP"
 - !private "s27ExpressibleByBooleanLiteralP"
 - !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
@@ -548,14 +587,14 @@ depends-nominal:
 - !private "s26ExpressibleByStringLiteralP"
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
 - !private "s17FixedWidthIntegerP"
-- "s13FloatingPointP"
-- "s8HashableP"
+- "SF"
+- "SH"
 - !private "6Charts15IValueFormatterP"
 - !private "Si"
 - "s25LosslessStringConvertibleP"
 - "6Charts10ChartUtilsC4MathV"
 - !private "s10MirrorPathP"
-- !private "s17MutableCollectionP"
+- !private "SM"
 - !private "So8NSCodingP"
 - !private "So9NSCopyingP"
 - !private "So21NSItemProviderReadingP"
@@ -563,29 +602,28 @@ depends-nominal:
 - !private "So16NSMutableCopyingP"
 - !private "So6NSNullC"
 - !private "So8NSObjectC"
-- !private "So16NSObjectProtocolP"
+- !private "So8NSObjectP"
 - !private "So14NSSecureCodingP"
 - !private "So8NSStringC"
-- !private "SC22NSStringDrawingOptionsV"
-- !private "SC15NSTextAlignmentO"
-- "s7NumericP"
+- !private "So22NSStringDrawingOptionsV"
+- !private "So15NSTextAlignmentV"
+- "Sj"
 - !private "s9OptionSetP"
-- !private "s22RandomAccessCollectionP"
-- !private "s26RangeReplaceableCollectionP"
-- !private "s16RawRepresentableP"
-- !private "s8SequenceP"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "ST"
 - !private "s10SetAlgebraP"
-- !private "s13SignedIntegerP"
+- !private "SZ"
 - "s13SignedNumericP"
-- "s10StrideableP"
+- "Sx"
 - !private "SS"
-- !private "s14StringProtocolP"
+- !private "Sy"
 - !private "s16TextOutputStreamP"
 - !private "s20TextOutputStreamableP"
 - !private "So29UIAccessibilityIdentificationP"
 - !private "So7UIImageC"
 - !private "So39UIItemProviderPresentationSizeProvidingP"
-- !private "s14_ArrayProtocolP"
 - !private "s18_BitwiseOperationsP"
 - !private "14CoreFoundation9_CFObjectP"
 - "s15_CVarArgAlignedP"
@@ -600,11 +638,11 @@ depends-nominal:
 - !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s26_ExpressibleByImageLiteralP"
 - !private "s33_ExpressibleByStringInterpolationP"
-- !private "s35_HasCustomAnyHashableRepresentationP"
+- "s35_HasCustomAnyHashableRepresentationP"
 - !private "10Foundation27_KeyValueCodingAndObservingP"
 - "s21_ObjectiveCBridgeableP"
 - !private "s16_SwiftStringViewP"
-- !private "SC22objc_AssociationPolicyO"
+- !private "So22objc_AssociationPolicyV"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
@@ -622,14 +660,15 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Users/maxim/Projects/react-native-default-example/ios/Pods/Target Support Files/Charts/Charts-umbrella.h"
 - "/Users/maxim/Projects/react-native-default-example/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Charts.build/unextended-module.modulemap"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
 interface-hash: "69f842067b11e43b97f3d0b8579b6d35"

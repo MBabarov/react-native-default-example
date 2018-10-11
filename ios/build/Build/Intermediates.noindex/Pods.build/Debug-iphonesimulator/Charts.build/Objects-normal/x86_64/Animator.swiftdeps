@@ -36,6 +36,7 @@ depends-top-level:
 - "ChartEasingFunctionBlock"
 - "ChartEasingOption"
 - "Double"
+- "FloatLiteralType"
 - "NSObject"
 - "NSUIDisplayLink"
 - !private "RunLoop"
@@ -84,7 +85,7 @@ depends-member:
 - ["6Charts16AnimatorDelegateP", "Animator"]
 - ["6Charts16AnimatorDelegateP", "animatorStopped"]
 - ["6Charts16AnimatorDelegateP", "animatorUpdated"]
-- !private ["s19BinaryFloatingPointP", "init"]
+- !private ["SB", "init"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["So13CADisplayLinkC", "add"]
 - !private ["So13CADisplayLinkC", "init"]
@@ -123,7 +124,7 @@ depends-member:
 - !private ["s7CVarArgP", "updateAnimationPhases"]
 - !private ["s7CVarArgP", "updateBlock"]
 - !private ["6Charts17ChartEasingOptionO", "easeInOutSine"]
-- !private ["s10ComparableP", "init"]
+- !private ["SL", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "CACurrentMediaTime"]
 - !private ["s28CustomDebugStringConvertibleP", "Double"]
 - !private ["s28CustomDebugStringConvertibleP", "NSUIDisplayLink"]
@@ -193,87 +194,88 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "stopBlock"]
 - !private ["s23CustomStringConvertibleP", "updateAnimationPhases"]
 - !private ["s23CustomStringConvertibleP", "updateBlock"]
-- !private ["s9DecodableP", "_getBuiltinLogicValue"]
-- !private ["s9DecodableP", "init"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "init"]
 - !private ["Sd", "init"]
-- !private ["s9EncodableP", "_getBuiltinLogicValue"]
-- !private ["s9EncodableP", "init"]
-- !private ["s9EquatableP", "CACurrentMediaTime"]
-- !private ["s9EquatableP", "Double"]
-- !private ["s9EquatableP", "NSUIDisplayLink"]
-- !private ["s9EquatableP", "RunLoop"]
-- !private ["s9EquatableP", "RunLoopMode"]
-- ["s9EquatableP", ""]
-- !private ["s9EquatableP", "_displayLink"]
-- !private ["s9EquatableP", "_durationX"]
-- !private ["s9EquatableP", "_durationY"]
-- !private ["s9EquatableP", "_easingX"]
-- !private ["s9EquatableP", "_easingY"]
-- !private ["s9EquatableP", "_enabledX"]
-- !private ["s9EquatableP", "_enabledY"]
-- !private ["s9EquatableP", "_endTime"]
-- !private ["s9EquatableP", "_endTimeX"]
-- !private ["s9EquatableP", "_endTimeY"]
-- !private ["s9EquatableP", "_getBuiltinLogicValue"]
-- !private ["s9EquatableP", "_startTimeX"]
-- !private ["s9EquatableP", "_startTimeY"]
-- !private ["s9EquatableP", "add"]
-- !private ["s9EquatableP", "animate"]
-- !private ["s9EquatableP", "animationLoop"]
-- !private ["s9EquatableP", "commonModes"]
-- !private ["s9EquatableP", "delegate"]
-- !private ["s9EquatableP", "easeInOutSine"]
-- !private ["s9EquatableP", "easingFunctionFromOption"]
-- !private ["s9EquatableP", "init"]
-- !private ["s9EquatableP", "main"]
-- !private ["s9EquatableP", "phaseX"]
-- !private ["s9EquatableP", "phaseY"]
-- !private ["s9EquatableP", "remove"]
-- !private ["s9EquatableP", "stop"]
-- !private ["s9EquatableP", "stopBlock"]
-- !private ["s9EquatableP", "updateAnimationPhases"]
-- !private ["s9EquatableP", "updateBlock"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "init"]
+- !private ["SQ", "CACurrentMediaTime"]
+- !private ["SQ", "Double"]
+- !private ["SQ", "NSUIDisplayLink"]
+- !private ["SQ", "RunLoop"]
+- !private ["SQ", "RunLoopMode"]
+- ["SQ", ""]
+- !private ["SQ", "_displayLink"]
+- !private ["SQ", "_durationX"]
+- !private ["SQ", "_durationY"]
+- !private ["SQ", "_easingX"]
+- !private ["SQ", "_easingY"]
+- !private ["SQ", "_enabledX"]
+- !private ["SQ", "_enabledY"]
+- !private ["SQ", "_endTime"]
+- !private ["SQ", "_endTimeX"]
+- !private ["SQ", "_endTimeY"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "_startTimeX"]
+- !private ["SQ", "_startTimeY"]
+- !private ["SQ", "add"]
+- !private ["SQ", "animate"]
+- !private ["SQ", "animationLoop"]
+- !private ["SQ", "commonModes"]
+- !private ["SQ", "delegate"]
+- !private ["SQ", "easeInOutSine"]
+- !private ["SQ", "easingFunctionFromOption"]
+- !private ["SQ", "init"]
+- !private ["SQ", "main"]
+- !private ["SQ", "phaseX"]
+- !private ["SQ", "phaseY"]
+- !private ["SQ", "remove"]
+- !private ["SQ", "stop"]
+- !private ["SQ", "stopBlock"]
+- !private ["SQ", "updateAnimationPhases"]
+- !private ["SQ", "updateBlock"]
 - !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s25ExpressibleByFloatLiteralP", "init"]
 - !private ["s27ExpressibleByIntegerLiteralP", "init"]
-- !private ["s13FloatingPointP", "init"]
-- !private ["s8HashableP", "CACurrentMediaTime"]
-- !private ["s8HashableP", "Double"]
-- !private ["s8HashableP", "NSUIDisplayLink"]
-- !private ["s8HashableP", "RunLoop"]
-- !private ["s8HashableP", "RunLoopMode"]
-- ["s8HashableP", ""]
-- !private ["s8HashableP", "_displayLink"]
-- !private ["s8HashableP", "_durationX"]
-- !private ["s8HashableP", "_durationY"]
-- !private ["s8HashableP", "_easingX"]
-- !private ["s8HashableP", "_easingY"]
-- !private ["s8HashableP", "_enabledX"]
-- !private ["s8HashableP", "_enabledY"]
-- !private ["s8HashableP", "_endTime"]
-- !private ["s8HashableP", "_endTimeX"]
-- !private ["s8HashableP", "_endTimeY"]
-- !private ["s8HashableP", "_getBuiltinLogicValue"]
-- !private ["s8HashableP", "_startTimeX"]
-- !private ["s8HashableP", "_startTimeY"]
-- !private ["s8HashableP", "add"]
-- !private ["s8HashableP", "animate"]
-- !private ["s8HashableP", "animationLoop"]
-- !private ["s8HashableP", "commonModes"]
-- !private ["s8HashableP", "delegate"]
-- !private ["s8HashableP", "easeInOutSine"]
-- !private ["s8HashableP", "easingFunctionFromOption"]
-- !private ["s8HashableP", "init"]
-- !private ["s8HashableP", "main"]
-- !private ["s8HashableP", "phaseX"]
-- !private ["s8HashableP", "phaseY"]
-- !private ["s8HashableP", "remove"]
-- !private ["s8HashableP", "stop"]
-- !private ["s8HashableP", "stopBlock"]
-- !private ["s8HashableP", "updateAnimationPhases"]
-- !private ["s8HashableP", "updateBlock"]
+- !private ["SF", "init"]
+- !private ["SH", "CACurrentMediaTime"]
+- !private ["SH", "Double"]
+- !private ["SH", "NSUIDisplayLink"]
+- !private ["SH", "RunLoop"]
+- !private ["SH", "RunLoopMode"]
+- ["SH", ""]
+- !private ["SH", "_displayLink"]
+- !private ["SH", "_durationX"]
+- !private ["SH", "_durationY"]
+- !private ["SH", "_easingX"]
+- !private ["SH", "_easingY"]
+- !private ["SH", "_enabledX"]
+- !private ["SH", "_enabledY"]
+- !private ["SH", "_endTime"]
+- !private ["SH", "_endTimeX"]
+- !private ["SH", "_endTimeY"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "_startTimeX"]
+- !private ["SH", "_startTimeY"]
+- !private ["SH", "add"]
+- !private ["SH", "animate"]
+- !private ["SH", "animationLoop"]
+- !private ["SH", "commonModes"]
+- !private ["SH", "delegate"]
+- !private ["SH", "easeInOutSine"]
+- !private ["SH", "easingFunctionFromOption"]
+- !private ["SH", "init"]
+- !private ["SH", "main"]
+- !private ["SH", "phaseX"]
+- !private ["SH", "phaseY"]
+- !private ["SH", "remove"]
+- !private ["SH", "stop"]
+- !private ["SH", "stopBlock"]
+- !private ["SH", "updateAnimationPhases"]
+- !private ["SH", "updateBlock"]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["So13NSRunLoopModea", "commonModes"]
 - ["So8NSObjectC", "AnimatorDelegate"]
 - ["So8NSObjectC", "Bool"]
 - !private ["So8NSObjectC", "CACurrentMediaTime"]
@@ -312,50 +314,51 @@ depends-member:
 - ["So8NSObjectC", "stopBlock"]
 - ["So8NSObjectC", "updateAnimationPhases"]
 - ["So8NSObjectC", "updateBlock"]
-- !private ["So16NSObjectProtocolP", "CACurrentMediaTime"]
-- !private ["So16NSObjectProtocolP", "Double"]
-- !private ["So16NSObjectProtocolP", "NSUIDisplayLink"]
-- !private ["So16NSObjectProtocolP", "RunLoop"]
-- !private ["So16NSObjectProtocolP", "RunLoopMode"]
-- ["So16NSObjectProtocolP", ""]
-- !private ["So16NSObjectProtocolP", "_displayLink"]
-- !private ["So16NSObjectProtocolP", "_durationX"]
-- !private ["So16NSObjectProtocolP", "_durationY"]
-- !private ["So16NSObjectProtocolP", "_easingX"]
-- !private ["So16NSObjectProtocolP", "_easingY"]
-- !private ["So16NSObjectProtocolP", "_enabledX"]
-- !private ["So16NSObjectProtocolP", "_enabledY"]
-- !private ["So16NSObjectProtocolP", "_endTime"]
-- !private ["So16NSObjectProtocolP", "_endTimeX"]
-- !private ["So16NSObjectProtocolP", "_endTimeY"]
-- !private ["So16NSObjectProtocolP", "_startTimeX"]
-- !private ["So16NSObjectProtocolP", "_startTimeY"]
-- !private ["So16NSObjectProtocolP", "add"]
-- !private ["So16NSObjectProtocolP", "animate"]
-- !private ["So16NSObjectProtocolP", "animationLoop"]
-- !private ["So16NSObjectProtocolP", "delegate"]
-- !private ["So16NSObjectProtocolP", "easingFunctionFromOption"]
-- !private ["So16NSObjectProtocolP", "init"]
-- !private ["So16NSObjectProtocolP", "main"]
-- !private ["So16NSObjectProtocolP", "phaseX"]
-- !private ["So16NSObjectProtocolP", "phaseY"]
-- !private ["So16NSObjectProtocolP", "remove"]
-- !private ["So16NSObjectProtocolP", "stop"]
-- !private ["So16NSObjectProtocolP", "stopBlock"]
-- !private ["So16NSObjectProtocolP", "updateAnimationPhases"]
-- !private ["So16NSObjectProtocolP", "updateBlock"]
-- !private ["s7NumericP", "init"]
-- !private ["s16RawRepresentableP", "commonModes"]
-- !private ["s16RawRepresentableP", "easeInOutSine"]
-- !private ["So7RunLoopC", "main"]
-- !private ["SC11RunLoopModeV", "commonModes"]
+- !private ["So8NSObjectP", "CACurrentMediaTime"]
+- !private ["So8NSObjectP", "Double"]
+- !private ["So8NSObjectP", "NSUIDisplayLink"]
+- !private ["So8NSObjectP", "RunLoop"]
+- !private ["So8NSObjectP", "RunLoopMode"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "_displayLink"]
+- !private ["So8NSObjectP", "_durationX"]
+- !private ["So8NSObjectP", "_durationY"]
+- !private ["So8NSObjectP", "_easingX"]
+- !private ["So8NSObjectP", "_easingY"]
+- !private ["So8NSObjectP", "_enabledX"]
+- !private ["So8NSObjectP", "_enabledY"]
+- !private ["So8NSObjectP", "_endTime"]
+- !private ["So8NSObjectP", "_endTimeX"]
+- !private ["So8NSObjectP", "_endTimeY"]
+- !private ["So8NSObjectP", "_startTimeX"]
+- !private ["So8NSObjectP", "_startTimeY"]
+- !private ["So8NSObjectP", "add"]
+- !private ["So8NSObjectP", "animate"]
+- !private ["So8NSObjectP", "animationLoop"]
+- !private ["So8NSObjectP", "delegate"]
+- !private ["So8NSObjectP", "easingFunctionFromOption"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "phaseX"]
+- !private ["So8NSObjectP", "phaseY"]
+- !private ["So8NSObjectP", "remove"]
+- !private ["So8NSObjectP", "stop"]
+- !private ["So8NSObjectP", "stopBlock"]
+- !private ["So8NSObjectP", "updateAnimationPhases"]
+- !private ["So8NSObjectP", "updateBlock"]
+- !private ["Sj", "init"]
+- !private ["SY", "commonModes"]
+- !private ["SY", "easeInOutSine"]
+- !private ["So9NSRunLoopC", "main"]
 - !private ["s13SignedNumericP", "init"]
-- !private ["s10StrideableP", "init"]
+- !private ["Sx", "init"]
 - !private ["s15_CVarArgAlignedP", "init"]
 - !private ["s22_CVarArgPassedAsDoubleP", "init"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
 - !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "commonModes"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "CACurrentMediaTime"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "Double"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "NSUIDisplayLink"]
@@ -395,39 +398,40 @@ depends-member:
 depends-nominal:
 - "6Charts8AnimatorC"
 - "6Charts16AnimatorDelegateP"
-- !private "s19BinaryFloatingPointP"
+- !private "SB"
 - !private "Sb"
 - !private "So13CADisplayLinkC"
 - "s7CVarArgP"
 - !private "6Charts17ChartEasingOptionO"
-- !private "s10ComparableP"
+- !private "SL"
 - "s28CustomDebugStringConvertibleP"
 - !private "s29CustomPlaygroundQuickLookableP"
 - !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
-- !private "s9DecodableP"
+- !private "Se"
 - !private "Sd"
-- !private "s9EncodableP"
-- "s9EquatableP"
+- !private "SE"
+- "SQ"
 - !private "s27ExpressibleByBooleanLiteralP"
 - !private "s25ExpressibleByFloatLiteralP"
 - !private "s27ExpressibleByIntegerLiteralP"
-- !private "s13FloatingPointP"
-- "s8HashableP"
+- !private "SF"
+- "SH"
 - !private "s25LosslessStringConvertibleP"
+- !private "So13NSRunLoopModea"
 - "So8NSObjectC"
-- "So16NSObjectProtocolP"
-- !private "s7NumericP"
-- !private "s16RawRepresentableP"
-- !private "So7RunLoopC"
-- !private "SC11RunLoopModeV"
+- "So8NSObjectP"
+- !private "Sj"
+- !private "SY"
+- !private "So9NSRunLoopC"
 - !private "s13SignedNumericP"
-- !private "s10StrideableP"
+- !private "Sx"
 - !private "s15_CVarArgAlignedP"
 - !private "s22_CVarArgPassedAsDoubleP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
 - !private "s33_ExpressibleByBuiltinFloatLiteralP"
 - !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - !private "s21_ObjectiveCBridgeableP"
 - !private "s20_SwiftNewtypeWrapperP"
@@ -448,14 +452,15 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Users/maxim/Projects/react-native-default-example/ios/Pods/Target Support Files/Charts/Charts-umbrella.h"
 - "/Users/maxim/Projects/react-native-default-example/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Charts.build/unextended-module.modulemap"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
 interface-hash: "d290eaa4e394f0a631d43348e3e8d929"

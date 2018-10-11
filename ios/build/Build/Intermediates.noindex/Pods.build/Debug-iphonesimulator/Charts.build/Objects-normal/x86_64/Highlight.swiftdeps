@@ -35,8 +35,10 @@ depends-top-level:
 - "CGPoint"
 - "CastingPrecedence"
 - "Double"
+- "FloatLiteralType"
 - "Highlight"
 - "Int"
+- "IntegerLiteralType"
 - "NSObject"
 - "String"
 - !private "StringLiteralType"
@@ -44,13 +46,14 @@ depends-top-level:
 depends-member:
 - ["6Charts8AxisBaseC", "AxisDependency"]
 - ["6Charts5YAxisC14AxisDependencyO", "left"]
-- !private ["s23BidirectionalCollectionP", "init"]
-- ["s19BinaryFloatingPointP", "nan"]
-- ["s13BinaryIntegerP", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- ["SB", "nan"]
+- ["Sz", "init"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - ["12CoreGraphics7CGFloatV", "nan"]
-- !private ["SC7CGPointV", "x"]
-- !private ["SC7CGPointV", "y"]
+- !private ["So7CGPointV", "x"]
+- !private ["So7CGPointV", "y"]
 - ["s7CVarArgP", "AxisDependency"]
 - ["s7CVarArgP", "CGFloat"]
 - ["s7CVarArgP", "Double"]
@@ -69,11 +72,14 @@ depends-member:
 - !private ["s7CVarArgP", "drawX"]
 - !private ["s7CVarArgP", "drawY"]
 - ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "isKind"]
 - ["s7CVarArgP", "nan"]
-- !private ["s10CollectionP", "init"]
-- ["s10ComparableP", "init"]
-- ["s10ComparableP", "nan"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- ["SL", "init"]
+- !private ["SL", "init"]
+- ["SL", "nan"]
 - ["6Charts13ComponentBaseC", "AxisDependency"]
 - ["s28CustomDebugStringConvertibleP", "AxisDependency"]
 - ["s28CustomDebugStringConvertibleP", "CGFloat"]
@@ -92,17 +98,20 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "drawX"]
 - !private ["s28CustomDebugStringConvertibleP", "drawY"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "isKind"]
 - ["s28CustomDebugStringConvertibleP", "nan"]
 - !private ["s28CustomDebugStringConvertibleP", "x"]
 - !private ["s28CustomDebugStringConvertibleP", "y"]
 - !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
 - ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
 - ["s29CustomPlaygroundQuickLookableP", "nan"]
 - !private ["s29CustomPlaygroundQuickLookableP", "x"]
 - !private ["s29CustomPlaygroundQuickLookableP", "y"]
 - !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
 - ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
 - ["s17CustomReflectableP", "nan"]
 - !private ["s17CustomReflectableP", "x"]
 - !private ["s17CustomReflectableP", "y"]
@@ -124,72 +133,80 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "drawX"]
 - !private ["s23CustomStringConvertibleP", "drawY"]
 - ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "isKind"]
 - ["s23CustomStringConvertibleP", "nan"]
-- !private ["s9DecodableP", "_getBuiltinLogicValue"]
-- ["s9DecodableP", "init"]
-- ["s9DecodableP", "nan"]
-- !private ["s9DecodableP", "x"]
-- !private ["s9DecodableP", "y"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- ["Se", "init"]
+- !private ["Se", "init"]
+- ["Se", "nan"]
+- !private ["Se", "x"]
+- !private ["Se", "y"]
 - ["Sd", "nan"]
-- !private ["s9EncodableP", "_getBuiltinLogicValue"]
-- ["s9EncodableP", "init"]
-- ["s9EncodableP", "nan"]
-- !private ["s9EncodableP", "x"]
-- !private ["s9EncodableP", "y"]
-- ["s9EquatableP", "AxisDependency"]
-- ["s9EquatableP", "CGFloat"]
-- ["s9EquatableP", "Double"]
-- ["s9EquatableP", "Int"]
-- ["s9EquatableP", "YAxis"]
-- ["s9EquatableP", ""]
-- !private ["s9EquatableP", "_axis"]
-- !private ["s9EquatableP", "_dataSetIndex"]
-- !private ["s9EquatableP", "_getBuiltinLogicValue"]
-- !private ["s9EquatableP", "_stackIndex"]
-- !private ["s9EquatableP", "_x"]
-- !private ["s9EquatableP", "_xPx"]
-- !private ["s9EquatableP", "_y"]
-- !private ["s9EquatableP", "_yPx"]
-- !private ["s9EquatableP", "dataIndex"]
-- !private ["s9EquatableP", "drawX"]
-- !private ["s9EquatableP", "drawY"]
-- ["s9EquatableP", "init"]
-- !private ["s9EquatableP", "isKind"]
-- ["s9EquatableP", "left"]
-- ["s9EquatableP", "nan"]
-- !private ["s9EquatableP", "x"]
-- !private ["s9EquatableP", "y"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- ["SE", "init"]
+- !private ["SE", "init"]
+- ["SE", "nan"]
+- !private ["SE", "x"]
+- !private ["SE", "y"]
+- ["SQ", "AxisDependency"]
+- ["SQ", "CGFloat"]
+- ["SQ", "Double"]
+- ["SQ", "Int"]
+- ["SQ", "YAxis"]
+- ["SQ", ""]
+- !private ["SQ", "_axis"]
+- !private ["SQ", "_dataSetIndex"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "_stackIndex"]
+- !private ["SQ", "_x"]
+- !private ["SQ", "_xPx"]
+- !private ["SQ", "_y"]
+- !private ["SQ", "_yPx"]
+- !private ["SQ", "dataIndex"]
+- !private ["SQ", "drawX"]
+- !private ["SQ", "drawY"]
+- ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isKind"]
+- ["SQ", "left"]
+- ["SQ", "nan"]
+- !private ["SQ", "x"]
+- !private ["SQ", "y"]
 - !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - ["s25ExpressibleByFloatLiteralP", "nan"]
 - ["s27ExpressibleByIntegerLiteralP", "init"]
 - ["s27ExpressibleByIntegerLiteralP", "nan"]
 - !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - ["s17FixedWidthIntegerP", "init"]
-- ["s13FloatingPointP", "nan"]
-- ["s8HashableP", "AxisDependency"]
-- ["s8HashableP", "CGFloat"]
-- ["s8HashableP", "Double"]
-- ["s8HashableP", "Int"]
-- ["s8HashableP", "YAxis"]
-- ["s8HashableP", ""]
-- !private ["s8HashableP", "_axis"]
-- !private ["s8HashableP", "_dataSetIndex"]
-- !private ["s8HashableP", "_getBuiltinLogicValue"]
-- !private ["s8HashableP", "_stackIndex"]
-- !private ["s8HashableP", "_x"]
-- !private ["s8HashableP", "_xPx"]
-- !private ["s8HashableP", "_y"]
-- !private ["s8HashableP", "_yPx"]
-- !private ["s8HashableP", "dataIndex"]
-- !private ["s8HashableP", "drawX"]
-- !private ["s8HashableP", "drawY"]
-- ["s8HashableP", "init"]
-- !private ["s8HashableP", "isKind"]
-- ["s8HashableP", "left"]
-- ["s8HashableP", "nan"]
+- ["SF", "nan"]
+- ["SH", "AxisDependency"]
+- ["SH", "CGFloat"]
+- ["SH", "Double"]
+- ["SH", "Int"]
+- ["SH", "YAxis"]
+- ["SH", ""]
+- !private ["SH", "_axis"]
+- !private ["SH", "_dataSetIndex"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "_stackIndex"]
+- !private ["SH", "_x"]
+- !private ["SH", "_xPx"]
+- !private ["SH", "_y"]
+- !private ["SH", "_yPx"]
+- !private ["SH", "dataIndex"]
+- !private ["SH", "drawX"]
+- !private ["SH", "drawY"]
+- ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "isKind"]
+- ["SH", "left"]
+- ["SH", "nan"]
 - !private ["6Charts9HighlightC", "AnyObject"]
 - ["6Charts9HighlightC", "Bool"]
 - ["6Charts9HighlightC", "CGFloat"]
@@ -208,7 +225,7 @@ depends-member:
 - ["6Charts9HighlightC", "axis"]
 - ["6Charts9HighlightC", "dataIndex"]
 - ["6Charts9HighlightC", "dataSetIndex"]
-- ["6Charts9HighlightC", "deinit"]
+- !private ["6Charts9HighlightC", "deinit"]
 - ["6Charts9HighlightC", "description"]
 - ["6Charts9HighlightC", "drawX"]
 - ["6Charts9HighlightC", "drawY"]
@@ -225,8 +242,10 @@ depends-member:
 - ["Si", "init"]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
 - ["s25LosslessStringConvertibleP", "nan"]
 - ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
 - !private ["So8NSObjectC", "AnyObject"]
 - ["So8NSObjectC", "AxisDependency"]
 - ["So8NSObjectC", "Bool"]
@@ -260,37 +279,43 @@ depends-member:
 - ["So8NSObjectC", "xPx"]
 - ["So8NSObjectC", "y"]
 - ["So8NSObjectC", "yPx"]
-- ["So16NSObjectProtocolP", "AxisDependency"]
-- ["So16NSObjectProtocolP", "CGFloat"]
-- ["So16NSObjectProtocolP", "Double"]
-- ["So16NSObjectProtocolP", "Int"]
-- ["So16NSObjectProtocolP", "YAxis"]
-- ["So16NSObjectProtocolP", ""]
-- !private ["So16NSObjectProtocolP", "_axis"]
-- !private ["So16NSObjectProtocolP", "_dataSetIndex"]
-- !private ["So16NSObjectProtocolP", "_stackIndex"]
-- !private ["So16NSObjectProtocolP", "_x"]
-- !private ["So16NSObjectProtocolP", "_xPx"]
-- !private ["So16NSObjectProtocolP", "_y"]
-- !private ["So16NSObjectProtocolP", "_yPx"]
-- !private ["So16NSObjectProtocolP", "dataIndex"]
-- !private ["So16NSObjectProtocolP", "drawX"]
-- !private ["So16NSObjectProtocolP", "drawY"]
-- !private ["So16NSObjectProtocolP", "init"]
-- !private ["So16NSObjectProtocolP", "isKind"]
-- ["s7NumericP", "init"]
-- ["s7NumericP", "nan"]
-- !private ["s26RangeReplaceableCollectionP", "init"]
-- ["s16RawRepresentableP", "left"]
-- !private ["s8SequenceP", "init"]
-- ["s13SignedIntegerP", "init"]
+- ["So8NSObjectP", "AxisDependency"]
+- ["So8NSObjectP", "CGFloat"]
+- ["So8NSObjectP", "Double"]
+- ["So8NSObjectP", "Int"]
+- ["So8NSObjectP", "YAxis"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "_axis"]
+- !private ["So8NSObjectP", "_dataSetIndex"]
+- !private ["So8NSObjectP", "_stackIndex"]
+- !private ["So8NSObjectP", "_x"]
+- !private ["So8NSObjectP", "_xPx"]
+- !private ["So8NSObjectP", "_y"]
+- !private ["So8NSObjectP", "_yPx"]
+- !private ["So8NSObjectP", "dataIndex"]
+- !private ["So8NSObjectP", "drawX"]
+- !private ["So8NSObjectP", "drawY"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isKind"]
+- ["Sj", "init"]
+- ["Sj", "nan"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- ["SY", "left"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- ["SZ", "init"]
 - ["s13SignedNumericP", "init"]
 - ["s13SignedNumericP", "nan"]
-- ["s10StrideableP", "init"]
-- ["s10StrideableP", "nan"]
+- ["Sx", "init"]
+- ["Sx", "nan"]
 - !private ["SS", "init"]
-- !private ["s14StringProtocolP", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
 - !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
 - !private ["s20TextOutputStreamableP", "init"]
 - ["6Charts5YAxisC", "AxisDependency"]
 - ["s18_BitwiseOperationsP", "init"]
@@ -298,13 +323,20 @@ depends-member:
 - ["s22_CVarArgPassedAsDoubleP", "nan"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
 - ["s33_ExpressibleByBuiltinFloatLiteralP", "nan"]
 - ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - ["s35_ExpressibleByBuiltinIntegerLiteralP", "nan"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
 - !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "nan"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "AxisDependency"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "CGFloat"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "Double"]
@@ -325,31 +357,33 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "isKind"]
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
 - ["s21_ObjectiveCBridgeableP", "nan"]
 - !private ["s21_ObjectiveCBridgeableP", "x"]
 - !private ["s21_ObjectiveCBridgeableP", "y"]
 - !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
 depends-nominal:
 - "6Charts8AxisBaseC"
 - "6Charts5YAxisC14AxisDependencyO"
-- !private "s23BidirectionalCollectionP"
-- "s19BinaryFloatingPointP"
-- "s13BinaryIntegerP"
+- !private "SK"
+- "SB"
+- "Sz"
 - !private "Sb"
 - "12CoreGraphics7CGFloatV"
-- !private "SC7CGPointV"
+- !private "So7CGPointV"
 - "s7CVarArgP"
-- !private "s10CollectionP"
-- "s10ComparableP"
+- !private "Sl"
+- "SL"
 - "6Charts13ComponentBaseC"
 - "s28CustomDebugStringConvertibleP"
 - "s29CustomPlaygroundQuickLookableP"
 - "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
-- "s9DecodableP"
+- "Se"
 - "Sd"
-- "s9EncodableP"
-- "s9EquatableP"
+- "SE"
+- "SQ"
 - !private "s27ExpressibleByBooleanLiteralP"
 - !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - "s25ExpressibleByFloatLiteralP"
@@ -357,23 +391,23 @@ depends-nominal:
 - !private "s26ExpressibleByStringLiteralP"
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
 - "s17FixedWidthIntegerP"
-- "s13FloatingPointP"
-- "s8HashableP"
+- "SF"
+- "SH"
 - "6Charts9HighlightC"
 - "Si"
 - "s25LosslessStringConvertibleP"
 - "s10MirrorPathP"
 - "So8NSObjectC"
-- "So16NSObjectProtocolP"
-- "s7NumericP"
-- !private "s26RangeReplaceableCollectionP"
-- "s16RawRepresentableP"
-- !private "s8SequenceP"
-- "s13SignedIntegerP"
+- "So8NSObjectP"
+- "Sj"
+- !private "Sm"
+- "SY"
+- !private "ST"
+- "SZ"
 - "s13SignedNumericP"
-- "s10StrideableP"
+- "Sx"
 - !private "SS"
-- !private "s14StringProtocolP"
+- !private "Sy"
 - !private "s16TextOutputStreamP"
 - !private "s20TextOutputStreamableP"
 - "6Charts5YAxisC"
@@ -388,6 +422,7 @@ depends-nominal:
 - !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
 - !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "s21_ObjectiveCBridgeableP"
 - !private "s16_SwiftStringViewP"
@@ -414,14 +449,15 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Users/maxim/Projects/react-native-default-example/ios/Pods/Target Support Files/Charts/Charts-umbrella.h"
 - "/Users/maxim/Projects/react-native-default-example/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Charts.build/unextended-module.modulemap"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
 interface-hash: "5a5ef4937adc58e1e1daa10fc6c8ddb2"

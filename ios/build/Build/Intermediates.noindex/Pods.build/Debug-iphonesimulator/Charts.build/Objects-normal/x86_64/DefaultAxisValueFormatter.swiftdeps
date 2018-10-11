@@ -28,7 +28,8 @@ depends-top-level:
 - "String"
 - !private "StringLiteralType"
 depends-member:
-- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["s7CVarArgP", "DefaultAxisValueFormatter"]
 - !private ["s7CVarArgP", "NSNumber"]
@@ -42,13 +43,16 @@ depends-member:
 - !private ["s7CVarArgP", "formatter"]
 - !private ["s7CVarArgP", "hasAutoDecimals"]
 - !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "maximumFractionDigits"]
 - !private ["s7CVarArgP", "minimumFractionDigits"]
 - !private ["s7CVarArgP", "string"]
 - ["s7CVarArgP", "stringForValue"]
 - !private ["s7CVarArgP", "usesGroupingSeparator"]
-- !private ["s10CollectionP", "init"]
-- !private ["s10ComparableP", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "DefaultAxisValueFormatter"]
 - !private ["s28CustomDebugStringConvertibleP", "NSNumber"]
 - !private ["s28CustomDebugStringConvertibleP", "NumberFormatter"]
@@ -60,6 +64,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "formatter"]
 - !private ["s28CustomDebugStringConvertibleP", "hasAutoDecimals"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "maximumFractionDigits"]
 - !private ["s28CustomDebugStringConvertibleP", "minimumFractionDigits"]
 - !private ["s28CustomDebugStringConvertibleP", "string"]
@@ -67,7 +72,9 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "usesGroupingSeparator"]
 - !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
 - !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
 - !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "init"]
 - !private ["s23CustomStringConvertibleP", "DefaultAxisValueFormatter"]
 - !private ["s23CustomStringConvertibleP", "NSNumber"]
@@ -81,13 +88,15 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "formatter"]
 - !private ["s23CustomStringConvertibleP", "hasAutoDecimals"]
 - !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "maximumFractionDigits"]
 - !private ["s23CustomStringConvertibleP", "minimumFractionDigits"]
 - !private ["s23CustomStringConvertibleP", "string"]
 - ["s23CustomStringConvertibleP", "stringForValue"]
 - !private ["s23CustomStringConvertibleP", "usesGroupingSeparator"]
-- !private ["s9DecodableP", "_getBuiltinLogicValue"]
-- !private ["s9DecodableP", "init"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
 - ["6Charts25DefaultAxisValueFormatterC", "AxisBase"]
 - ["6Charts25DefaultAxisValueFormatterC", "Block"]
 - ["6Charts25DefaultAxisValueFormatterC", "Bool"]
@@ -107,54 +116,60 @@ depends-member:
 - ["6Charts25DefaultAxisValueFormatterC", "init"]
 - ["6Charts25DefaultAxisValueFormatterC", "stringForValue"]
 - ["6Charts25DefaultAxisValueFormatterC", "with"]
-- !private ["s9EncodableP", "_getBuiltinLogicValue"]
-- !private ["s9EncodableP", "init"]
-- !private ["s9EquatableP", "DefaultAxisValueFormatter"]
-- !private ["s9EquatableP", "NSNumber"]
-- !private ["s9EquatableP", "NumberFormatter"]
-- ["s9EquatableP", ""]
-- !private ["s9EquatableP", "_decimals"]
-- !private ["s9EquatableP", "_formatter"]
-- !private ["s9EquatableP", "_getBuiltinLogicValue"]
-- !private ["s9EquatableP", "block"]
-- !private ["s9EquatableP", "decimals"]
-- !private ["s9EquatableP", "formatter"]
-- !private ["s9EquatableP", "hasAutoDecimals"]
-- !private ["s9EquatableP", "init"]
-- !private ["s9EquatableP", "maximumFractionDigits"]
-- !private ["s9EquatableP", "minimumFractionDigits"]
-- !private ["s9EquatableP", "string"]
-- ["s9EquatableP", "stringForValue"]
-- !private ["s9EquatableP", "usesGroupingSeparator"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SQ", "DefaultAxisValueFormatter"]
+- !private ["SQ", "NSNumber"]
+- !private ["SQ", "NumberFormatter"]
+- ["SQ", ""]
+- !private ["SQ", "_decimals"]
+- !private ["SQ", "_formatter"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "block"]
+- !private ["SQ", "decimals"]
+- !private ["SQ", "formatter"]
+- !private ["SQ", "hasAutoDecimals"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "maximumFractionDigits"]
+- !private ["SQ", "minimumFractionDigits"]
+- !private ["SQ", "string"]
+- ["SQ", "stringForValue"]
+- !private ["SQ", "usesGroupingSeparator"]
 - !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s27ExpressibleByBooleanLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s25ExpressibleByFloatLiteralP", "init"]
 - !private ["s27ExpressibleByIntegerLiteralP", "init"]
 - !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
-- !private ["So9FormatterC", "init"]
-- !private ["So9FormatterC", "maximumFractionDigits"]
-- !private ["So9FormatterC", "minimumFractionDigits"]
-- !private ["So9FormatterC", "string"]
-- !private ["So9FormatterC", "usesGroupingSeparator"]
-- !private ["s8HashableP", "DefaultAxisValueFormatter"]
-- !private ["s8HashableP", "NSNumber"]
-- !private ["s8HashableP", "NumberFormatter"]
-- ["s8HashableP", ""]
-- !private ["s8HashableP", "_decimals"]
-- !private ["s8HashableP", "_formatter"]
-- !private ["s8HashableP", "_getBuiltinLogicValue"]
-- !private ["s8HashableP", "block"]
-- !private ["s8HashableP", "decimals"]
-- !private ["s8HashableP", "formatter"]
-- !private ["s8HashableP", "hasAutoDecimals"]
-- !private ["s8HashableP", "init"]
-- !private ["s8HashableP", "maximumFractionDigits"]
-- !private ["s8HashableP", "minimumFractionDigits"]
-- !private ["s8HashableP", "string"]
-- ["s8HashableP", "stringForValue"]
-- !private ["s8HashableP", "usesGroupingSeparator"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["So11NSFormatterC", "init"]
+- !private ["So11NSFormatterC", "maximumFractionDigits"]
+- !private ["So11NSFormatterC", "minimumFractionDigits"]
+- !private ["So11NSFormatterC", "string"]
+- !private ["So11NSFormatterC", "usesGroupingSeparator"]
+- !private ["SH", "DefaultAxisValueFormatter"]
+- !private ["SH", "NSNumber"]
+- !private ["SH", "NumberFormatter"]
+- ["SH", ""]
+- !private ["SH", "_decimals"]
+- !private ["SH", "_formatter"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "block"]
+- !private ["SH", "decimals"]
+- !private ["SH", "formatter"]
+- !private ["SH", "hasAutoDecimals"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "maximumFractionDigits"]
+- !private ["SH", "minimumFractionDigits"]
+- !private ["SH", "string"]
+- ["SH", "stringForValue"]
+- !private ["SH", "usesGroupingSeparator"]
 - !private ["6Charts19IAxisValueFormatterP", "DefaultAxisValueFormatter"]
 - !private ["6Charts19IAxisValueFormatterP", "NSNumber"]
 - !private ["6Charts19IAxisValueFormatterP", "NumberFormatter"]
@@ -169,6 +184,8 @@ depends-member:
 - ["6Charts19IAxisValueFormatterP", "stringForValue"]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
 - !private ["s10MirrorPathP", "init"]
 - !private ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "maximumFractionDigits"]
@@ -204,39 +221,51 @@ depends-member:
 - ["So8NSObjectC", "stringForValue"]
 - !private ["So8NSObjectC", "usesGroupingSeparator"]
 - ["So8NSObjectC", "with"]
-- !private ["So16NSObjectProtocolP", "DefaultAxisValueFormatter"]
-- !private ["So16NSObjectProtocolP", "NSNumber"]
-- !private ["So16NSObjectProtocolP", "NumberFormatter"]
-- ["So16NSObjectProtocolP", ""]
-- !private ["So16NSObjectProtocolP", "_decimals"]
-- !private ["So16NSObjectProtocolP", "_formatter"]
-- !private ["So16NSObjectProtocolP", "block"]
-- !private ["So16NSObjectProtocolP", "decimals"]
-- !private ["So16NSObjectProtocolP", "formatter"]
-- !private ["So16NSObjectProtocolP", "hasAutoDecimals"]
-- !private ["So16NSObjectProtocolP", "init"]
-- !private ["So16NSObjectProtocolP", "maximumFractionDigits"]
-- !private ["So16NSObjectProtocolP", "minimumFractionDigits"]
-- !private ["So16NSObjectProtocolP", "string"]
-- ["So16NSObjectProtocolP", "stringForValue"]
-- !private ["So16NSObjectProtocolP", "usesGroupingSeparator"]
+- !private ["So8NSObjectP", "DefaultAxisValueFormatter"]
+- !private ["So8NSObjectP", "NSNumber"]
+- !private ["So8NSObjectP", "NumberFormatter"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "_decimals"]
+- !private ["So8NSObjectP", "_formatter"]
+- !private ["So8NSObjectP", "block"]
+- !private ["So8NSObjectP", "decimals"]
+- !private ["So8NSObjectP", "formatter"]
+- !private ["So8NSObjectP", "hasAutoDecimals"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "maximumFractionDigits"]
+- !private ["So8NSObjectP", "minimumFractionDigits"]
+- !private ["So8NSObjectP", "string"]
+- ["So8NSObjectP", "stringForValue"]
+- !private ["So8NSObjectP", "usesGroupingSeparator"]
 - !private ["So14NSSecureCodingP", "init"]
-- !private ["So15NumberFormatterC", "init"]
-- !private ["So15NumberFormatterC", "maximumFractionDigits"]
-- !private ["So15NumberFormatterC", "minimumFractionDigits"]
-- !private ["So15NumberFormatterC", "string"]
-- !private ["So15NumberFormatterC", "usesGroupingSeparator"]
-- !private ["s26RangeReplaceableCollectionP", "init"]
-- !private ["s8SequenceP", "init"]
+- !private ["So7NSValueC", "init"]
+- !private ["So17NSNumberFormatterC", "init"]
+- !private ["So17NSNumberFormatterC", "maximumFractionDigits"]
+- !private ["So17NSNumberFormatterC", "minimumFractionDigits"]
+- !private ["So17NSNumberFormatterC", "string"]
+- !private ["So17NSNumberFormatterC", "usesGroupingSeparator"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
 - !private ["SS", "init"]
-- !private ["s14StringProtocolP", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
 - !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
 - !private ["s20TextOutputStreamableP", "init"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
 - !private ["s33_ExpressibleByStringInterpolationP", "init"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "DefaultAxisValueFormatter"]
@@ -257,29 +286,31 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "usesGroupingSeparator"]
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
 - !private ["s16_SwiftStringViewP", "init"]
 depends-nominal:
-- !private "s23BidirectionalCollectionP"
+- !private "SK"
 - !private "Sb"
 - "s7CVarArgP"
-- !private "s10CollectionP"
-- !private "s10ComparableP"
+- !private "Sl"
+- !private "SL"
 - "s28CustomDebugStringConvertibleP"
 - !private "s29CustomPlaygroundQuickLookableP"
 - !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
-- !private "s9DecodableP"
+- !private "Se"
 - "6Charts25DefaultAxisValueFormatterC"
-- !private "s9EncodableP"
-- "s9EquatableP"
+- !private "SE"
+- "SQ"
 - !private "s27ExpressibleByBooleanLiteralP"
 - !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s25ExpressibleByFloatLiteralP"
 - !private "s27ExpressibleByIntegerLiteralP"
 - !private "s26ExpressibleByStringLiteralP"
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
-- !private "So9FormatterC"
-- "s8HashableP"
+- !private "So11NSFormatterC"
+- "SH"
 - "6Charts19IAxisValueFormatterP"
 - !private "s25LosslessStringConvertibleP"
 - !private "s10MirrorPathP"
@@ -287,13 +318,14 @@ depends-nominal:
 - !private "So9NSCopyingP"
 - !private "So8NSNumberC"
 - "So8NSObjectC"
-- "So16NSObjectProtocolP"
+- "So8NSObjectP"
 - !private "So14NSSecureCodingP"
-- !private "So15NumberFormatterC"
-- !private "s26RangeReplaceableCollectionP"
-- !private "s8SequenceP"
+- !private "So7NSValueC"
+- !private "So17NSNumberFormatterC"
+- !private "Sm"
+- !private "ST"
 - !private "SS"
-- !private "s14StringProtocolP"
+- !private "Sy"
 - !private "s16TextOutputStreamP"
 - !private "s20TextOutputStreamableP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
@@ -323,14 +355,15 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Users/maxim/Projects/react-native-default-example/ios/Pods/Target Support Files/Charts/Charts-umbrella.h"
 - "/Users/maxim/Projects/react-native-default-example/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Charts.build/unextended-module.modulemap"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
 interface-hash: "f21307ff531665ef4fc57fde65eb8b85"

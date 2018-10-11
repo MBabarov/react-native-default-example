@@ -73,6 +73,7 @@ depends-top-level:
 - "CGPoint"
 - "CGSize"
 - "Data"
+- "FloatLiteralType"
 - "Int"
 - "NSUIColor"
 - "NSUIDisplayLink"
@@ -127,6 +128,7 @@ depends-member:
 - ["So15CALayerDelegateP", ""]
 - !private ["So15CALayerDelegateP", "gestureRecognizers"]
 - !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "init"]
 - !private ["So15CALayerDelegateP", "isScrollEnabled"]
 - !private ["So15CALayerDelegateP", "layer"]
 - !private ["So15CALayerDelegateP", "nsuiTouchesBegan"]
@@ -139,6 +141,7 @@ depends-member:
 - !private ["So15CALayerDelegateP", "touchesMoved"]
 - ["s7CVarArgP", ""]
 - !private ["s7CVarArgP", "gestureRecognizers"]
+- !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "isScrollEnabled"]
 - !private ["s7CVarArgP", "layer"]
@@ -159,6 +162,7 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "gestureRecognizers"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "isScrollEnabled"]
 - !private ["s28CustomDebugStringConvertibleP", "layer"]
 - !private ["s28CustomDebugStringConvertibleP", "location"]
@@ -178,6 +182,7 @@ depends-member:
 - ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "gestureRecognizers"]
 - !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "isScrollEnabled"]
 - !private ["s23CustomStringConvertibleP", "layer"]
 - !private ["s23CustomStringConvertibleP", "location"]
@@ -194,46 +199,49 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "touchesCancelled"]
 - !private ["s23CustomStringConvertibleP", "touchesEnded"]
 - !private ["s23CustomStringConvertibleP", "touchesMoved"]
-- ["s9EquatableP", ""]
-- !private ["s9EquatableP", "gestureRecognizers"]
-- !private ["s9EquatableP", "init"]
-- !private ["s9EquatableP", "isScrollEnabled"]
-- !private ["s9EquatableP", "layer"]
-- !private ["s9EquatableP", "location"]
-- !private ["s9EquatableP", "main"]
-- !private ["s9EquatableP", "nsuiTouchesBegan"]
-- !private ["s9EquatableP", "nsuiTouchesCancelled"]
-- !private ["s9EquatableP", "nsuiTouchesEnded"]
-- !private ["s9EquatableP", "nsuiTouchesMoved"]
-- !private ["s9EquatableP", "numberOfTapsRequired"]
-- !private ["s9EquatableP", "numberOfTouches"]
-- !private ["s9EquatableP", "rotation"]
-- !private ["s9EquatableP", "scale"]
-- !private ["s9EquatableP", "touchesBegan"]
-- !private ["s9EquatableP", "touchesCancelled"]
-- !private ["s9EquatableP", "touchesEnded"]
-- !private ["s9EquatableP", "touchesMoved"]
-- ["s8HashableP", ""]
-- !private ["s8HashableP", "gestureRecognizers"]
-- !private ["s8HashableP", "init"]
-- !private ["s8HashableP", "isScrollEnabled"]
-- !private ["s8HashableP", "layer"]
-- !private ["s8HashableP", "location"]
-- !private ["s8HashableP", "main"]
-- !private ["s8HashableP", "nsuiTouchesBegan"]
-- !private ["s8HashableP", "nsuiTouchesCancelled"]
-- !private ["s8HashableP", "nsuiTouchesEnded"]
-- !private ["s8HashableP", "nsuiTouchesMoved"]
-- !private ["s8HashableP", "numberOfTapsRequired"]
-- !private ["s8HashableP", "numberOfTouches"]
-- !private ["s8HashableP", "rotation"]
-- !private ["s8HashableP", "scale"]
-- !private ["s8HashableP", "touchesBegan"]
-- !private ["s8HashableP", "touchesCancelled"]
-- !private ["s8HashableP", "touchesEnded"]
-- !private ["s8HashableP", "touchesMoved"]
+- ["SQ", ""]
+- !private ["SQ", "gestureRecognizers"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isScrollEnabled"]
+- !private ["SQ", "layer"]
+- !private ["SQ", "location"]
+- !private ["SQ", "main"]
+- !private ["SQ", "nsuiTouchesBegan"]
+- !private ["SQ", "nsuiTouchesCancelled"]
+- !private ["SQ", "nsuiTouchesEnded"]
+- !private ["SQ", "nsuiTouchesMoved"]
+- !private ["SQ", "numberOfTapsRequired"]
+- !private ["SQ", "numberOfTouches"]
+- !private ["SQ", "rotation"]
+- !private ["SQ", "scale"]
+- !private ["SQ", "touchesBegan"]
+- !private ["SQ", "touchesCancelled"]
+- !private ["SQ", "touchesEnded"]
+- !private ["SQ", "touchesMoved"]
+- ["SH", ""]
+- !private ["SH", "gestureRecognizers"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "isScrollEnabled"]
+- !private ["SH", "layer"]
+- !private ["SH", "location"]
+- !private ["SH", "main"]
+- !private ["SH", "nsuiTouchesBegan"]
+- !private ["SH", "nsuiTouchesCancelled"]
+- !private ["SH", "nsuiTouchesEnded"]
+- !private ["SH", "nsuiTouchesMoved"]
+- !private ["SH", "numberOfTapsRequired"]
+- !private ["SH", "numberOfTouches"]
+- !private ["SH", "rotation"]
+- !private ["SH", "scale"]
+- !private ["SH", "touchesBegan"]
+- !private ["SH", "touchesCancelled"]
+- !private ["SH", "touchesEnded"]
+- !private ["SH", "touchesMoved"]
 - ["So8NSCodingP", ""]
 - !private ["So8NSCodingP", "gestureRecognizers"]
+- !private ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "isScrollEnabled"]
 - !private ["So8NSCodingP", "layer"]
@@ -257,6 +265,7 @@ depends-member:
 - ["So8NSObjectC", "UIView"]
 - !private ["So8NSObjectC", "gestureRecognizers"]
 - ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
 - !private ["So8NSObjectC", "isScrollEnabled"]
 - !private ["So8NSObjectC", "layer"]
 - !private ["So8NSObjectC", "location"]
@@ -281,25 +290,26 @@ depends-member:
 - ["So8NSObjectC", "touchesCancelled"]
 - ["So8NSObjectC", "touchesEnded"]
 - ["So8NSObjectC", "touchesMoved"]
-- ["So16NSObjectProtocolP", ""]
-- !private ["So16NSObjectProtocolP", "gestureRecognizers"]
-- !private ["So16NSObjectProtocolP", "init"]
-- !private ["So16NSObjectProtocolP", "isScrollEnabled"]
-- !private ["So16NSObjectProtocolP", "layer"]
-- !private ["So16NSObjectProtocolP", "location"]
-- !private ["So16NSObjectProtocolP", "main"]
-- !private ["So16NSObjectProtocolP", "nsuiTouchesBegan"]
-- !private ["So16NSObjectProtocolP", "nsuiTouchesCancelled"]
-- !private ["So16NSObjectProtocolP", "nsuiTouchesEnded"]
-- !private ["So16NSObjectProtocolP", "nsuiTouchesMoved"]
-- !private ["So16NSObjectProtocolP", "numberOfTapsRequired"]
-- !private ["So16NSObjectProtocolP", "numberOfTouches"]
-- !private ["So16NSObjectProtocolP", "rotation"]
-- !private ["So16NSObjectProtocolP", "scale"]
-- !private ["So16NSObjectProtocolP", "touchesBegan"]
-- !private ["So16NSObjectProtocolP", "touchesCancelled"]
-- !private ["So16NSObjectProtocolP", "touchesEnded"]
-- !private ["So16NSObjectProtocolP", "touchesMoved"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "gestureRecognizers"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isScrollEnabled"]
+- !private ["So8NSObjectP", "layer"]
+- !private ["So8NSObjectP", "location"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "nsuiTouchesBegan"]
+- !private ["So8NSObjectP", "nsuiTouchesCancelled"]
+- !private ["So8NSObjectP", "nsuiTouchesEnded"]
+- !private ["So8NSObjectP", "nsuiTouchesMoved"]
+- !private ["So8NSObjectP", "numberOfTapsRequired"]
+- !private ["So8NSObjectP", "numberOfTouches"]
+- !private ["So8NSObjectP", "rotation"]
+- !private ["So8NSObjectP", "scale"]
+- !private ["So8NSObjectP", "touchesBegan"]
+- !private ["So8NSObjectP", "touchesCancelled"]
+- !private ["So8NSObjectP", "touchesEnded"]
+- !private ["So8NSObjectP", "touchesMoved"]
 - ["6Charts8NSUIViewC", "CALayer"]
 - ["6Charts8NSUIViewC", "NSUIEvent"]
 - ["6Charts8NSUIViewC", "NSUITouch"]
@@ -319,6 +329,7 @@ depends-member:
 - ["So29UIAccessibilityIdentificationP", ""]
 - !private ["So29UIAccessibilityIdentificationP", "gestureRecognizers"]
 - !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
 - !private ["So29UIAccessibilityIdentificationP", "isScrollEnabled"]
 - !private ["So29UIAccessibilityIdentificationP", "layer"]
 - !private ["So29UIAccessibilityIdentificationP", "nsuiTouchesBegan"]
@@ -331,6 +342,7 @@ depends-member:
 - !private ["So29UIAccessibilityIdentificationP", "touchesMoved"]
 - ["So12UIAppearanceP", ""]
 - !private ["So12UIAppearanceP", "gestureRecognizers"]
+- !private ["So12UIAppearanceP", "init"]
 - !private ["So12UIAppearanceP", "init"]
 - !private ["So12UIAppearanceP", "isScrollEnabled"]
 - !private ["So12UIAppearanceP", "layer"]
@@ -345,6 +357,7 @@ depends-member:
 - ["So21UIAppearanceContainerP", ""]
 - !private ["So21UIAppearanceContainerP", "gestureRecognizers"]
 - !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "init"]
 - !private ["So21UIAppearanceContainerP", "isScrollEnabled"]
 - !private ["So21UIAppearanceContainerP", "layer"]
 - !private ["So21UIAppearanceContainerP", "nsuiTouchesBegan"]
@@ -357,6 +370,7 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "touchesMoved"]
 - ["So17UICoordinateSpaceP", ""]
 - !private ["So17UICoordinateSpaceP", "gestureRecognizers"]
+- !private ["So17UICoordinateSpaceP", "init"]
 - !private ["So17UICoordinateSpaceP", "init"]
 - !private ["So17UICoordinateSpaceP", "isScrollEnabled"]
 - !private ["So17UICoordinateSpaceP", "layer"]
@@ -371,6 +385,7 @@ depends-member:
 - ["So13UIDynamicItemP", ""]
 - !private ["So13UIDynamicItemP", "gestureRecognizers"]
 - !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "init"]
 - !private ["So13UIDynamicItemP", "isScrollEnabled"]
 - !private ["So13UIDynamicItemP", "layer"]
 - !private ["So13UIDynamicItemP", "nsuiTouchesBegan"]
@@ -383,6 +398,7 @@ depends-member:
 - !private ["So13UIDynamicItemP", "touchesMoved"]
 - ["So18UIFocusEnvironmentP", ""]
 - !private ["So18UIFocusEnvironmentP", "gestureRecognizers"]
+- !private ["So18UIFocusEnvironmentP", "init"]
 - !private ["So18UIFocusEnvironmentP", "init"]
 - !private ["So18UIFocusEnvironmentP", "isScrollEnabled"]
 - !private ["So18UIFocusEnvironmentP", "layer"]
@@ -397,6 +413,7 @@ depends-member:
 - ["So11UIFocusItemP", ""]
 - !private ["So11UIFocusItemP", "gestureRecognizers"]
 - !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "init"]
 - !private ["So11UIFocusItemP", "isScrollEnabled"]
 - !private ["So11UIFocusItemP", "layer"]
 - !private ["So11UIFocusItemP", "nsuiTouchesBegan"]
@@ -407,6 +424,21 @@ depends-member:
 - !private ["So11UIFocusItemP", "touchesCancelled"]
 - !private ["So11UIFocusItemP", "touchesEnded"]
 - !private ["So11UIFocusItemP", "touchesMoved"]
+- ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "gestureRecognizers"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "isScrollEnabled"]
+- !private ["So20UIFocusItemContainerP", "layer"]
+- !private ["So20UIFocusItemContainerP", "nsuiTouchesBegan"]
+- !private ["So20UIFocusItemContainerP", "nsuiTouchesCancelled"]
+- !private ["So20UIFocusItemContainerP", "nsuiTouchesEnded"]
+- !private ["So20UIFocusItemContainerP", "nsuiTouchesMoved"]
+- !private ["So20UIFocusItemContainerP", "touchesBegan"]
+- !private ["So20UIFocusItemContainerP", "touchesCancelled"]
+- !private ["So20UIFocusItemContainerP", "touchesEnded"]
+- !private ["So20UIFocusItemContainerP", "touchesMoved"]
+- !private ["So30UIFocusItemScrollableContainerP", "isScrollEnabled"]
 - ["So19UIGestureRecognizerC", "CGFloat"]
 - ["So19UIGestureRecognizerC", "CGPoint"]
 - ["So19UIGestureRecognizerC", "Int"]
@@ -429,6 +461,7 @@ depends-member:
 - !private ["So22UIPanGestureRecognizerC", "numberOfTouches"]
 - ["So30UIPasteConfigurationSupportingP", ""]
 - !private ["So30UIPasteConfigurationSupportingP", "gestureRecognizers"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
 - !private ["So30UIPasteConfigurationSupportingP", "isScrollEnabled"]
 - !private ["So30UIPasteConfigurationSupportingP", "layer"]
@@ -455,6 +488,7 @@ depends-member:
 - ["So11UIResponderC", "Set"]
 - !private ["So11UIResponderC", "gestureRecognizers"]
 - ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "init"]
 - !private ["So11UIResponderC", "isScrollEnabled"]
 - !private ["So11UIResponderC", "layer"]
 - ["So11UIResponderC", "nsuiGestureRecognizers"]
@@ -470,6 +504,7 @@ depends-member:
 - ["So11UIResponderC", "touchesMoved"]
 - ["So30UIResponderStandardEditActionsP", ""]
 - !private ["So30UIResponderStandardEditActionsP", "gestureRecognizers"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
 - !private ["So30UIResponderStandardEditActionsP", "isScrollEnabled"]
 - !private ["So30UIResponderStandardEditActionsP", "layer"]
@@ -499,6 +534,7 @@ depends-member:
 - ["So18UITraitEnvironmentP", ""]
 - !private ["So18UITraitEnvironmentP", "gestureRecognizers"]
 - !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "init"]
 - !private ["So18UITraitEnvironmentP", "isScrollEnabled"]
 - !private ["So18UITraitEnvironmentP", "layer"]
 - !private ["So18UITraitEnvironmentP", "main"]
@@ -511,6 +547,20 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "touchesCancelled"]
 - !private ["So18UITraitEnvironmentP", "touchesEnded"]
 - !private ["So18UITraitEnvironmentP", "touchesMoved"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "gestureRecognizers"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "isScrollEnabled"]
+- !private ["So23UIUserActivityRestoringP", "layer"]
+- !private ["So23UIUserActivityRestoringP", "nsuiTouchesBegan"]
+- !private ["So23UIUserActivityRestoringP", "nsuiTouchesCancelled"]
+- !private ["So23UIUserActivityRestoringP", "nsuiTouchesEnded"]
+- !private ["So23UIUserActivityRestoringP", "nsuiTouchesMoved"]
+- !private ["So23UIUserActivityRestoringP", "touchesBegan"]
+- !private ["So23UIUserActivityRestoringP", "touchesCancelled"]
+- !private ["So23UIUserActivityRestoringP", "touchesEnded"]
+- !private ["So23UIUserActivityRestoringP", "touchesMoved"]
 - ["So6UIViewC", "Bool"]
 - ["So6UIViewC", "CALayer"]
 - ["So6UIViewC", "NSUIEvent"]
@@ -520,6 +570,7 @@ depends-member:
 - ["So6UIViewC", ""]
 - !private ["So6UIViewC", "gestureRecognizers"]
 - ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "init"]
 - !private ["So6UIViewC", "isScrollEnabled"]
 - !private ["So6UIViewC", "layer"]
 - ["So6UIViewC", "nsuiGestureRecognizers"]
@@ -536,6 +587,7 @@ depends-member:
 - ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "gestureRecognizers"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "isScrollEnabled"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "layer"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "nsuiTouchesBegan"]
@@ -548,6 +600,7 @@ depends-member:
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "touchesMoved"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "gestureRecognizers"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "isScrollEnabled"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "layer"]
@@ -570,11 +623,11 @@ depends-nominal:
 - "s7CVarArgP"
 - "s28CustomDebugStringConvertibleP"
 - "s23CustomStringConvertibleP"
-- "s9EquatableP"
-- "s8HashableP"
+- "SQ"
+- "SH"
 - "So8NSCodingP"
 - "So8NSObjectC"
-- "So16NSObjectProtocolP"
+- "So8NSObjectP"
 - "6Charts8NSUIViewC"
 - "So29UIAccessibilityIdentificationP"
 - "So12UIAppearanceP"
@@ -583,6 +636,8 @@ depends-nominal:
 - "So13UIDynamicItemP"
 - "So18UIFocusEnvironmentP"
 - "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- !private "So30UIFocusItemScrollableContainerP"
 - "So19UIGestureRecognizerC"
 - "So22UIPanGestureRecognizerC"
 - "So30UIPasteConfigurationSupportingP"
@@ -594,6 +649,7 @@ depends-nominal:
 - "So12UIScrollViewC"
 - "So22UITapGestureRecognizerC"
 - "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
 - "So6UIViewC"
 - "s37_DefaultCustomPlaygroundQuickLookableP"
 - "10Foundation27_KeyValueCodingAndObservingP"
@@ -614,14 +670,15 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Users/maxim/Projects/react-native-default-example/ios/Pods/Target Support Files/Charts/Charts-umbrella.h"
 - "/Users/maxim/Projects/react-native-default-example/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Charts.build/unextended-module.modulemap"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
 interface-hash: "d11172e73e84da5dea5feb621f2e3e36"

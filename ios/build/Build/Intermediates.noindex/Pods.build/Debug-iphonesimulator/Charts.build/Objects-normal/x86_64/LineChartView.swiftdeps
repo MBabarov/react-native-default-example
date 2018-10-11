@@ -24,6 +24,7 @@ depends-member:
 - !private ["6Charts16AnimatorDelegateP", "_viewPortHandler"]
 - ["6Charts16AnimatorDelegateP", "getAxis"]
 - !private ["6Charts16AnimatorDelegateP", "init"]
+- !private ["6Charts16AnimatorDelegateP", "init"]
 - !private ["6Charts16AnimatorDelegateP", "initialize"]
 - ["6Charts16AnimatorDelegateP", "lineData"]
 - !private ["6Charts16AnimatorDelegateP", "renderer"]
@@ -33,8 +34,10 @@ depends-member:
 - !private ["6Charts20BarLineChartViewBaseC", "_animator"]
 - !private ["6Charts20BarLineChartViewBaseC", "_data"]
 - !private ["6Charts20BarLineChartViewBaseC", "_viewPortHandler"]
+- !private ["6Charts20BarLineChartViewBaseC", "deinit"]
 - ["6Charts20BarLineChartViewBaseC", "getAxis"]
 - ["6Charts20BarLineChartViewBaseC", "init"]
+- !private ["6Charts20BarLineChartViewBaseC", "init"]
 - ["6Charts20BarLineChartViewBaseC", "initialize"]
 - ["6Charts20BarLineChartViewBaseC", "lineData"]
 - !private ["6Charts20BarLineChartViewBaseC", "renderer"]
@@ -44,6 +47,7 @@ depends-member:
 - !private ["6Charts43BarLineScatterCandleBubbleChartDataProviderP", "_data"]
 - !private ["6Charts43BarLineScatterCandleBubbleChartDataProviderP", "_viewPortHandler"]
 - ["6Charts43BarLineScatterCandleBubbleChartDataProviderP", "getAxis"]
+- !private ["6Charts43BarLineScatterCandleBubbleChartDataProviderP", "init"]
 - !private ["6Charts43BarLineScatterCandleBubbleChartDataProviderP", "init"]
 - !private ["6Charts43BarLineScatterCandleBubbleChartDataProviderP", "initialize"]
 - ["6Charts43BarLineScatterCandleBubbleChartDataProviderP", "lineData"]
@@ -55,6 +59,7 @@ depends-member:
 - !private ["So15CALayerDelegateP", "_viewPortHandler"]
 - ["So15CALayerDelegateP", "getAxis"]
 - !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "init"]
 - !private ["So15CALayerDelegateP", "initialize"]
 - ["So15CALayerDelegateP", "lineData"]
 - !private ["So15CALayerDelegateP", "renderer"]
@@ -64,6 +69,7 @@ depends-member:
 - !private ["s7CVarArgP", "_data"]
 - !private ["s7CVarArgP", "_viewPortHandler"]
 - ["s7CVarArgP", "getAxis"]
+- !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "initialize"]
 - ["s7CVarArgP", "lineData"]
@@ -75,6 +81,7 @@ depends-member:
 - !private ["6Charts17ChartDataProviderP", "_viewPortHandler"]
 - ["6Charts17ChartDataProviderP", "getAxis"]
 - !private ["6Charts17ChartDataProviderP", "init"]
+- !private ["6Charts17ChartDataProviderP", "init"]
 - !private ["6Charts17ChartDataProviderP", "initialize"]
 - ["6Charts17ChartDataProviderP", "lineData"]
 - !private ["6Charts17ChartDataProviderP", "renderer"]
@@ -85,6 +92,7 @@ depends-member:
 - !private ["6Charts13ChartViewBaseC", "_viewPortHandler"]
 - ["6Charts13ChartViewBaseC", "getAxis"]
 - ["6Charts13ChartViewBaseC", "init"]
+- !private ["6Charts13ChartViewBaseC", "init"]
 - ["6Charts13ChartViewBaseC", "initialize"]
 - ["6Charts13ChartViewBaseC", "lineData"]
 - !private ["6Charts13ChartViewBaseC", "renderer"]
@@ -94,6 +102,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "_data"]
 - !private ["s28CustomDebugStringConvertibleP", "_viewPortHandler"]
 - ["s28CustomDebugStringConvertibleP", "getAxis"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "initialize"]
 - ["s28CustomDebugStringConvertibleP", "lineData"]
@@ -105,29 +114,32 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "_viewPortHandler"]
 - ["s23CustomStringConvertibleP", "getAxis"]
 - !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "initialize"]
 - ["s23CustomStringConvertibleP", "lineData"]
 - !private ["s23CustomStringConvertibleP", "renderer"]
-- !private ["s9EquatableP", "LineChartRenderer"]
-- ["s9EquatableP", ""]
-- !private ["s9EquatableP", "_animator"]
-- !private ["s9EquatableP", "_data"]
-- !private ["s9EquatableP", "_viewPortHandler"]
-- ["s9EquatableP", "getAxis"]
-- !private ["s9EquatableP", "init"]
-- !private ["s9EquatableP", "initialize"]
-- ["s9EquatableP", "lineData"]
-- !private ["s9EquatableP", "renderer"]
-- !private ["s8HashableP", "LineChartRenderer"]
-- ["s8HashableP", ""]
-- !private ["s8HashableP", "_animator"]
-- !private ["s8HashableP", "_data"]
-- !private ["s8HashableP", "_viewPortHandler"]
-- ["s8HashableP", "getAxis"]
-- !private ["s8HashableP", "init"]
-- !private ["s8HashableP", "initialize"]
-- ["s8HashableP", "lineData"]
-- !private ["s8HashableP", "renderer"]
+- !private ["SQ", "LineChartRenderer"]
+- ["SQ", ""]
+- !private ["SQ", "_animator"]
+- !private ["SQ", "_data"]
+- !private ["SQ", "_viewPortHandler"]
+- ["SQ", "getAxis"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "initialize"]
+- ["SQ", "lineData"]
+- !private ["SQ", "renderer"]
+- !private ["SH", "LineChartRenderer"]
+- ["SH", ""]
+- !private ["SH", "_animator"]
+- !private ["SH", "_data"]
+- !private ["SH", "_viewPortHandler"]
+- ["SH", "getAxis"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "initialize"]
+- ["SH", "lineData"]
+- !private ["SH", "renderer"]
 - !private ["6Charts21LineChartDataProviderP", "LineChartRenderer"]
 - ["6Charts21LineChartDataProviderP", ""]
 - !private ["6Charts21LineChartDataProviderP", "_animator"]
@@ -155,6 +167,7 @@ depends-member:
 - !private ["So8NSCodingP", "_viewPortHandler"]
 - ["So8NSCodingP", "getAxis"]
 - !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "initialize"]
 - ["So8NSCodingP", "lineData"]
 - !private ["So8NSCodingP", "renderer"]
@@ -165,19 +178,21 @@ depends-member:
 - !private ["So8NSObjectC", "_viewPortHandler"]
 - ["So8NSObjectC", "getAxis"]
 - ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
 - ["So8NSObjectC", "initialize"]
 - ["So8NSObjectC", "lineData"]
 - !private ["So8NSObjectC", "renderer"]
-- !private ["So16NSObjectProtocolP", "LineChartRenderer"]
-- ["So16NSObjectProtocolP", ""]
-- !private ["So16NSObjectProtocolP", "_animator"]
-- !private ["So16NSObjectProtocolP", "_data"]
-- !private ["So16NSObjectProtocolP", "_viewPortHandler"]
-- ["So16NSObjectProtocolP", "getAxis"]
-- !private ["So16NSObjectProtocolP", "init"]
-- !private ["So16NSObjectProtocolP", "initialize"]
-- ["So16NSObjectProtocolP", "lineData"]
-- !private ["So16NSObjectProtocolP", "renderer"]
+- !private ["So8NSObjectP", "LineChartRenderer"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "_animator"]
+- !private ["So8NSObjectP", "_data"]
+- !private ["So8NSObjectP", "_viewPortHandler"]
+- ["So8NSObjectP", "getAxis"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "initialize"]
+- ["So8NSObjectP", "lineData"]
+- !private ["So8NSObjectP", "renderer"]
 - ["6Charts8NSUIViewC", "LineChartData"]
 - !private ["6Charts8NSUIViewC", "LineChartRenderer"]
 - !private ["6Charts8NSUIViewC", "_animator"]
@@ -185,6 +200,7 @@ depends-member:
 - !private ["6Charts8NSUIViewC", "_viewPortHandler"]
 - ["6Charts8NSUIViewC", "getAxis"]
 - ["6Charts8NSUIViewC", "init"]
+- !private ["6Charts8NSUIViewC", "init"]
 - ["6Charts8NSUIViewC", "initialize"]
 - ["6Charts8NSUIViewC", "lineData"]
 - !private ["6Charts8NSUIViewC", "renderer"]
@@ -194,6 +210,7 @@ depends-member:
 - !private ["So29UIAccessibilityIdentificationP", "_data"]
 - !private ["So29UIAccessibilityIdentificationP", "_viewPortHandler"]
 - ["So29UIAccessibilityIdentificationP", "getAxis"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
 - !private ["So29UIAccessibilityIdentificationP", "init"]
 - !private ["So29UIAccessibilityIdentificationP", "initialize"]
 - ["So29UIAccessibilityIdentificationP", "lineData"]
@@ -205,6 +222,7 @@ depends-member:
 - !private ["So12UIAppearanceP", "_viewPortHandler"]
 - ["So12UIAppearanceP", "getAxis"]
 - !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "init"]
 - !private ["So12UIAppearanceP", "initialize"]
 - ["So12UIAppearanceP", "lineData"]
 - !private ["So12UIAppearanceP", "renderer"]
@@ -214,6 +232,7 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "_data"]
 - !private ["So21UIAppearanceContainerP", "_viewPortHandler"]
 - ["So21UIAppearanceContainerP", "getAxis"]
+- !private ["So21UIAppearanceContainerP", "init"]
 - !private ["So21UIAppearanceContainerP", "init"]
 - !private ["So21UIAppearanceContainerP", "initialize"]
 - ["So21UIAppearanceContainerP", "lineData"]
@@ -225,6 +244,7 @@ depends-member:
 - !private ["So17UICoordinateSpaceP", "_viewPortHandler"]
 - ["So17UICoordinateSpaceP", "getAxis"]
 - !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "init"]
 - !private ["So17UICoordinateSpaceP", "initialize"]
 - ["So17UICoordinateSpaceP", "lineData"]
 - !private ["So17UICoordinateSpaceP", "renderer"]
@@ -234,6 +254,7 @@ depends-member:
 - !private ["So13UIDynamicItemP", "_data"]
 - !private ["So13UIDynamicItemP", "_viewPortHandler"]
 - ["So13UIDynamicItemP", "getAxis"]
+- !private ["So13UIDynamicItemP", "init"]
 - !private ["So13UIDynamicItemP", "init"]
 - !private ["So13UIDynamicItemP", "initialize"]
 - ["So13UIDynamicItemP", "lineData"]
@@ -245,6 +266,7 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "_viewPortHandler"]
 - ["So18UIFocusEnvironmentP", "getAxis"]
 - !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "init"]
 - !private ["So18UIFocusEnvironmentP", "initialize"]
 - ["So18UIFocusEnvironmentP", "lineData"]
 - !private ["So18UIFocusEnvironmentP", "renderer"]
@@ -255,15 +277,28 @@ depends-member:
 - !private ["So11UIFocusItemP", "_viewPortHandler"]
 - ["So11UIFocusItemP", "getAxis"]
 - !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "init"]
 - !private ["So11UIFocusItemP", "initialize"]
 - ["So11UIFocusItemP", "lineData"]
 - !private ["So11UIFocusItemP", "renderer"]
+- !private ["So20UIFocusItemContainerP", "LineChartRenderer"]
+- ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "_animator"]
+- !private ["So20UIFocusItemContainerP", "_data"]
+- !private ["So20UIFocusItemContainerP", "_viewPortHandler"]
+- ["So20UIFocusItemContainerP", "getAxis"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "initialize"]
+- ["So20UIFocusItemContainerP", "lineData"]
+- !private ["So20UIFocusItemContainerP", "renderer"]
 - !private ["So27UIGestureRecognizerDelegateP", "LineChartRenderer"]
 - ["So27UIGestureRecognizerDelegateP", ""]
 - !private ["So27UIGestureRecognizerDelegateP", "_animator"]
 - !private ["So27UIGestureRecognizerDelegateP", "_data"]
 - !private ["So27UIGestureRecognizerDelegateP", "_viewPortHandler"]
 - ["So27UIGestureRecognizerDelegateP", "getAxis"]
+- !private ["So27UIGestureRecognizerDelegateP", "init"]
 - !private ["So27UIGestureRecognizerDelegateP", "init"]
 - !private ["So27UIGestureRecognizerDelegateP", "initialize"]
 - ["So27UIGestureRecognizerDelegateP", "lineData"]
@@ -275,6 +310,7 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "_viewPortHandler"]
 - ["So30UIPasteConfigurationSupportingP", "getAxis"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
 - !private ["So30UIPasteConfigurationSupportingP", "initialize"]
 - ["So30UIPasteConfigurationSupportingP", "lineData"]
 - !private ["So30UIPasteConfigurationSupportingP", "renderer"]
@@ -285,6 +321,7 @@ depends-member:
 - !private ["So11UIResponderC", "_viewPortHandler"]
 - ["So11UIResponderC", "getAxis"]
 - ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "init"]
 - ["So11UIResponderC", "initialize"]
 - ["So11UIResponderC", "lineData"]
 - !private ["So11UIResponderC", "renderer"]
@@ -294,6 +331,7 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "_data"]
 - !private ["So30UIResponderStandardEditActionsP", "_viewPortHandler"]
 - ["So30UIResponderStandardEditActionsP", "getAxis"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
 - !private ["So30UIResponderStandardEditActionsP", "initialize"]
 - ["So30UIResponderStandardEditActionsP", "lineData"]
@@ -305,9 +343,21 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "_viewPortHandler"]
 - ["So18UITraitEnvironmentP", "getAxis"]
 - !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "init"]
 - !private ["So18UITraitEnvironmentP", "initialize"]
 - ["So18UITraitEnvironmentP", "lineData"]
 - !private ["So18UITraitEnvironmentP", "renderer"]
+- !private ["So23UIUserActivityRestoringP", "LineChartRenderer"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "_animator"]
+- !private ["So23UIUserActivityRestoringP", "_data"]
+- !private ["So23UIUserActivityRestoringP", "_viewPortHandler"]
+- ["So23UIUserActivityRestoringP", "getAxis"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "initialize"]
+- ["So23UIUserActivityRestoringP", "lineData"]
+- !private ["So23UIUserActivityRestoringP", "renderer"]
 - ["So6UIViewC", "LineChartData"]
 - !private ["So6UIViewC", "LineChartRenderer"]
 - !private ["So6UIViewC", "_animator"]
@@ -315,6 +365,7 @@ depends-member:
 - !private ["So6UIViewC", "_viewPortHandler"]
 - ["So6UIViewC", "getAxis"]
 - ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "init"]
 - ["So6UIViewC", "initialize"]
 - ["So6UIViewC", "lineData"]
 - !private ["So6UIViewC", "renderer"]
@@ -325,6 +376,7 @@ depends-member:
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "_viewPortHandler"]
 - ["s37_DefaultCustomPlaygroundQuickLookableP", "getAxis"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "initialize"]
 - ["s37_DefaultCustomPlaygroundQuickLookableP", "lineData"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "renderer"]
@@ -334,6 +386,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "_data"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "_viewPortHandler"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "getAxis"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "initialize"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "lineData"]
@@ -348,14 +401,14 @@ depends-nominal:
 - "6Charts13ChartViewBaseC"
 - "s28CustomDebugStringConvertibleP"
 - "s23CustomStringConvertibleP"
-- "s9EquatableP"
-- "s8HashableP"
+- "SQ"
+- "SH"
 - "6Charts21LineChartDataProviderP"
 - !private "6Charts17LineChartRendererC"
 - "6Charts13LineChartViewC"
 - "So8NSCodingP"
 - "So8NSObjectC"
-- "So16NSObjectProtocolP"
+- "So8NSObjectP"
 - "6Charts8NSUIViewC"
 - "So29UIAccessibilityIdentificationP"
 - "So12UIAppearanceP"
@@ -364,11 +417,13 @@ depends-nominal:
 - "So13UIDynamicItemP"
 - "So18UIFocusEnvironmentP"
 - "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
 - "So27UIGestureRecognizerDelegateP"
 - "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
 - "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
 - "So6UIViewC"
 - "s37_DefaultCustomPlaygroundQuickLookableP"
 - "10Foundation27_KeyValueCodingAndObservingP"
@@ -389,14 +444,15 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Users/maxim/Projects/react-native-default-example/ios/Pods/Target Support Files/Charts/Charts-umbrella.h"
 - "/Users/maxim/Projects/react-native-default-example/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Charts.build/unextended-module.modulemap"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
 interface-hash: "ca12151897ee7057c5e8d2e8b7800325"

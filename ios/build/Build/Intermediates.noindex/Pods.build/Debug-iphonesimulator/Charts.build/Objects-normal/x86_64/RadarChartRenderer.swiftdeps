@@ -40,9 +40,11 @@ depends-top-level:
 - !private "ChartUtils"
 - !private "Dictionary"
 - !private "Double"
+- "FloatLiteralType"
 - "Highlight"
 - "IRadarChartDataSet"
 - "Int"
+- "IntegerLiteralType"
 - "LineRadarRenderer"
 - !private "NSFontAttributeName"
 - !private "NSForegroundColorAttributeName"
@@ -51,7 +53,6 @@ depends-top-level:
 - !private "RadarChartDataEntry"
 - "RadarChartRenderer"
 - "RadarChartView"
-- !private "StringLiteralType"
 - "ViewPortHandler"
 - !private "stride"
 - !private "||"
@@ -74,6 +75,8 @@ depends-member:
 - !private ["6Charts16AnimatorDelegateP", "yRange"]
 - ["Sa", "init"]
 - !private ["Sa", "subscript"]
+- ["s13ArrayProtocolP", "init"]
+- !private ["s13ArrayProtocolP", "subscript"]
 - !private ["6Charts8AxisBaseC", "entries"]
 - !private ["6Charts8AxisBaseC", "entryCount"]
 - ["6Charts34BarLineScatterCandleBubbleRendererC", "Animator"]
@@ -112,11 +115,11 @@ depends-member:
 - !private ["6Charts34BarLineScatterCandleBubbleRendererC", "shouldDrawValues"]
 - !private ["6Charts34BarLineScatterCandleBubbleRendererC", "stride"]
 - !private ["6Charts34BarLineScatterCandleBubbleRendererC", "viewPortHandler"]
-- ["s23BidirectionalCollectionP", "init"]
-- !private ["s23BidirectionalCollectionP", "subscript"]
-- !private ["s19BinaryFloatingPointP", "init"]
-- !private ["s19BinaryFloatingPointP", "isNaN"]
-- !private ["s13BinaryIntegerP", "init"]
+- ["SK", "init"]
+- !private ["SK", "subscript"]
+- !private ["SB", "init"]
+- !private ["SB", "isNaN"]
+- !private ["Sz", "init"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["So15CALayerDelegateP", "centerOffsets"]
 - !private ["So15CALayerDelegateP", "chartYMin"]
@@ -132,34 +135,33 @@ depends-member:
 - !private ["So15CALayerDelegateP", "webLineWidth"]
 - !private ["So15CALayerDelegateP", "yAxis"]
 - !private ["So15CALayerDelegateP", "yRange"]
-- !private ["So9CGContextC", "addEllipse"]
-- !private ["So9CGContextC", "addPath"]
-- !private ["So9CGContextC", "beginPath"]
-- !private ["So9CGContextC", "fillPath"]
-- !private ["So9CGContextC", "restoreGState"]
-- !private ["So9CGContextC", "saveGState"]
-- !private ["So9CGContextC", "setAlpha"]
-- !private ["So9CGContextC", "setFillColor"]
-- !private ["So9CGContextC", "setLineDash"]
-- !private ["So9CGContextC", "setLineWidth"]
-- !private ["So9CGContextC", "setStrokeColor"]
-- !private ["So9CGContextC", "strokeLineSegments"]
-- !private ["So9CGContextC", "strokePath"]
+- !private ["So12CGContextRefa", "addEllipse"]
+- !private ["So12CGContextRefa", "addPath"]
+- !private ["So12CGContextRefa", "beginPath"]
+- !private ["So12CGContextRefa", "fillPath"]
+- !private ["So12CGContextRefa", "restoreGState"]
+- !private ["So12CGContextRefa", "saveGState"]
+- !private ["So12CGContextRefa", "setAlpha"]
+- !private ["So12CGContextRefa", "setFillColor"]
+- !private ["So12CGContextRefa", "setLineDash"]
+- !private ["So12CGContextRefa", "setLineWidth"]
+- !private ["So12CGContextRefa", "setStrokeColor"]
+- !private ["So12CGContextRefa", "strokeLineSegments"]
+- !private ["So12CGContextRefa", "strokePath"]
 - !private ["12CoreGraphics7CGFloatV", "init"]
 - !private ["12CoreGraphics7CGFloatV", "isNaN"]
-- !private ["So13CGMutablePathC", "addLine"]
-- !private ["So13CGMutablePathC", "closeSubpath"]
-- !private ["So13CGMutablePathC", "init"]
-- !private ["So13CGMutablePathC", "move"]
-- !private ["So6CGPathC", "addLine"]
-- !private ["So6CGPathC", "closeSubpath"]
-- !private ["So6CGPathC", "init"]
-- !private ["So6CGPathC", "move"]
+- !private ["So16CGMutablePathRefa", "addLine"]
+- !private ["So16CGMutablePathRefa", "closeSubpath"]
+- !private ["So16CGMutablePathRefa", "init"]
+- !private ["So16CGMutablePathRefa", "move"]
+- !private ["So9CGPathRefa", "addLine"]
+- !private ["So9CGPathRefa", "closeSubpath"]
+- !private ["So9CGPathRefa", "move"]
 - !private ["12CoreGraphics14CGPathFillRuleO", "evenOdd"]
-- ["SC7CGPointV", "init"]
-- !private ["SC7CGPointV", "x"]
-- !private ["SC7CGPointV", "y"]
-- !private ["SC6CGRectV", "init"]
+- ["So7CGPointV", "init"]
+- !private ["So7CGPointV", "x"]
+- !private ["So7CGPointV", "y"]
+- !private ["So6CGRectV", "init"]
 - !private ["s7CVarArgP", "CGFloat"]
 - !private ["s7CVarArgP", "CGMutablePath"]
 - ["s7CVarArgP", "CGPoint"]
@@ -265,10 +267,10 @@ depends-member:
 - !private ["6Charts13ChartViewBaseC", "webLineWidth"]
 - !private ["6Charts13ChartViewBaseC", "yAxis"]
 - !private ["6Charts13ChartViewBaseC", "yRange"]
-- ["s10CollectionP", "init"]
-- !private ["s10CollectionP", "subscript"]
-- !private ["s10ComparableP", "init"]
-- !private ["s10ComparableP", "isNaN"]
+- ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "init"]
+- !private ["SL", "isNaN"]
 - !private ["6Charts13ComponentBaseC", "entries"]
 - !private ["6Charts13ComponentBaseC", "entryCount"]
 - !private ["s28CustomDebugStringConvertibleP", "CGFloat"]
@@ -306,6 +308,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "highlightLineWidth"]
 - !private ["s28CustomDebugStringConvertibleP", "icon"]
 - ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "innerWebColor"]
 - !private ["s28CustomDebugStringConvertibleP", "innerWebLineWidth"]
 - !private ["s28CustomDebugStringConvertibleP", "isInBoundsX"]
@@ -336,6 +339,7 @@ depends-member:
 - !private ["s29CustomPlaygroundQuickLookableP", "y"]
 - !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
 - ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "isNaN"]
 - !private ["s17CustomReflectableP", "subscript"]
 - !private ["s17CustomReflectableP", "x"]
@@ -376,6 +380,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "highlightLineWidth"]
 - !private ["s23CustomStringConvertibleP", "icon"]
 - ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "innerWebColor"]
 - !private ["s23CustomStringConvertibleP", "innerWebLineWidth"]
 - !private ["s23CustomStringConvertibleP", "isInBoundsX"]
@@ -437,190 +442,194 @@ depends-member:
 - !private ["6Charts12DataRendererC", "shouldDrawValues"]
 - !private ["6Charts12DataRendererC", "stride"]
 - !private ["6Charts12DataRendererC", "viewPortHandler"]
-- !private ["s9DecodableP", "_getBuiltinLogicValue"]
-- ["s9DecodableP", "init"]
-- !private ["s9DecodableP", "isNaN"]
-- !private ["s9DecodableP", "subscript"]
-- !private ["s9DecodableP", "x"]
-- !private ["s9DecodableP", "y"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- ["Se", "init"]
+- !private ["Se", "isNaN"]
+- !private ["Se", "subscript"]
+- !private ["Se", "x"]
+- !private ["Se", "y"]
 - !private ["Sd", "init"]
-- !private ["s9EncodableP", "_getBuiltinLogicValue"]
-- ["s9EncodableP", "init"]
-- !private ["s9EncodableP", "isNaN"]
-- !private ["s9EncodableP", "subscript"]
-- !private ["s9EncodableP", "x"]
-- !private ["s9EncodableP", "y"]
-- !private ["s9EquatableP", "CGFloat"]
-- !private ["s9EquatableP", "CGMutablePath"]
-- ["s9EquatableP", "CGPoint"]
-- !private ["s9EquatableP", "CGRect"]
-- !private ["s9EquatableP", "ChartUtils"]
-- !private ["s9EquatableP", "Double"]
-- !private ["s9EquatableP", "Int"]
-- !private ["s9EquatableP", "NSFontAttributeName"]
-- !private ["s9EquatableP", "NSForegroundColorAttributeName"]
-- ["s9EquatableP", ""]
-- !private ["s9EquatableP", "_getBuiltinLogicValue"]
-- !private ["s9EquatableP", "_highlightPointBuffer"]
-- !private ["s9EquatableP", "_webLineSegmentsBuffer"]
-- !private ["s9EquatableP", "addEllipse"]
-- !private ["s9EquatableP", "addLine"]
-- !private ["s9EquatableP", "addPath"]
-- !private ["s9EquatableP", "animator"]
-- !private ["s9EquatableP", "beginPath"]
-- !private ["s9EquatableP", "center"]
-- !private ["s9EquatableP", "centerOffsets"]
-- !private ["s9EquatableP", "cgColor"]
-- !private ["s9EquatableP", "chart"]
-- !private ["s9EquatableP", "chartYMin"]
-- !private ["s9EquatableP", "closeSubpath"]
-- !private ["s9EquatableP", "data"]
-- !private ["s9EquatableP", "dataSetCount"]
-- !private ["s9EquatableP", "dataSetIndex"]
-- !private ["s9EquatableP", "dataSets"]
-- !private ["s9EquatableP", "drawDataSet"]
-- !private ["s9EquatableP", "drawFilledPath"]
-- !private ["s9EquatableP", "drawHighlightCircle"]
-- !private ["s9EquatableP", "drawHighlightLines"]
-- !private ["s9EquatableP", "drawWeb"]
-- !private ["s9EquatableP", "entries"]
-- !private ["s9EquatableP", "entryCount"]
-- !private ["s9EquatableP", "evenOdd"]
-- !private ["s9EquatableP", "factor"]
-- !private ["s9EquatableP", "fillPath"]
-- !private ["s9EquatableP", "getDataSetByIndex"]
-- !private ["s9EquatableP", "highlightLineDashLengths"]
-- !private ["s9EquatableP", "highlightLineDashPhase"]
-- !private ["s9EquatableP", "highlightLineWidth"]
-- !private ["s9EquatableP", "icon"]
-- ["s9EquatableP", "init"]
-- !private ["s9EquatableP", "innerWebColor"]
-- !private ["s9EquatableP", "innerWebLineWidth"]
-- !private ["s9EquatableP", "isInBoundsX"]
-- !private ["s9EquatableP", "isNaN"]
-- !private ["s9EquatableP", "lineHeight"]
-- !private ["s9EquatableP", "maxEntryCountSet"]
-- !private ["s9EquatableP", "move"]
-- !private ["s9EquatableP", "phaseX"]
-- !private ["s9EquatableP", "phaseY"]
-- !private ["s9EquatableP", "restoreGState"]
-- !private ["s9EquatableP", "rotationAngle"]
-- !private ["s9EquatableP", "saveGState"]
-- !private ["s9EquatableP", "setAlpha"]
-- !private ["s9EquatableP", "setDraw"]
-- !private ["s9EquatableP", "setFillColor"]
-- !private ["s9EquatableP", "setLineDash"]
-- !private ["s9EquatableP", "setLineWidth"]
-- !private ["s9EquatableP", "setStrokeColor"]
-- !private ["s9EquatableP", "shouldDrawValues"]
-- !private ["s9EquatableP", "size"]
-- !private ["s9EquatableP", "skipWebLineCount"]
-- !private ["s9EquatableP", "sliceAngle"]
-- !private ["s9EquatableP", "stride"]
-- !private ["s9EquatableP", "strokeLineSegments"]
-- !private ["s9EquatableP", "strokePath"]
-- !private ["s9EquatableP", "subscript"]
-- !private ["s9EquatableP", "viewPortHandler"]
-- !private ["s9EquatableP", "webAlpha"]
-- !private ["s9EquatableP", "webColor"]
-- !private ["s9EquatableP", "webLineWidth"]
-- !private ["s9EquatableP", "withAlphaComponent"]
-- !private ["s9EquatableP", "x"]
-- !private ["s9EquatableP", "y"]
-- !private ["s9EquatableP", "yAxis"]
-- !private ["s9EquatableP", "yRange"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- ["SE", "init"]
+- !private ["SE", "isNaN"]
+- !private ["SE", "subscript"]
+- !private ["SE", "x"]
+- !private ["SE", "y"]
+- !private ["SQ", "CGFloat"]
+- !private ["SQ", "CGMutablePath"]
+- ["SQ", "CGPoint"]
+- !private ["SQ", "CGRect"]
+- !private ["SQ", "ChartUtils"]
+- !private ["SQ", "Double"]
+- !private ["SQ", "Int"]
+- !private ["SQ", "NSFontAttributeName"]
+- !private ["SQ", "NSForegroundColorAttributeName"]
+- ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "_highlightPointBuffer"]
+- !private ["SQ", "_webLineSegmentsBuffer"]
+- !private ["SQ", "addEllipse"]
+- !private ["SQ", "addLine"]
+- !private ["SQ", "addPath"]
+- !private ["SQ", "animator"]
+- !private ["SQ", "beginPath"]
+- !private ["SQ", "center"]
+- !private ["SQ", "centerOffsets"]
+- !private ["SQ", "cgColor"]
+- !private ["SQ", "chart"]
+- !private ["SQ", "chartYMin"]
+- !private ["SQ", "closeSubpath"]
+- !private ["SQ", "data"]
+- !private ["SQ", "dataSetCount"]
+- !private ["SQ", "dataSetIndex"]
+- !private ["SQ", "dataSets"]
+- !private ["SQ", "drawDataSet"]
+- !private ["SQ", "drawFilledPath"]
+- !private ["SQ", "drawHighlightCircle"]
+- !private ["SQ", "drawHighlightLines"]
+- !private ["SQ", "drawWeb"]
+- !private ["SQ", "entries"]
+- !private ["SQ", "entryCount"]
+- !private ["SQ", "evenOdd"]
+- !private ["SQ", "factor"]
+- !private ["SQ", "fillPath"]
+- !private ["SQ", "getDataSetByIndex"]
+- !private ["SQ", "highlightLineDashLengths"]
+- !private ["SQ", "highlightLineDashPhase"]
+- !private ["SQ", "highlightLineWidth"]
+- !private ["SQ", "icon"]
+- ["SQ", "init"]
+- !private ["SQ", "innerWebColor"]
+- !private ["SQ", "innerWebLineWidth"]
+- !private ["SQ", "isInBoundsX"]
+- !private ["SQ", "isNaN"]
+- !private ["SQ", "lineHeight"]
+- !private ["SQ", "maxEntryCountSet"]
+- !private ["SQ", "move"]
+- !private ["SQ", "phaseX"]
+- !private ["SQ", "phaseY"]
+- !private ["SQ", "restoreGState"]
+- !private ["SQ", "rotationAngle"]
+- !private ["SQ", "saveGState"]
+- !private ["SQ", "setAlpha"]
+- !private ["SQ", "setDraw"]
+- !private ["SQ", "setFillColor"]
+- !private ["SQ", "setLineDash"]
+- !private ["SQ", "setLineWidth"]
+- !private ["SQ", "setStrokeColor"]
+- !private ["SQ", "shouldDrawValues"]
+- !private ["SQ", "size"]
+- !private ["SQ", "skipWebLineCount"]
+- !private ["SQ", "sliceAngle"]
+- !private ["SQ", "stride"]
+- !private ["SQ", "strokeLineSegments"]
+- !private ["SQ", "strokePath"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "viewPortHandler"]
+- !private ["SQ", "webAlpha"]
+- !private ["SQ", "webColor"]
+- !private ["SQ", "webLineWidth"]
+- !private ["SQ", "withAlphaComponent"]
+- !private ["SQ", "x"]
+- !private ["SQ", "y"]
+- !private ["SQ", "yAxis"]
+- !private ["SQ", "yRange"]
 - ["s25ExpressibleByArrayLiteralP", "init"]
 - !private ["s25ExpressibleByArrayLiteralP", "subscript"]
 - !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s25ExpressibleByFloatLiteralP", "init"]
 - !private ["s25ExpressibleByFloatLiteralP", "isNaN"]
 - !private ["s27ExpressibleByIntegerLiteralP", "init"]
 - !private ["s27ExpressibleByIntegerLiteralP", "isNaN"]
 - !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - !private ["6Charts4FillC", "deinit"]
 - !private ["s17FixedWidthIntegerP", "init"]
-- !private ["s13FloatingPointP", "init"]
-- !private ["s13FloatingPointP", "isNaN"]
-- !private ["s8HashableP", "CGFloat"]
-- !private ["s8HashableP", "CGMutablePath"]
-- ["s8HashableP", "CGPoint"]
-- !private ["s8HashableP", "CGRect"]
-- !private ["s8HashableP", "ChartUtils"]
-- !private ["s8HashableP", "Double"]
-- !private ["s8HashableP", "Int"]
-- !private ["s8HashableP", "NSFontAttributeName"]
-- !private ["s8HashableP", "NSForegroundColorAttributeName"]
-- ["s8HashableP", ""]
-- !private ["s8HashableP", "_getBuiltinLogicValue"]
-- !private ["s8HashableP", "_highlightPointBuffer"]
-- !private ["s8HashableP", "_webLineSegmentsBuffer"]
-- !private ["s8HashableP", "addEllipse"]
-- !private ["s8HashableP", "addLine"]
-- !private ["s8HashableP", "addPath"]
-- !private ["s8HashableP", "animator"]
-- !private ["s8HashableP", "beginPath"]
-- !private ["s8HashableP", "center"]
-- !private ["s8HashableP", "centerOffsets"]
-- !private ["s8HashableP", "cgColor"]
-- !private ["s8HashableP", "chart"]
-- !private ["s8HashableP", "chartYMin"]
-- !private ["s8HashableP", "closeSubpath"]
-- !private ["s8HashableP", "data"]
-- !private ["s8HashableP", "dataSetCount"]
-- !private ["s8HashableP", "dataSetIndex"]
-- !private ["s8HashableP", "dataSets"]
-- !private ["s8HashableP", "drawDataSet"]
-- !private ["s8HashableP", "drawFilledPath"]
-- !private ["s8HashableP", "drawHighlightCircle"]
-- !private ["s8HashableP", "drawHighlightLines"]
-- !private ["s8HashableP", "drawWeb"]
-- !private ["s8HashableP", "entries"]
-- !private ["s8HashableP", "entryCount"]
-- !private ["s8HashableP", "evenOdd"]
-- !private ["s8HashableP", "factor"]
-- !private ["s8HashableP", "fillPath"]
-- !private ["s8HashableP", "getDataSetByIndex"]
-- !private ["s8HashableP", "highlightLineDashLengths"]
-- !private ["s8HashableP", "highlightLineDashPhase"]
-- !private ["s8HashableP", "highlightLineWidth"]
-- !private ["s8HashableP", "icon"]
-- !private ["s8HashableP", "init"]
-- !private ["s8HashableP", "innerWebColor"]
-- !private ["s8HashableP", "innerWebLineWidth"]
-- !private ["s8HashableP", "isInBoundsX"]
-- !private ["s8HashableP", "isNaN"]
-- !private ["s8HashableP", "lineHeight"]
-- !private ["s8HashableP", "maxEntryCountSet"]
-- !private ["s8HashableP", "move"]
-- !private ["s8HashableP", "phaseX"]
-- !private ["s8HashableP", "phaseY"]
-- !private ["s8HashableP", "restoreGState"]
-- !private ["s8HashableP", "rotationAngle"]
-- !private ["s8HashableP", "saveGState"]
-- !private ["s8HashableP", "setAlpha"]
-- !private ["s8HashableP", "setDraw"]
-- !private ["s8HashableP", "setFillColor"]
-- !private ["s8HashableP", "setLineDash"]
-- !private ["s8HashableP", "setLineWidth"]
-- !private ["s8HashableP", "setStrokeColor"]
-- !private ["s8HashableP", "shouldDrawValues"]
-- !private ["s8HashableP", "size"]
-- !private ["s8HashableP", "skipWebLineCount"]
-- !private ["s8HashableP", "sliceAngle"]
-- !private ["s8HashableP", "stride"]
-- !private ["s8HashableP", "strokeLineSegments"]
-- !private ["s8HashableP", "strokePath"]
-- !private ["s8HashableP", "viewPortHandler"]
-- !private ["s8HashableP", "webAlpha"]
-- !private ["s8HashableP", "webColor"]
-- !private ["s8HashableP", "webLineWidth"]
-- !private ["s8HashableP", "withAlphaComponent"]
-- !private ["s8HashableP", "x"]
-- !private ["s8HashableP", "y"]
-- !private ["s8HashableP", "yAxis"]
-- !private ["s8HashableP", "yRange"]
+- !private ["SF", "init"]
+- !private ["SF", "isNaN"]
+- !private ["SH", "CGFloat"]
+- !private ["SH", "CGMutablePath"]
+- ["SH", "CGPoint"]
+- !private ["SH", "CGRect"]
+- !private ["SH", "ChartUtils"]
+- !private ["SH", "Double"]
+- !private ["SH", "Int"]
+- !private ["SH", "NSFontAttributeName"]
+- !private ["SH", "NSForegroundColorAttributeName"]
+- ["SH", ""]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "_highlightPointBuffer"]
+- !private ["SH", "_webLineSegmentsBuffer"]
+- !private ["SH", "addEllipse"]
+- !private ["SH", "addLine"]
+- !private ["SH", "addPath"]
+- !private ["SH", "animator"]
+- !private ["SH", "beginPath"]
+- !private ["SH", "center"]
+- !private ["SH", "centerOffsets"]
+- !private ["SH", "cgColor"]
+- !private ["SH", "chart"]
+- !private ["SH", "chartYMin"]
+- !private ["SH", "closeSubpath"]
+- !private ["SH", "data"]
+- !private ["SH", "dataSetCount"]
+- !private ["SH", "dataSetIndex"]
+- !private ["SH", "dataSets"]
+- !private ["SH", "drawDataSet"]
+- !private ["SH", "drawFilledPath"]
+- !private ["SH", "drawHighlightCircle"]
+- !private ["SH", "drawHighlightLines"]
+- !private ["SH", "drawWeb"]
+- !private ["SH", "entries"]
+- !private ["SH", "entryCount"]
+- !private ["SH", "evenOdd"]
+- !private ["SH", "factor"]
+- !private ["SH", "fillPath"]
+- !private ["SH", "getDataSetByIndex"]
+- !private ["SH", "highlightLineDashLengths"]
+- !private ["SH", "highlightLineDashPhase"]
+- !private ["SH", "highlightLineWidth"]
+- !private ["SH", "icon"]
+- ["SH", "init"]
+- !private ["SH", "innerWebColor"]
+- !private ["SH", "innerWebLineWidth"]
+- !private ["SH", "isInBoundsX"]
+- !private ["SH", "isNaN"]
+- !private ["SH", "lineHeight"]
+- !private ["SH", "maxEntryCountSet"]
+- !private ["SH", "move"]
+- !private ["SH", "phaseX"]
+- !private ["SH", "phaseY"]
+- !private ["SH", "restoreGState"]
+- !private ["SH", "rotationAngle"]
+- !private ["SH", "saveGState"]
+- !private ["SH", "setAlpha"]
+- !private ["SH", "setDraw"]
+- !private ["SH", "setFillColor"]
+- !private ["SH", "setLineDash"]
+- !private ["SH", "setLineWidth"]
+- !private ["SH", "setStrokeColor"]
+- !private ["SH", "shouldDrawValues"]
+- !private ["SH", "size"]
+- !private ["SH", "skipWebLineCount"]
+- !private ["SH", "sliceAngle"]
+- !private ["SH", "stride"]
+- !private ["SH", "strokeLineSegments"]
+- !private ["SH", "strokePath"]
+- !private ["SH", "subscript"]
+- !private ["SH", "viewPortHandler"]
+- !private ["SH", "webAlpha"]
+- !private ["SH", "webColor"]
+- !private ["SH", "webLineWidth"]
+- !private ["SH", "withAlphaComponent"]
+- !private ["SH", "x"]
+- !private ["SH", "y"]
+- !private ["SH", "yAxis"]
+- !private ["SH", "yRange"]
 - !private ["6Charts9HighlightC", "dataSetIndex"]
 - !private ["6Charts9HighlightC", "setDraw"]
 - !private ["6Charts9HighlightC", "x"]
@@ -822,8 +831,8 @@ depends-member:
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["s10MirrorPathP", "init"]
-- ["s17MutableCollectionP", "init"]
-- !private ["s17MutableCollectionP", "subscript"]
+- ["SM", "init"]
+- !private ["SM", "subscript"]
 - !private ["So8NSCodingP", "centerOffsets"]
 - !private ["So8NSCodingP", "cgColor"]
 - !private ["So8NSCodingP", "chartYMin"]
@@ -919,69 +928,69 @@ depends-member:
 - !private ["So8NSObjectC", "y"]
 - !private ["So8NSObjectC", "yAxis"]
 - !private ["So8NSObjectC", "yRange"]
-- !private ["So16NSObjectProtocolP", "CGFloat"]
-- !private ["So16NSObjectProtocolP", "CGMutablePath"]
-- ["So16NSObjectProtocolP", "CGPoint"]
-- !private ["So16NSObjectProtocolP", "CGRect"]
-- !private ["So16NSObjectProtocolP", "ChartUtils"]
-- !private ["So16NSObjectProtocolP", "Double"]
-- !private ["So16NSObjectProtocolP", "Int"]
-- !private ["So16NSObjectProtocolP", "NSFontAttributeName"]
-- !private ["So16NSObjectProtocolP", "NSForegroundColorAttributeName"]
-- ["So16NSObjectProtocolP", ""]
-- !private ["So16NSObjectProtocolP", "_highlightPointBuffer"]
-- !private ["So16NSObjectProtocolP", "_webLineSegmentsBuffer"]
-- !private ["So16NSObjectProtocolP", "animator"]
-- !private ["So16NSObjectProtocolP", "centerOffsets"]
-- !private ["So16NSObjectProtocolP", "cgColor"]
-- !private ["So16NSObjectProtocolP", "chart"]
-- !private ["So16NSObjectProtocolP", "chartYMin"]
-- !private ["So16NSObjectProtocolP", "data"]
-- !private ["So16NSObjectProtocolP", "dataSetCount"]
-- !private ["So16NSObjectProtocolP", "dataSetIndex"]
-- !private ["So16NSObjectProtocolP", "dataSets"]
-- !private ["So16NSObjectProtocolP", "drawDataSet"]
-- !private ["So16NSObjectProtocolP", "drawFilledPath"]
-- !private ["So16NSObjectProtocolP", "drawHighlightCircle"]
-- !private ["So16NSObjectProtocolP", "drawHighlightLines"]
-- !private ["So16NSObjectProtocolP", "drawWeb"]
-- !private ["So16NSObjectProtocolP", "entries"]
-- !private ["So16NSObjectProtocolP", "entryCount"]
-- !private ["So16NSObjectProtocolP", "factor"]
-- !private ["So16NSObjectProtocolP", "getDataSetByIndex"]
-- !private ["So16NSObjectProtocolP", "highlightLineDashLengths"]
-- !private ["So16NSObjectProtocolP", "highlightLineDashPhase"]
-- !private ["So16NSObjectProtocolP", "highlightLineWidth"]
-- !private ["So16NSObjectProtocolP", "icon"]
-- !private ["So16NSObjectProtocolP", "init"]
-- !private ["So16NSObjectProtocolP", "innerWebColor"]
-- !private ["So16NSObjectProtocolP", "innerWebLineWidth"]
-- !private ["So16NSObjectProtocolP", "isInBoundsX"]
-- !private ["So16NSObjectProtocolP", "lineHeight"]
-- !private ["So16NSObjectProtocolP", "maxEntryCountSet"]
-- !private ["So16NSObjectProtocolP", "phaseX"]
-- !private ["So16NSObjectProtocolP", "phaseY"]
-- !private ["So16NSObjectProtocolP", "rotationAngle"]
-- !private ["So16NSObjectProtocolP", "setDraw"]
-- !private ["So16NSObjectProtocolP", "shouldDrawValues"]
-- !private ["So16NSObjectProtocolP", "size"]
-- !private ["So16NSObjectProtocolP", "skipWebLineCount"]
-- !private ["So16NSObjectProtocolP", "sliceAngle"]
-- !private ["So16NSObjectProtocolP", "stride"]
-- !private ["So16NSObjectProtocolP", "stringForValue"]
-- !private ["So16NSObjectProtocolP", "viewPortHandler"]
-- !private ["So16NSObjectProtocolP", "webAlpha"]
-- !private ["So16NSObjectProtocolP", "webColor"]
-- !private ["So16NSObjectProtocolP", "webLineWidth"]
-- !private ["So16NSObjectProtocolP", "withAlphaComponent"]
-- !private ["So16NSObjectProtocolP", "x"]
-- !private ["So16NSObjectProtocolP", "y"]
-- !private ["So16NSObjectProtocolP", "yAxis"]
-- !private ["So16NSObjectProtocolP", "yRange"]
+- !private ["So8NSObjectP", "CGFloat"]
+- !private ["So8NSObjectP", "CGMutablePath"]
+- ["So8NSObjectP", "CGPoint"]
+- !private ["So8NSObjectP", "CGRect"]
+- !private ["So8NSObjectP", "ChartUtils"]
+- !private ["So8NSObjectP", "Double"]
+- !private ["So8NSObjectP", "Int"]
+- !private ["So8NSObjectP", "NSFontAttributeName"]
+- !private ["So8NSObjectP", "NSForegroundColorAttributeName"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "_highlightPointBuffer"]
+- !private ["So8NSObjectP", "_webLineSegmentsBuffer"]
+- !private ["So8NSObjectP", "animator"]
+- !private ["So8NSObjectP", "centerOffsets"]
+- !private ["So8NSObjectP", "cgColor"]
+- !private ["So8NSObjectP", "chart"]
+- !private ["So8NSObjectP", "chartYMin"]
+- !private ["So8NSObjectP", "data"]
+- !private ["So8NSObjectP", "dataSetCount"]
+- !private ["So8NSObjectP", "dataSetIndex"]
+- !private ["So8NSObjectP", "dataSets"]
+- !private ["So8NSObjectP", "drawDataSet"]
+- !private ["So8NSObjectP", "drawFilledPath"]
+- !private ["So8NSObjectP", "drawHighlightCircle"]
+- !private ["So8NSObjectP", "drawHighlightLines"]
+- !private ["So8NSObjectP", "drawWeb"]
+- !private ["So8NSObjectP", "entries"]
+- !private ["So8NSObjectP", "entryCount"]
+- !private ["So8NSObjectP", "factor"]
+- !private ["So8NSObjectP", "getDataSetByIndex"]
+- !private ["So8NSObjectP", "highlightLineDashLengths"]
+- !private ["So8NSObjectP", "highlightLineDashPhase"]
+- !private ["So8NSObjectP", "highlightLineWidth"]
+- !private ["So8NSObjectP", "icon"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "innerWebColor"]
+- !private ["So8NSObjectP", "innerWebLineWidth"]
+- !private ["So8NSObjectP", "isInBoundsX"]
+- !private ["So8NSObjectP", "lineHeight"]
+- !private ["So8NSObjectP", "maxEntryCountSet"]
+- !private ["So8NSObjectP", "phaseX"]
+- !private ["So8NSObjectP", "phaseY"]
+- !private ["So8NSObjectP", "rotationAngle"]
+- !private ["So8NSObjectP", "setDraw"]
+- !private ["So8NSObjectP", "shouldDrawValues"]
+- !private ["So8NSObjectP", "size"]
+- !private ["So8NSObjectP", "skipWebLineCount"]
+- !private ["So8NSObjectP", "sliceAngle"]
+- !private ["So8NSObjectP", "stride"]
+- !private ["So8NSObjectP", "stringForValue"]
+- !private ["So8NSObjectP", "viewPortHandler"]
+- !private ["So8NSObjectP", "webAlpha"]
+- !private ["So8NSObjectP", "webColor"]
+- !private ["So8NSObjectP", "webLineWidth"]
+- !private ["So8NSObjectP", "withAlphaComponent"]
+- !private ["So8NSObjectP", "x"]
+- !private ["So8NSObjectP", "y"]
+- !private ["So8NSObjectP", "yAxis"]
+- !private ["So8NSObjectP", "yRange"]
 - !private ["So14NSSecureCodingP", "cgColor"]
 - !private ["So14NSSecureCodingP", "size"]
 - !private ["So14NSSecureCodingP", "withAlphaComponent"]
-- !private ["SC15NSTextAlignmentO", "center"]
+- !private ["So15NSTextAlignmentV", "center"]
 - !private ["6Charts8NSUIViewC", "centerOffsets"]
 - !private ["6Charts8NSUIViewC", "chartYMin"]
 - !private ["6Charts8NSUIViewC", "data"]
@@ -996,8 +1005,8 @@ depends-member:
 - !private ["6Charts8NSUIViewC", "webLineWidth"]
 - !private ["6Charts8NSUIViewC", "yAxis"]
 - !private ["6Charts8NSUIViewC", "yRange"]
-- !private ["s7NumericP", "init"]
-- !private ["s7NumericP", "isNaN"]
+- !private ["Sj", "init"]
+- !private ["Sj", "isNaN"]
 - !private ["6Charts21PieRadarChartViewBaseC", "centerOffsets"]
 - !private ["6Charts21PieRadarChartViewBaseC", "chartYMin"]
 - !private ["6Charts21PieRadarChartViewBaseC", "data"]
@@ -1038,7 +1047,6 @@ depends-member:
 - !private ["6Charts18RadarChartRendererC", "_webLineSegmentsBuffer"]
 - !private ["6Charts18RadarChartRendererC", "animator"]
 - ["6Charts18RadarChartRendererC", "chart"]
-- ["6Charts18RadarChartRendererC", "deinit"]
 - ["6Charts18RadarChartRendererC", "drawData"]
 - ["6Charts18RadarChartRendererC", "drawDataSet"]
 - ["6Charts18RadarChartRendererC", "drawExtras"]
@@ -1068,12 +1076,12 @@ depends-member:
 - !private ["6Charts14RadarChartViewC", "webLineWidth"]
 - !private ["6Charts14RadarChartViewC", "yAxis"]
 - !private ["6Charts14RadarChartViewC", "yRange"]
-- ["s22RandomAccessCollectionP", "init"]
-- !private ["s22RandomAccessCollectionP", "subscript"]
-- ["s26RangeReplaceableCollectionP", "init"]
-- !private ["s26RangeReplaceableCollectionP", "subscript"]
-- !private ["s16RawRepresentableP", "center"]
-- !private ["s16RawRepresentableP", "evenOdd"]
+- ["Sk", "init"]
+- !private ["Sk", "subscript"]
+- ["Sm", "init"]
+- !private ["Sm", "subscript"]
+- !private ["SY", "center"]
+- !private ["SY", "evenOdd"]
 - ["6Charts8RendererC", "Animator"]
 - ["6Charts8RendererC", "CGContext"]
 - ["6Charts8RendererC", "CGFloat"]
@@ -1109,14 +1117,15 @@ depends-member:
 - !private ["6Charts8RendererC", "shouldDrawValues"]
 - !private ["6Charts8RendererC", "stride"]
 - !private ["6Charts8RendererC", "viewPortHandler"]
-- ["s8SequenceP", "init"]
-- !private ["s8SequenceP", "subscript"]
-- !private ["s13SignedIntegerP", "init"]
+- ["ST", "init"]
+- !private ["ST", "subscript"]
+- !private ["SZ", "init"]
 - !private ["s13SignedNumericP", "init"]
 - !private ["s13SignedNumericP", "isNaN"]
 - !private ["s12StaticStringV", "init"]
-- !private ["s10StrideableP", "init"]
-- !private ["s10StrideableP", "isNaN"]
+- !private ["s12StaticStringV", "init"]
+- !private ["Sx", "init"]
+- !private ["Sx", "isNaN"]
 - !private ["So29UIAccessibilityIdentificationP", "centerOffsets"]
 - !private ["So29UIAccessibilityIdentificationP", "chartYMin"]
 - !private ["So29UIAccessibilityIdentificationP", "data"]
@@ -1218,6 +1227,20 @@ depends-member:
 - !private ["So11UIFocusItemP", "webLineWidth"]
 - !private ["So11UIFocusItemP", "yAxis"]
 - !private ["So11UIFocusItemP", "yRange"]
+- !private ["So20UIFocusItemContainerP", "centerOffsets"]
+- !private ["So20UIFocusItemContainerP", "chartYMin"]
+- !private ["So20UIFocusItemContainerP", "data"]
+- !private ["So20UIFocusItemContainerP", "factor"]
+- !private ["So20UIFocusItemContainerP", "innerWebColor"]
+- !private ["So20UIFocusItemContainerP", "innerWebLineWidth"]
+- !private ["So20UIFocusItemContainerP", "rotationAngle"]
+- !private ["So20UIFocusItemContainerP", "skipWebLineCount"]
+- !private ["So20UIFocusItemContainerP", "sliceAngle"]
+- !private ["So20UIFocusItemContainerP", "webAlpha"]
+- !private ["So20UIFocusItemContainerP", "webColor"]
+- !private ["So20UIFocusItemContainerP", "webLineWidth"]
+- !private ["So20UIFocusItemContainerP", "yAxis"]
+- !private ["So20UIFocusItemContainerP", "yRange"]
 - !private ["So6UIFontC", "lineHeight"]
 - !private ["So7UIImageC", "size"]
 - !private ["So39UIItemProviderPresentationSizeProvidingP", "size"]
@@ -1277,6 +1300,20 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "webLineWidth"]
 - !private ["So18UITraitEnvironmentP", "yAxis"]
 - !private ["So18UITraitEnvironmentP", "yRange"]
+- !private ["So23UIUserActivityRestoringP", "centerOffsets"]
+- !private ["So23UIUserActivityRestoringP", "chartYMin"]
+- !private ["So23UIUserActivityRestoringP", "data"]
+- !private ["So23UIUserActivityRestoringP", "factor"]
+- !private ["So23UIUserActivityRestoringP", "innerWebColor"]
+- !private ["So23UIUserActivityRestoringP", "innerWebLineWidth"]
+- !private ["So23UIUserActivityRestoringP", "rotationAngle"]
+- !private ["So23UIUserActivityRestoringP", "skipWebLineCount"]
+- !private ["So23UIUserActivityRestoringP", "sliceAngle"]
+- !private ["So23UIUserActivityRestoringP", "webAlpha"]
+- !private ["So23UIUserActivityRestoringP", "webColor"]
+- !private ["So23UIUserActivityRestoringP", "webLineWidth"]
+- !private ["So23UIUserActivityRestoringP", "yAxis"]
+- !private ["So23UIUserActivityRestoringP", "yRange"]
 - !private ["So6UIViewC", "centerOffsets"]
 - !private ["So6UIViewC", "chartYMin"]
 - !private ["So6UIViewC", "data"]
@@ -1293,8 +1330,6 @@ depends-member:
 - !private ["So6UIViewC", "yRange"]
 - !private ["6Charts5YAxisC", "entries"]
 - !private ["6Charts5YAxisC", "entryCount"]
-- ["s14_ArrayProtocolP", "init"]
-- !private ["s14_ArrayProtocolP", "subscript"]
 - !private ["s18_BitwiseOperationsP", "init"]
 - !private ["14CoreFoundation9_CFObjectP", "addEllipse"]
 - !private ["14CoreFoundation9_CFObjectP", "addLine"]
@@ -1335,13 +1370,18 @@ depends-member:
 - !private ["s24_DestructorSafeContainerP", "subscript"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
 - !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - !private ["s26_ExpressibleByColorLiteralP", "cgColor"]
 - !private ["s26_ExpressibleByColorLiteralP", "withAlphaComponent"]
 - !private ["s26_ExpressibleByImageLiteralP", "size"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "CGFloat"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "CGMutablePath"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "CGPoint"]
@@ -1410,20 +1450,21 @@ depends-nominal:
 - !private "6Charts8AnimatorC"
 - !private "6Charts16AnimatorDelegateP"
 - "Sa"
+- "s13ArrayProtocolP"
 - !private "6Charts8AxisBaseC"
 - "6Charts34BarLineScatterCandleBubbleRendererC"
-- "s23BidirectionalCollectionP"
-- !private "s19BinaryFloatingPointP"
-- !private "s13BinaryIntegerP"
+- "SK"
+- !private "SB"
+- !private "Sz"
 - !private "Sb"
 - !private "So15CALayerDelegateP"
-- !private "So9CGContextC"
+- !private "So12CGContextRefa"
 - !private "12CoreGraphics7CGFloatV"
-- !private "So13CGMutablePathC"
-- !private "So6CGPathC"
+- !private "So16CGMutablePathRefa"
+- !private "So9CGPathRefa"
 - !private "12CoreGraphics14CGPathFillRuleO"
-- "SC7CGPointV"
-- !private "SC6CGRectV"
+- "So7CGPointV"
+- !private "So6CGRectV"
 - "s7CVarArgP"
 - !private "6Charts9ChartDataC"
 - !private "6Charts14ChartDataEntryC"
@@ -1431,18 +1472,18 @@ depends-nominal:
 - !private "6Charts17ChartDataProviderP"
 - !private "6Charts10ChartUtilsC"
 - !private "6Charts13ChartViewBaseC"
-- "s10CollectionP"
-- !private "s10ComparableP"
+- "Sl"
+- !private "SL"
 - !private "6Charts13ComponentBaseC"
 - "s28CustomDebugStringConvertibleP"
 - "s29CustomPlaygroundQuickLookableP"
 - "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
 - "6Charts12DataRendererC"
-- "s9DecodableP"
+- "Se"
 - !private "Sd"
-- "s9EncodableP"
-- "s9EquatableP"
+- "SE"
+- "SQ"
 - "s25ExpressibleByArrayLiteralP"
 - !private "s27ExpressibleByBooleanLiteralP"
 - !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
@@ -1452,8 +1493,8 @@ depends-nominal:
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
 - !private "6Charts4FillC"
 - !private "s17FixedWidthIntegerP"
-- !private "s13FloatingPointP"
-- "s8HashableP"
+- !private "SF"
+- "SH"
 - !private "6Charts9HighlightC"
 - !private "6Charts39IBarLineScatterCandleBubbleChartDataSetP"
 - !private "6Charts13IChartDataSetP"
@@ -1466,31 +1507,31 @@ depends-nominal:
 - "6Charts30LineScatterCandleRadarRendererC"
 - !private "s25LosslessStringConvertibleP"
 - !private "s10MirrorPathP"
-- "s17MutableCollectionP"
+- "SM"
 - !private "So8NSCodingP"
 - !private "So9NSCopyingP"
 - !private "So21NSItemProviderReadingP"
 - !private "So21NSItemProviderWritingP"
 - "So8NSObjectC"
-- "So16NSObjectProtocolP"
+- "So8NSObjectP"
 - !private "So14NSSecureCodingP"
-- !private "SC15NSTextAlignmentO"
+- !private "So15NSTextAlignmentV"
 - !private "6Charts8NSUIViewC"
-- !private "s7NumericP"
+- !private "Sj"
 - !private "6Charts21PieRadarChartViewBaseC"
 - !private "6Charts14RadarChartDataC"
 - !private "6Charts19RadarChartDataEntryC"
 - "6Charts18RadarChartRendererC"
 - !private "6Charts14RadarChartViewC"
-- "s22RandomAccessCollectionP"
-- "s26RangeReplaceableCollectionP"
-- !private "s16RawRepresentableP"
+- "Sk"
+- "Sm"
+- !private "SY"
 - "6Charts8RendererC"
-- "s8SequenceP"
-- !private "s13SignedIntegerP"
+- "ST"
+- !private "SZ"
 - !private "s13SignedNumericP"
 - !private "s12StaticStringV"
-- !private "s10StrideableP"
+- !private "Sx"
 - !private "So29UIAccessibilityIdentificationP"
 - !private "So12UIAppearanceP"
 - !private "So21UIAppearanceContainerP"
@@ -1499,6 +1540,7 @@ depends-nominal:
 - !private "So13UIDynamicItemP"
 - !private "So18UIFocusEnvironmentP"
 - !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
 - !private "So6UIFontC"
 - !private "So7UIImageC"
 - !private "So39UIItemProviderPresentationSizeProvidingP"
@@ -1506,9 +1548,9 @@ depends-nominal:
 - !private "So11UIResponderC"
 - !private "So30UIResponderStandardEditActionsP"
 - !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
 - !private "So6UIViewC"
 - !private "6Charts5YAxisC"
-- "s14_ArrayProtocolP"
 - !private "s18_BitwiseOperationsP"
 - !private "14CoreFoundation9_CFObjectP"
 - !private "s15_CVarArgAlignedP"
@@ -1523,6 +1565,7 @@ depends-nominal:
 - !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s26_ExpressibleByColorLiteralP"
 - !private "s26_ExpressibleByImageLiteralP"
+- "s35_HasCustomAnyHashableRepresentationP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "s21_ObjectiveCBridgeableP"
 depends-dynamic-lookup:
@@ -1542,14 +1585,15 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Users/maxim/Projects/react-native-default-example/ios/Pods/Target Support Files/Charts/Charts-umbrella.h"
 - "/Users/maxim/Projects/react-native-default-example/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Charts.build/unextended-module.modulemap"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
 interface-hash: "799cf41c001a0f27463daa37ff7ed9d9"

@@ -6,20 +6,6 @@ provides-nominal:
 provides-member:
 - ["6Charts21CombinedChartRendererC", ""]
 provides-dynamic-lookup:
-- "_renderers"
-- "chart"
-- "createRenderers"
-- "drawBarShadowEnabled"
-- "drawData"
-- "drawExtras"
-- "drawHighlighted"
-- "drawValueAboveBarEnabled"
-- "drawValues"
-- "getSubRenderer"
-- "initBuffers"
-- "isDrawBarShadowEnabled"
-- "isDrawValueAboveBarEnabled"
-- "subRenderers"
 depends-top-level:
 - !private "!=="
 - !private "<"
@@ -62,6 +48,12 @@ depends-member:
 - !private ["Sa", "index"]
 - ["Sa", "init"]
 - !private ["Sa", "subscript"]
+- !private ["s13ArrayProtocolP", "append"]
+- !private ["s13ArrayProtocolP", "count"]
+- !private ["s13ArrayProtocolP", "filter"]
+- !private ["s13ArrayProtocolP", "index"]
+- ["s13ArrayProtocolP", "init"]
+- !private ["s13ArrayProtocolP", "subscript"]
 - ["6Charts20BarChartDataProviderP", "DrawOrder"]
 - !private ["6Charts20BarChartDataProviderP", "barData"]
 - !private ["6Charts20BarChartDataProviderP", "bubbleData"]
@@ -87,12 +79,12 @@ depends-member:
 - !private ["6Charts43BarLineScatterCandleBubbleChartDataProviderP", "lineData"]
 - !private ["6Charts43BarLineScatterCandleBubbleChartDataProviderP", "scatterData"]
 - !private ["6Charts34BarLineScatterCandleBubbleRendererC", "dataProvider"]
-- !private ["s23BidirectionalCollectionP", "append"]
-- !private ["s23BidirectionalCollectionP", "count"]
-- !private ["s23BidirectionalCollectionP", "filter"]
-- !private ["s23BidirectionalCollectionP", "index"]
-- ["s23BidirectionalCollectionP", "init"]
-- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["SK", "append"]
+- !private ["SK", "count"]
+- !private ["SK", "filter"]
+- !private ["SK", "index"]
+- ["SK", "init"]
+- !private ["SK", "subscript"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - ["6Charts23BubbleChartDataProviderP", "DrawOrder"]
 - !private ["6Charts23BubbleChartDataProviderP", "barData"]
@@ -173,12 +165,12 @@ depends-member:
 - !private ["6Charts13ChartViewBaseC", "data"]
 - !private ["6Charts13ChartViewBaseC", "lineData"]
 - !private ["6Charts13ChartViewBaseC", "scatterData"]
-- !private ["s10CollectionP", "append"]
-- !private ["s10CollectionP", "count"]
-- !private ["s10CollectionP", "filter"]
-- !private ["s10CollectionP", "index"]
-- ["s10CollectionP", "init"]
-- !private ["s10CollectionP", "subscript"]
+- !private ["Sl", "append"]
+- !private ["Sl", "count"]
+- !private ["Sl", "filter"]
+- !private ["Sl", "index"]
+- ["Sl", "init"]
+- !private ["Sl", "subscript"]
 - !private ["6Charts17CombinedChartDataC", "allData"]
 - ["6Charts25CombinedChartDataProviderP", "DrawOrder"]
 - !private ["6Charts25CombinedChartDataProviderP", "barData"]
@@ -207,7 +199,6 @@ depends-member:
 - !private ["6Charts21CombinedChartRendererC", "animator"]
 - ["6Charts21CombinedChartRendererC", "chart"]
 - ["6Charts21CombinedChartRendererC", "createRenderers"]
-- ["6Charts21CombinedChartRendererC", "deinit"]
 - ["6Charts21CombinedChartRendererC", "drawBarShadowEnabled"]
 - ["6Charts21CombinedChartRendererC", "drawData"]
 - ["6Charts21CombinedChartRendererC", "drawExtras"]
@@ -262,6 +253,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "filter"]
 - !private ["s28CustomDebugStringConvertibleP", "index"]
 - ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "initBuffers"]
 - !private ["s28CustomDebugStringConvertibleP", "lineData"]
 - !private ["s28CustomDebugStringConvertibleP", "scatterData"]
@@ -274,6 +266,7 @@ depends-member:
 - !private ["s17CustomReflectableP", "filter"]
 - !private ["s17CustomReflectableP", "index"]
 - ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "subscript"]
 - !private ["s23CustomStringConvertibleP", "BarChartRenderer"]
 - !private ["s23CustomStringConvertibleP", "BubbleChartRenderer"]
@@ -308,6 +301,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "filter"]
 - !private ["s23CustomStringConvertibleP", "index"]
 - ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "initBuffers"]
 - !private ["s23CustomStringConvertibleP", "lineData"]
 - !private ["s23CustomStringConvertibleP", "scatterData"]
@@ -349,68 +343,68 @@ depends-member:
 - ["6Charts12DataRendererC", "isDrawValueAboveBarEnabled"]
 - ["6Charts12DataRendererC", "subRenderers"]
 - !private ["6Charts12DataRendererC", "viewPortHandler"]
-- !private ["s9DecodableP", "_getBuiltinLogicValue"]
-- !private ["s9DecodableP", "append"]
-- !private ["s9DecodableP", "count"]
-- !private ["s9DecodableP", "filter"]
-- !private ["s9DecodableP", "index"]
-- ["s9DecodableP", "init"]
-- !private ["s9DecodableP", "subscript"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "append"]
+- !private ["Se", "count"]
+- !private ["Se", "filter"]
+- !private ["Se", "index"]
+- ["Se", "init"]
+- !private ["Se", "subscript"]
 - ["6Charts17CombinedChartViewC9DrawOrderO", "bar"]
 - ["6Charts17CombinedChartViewC9DrawOrderO", "bubble"]
 - ["6Charts17CombinedChartViewC9DrawOrderO", "candle"]
 - ["6Charts17CombinedChartViewC9DrawOrderO", "line"]
 - ["6Charts17CombinedChartViewC9DrawOrderO", "scatter"]
-- !private ["s9EncodableP", "_getBuiltinLogicValue"]
-- !private ["s9EncodableP", "append"]
-- !private ["s9EncodableP", "count"]
-- !private ["s9EncodableP", "filter"]
-- !private ["s9EncodableP", "index"]
-- ["s9EncodableP", "init"]
-- !private ["s9EncodableP", "subscript"]
-- !private ["s9EquatableP", "BarChartRenderer"]
-- !private ["s9EquatableP", "BubbleChartRenderer"]
-- !private ["s9EquatableP", "CandleStickChartRenderer"]
-- ["s9EquatableP", "DataRenderer"]
-- ["s9EquatableP", "DrawOrder"]
-- !private ["s9EquatableP", "LineChartRenderer"]
-- !private ["s9EquatableP", "ScatterChartRenderer"]
-- ["s9EquatableP", ""]
-- !private ["s9EquatableP", "_drawOrder"]
-- !private ["s9EquatableP", "_getBuiltinLogicValue"]
-- !private ["s9EquatableP", "_renderers"]
-- !private ["s9EquatableP", "allData"]
-- !private ["s9EquatableP", "animator"]
-- !private ["s9EquatableP", "append"]
-- ["s9EquatableP", "bar"]
-- !private ["s9EquatableP", "barData"]
-- ["s9EquatableP", "bubble"]
-- !private ["s9EquatableP", "bubbleData"]
-- ["s9EquatableP", "candle"]
-- !private ["s9EquatableP", "candleData"]
-- !private ["s9EquatableP", "chart"]
-- !private ["s9EquatableP", "count"]
-- !private ["s9EquatableP", "createRenderers"]
-- !private ["s9EquatableP", "data"]
-- !private ["s9EquatableP", "dataIndex"]
-- !private ["s9EquatableP", "dataProvider"]
-- !private ["s9EquatableP", "drawBarShadowEnabled"]
-- !private ["s9EquatableP", "drawData"]
-- !private ["s9EquatableP", "drawExtras"]
-- !private ["s9EquatableP", "drawHighlighted"]
-- !private ["s9EquatableP", "drawOrder"]
-- !private ["s9EquatableP", "drawValueAboveBarEnabled"]
-- !private ["s9EquatableP", "drawValues"]
-- !private ["s9EquatableP", "filter"]
-- !private ["s9EquatableP", "index"]
-- ["s9EquatableP", "init"]
-- !private ["s9EquatableP", "initBuffers"]
-- ["s9EquatableP", "line"]
-- !private ["s9EquatableP", "lineData"]
-- ["s9EquatableP", "scatter"]
-- !private ["s9EquatableP", "scatterData"]
-- !private ["s9EquatableP", "subscript"]
-- !private ["s9EquatableP", "viewPortHandler"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "append"]
+- !private ["SE", "count"]
+- !private ["SE", "filter"]
+- !private ["SE", "index"]
+- ["SE", "init"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "BarChartRenderer"]
+- !private ["SQ", "BubbleChartRenderer"]
+- !private ["SQ", "CandleStickChartRenderer"]
+- ["SQ", "DataRenderer"]
+- ["SQ", "DrawOrder"]
+- !private ["SQ", "LineChartRenderer"]
+- !private ["SQ", "ScatterChartRenderer"]
+- ["SQ", ""]
+- !private ["SQ", "_drawOrder"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "_renderers"]
+- !private ["SQ", "allData"]
+- !private ["SQ", "animator"]
+- !private ["SQ", "append"]
+- ["SQ", "bar"]
+- !private ["SQ", "barData"]
+- ["SQ", "bubble"]
+- !private ["SQ", "bubbleData"]
+- ["SQ", "candle"]
+- !private ["SQ", "candleData"]
+- !private ["SQ", "chart"]
+- !private ["SQ", "count"]
+- !private ["SQ", "createRenderers"]
+- !private ["SQ", "data"]
+- !private ["SQ", "dataIndex"]
+- !private ["SQ", "dataProvider"]
+- !private ["SQ", "drawBarShadowEnabled"]
+- !private ["SQ", "drawData"]
+- !private ["SQ", "drawExtras"]
+- !private ["SQ", "drawHighlighted"]
+- !private ["SQ", "drawOrder"]
+- !private ["SQ", "drawValueAboveBarEnabled"]
+- !private ["SQ", "drawValues"]
+- !private ["SQ", "filter"]
+- !private ["SQ", "index"]
+- ["SQ", "init"]
+- !private ["SQ", "initBuffers"]
+- ["SQ", "line"]
+- !private ["SQ", "lineData"]
+- ["SQ", "scatter"]
+- !private ["SQ", "scatterData"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "viewPortHandler"]
 - !private ["s25ExpressibleByArrayLiteralP", "append"]
 - !private ["s25ExpressibleByArrayLiteralP", "count"]
 - !private ["s25ExpressibleByArrayLiteralP", "filter"]
@@ -419,46 +413,54 @@ depends-member:
 - !private ["s25ExpressibleByArrayLiteralP", "subscript"]
 - !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
 - !private ["s26ExpressibleByStringLiteralP", "init"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
-- !private ["s8HashableP", "BarChartRenderer"]
-- !private ["s8HashableP", "BubbleChartRenderer"]
-- !private ["s8HashableP", "CandleStickChartRenderer"]
-- ["s8HashableP", "DataRenderer"]
-- ["s8HashableP", "DrawOrder"]
-- !private ["s8HashableP", "LineChartRenderer"]
-- !private ["s8HashableP", "ScatterChartRenderer"]
-- ["s8HashableP", ""]
-- !private ["s8HashableP", "_drawOrder"]
-- !private ["s8HashableP", "_getBuiltinLogicValue"]
-- !private ["s8HashableP", "_renderers"]
-- !private ["s8HashableP", "allData"]
-- !private ["s8HashableP", "animator"]
-- ["s8HashableP", "bar"]
-- !private ["s8HashableP", "barData"]
-- ["s8HashableP", "bubble"]
-- !private ["s8HashableP", "bubbleData"]
-- ["s8HashableP", "candle"]
-- !private ["s8HashableP", "candleData"]
-- !private ["s8HashableP", "chart"]
-- !private ["s8HashableP", "createRenderers"]
-- !private ["s8HashableP", "data"]
-- !private ["s8HashableP", "dataIndex"]
-- !private ["s8HashableP", "dataProvider"]
-- !private ["s8HashableP", "drawBarShadowEnabled"]
-- !private ["s8HashableP", "drawData"]
-- !private ["s8HashableP", "drawExtras"]
-- !private ["s8HashableP", "drawHighlighted"]
-- !private ["s8HashableP", "drawOrder"]
-- !private ["s8HashableP", "drawValueAboveBarEnabled"]
-- !private ["s8HashableP", "drawValues"]
-- !private ["s8HashableP", "init"]
-- !private ["s8HashableP", "initBuffers"]
-- ["s8HashableP", "line"]
-- !private ["s8HashableP", "lineData"]
-- ["s8HashableP", "scatter"]
-- !private ["s8HashableP", "scatterData"]
-- !private ["s8HashableP", "viewPortHandler"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "BarChartRenderer"]
+- !private ["SH", "BubbleChartRenderer"]
+- !private ["SH", "CandleStickChartRenderer"]
+- ["SH", "DataRenderer"]
+- ["SH", "DrawOrder"]
+- !private ["SH", "LineChartRenderer"]
+- !private ["SH", "ScatterChartRenderer"]
+- ["SH", ""]
+- !private ["SH", "_drawOrder"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "_renderers"]
+- !private ["SH", "allData"]
+- !private ["SH", "animator"]
+- !private ["SH", "append"]
+- ["SH", "bar"]
+- !private ["SH", "barData"]
+- ["SH", "bubble"]
+- !private ["SH", "bubbleData"]
+- ["SH", "candle"]
+- !private ["SH", "candleData"]
+- !private ["SH", "chart"]
+- !private ["SH", "count"]
+- !private ["SH", "createRenderers"]
+- !private ["SH", "data"]
+- !private ["SH", "dataIndex"]
+- !private ["SH", "dataProvider"]
+- !private ["SH", "drawBarShadowEnabled"]
+- !private ["SH", "drawData"]
+- !private ["SH", "drawExtras"]
+- !private ["SH", "drawHighlighted"]
+- !private ["SH", "drawOrder"]
+- !private ["SH", "drawValueAboveBarEnabled"]
+- !private ["SH", "drawValues"]
+- !private ["SH", "filter"]
+- !private ["SH", "index"]
+- ["SH", "init"]
+- !private ["SH", "initBuffers"]
+- ["SH", "line"]
+- !private ["SH", "lineData"]
+- ["SH", "scatter"]
+- !private ["SH", "scatterData"]
+- !private ["SH", "subscript"]
+- !private ["SH", "viewPortHandler"]
 - !private ["6Charts9HighlightC", "dataIndex"]
 - ["6Charts21LineChartDataProviderP", "DrawOrder"]
 - !private ["6Charts21LineChartDataProviderP", "barData"]
@@ -472,12 +474,12 @@ depends-member:
 - !private ["6Charts17LineRadarRendererC", "dataProvider"]
 - !private ["6Charts30LineScatterCandleRadarRendererC", "dataProvider"]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
-- !private ["s17MutableCollectionP", "append"]
-- !private ["s17MutableCollectionP", "count"]
-- !private ["s17MutableCollectionP", "filter"]
-- !private ["s17MutableCollectionP", "index"]
-- ["s17MutableCollectionP", "init"]
-- !private ["s17MutableCollectionP", "subscript"]
+- !private ["SM", "append"]
+- !private ["SM", "count"]
+- !private ["SM", "filter"]
+- !private ["SM", "index"]
+- ["SM", "init"]
+- !private ["SM", "subscript"]
 - ["So8NSCodingP", "DrawOrder"]
 - !private ["So8NSCodingP", "barData"]
 - !private ["So8NSCodingP", "bubbleData"]
@@ -528,38 +530,38 @@ depends-member:
 - !private ["So8NSObjectC", "scatterData"]
 - ["So8NSObjectC", "subRenderers"]
 - !private ["So8NSObjectC", "viewPortHandler"]
-- !private ["So16NSObjectProtocolP", "BarChartRenderer"]
-- !private ["So16NSObjectProtocolP", "BubbleChartRenderer"]
-- !private ["So16NSObjectProtocolP", "CandleStickChartRenderer"]
-- ["So16NSObjectProtocolP", "DataRenderer"]
-- ["So16NSObjectProtocolP", "DrawOrder"]
-- !private ["So16NSObjectProtocolP", "LineChartRenderer"]
-- !private ["So16NSObjectProtocolP", "ScatterChartRenderer"]
-- ["So16NSObjectProtocolP", ""]
-- !private ["So16NSObjectProtocolP", "_drawOrder"]
-- !private ["So16NSObjectProtocolP", "_renderers"]
-- !private ["So16NSObjectProtocolP", "allData"]
-- !private ["So16NSObjectProtocolP", "animator"]
-- !private ["So16NSObjectProtocolP", "barData"]
-- !private ["So16NSObjectProtocolP", "bubbleData"]
-- !private ["So16NSObjectProtocolP", "candleData"]
-- !private ["So16NSObjectProtocolP", "chart"]
-- !private ["So16NSObjectProtocolP", "createRenderers"]
-- !private ["So16NSObjectProtocolP", "data"]
-- !private ["So16NSObjectProtocolP", "dataIndex"]
-- !private ["So16NSObjectProtocolP", "dataProvider"]
-- !private ["So16NSObjectProtocolP", "drawBarShadowEnabled"]
-- !private ["So16NSObjectProtocolP", "drawData"]
-- !private ["So16NSObjectProtocolP", "drawExtras"]
-- !private ["So16NSObjectProtocolP", "drawHighlighted"]
-- !private ["So16NSObjectProtocolP", "drawOrder"]
-- !private ["So16NSObjectProtocolP", "drawValueAboveBarEnabled"]
-- !private ["So16NSObjectProtocolP", "drawValues"]
-- !private ["So16NSObjectProtocolP", "init"]
-- !private ["So16NSObjectProtocolP", "initBuffers"]
-- !private ["So16NSObjectProtocolP", "lineData"]
-- !private ["So16NSObjectProtocolP", "scatterData"]
-- !private ["So16NSObjectProtocolP", "viewPortHandler"]
+- !private ["So8NSObjectP", "BarChartRenderer"]
+- !private ["So8NSObjectP", "BubbleChartRenderer"]
+- !private ["So8NSObjectP", "CandleStickChartRenderer"]
+- ["So8NSObjectP", "DataRenderer"]
+- ["So8NSObjectP", "DrawOrder"]
+- !private ["So8NSObjectP", "LineChartRenderer"]
+- !private ["So8NSObjectP", "ScatterChartRenderer"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "_drawOrder"]
+- !private ["So8NSObjectP", "_renderers"]
+- !private ["So8NSObjectP", "allData"]
+- !private ["So8NSObjectP", "animator"]
+- !private ["So8NSObjectP", "barData"]
+- !private ["So8NSObjectP", "bubbleData"]
+- !private ["So8NSObjectP", "candleData"]
+- !private ["So8NSObjectP", "chart"]
+- !private ["So8NSObjectP", "createRenderers"]
+- !private ["So8NSObjectP", "data"]
+- !private ["So8NSObjectP", "dataIndex"]
+- !private ["So8NSObjectP", "dataProvider"]
+- !private ["So8NSObjectP", "drawBarShadowEnabled"]
+- !private ["So8NSObjectP", "drawData"]
+- !private ["So8NSObjectP", "drawExtras"]
+- !private ["So8NSObjectP", "drawHighlighted"]
+- !private ["So8NSObjectP", "drawOrder"]
+- !private ["So8NSObjectP", "drawValueAboveBarEnabled"]
+- !private ["So8NSObjectP", "drawValues"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "initBuffers"]
+- !private ["So8NSObjectP", "lineData"]
+- !private ["So8NSObjectP", "scatterData"]
+- !private ["So8NSObjectP", "viewPortHandler"]
 - ["6Charts8NSUIViewC", "DrawOrder"]
 - !private ["6Charts8NSUIViewC", "barData"]
 - !private ["6Charts8NSUIViewC", "bubbleData"]
@@ -567,23 +569,23 @@ depends-member:
 - !private ["6Charts8NSUIViewC", "data"]
 - !private ["6Charts8NSUIViewC", "lineData"]
 - !private ["6Charts8NSUIViewC", "scatterData"]
-- !private ["s22RandomAccessCollectionP", "append"]
-- !private ["s22RandomAccessCollectionP", "count"]
-- !private ["s22RandomAccessCollectionP", "filter"]
-- !private ["s22RandomAccessCollectionP", "index"]
-- ["s22RandomAccessCollectionP", "init"]
-- !private ["s22RandomAccessCollectionP", "subscript"]
-- !private ["s26RangeReplaceableCollectionP", "append"]
-- !private ["s26RangeReplaceableCollectionP", "count"]
-- !private ["s26RangeReplaceableCollectionP", "filter"]
-- !private ["s26RangeReplaceableCollectionP", "index"]
-- ["s26RangeReplaceableCollectionP", "init"]
-- !private ["s26RangeReplaceableCollectionP", "subscript"]
-- ["s16RawRepresentableP", "bar"]
-- ["s16RawRepresentableP", "bubble"]
-- ["s16RawRepresentableP", "candle"]
-- ["s16RawRepresentableP", "line"]
-- ["s16RawRepresentableP", "scatter"]
+- !private ["Sk", "append"]
+- !private ["Sk", "count"]
+- !private ["Sk", "filter"]
+- !private ["Sk", "index"]
+- ["Sk", "init"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "append"]
+- !private ["Sm", "count"]
+- !private ["Sm", "filter"]
+- !private ["Sm", "index"]
+- ["Sm", "init"]
+- !private ["Sm", "subscript"]
+- ["SY", "bar"]
+- ["SY", "bubble"]
+- ["SY", "candle"]
+- ["SY", "line"]
+- ["SY", "scatter"]
 - ["6Charts8RendererC", "Animator"]
 - !private ["6Charts8RendererC", "BarChartRenderer"]
 - ["6Charts8RendererC", "Bool"]
@@ -627,12 +629,13 @@ depends-member:
 - !private ["6Charts24ScatterChartDataProviderP", "scatterData"]
 - !private ["6Charts20ScatterChartRendererC", "dataProvider"]
 - !private ["6Charts20ScatterChartRendererC", "init"]
-- !private ["s8SequenceP", "append"]
-- !private ["s8SequenceP", "count"]
-- !private ["s8SequenceP", "filter"]
-- !private ["s8SequenceP", "index"]
-- ["s8SequenceP", "init"]
-- !private ["s8SequenceP", "subscript"]
+- !private ["ST", "append"]
+- !private ["ST", "count"]
+- !private ["ST", "filter"]
+- !private ["ST", "index"]
+- ["ST", "init"]
+- !private ["ST", "subscript"]
+- !private ["s12StaticStringV", "init"]
 - !private ["s12StaticStringV", "init"]
 - ["So29UIAccessibilityIdentificationP", "DrawOrder"]
 - !private ["So29UIAccessibilityIdentificationP", "barData"]
@@ -683,6 +686,13 @@ depends-member:
 - !private ["So11UIFocusItemP", "data"]
 - !private ["So11UIFocusItemP", "lineData"]
 - !private ["So11UIFocusItemP", "scatterData"]
+- ["So20UIFocusItemContainerP", "DrawOrder"]
+- !private ["So20UIFocusItemContainerP", "barData"]
+- !private ["So20UIFocusItemContainerP", "bubbleData"]
+- !private ["So20UIFocusItemContainerP", "candleData"]
+- !private ["So20UIFocusItemContainerP", "data"]
+- !private ["So20UIFocusItemContainerP", "lineData"]
+- !private ["So20UIFocusItemContainerP", "scatterData"]
 - ["So27UIGestureRecognizerDelegateP", "DrawOrder"]
 - !private ["So27UIGestureRecognizerDelegateP", "barData"]
 - !private ["So27UIGestureRecognizerDelegateP", "bubbleData"]
@@ -718,6 +728,13 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "data"]
 - !private ["So18UITraitEnvironmentP", "lineData"]
 - !private ["So18UITraitEnvironmentP", "scatterData"]
+- ["So23UIUserActivityRestoringP", "DrawOrder"]
+- !private ["So23UIUserActivityRestoringP", "barData"]
+- !private ["So23UIUserActivityRestoringP", "bubbleData"]
+- !private ["So23UIUserActivityRestoringP", "candleData"]
+- !private ["So23UIUserActivityRestoringP", "data"]
+- !private ["So23UIUserActivityRestoringP", "lineData"]
+- !private ["So23UIUserActivityRestoringP", "scatterData"]
 - ["So6UIViewC", "DrawOrder"]
 - !private ["So6UIViewC", "barData"]
 - !private ["So6UIViewC", "bubbleData"]
@@ -725,12 +742,6 @@ depends-member:
 - !private ["So6UIViewC", "data"]
 - !private ["So6UIViewC", "lineData"]
 - !private ["So6UIViewC", "scatterData"]
-- !private ["s14_ArrayProtocolP", "append"]
-- !private ["s14_ArrayProtocolP", "count"]
-- !private ["s14_ArrayProtocolP", "filter"]
-- !private ["s14_ArrayProtocolP", "index"]
-- ["s14_ArrayProtocolP", "init"]
-- !private ["s14_ArrayProtocolP", "subscript"]
 - ["s37_DefaultCustomPlaygroundQuickLookableP", "DrawOrder"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "barData"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "bubbleData"]
@@ -746,8 +757,17 @@ depends-member:
 - !private ["s24_DestructorSafeContainerP", "subscript"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "filter"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "index"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "BarChartRenderer"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "BubbleChartRenderer"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "CandleStickChartRenderer"]
@@ -790,13 +810,14 @@ depends-member:
 depends-nominal:
 - "6Charts16AnimatorDelegateP"
 - "Sa"
+- "s13ArrayProtocolP"
 - "6Charts20BarChartDataProviderP"
 - !private "6Charts16BarChartRendererC"
 - "6Charts20BarLineChartViewBaseC"
 - !private "6Charts35BarLineScatterCandleBubbleChartDataC"
 - "6Charts43BarLineScatterCandleBubbleChartDataProviderP"
 - !private "6Charts34BarLineScatterCandleBubbleRendererC"
-- "s23BidirectionalCollectionP"
+- "SK"
 - !private "Sb"
 - "6Charts23BubbleChartDataProviderP"
 - !private "6Charts19BubbleChartRendererC"
@@ -807,7 +828,7 @@ depends-nominal:
 - !private "6Charts9ChartDataC"
 - "6Charts17ChartDataProviderP"
 - "6Charts13ChartViewBaseC"
-- "s10CollectionP"
+- "Sl"
 - !private "6Charts17CombinedChartDataC"
 - "6Charts25CombinedChartDataProviderP"
 - "6Charts21CombinedChartRendererC"
@@ -817,34 +838,34 @@ depends-nominal:
 - "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
 - "6Charts12DataRendererC"
-- "s9DecodableP"
+- "Se"
 - "6Charts17CombinedChartViewC9DrawOrderO"
-- "s9EncodableP"
-- "s9EquatableP"
+- "SE"
+- "SQ"
 - "s25ExpressibleByArrayLiteralP"
 - !private "s27ExpressibleByBooleanLiteralP"
 - !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s26ExpressibleByStringLiteralP"
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
-- "s8HashableP"
+- "SH"
 - !private "6Charts9HighlightC"
 - "6Charts21LineChartDataProviderP"
 - !private "6Charts17LineChartRendererC"
 - !private "6Charts17LineRadarRendererC"
 - !private "6Charts30LineScatterCandleRadarRendererC"
 - !private "s25LosslessStringConvertibleP"
-- "s17MutableCollectionP"
+- "SM"
 - "So8NSCodingP"
 - "So8NSObjectC"
-- "So16NSObjectProtocolP"
+- "So8NSObjectP"
 - "6Charts8NSUIViewC"
-- "s22RandomAccessCollectionP"
-- "s26RangeReplaceableCollectionP"
-- "s16RawRepresentableP"
+- "Sk"
+- "Sm"
+- "SY"
 - "6Charts8RendererC"
 - "6Charts24ScatterChartDataProviderP"
 - !private "6Charts20ScatterChartRendererC"
-- "s8SequenceP"
+- "ST"
 - !private "s12StaticStringV"
 - "So29UIAccessibilityIdentificationP"
 - "So12UIAppearanceP"
@@ -853,19 +874,21 @@ depends-nominal:
 - "So13UIDynamicItemP"
 - "So18UIFocusEnvironmentP"
 - "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
 - "So27UIGestureRecognizerDelegateP"
 - "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
 - "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
 - "So6UIViewC"
-- "s14_ArrayProtocolP"
 - "s37_DefaultCustomPlaygroundQuickLookableP"
 - "s24_DestructorSafeContainerP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
 - !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
 - !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s35_HasCustomAnyHashableRepresentationP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "s21_ObjectiveCBridgeableP"
 depends-dynamic-lookup:
@@ -885,14 +908,15 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Users/maxim/Projects/react-native-default-example/ios/Pods/Target Support Files/Charts/Charts-umbrella.h"
 - "/Users/maxim/Projects/react-native-default-example/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Charts.build/unextended-module.modulemap"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
 interface-hash: "c60e26aeef4bfd718c0441f3b4e97a3f"

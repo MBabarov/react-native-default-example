@@ -20,7 +20,9 @@ depends-top-level:
 - "BooleanLiteralType"
 - "CGFloat"
 - "ChartDataEntry"
+- "FloatLiteralType"
 - "IRadarChartDataSet"
+- !private "IntegerLiteralType"
 - "LineRadarChartDataSet"
 - "NSUIColor"
 - !private "NSUIFont"
@@ -106,11 +108,13 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "highlightCircleStrokeColor"]
 - ["s28CustomDebugStringConvertibleP", "highlightCircleStrokeWidth"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "initialize"]
 - ["s28CustomDebugStringConvertibleP", "isDrawHighlightCircleEnabled"]
 - !private ["s28CustomDebugStringConvertibleP", "systemFont"]
 - !private ["s28CustomDebugStringConvertibleP", "valueFont"]
 - ["s28CustomDebugStringConvertibleP", "white"]
+- !private ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "init"]
 - ["s23CustomStringConvertibleP", "NSUIColor"]
 - !private ["s23CustomStringConvertibleP", "NSUIFont"]
@@ -123,46 +127,50 @@ depends-member:
 - ["s23CustomStringConvertibleP", "highlightCircleStrokeColor"]
 - ["s23CustomStringConvertibleP", "highlightCircleStrokeWidth"]
 - !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "initialize"]
 - ["s23CustomStringConvertibleP", "isDrawHighlightCircleEnabled"]
 - !private ["s23CustomStringConvertibleP", "systemFont"]
 - !private ["s23CustomStringConvertibleP", "valueFont"]
 - ["s23CustomStringConvertibleP", "white"]
-- ["s9EquatableP", "NSUIColor"]
-- !private ["s9EquatableP", "NSUIFont"]
-- ["s9EquatableP", ""]
-- ["s9EquatableP", "drawHighlightCircleEnabled"]
-- ["s9EquatableP", "highlightCircleFillColor"]
-- ["s9EquatableP", "highlightCircleInnerRadius"]
-- ["s9EquatableP", "highlightCircleOuterRadius"]
-- ["s9EquatableP", "highlightCircleStrokeAlpha"]
-- ["s9EquatableP", "highlightCircleStrokeColor"]
-- ["s9EquatableP", "highlightCircleStrokeWidth"]
-- !private ["s9EquatableP", "init"]
-- !private ["s9EquatableP", "initialize"]
-- ["s9EquatableP", "isDrawHighlightCircleEnabled"]
-- !private ["s9EquatableP", "systemFont"]
-- !private ["s9EquatableP", "valueFont"]
-- ["s9EquatableP", "white"]
+- ["SQ", "NSUIColor"]
+- !private ["SQ", "NSUIFont"]
+- ["SQ", ""]
+- ["SQ", "drawHighlightCircleEnabled"]
+- ["SQ", "highlightCircleFillColor"]
+- ["SQ", "highlightCircleInnerRadius"]
+- ["SQ", "highlightCircleOuterRadius"]
+- ["SQ", "highlightCircleStrokeAlpha"]
+- ["SQ", "highlightCircleStrokeColor"]
+- ["SQ", "highlightCircleStrokeWidth"]
+- !private ["SQ", "init"]
+- !private ["SQ", "initialize"]
+- ["SQ", "isDrawHighlightCircleEnabled"]
+- !private ["SQ", "systemFont"]
+- !private ["SQ", "valueFont"]
+- ["SQ", "white"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
-- ["s8HashableP", "NSUIColor"]
-- !private ["s8HashableP", "NSUIFont"]
-- ["s8HashableP", ""]
-- ["s8HashableP", "drawHighlightCircleEnabled"]
-- ["s8HashableP", "highlightCircleFillColor"]
-- ["s8HashableP", "highlightCircleInnerRadius"]
-- ["s8HashableP", "highlightCircleOuterRadius"]
-- ["s8HashableP", "highlightCircleStrokeAlpha"]
-- ["s8HashableP", "highlightCircleStrokeColor"]
-- ["s8HashableP", "highlightCircleStrokeWidth"]
-- !private ["s8HashableP", "init"]
-- !private ["s8HashableP", "initialize"]
-- ["s8HashableP", "isDrawHighlightCircleEnabled"]
-- !private ["s8HashableP", "systemFont"]
-- !private ["s8HashableP", "valueFont"]
-- ["s8HashableP", "white"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["SH", "NSUIColor"]
+- !private ["SH", "NSUIFont"]
+- ["SH", ""]
+- ["SH", "drawHighlightCircleEnabled"]
+- ["SH", "highlightCircleFillColor"]
+- ["SH", "highlightCircleInnerRadius"]
+- ["SH", "highlightCircleOuterRadius"]
+- ["SH", "highlightCircleStrokeAlpha"]
+- ["SH", "highlightCircleStrokeColor"]
+- ["SH", "highlightCircleStrokeWidth"]
+- !private ["SH", "init"]
+- !private ["SH", "initialize"]
+- ["SH", "isDrawHighlightCircleEnabled"]
+- !private ["SH", "systemFont"]
+- !private ["SH", "valueFont"]
+- ["SH", "white"]
 - ["6Charts39IBarLineScatterCandleBubbleChartDataSetP", "NSUIColor"]
 - !private ["6Charts39IBarLineScatterCandleBubbleChartDataSetP", "NSUIFont"]
 - ["6Charts39IBarLineScatterCandleBubbleChartDataSetP", ""]
@@ -291,22 +299,22 @@ depends-member:
 - !private ["So8NSObjectC", "systemFont"]
 - !private ["So8NSObjectC", "valueFont"]
 - ["So8NSObjectC", "white"]
-- ["So16NSObjectProtocolP", "NSUIColor"]
-- !private ["So16NSObjectProtocolP", "NSUIFont"]
-- ["So16NSObjectProtocolP", ""]
-- ["So16NSObjectProtocolP", "drawHighlightCircleEnabled"]
-- ["So16NSObjectProtocolP", "highlightCircleFillColor"]
-- ["So16NSObjectProtocolP", "highlightCircleInnerRadius"]
-- ["So16NSObjectProtocolP", "highlightCircleOuterRadius"]
-- ["So16NSObjectProtocolP", "highlightCircleStrokeAlpha"]
-- ["So16NSObjectProtocolP", "highlightCircleStrokeColor"]
-- ["So16NSObjectProtocolP", "highlightCircleStrokeWidth"]
-- !private ["So16NSObjectProtocolP", "init"]
-- !private ["So16NSObjectProtocolP", "initialize"]
-- ["So16NSObjectProtocolP", "isDrawHighlightCircleEnabled"]
-- !private ["So16NSObjectProtocolP", "systemFont"]
-- !private ["So16NSObjectProtocolP", "valueFont"]
-- ["So16NSObjectProtocolP", "white"]
+- ["So8NSObjectP", "NSUIColor"]
+- !private ["So8NSObjectP", "NSUIFont"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "drawHighlightCircleEnabled"]
+- ["So8NSObjectP", "highlightCircleFillColor"]
+- ["So8NSObjectP", "highlightCircleInnerRadius"]
+- ["So8NSObjectP", "highlightCircleOuterRadius"]
+- ["So8NSObjectP", "highlightCircleStrokeAlpha"]
+- ["So8NSObjectP", "highlightCircleStrokeColor"]
+- ["So8NSObjectP", "highlightCircleStrokeWidth"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "initialize"]
+- ["So8NSObjectP", "isDrawHighlightCircleEnabled"]
+- !private ["So8NSObjectP", "systemFont"]
+- !private ["So8NSObjectP", "valueFont"]
+- ["So8NSObjectP", "white"]
 - ["So14NSSecureCodingP", "white"]
 - ["6Charts17RadarChartDataSetC", "Bool"]
 - ["6Charts17RadarChartDataSetC", "CGFloat"]
@@ -327,10 +335,14 @@ depends-member:
 - ["6Charts17RadarChartDataSetC", "isDrawHighlightCircleEnabled"]
 - !private ["6Charts17RadarChartDataSetC", "valueFont"]
 - !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
 - ["So7UIColorC", "white"]
 - !private ["So6UIFontC", "systemFont"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - ["s26_ExpressibleByColorLiteralP", "white"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "NSUIColor"]
@@ -357,11 +369,11 @@ depends-nominal:
 - "s28CustomDebugStringConvertibleP"
 - !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
-- "s9EquatableP"
+- "SQ"
 - !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s26ExpressibleByStringLiteralP"
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
-- "s8HashableP"
+- "SH"
 - "6Charts39IBarLineScatterCandleBubbleChartDataSetP"
 - "6Charts13IChartDataSetP"
 - "6Charts22ILineRadarChartDataSetP"
@@ -374,7 +386,7 @@ depends-nominal:
 - "So21NSItemProviderReadingP"
 - "So21NSItemProviderWritingP"
 - "So8NSObjectC"
-- "So16NSObjectProtocolP"
+- "So8NSObjectP"
 - "So14NSSecureCodingP"
 - "6Charts17RadarChartDataSetC"
 - !private "s12StaticStringV"
@@ -402,14 +414,15 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Users/maxim/Projects/react-native-default-example/ios/Pods/Target Support Files/Charts/Charts-umbrella.h"
 - "/Users/maxim/Projects/react-native-default-example/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Charts.build/unextended-module.modulemap"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
 interface-hash: "7287994357bdecb8d218ac461f984124"

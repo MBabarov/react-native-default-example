@@ -25,6 +25,7 @@ depends-top-level:
 - "CGFloat"
 - "CastingPrecedence"
 - "ChartDataEntry"
+- "FloatLiteralType"
 - "IBubbleChartDataSet"
 - "NSZone"
 depends-member:
@@ -44,10 +45,11 @@ depends-member:
 - !private ["6Charts38BarLineScatterCandleBubbleChartDataSetC", "deinit"]
 - ["6Charts38BarLineScatterCandleBubbleChartDataSetC", "highlightCircleWidth"]
 - ["6Charts38BarLineScatterCandleBubbleChartDataSetC", "init"]
+- !private ["6Charts38BarLineScatterCandleBubbleChartDataSetC", "init"]
 - ["6Charts38BarLineScatterCandleBubbleChartDataSetC", "isNormalizeSizeEnabled"]
 - ["6Charts38BarLineScatterCandleBubbleChartDataSetC", "maxSize"]
 - ["6Charts38BarLineScatterCandleBubbleChartDataSetC", "normalizeSizeEnabled"]
-- ["s19BinaryFloatingPointP", "init"]
+- ["SB", "init"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["6Charts20BubbleChartDataEntryC", "size"]
 - ["6Charts18BubbleChartDataSetC", "AnyObject"]
@@ -79,6 +81,7 @@ depends-member:
 - !private ["s7CVarArgP", "copyWithZone"]
 - ["s7CVarArgP", "highlightCircleWidth"]
 - ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
 - ["s7CVarArgP", "isNormalizeSizeEnabled"]
 - ["s7CVarArgP", "maxSize"]
 - !private ["s7CVarArgP", "normalizeSizeEnabled"]
@@ -97,6 +100,7 @@ depends-member:
 - ["6Charts16ChartBaseDataSetC", "copyWithZone"]
 - ["6Charts16ChartBaseDataSetC", "highlightCircleWidth"]
 - ["6Charts16ChartBaseDataSetC", "init"]
+- !private ["6Charts16ChartBaseDataSetC", "init"]
 - ["6Charts16ChartBaseDataSetC", "isNormalizeSizeEnabled"]
 - ["6Charts16ChartBaseDataSetC", "maxSize"]
 - ["6Charts16ChartBaseDataSetC", "normalizeSizeEnabled"]
@@ -116,10 +120,11 @@ depends-member:
 - ["6Charts12ChartDataSetC", "copyWithZone"]
 - ["6Charts12ChartDataSetC", "highlightCircleWidth"]
 - ["6Charts12ChartDataSetC", "init"]
+- !private ["6Charts12ChartDataSetC", "init"]
 - ["6Charts12ChartDataSetC", "isNormalizeSizeEnabled"]
 - ["6Charts12ChartDataSetC", "maxSize"]
 - ["6Charts12ChartDataSetC", "normalizeSizeEnabled"]
-- ["s10ComparableP", "init"]
+- ["SL", "init"]
 - ["s28CustomDebugStringConvertibleP", "CGFloat"]
 - ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "_maxSize"]
@@ -128,6 +133,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "calcMinMax"]
 - !private ["s28CustomDebugStringConvertibleP", "copyWithZone"]
 - ["s28CustomDebugStringConvertibleP", "highlightCircleWidth"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - ["s28CustomDebugStringConvertibleP", "isNormalizeSizeEnabled"]
 - ["s28CustomDebugStringConvertibleP", "maxSize"]
@@ -146,46 +152,49 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "copyWithZone"]
 - ["s23CustomStringConvertibleP", "highlightCircleWidth"]
 - ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
 - ["s23CustomStringConvertibleP", "isNormalizeSizeEnabled"]
 - ["s23CustomStringConvertibleP", "maxSize"]
 - !private ["s23CustomStringConvertibleP", "normalizeSizeEnabled"]
 - !private ["s23CustomStringConvertibleP", "size"]
-- !private ["s9DecodableP", "_getBuiltinLogicValue"]
-- ["s9DecodableP", "init"]
-- !private ["s9EncodableP", "_getBuiltinLogicValue"]
-- ["s9EncodableP", "init"]
-- ["s9EquatableP", "CGFloat"]
-- ["s9EquatableP", ""]
-- !private ["s9EquatableP", "_getBuiltinLogicValue"]
-- !private ["s9EquatableP", "_maxSize"]
-- !private ["s9EquatableP", "_xMax"]
-- !private ["s9EquatableP", "_xMin"]
-- !private ["s9EquatableP", "calcMinMax"]
-- !private ["s9EquatableP", "copyWithZone"]
-- ["s9EquatableP", "highlightCircleWidth"]
-- ["s9EquatableP", "init"]
-- ["s9EquatableP", "isNormalizeSizeEnabled"]
-- ["s9EquatableP", "maxSize"]
-- !private ["s9EquatableP", "normalizeSizeEnabled"]
-- !private ["s9EquatableP", "size"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- ["Se", "init"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- ["SE", "init"]
+- ["SQ", "CGFloat"]
+- ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "_maxSize"]
+- !private ["SQ", "_xMax"]
+- !private ["SQ", "_xMin"]
+- !private ["SQ", "calcMinMax"]
+- !private ["SQ", "copyWithZone"]
+- ["SQ", "highlightCircleWidth"]
+- ["SQ", "init"]
+- !private ["SQ", "init"]
+- ["SQ", "isNormalizeSizeEnabled"]
+- ["SQ", "maxSize"]
+- !private ["SQ", "normalizeSizeEnabled"]
+- !private ["SQ", "size"]
 - !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
 - ["s25ExpressibleByFloatLiteralP", "init"]
 - ["s27ExpressibleByIntegerLiteralP", "init"]
-- ["s13FloatingPointP", "init"]
-- ["s8HashableP", "CGFloat"]
-- ["s8HashableP", ""]
-- !private ["s8HashableP", "_getBuiltinLogicValue"]
-- !private ["s8HashableP", "_maxSize"]
-- !private ["s8HashableP", "_xMax"]
-- !private ["s8HashableP", "_xMin"]
-- !private ["s8HashableP", "calcMinMax"]
-- !private ["s8HashableP", "copyWithZone"]
-- ["s8HashableP", "highlightCircleWidth"]
-- ["s8HashableP", "init"]
-- ["s8HashableP", "isNormalizeSizeEnabled"]
-- ["s8HashableP", "maxSize"]
-- !private ["s8HashableP", "normalizeSizeEnabled"]
-- !private ["s8HashableP", "size"]
+- ["SF", "init"]
+- ["SH", "CGFloat"]
+- ["SH", ""]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "_maxSize"]
+- !private ["SH", "_xMax"]
+- !private ["SH", "_xMin"]
+- !private ["SH", "calcMinMax"]
+- !private ["SH", "copyWithZone"]
+- ["SH", "highlightCircleWidth"]
+- ["SH", "init"]
+- !private ["SH", "init"]
+- ["SH", "isNormalizeSizeEnabled"]
+- ["SH", "maxSize"]
+- !private ["SH", "normalizeSizeEnabled"]
+- !private ["SH", "size"]
 - ["6Charts39IBarLineScatterCandleBubbleChartDataSetP", "CGFloat"]
 - ["6Charts39IBarLineScatterCandleBubbleChartDataSetP", ""]
 - !private ["6Charts39IBarLineScatterCandleBubbleChartDataSetP", "_maxSize"]
@@ -194,6 +203,7 @@ depends-member:
 - !private ["6Charts39IBarLineScatterCandleBubbleChartDataSetP", "calcMinMax"]
 - !private ["6Charts39IBarLineScatterCandleBubbleChartDataSetP", "copyWithZone"]
 - ["6Charts39IBarLineScatterCandleBubbleChartDataSetP", "highlightCircleWidth"]
+- !private ["6Charts39IBarLineScatterCandleBubbleChartDataSetP", "init"]
 - !private ["6Charts39IBarLineScatterCandleBubbleChartDataSetP", "init"]
 - ["6Charts39IBarLineScatterCandleBubbleChartDataSetP", "isNormalizeSizeEnabled"]
 - ["6Charts39IBarLineScatterCandleBubbleChartDataSetP", "maxSize"]
@@ -216,6 +226,7 @@ depends-member:
 - !private ["6Charts13IChartDataSetP", "copyWithZone"]
 - ["6Charts13IChartDataSetP", "highlightCircleWidth"]
 - !private ["6Charts13IChartDataSetP", "init"]
+- !private ["6Charts13IChartDataSetP", "init"]
 - ["6Charts13IChartDataSetP", "isNormalizeSizeEnabled"]
 - ["6Charts13IChartDataSetP", "maxSize"]
 - !private ["6Charts13IChartDataSetP", "normalizeSizeEnabled"]
@@ -234,26 +245,28 @@ depends-member:
 - ["So8NSObjectC", "copyWithZone"]
 - ["So8NSObjectC", "highlightCircleWidth"]
 - ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
 - ["So8NSObjectC", "isNormalizeSizeEnabled"]
 - ["So8NSObjectC", "maxSize"]
 - ["So8NSObjectC", "normalizeSizeEnabled"]
 - !private ["So8NSObjectC", "size"]
-- ["So16NSObjectProtocolP", "CGFloat"]
-- ["So16NSObjectProtocolP", ""]
-- !private ["So16NSObjectProtocolP", "_maxSize"]
-- !private ["So16NSObjectProtocolP", "_xMax"]
-- !private ["So16NSObjectProtocolP", "_xMin"]
-- !private ["So16NSObjectProtocolP", "calcMinMax"]
-- !private ["So16NSObjectProtocolP", "copyWithZone"]
-- ["So16NSObjectProtocolP", "highlightCircleWidth"]
-- !private ["So16NSObjectProtocolP", "init"]
-- ["So16NSObjectProtocolP", "isNormalizeSizeEnabled"]
-- ["So16NSObjectProtocolP", "maxSize"]
-- !private ["So16NSObjectProtocolP", "normalizeSizeEnabled"]
-- !private ["So16NSObjectProtocolP", "size"]
-- ["s7NumericP", "init"]
+- ["So8NSObjectP", "CGFloat"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "_maxSize"]
+- !private ["So8NSObjectP", "_xMax"]
+- !private ["So8NSObjectP", "_xMin"]
+- !private ["So8NSObjectP", "calcMinMax"]
+- !private ["So8NSObjectP", "copyWithZone"]
+- ["So8NSObjectP", "highlightCircleWidth"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "isNormalizeSizeEnabled"]
+- ["So8NSObjectP", "maxSize"]
+- !private ["So8NSObjectP", "normalizeSizeEnabled"]
+- !private ["So8NSObjectP", "size"]
+- ["Sj", "init"]
 - ["s13SignedNumericP", "init"]
-- ["s10StrideableP", "init"]
+- ["Sx", "init"]
 - ["s15_CVarArgAlignedP", "init"]
 - ["s22_CVarArgPassedAsDoubleP", "init"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
@@ -266,6 +279,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "copyWithZone"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "highlightCircleWidth"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "isNormalizeSizeEnabled"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "maxSize"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "normalizeSizeEnabled"]
@@ -274,7 +288,7 @@ depends-member:
 - ["s21_ObjectiveCBridgeableP", "init"]
 depends-nominal:
 - "6Charts38BarLineScatterCandleBubbleChartDataSetC"
-- "s19BinaryFloatingPointP"
+- "SB"
 - !private "Sb"
 - !private "6Charts20BubbleChartDataEntryC"
 - "6Charts18BubbleChartDataSetC"
@@ -284,28 +298,28 @@ depends-nominal:
 - !private "6Charts14ChartDataEntryC"
 - !private "6Charts18ChartDataEntryBaseC"
 - "6Charts12ChartDataSetC"
-- "s10ComparableP"
+- "SL"
 - "s28CustomDebugStringConvertibleP"
 - !private "s29CustomPlaygroundQuickLookableP"
 - "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
-- "s9DecodableP"
-- "s9EncodableP"
-- "s9EquatableP"
+- "Se"
+- "SE"
+- "SQ"
 - !private "s27ExpressibleByBooleanLiteralP"
 - "s25ExpressibleByFloatLiteralP"
 - "s27ExpressibleByIntegerLiteralP"
-- "s13FloatingPointP"
-- "s8HashableP"
+- "SF"
+- "SH"
 - "6Charts39IBarLineScatterCandleBubbleChartDataSetP"
 - "6Charts19IBubbleChartDataSetP"
 - "6Charts13IChartDataSetP"
 - !private "s25LosslessStringConvertibleP"
 - "So8NSObjectC"
-- "So16NSObjectProtocolP"
-- "s7NumericP"
+- "So8NSObjectP"
+- "Sj"
 - "s13SignedNumericP"
-- "s10StrideableP"
+- "Sx"
 - "s15_CVarArgAlignedP"
 - "s22_CVarArgPassedAsDoubleP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
@@ -328,14 +342,15 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Users/maxim/Projects/react-native-default-example/ios/Pods/Target Support Files/Charts/Charts-umbrella.h"
 - "/Users/maxim/Projects/react-native-default-example/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Charts.build/unextended-module.modulemap"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
 interface-hash: "cb0409a644516fd881c1b150259e6e95"
