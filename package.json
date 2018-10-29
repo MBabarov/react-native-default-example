@@ -13,8 +13,9 @@
     "start": "react-native start",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
+    "ios-x": "react-native run-ios --simulator \"iPhone X\"",
     "test": "jest",
-    "postinstall": "rndebugger-open"
+    "debugger": "open \"rndebugger://set-debugger-loc?host=localhost&port=8081\""
   },
   "jest": {
     "preset": "react-native"
@@ -31,6 +32,7 @@
     "react-navigation": "^2.9.2",
     "react-redux": "^5.0.7",
     "redux": "^4.0.0",
+    "redux-form": "^7.4.2",
     "redux-thunk": "^2.3.0"
   }
 }

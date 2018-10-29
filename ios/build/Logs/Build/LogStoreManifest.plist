@@ -5,6 +5,36 @@
 	<key>logFormatVersion</key>
 	<integer>9</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>B522EF32-3180-44F0-83CD-E712D1F7984E</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>B522EF32-3180-44F0-83CD-E712D1F7984E.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>reactnativedefaultexample project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>reactnativedefaultexample</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace reactnativedefaultexample with scheme reactnativedefaultexample and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>561566800.50224602</real>
+			<key>timeStoppedRecording</key>
+			<real>561566805.06187999</real>
+			<key>title</key>
+			<string>Building workspace reactnativedefaultexample with scheme reactnativedefaultexample and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>B522EF32-3180-44F0-83CD-E712D1F7984E</string>
+		</dict>
+	</dict>
 </dict>
 </plist>

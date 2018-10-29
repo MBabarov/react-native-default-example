@@ -2,7 +2,23 @@ import React, {Component} from 'react';
 import { Platform, StyleSheet, Image, KeyboardAvoidingView } from 'react-native';
 // import { Button,  Input, Icon } from 'react-native-elements'
 // import { Col, Row, Grid } from 'react-native-easy-grid';
-import { Container, Header, Title, Content, Button, Left, Right, Body, Text, Toast, Spinner, Segment } from 'native-base';
+import {
+  Container,
+  Header,
+  Title,
+  Content,
+  Button,
+  Left,
+  Right,
+  Body,
+  Text,
+  Toast,
+  Item,
+  Label,
+  Input,
+  Spinner,
+  Segment
+} from 'native-base';
 import LoginForm from '../../components/LoginForm';
 
 class LoginScreen extends Component {
@@ -14,6 +30,7 @@ class LoginScreen extends Component {
       isLoading: false,
     };
   }
+
 
   async componentWillReceiveProps(nextProps) {
     const {
@@ -48,6 +65,8 @@ class LoginScreen extends Component {
   }
 
   render() {
+    const { handleSubmit, pristine, reset, submitting } = this.props;
+
     return (
       <Container style={styles.baseWrapper}>
         <Header  style={styles.headerWrapper}>
@@ -113,4 +132,4 @@ const styles = StyleSheet.create({
     marginBottom: 120
   }
 });
-export default LoginScreen;
+export default LoginScreen

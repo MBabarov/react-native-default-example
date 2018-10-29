@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>9</integer>
+	<key>logs</key>
+	<dict>
+		<key>C8755EB3-BD4F-4D56-B4D5-6DD7B4CFD22E</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>C8755EB3-BD4F-4D56-B4D5-6DD7B4CFD22E.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>reactnativedefaultexample project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>reactnativedefaultexample</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace reactnativedefaultexample with scheme reactnativedefaultexample and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>560963987.07420003</real>
+			<key>timeStoppedRecording</key>
+			<real>560963989.508075</real>
+			<key>title</key>
+			<string>Building workspace reactnativedefaultexample with scheme reactnativedefaultexample and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>C8755EB3-BD4F-4D56-B4D5-6DD7B4CFD22E</string>
+		</dict>
+		<key>FEB34D98-EC25-4F02-BE60-8F80054FBDB7</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>FEB34D98-EC25-4F02-BE60-8F80054FBDB7.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>reactnativedefaultexample project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>reactnativedefaultexample</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace reactnativedefaultexample with scheme reactnativedefaultexample and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>560963947.01208103</real>
+			<key>timeStoppedRecording</key>
+			<real>560963949.38705301</real>
+			<key>title</key>
+			<string>Building workspace reactnativedefaultexample with scheme reactnativedefaultexample and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>FEB34D98-EC25-4F02-BE60-8F80054FBDB7</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
